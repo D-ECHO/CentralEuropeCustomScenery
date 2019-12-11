@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+    <path>ebbr_terminal_2.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>Coridor</object-name>
+        <object-name>CoridorRoofDetails</object-name>
+        <object-name>RoofVentilation</object-name>
+        <object-name>RoofVentilation2</object-name>
+        <object-name>Terminal2Bloc</object-name>
+        <object-name>LittleRoofs</object-name>
+        <object-name>RoofDetails</object-name>
+        <condition>
+            <greater-than>
+                <property>/sim/time/sun-angle-rad</property>
+                <value>1.57</value>
+            </greater-than>
+        </condition>
+        <texture>ebbr_terminal_2_2.png</texture>
+        <emission>
+            <red> 0.98</red>
+            <green> 0.96</green>
+            <blue> 0.78</blue>
+        </emission>
+    </animation>
+
+
+</PropertyList>

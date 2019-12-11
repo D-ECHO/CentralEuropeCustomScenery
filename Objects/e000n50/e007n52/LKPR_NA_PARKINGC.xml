@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_NA_PARKINGC.ac</path>
+<animation>
+<type>material</type>
+    <object-name>LKPR_NA_PARKINGC1</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.3</red>	
+	<green>0.3</green>	
+	<blue>0.3</blue>
+</emission>
+</animation>
+<animation>
+<type>material</type>
+    <object-name>LKPR_NA_PARKINGC2</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.8</red>	
+	<green>0.8</green>	
+	<blue>0.8</blue>
+</emission>
+</animation>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/rough</max-property>
+</animation>
+</PropertyList>

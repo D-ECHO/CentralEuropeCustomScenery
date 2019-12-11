@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.0083333 48.5502778 101.16 180
+OBJECT_SHARED Models/Power/generic_pylon_200m.ac 1.2355556 48.5408333 155.33 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.0083333 48.5488889 226.1 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.2427778 48.5830556 168.62 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.2130556 48.5483333 242.54 180
+OBJECT_SHARED Models/Communications/Kat_7_Radio_Telescope.ac 1.232893 48.540557 256.46 230

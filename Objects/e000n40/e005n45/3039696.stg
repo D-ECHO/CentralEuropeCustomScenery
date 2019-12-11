@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Airport/ndb.ac 5.152972 45.3623 348.75 0
+OBJECT_SHARED Models/Industrial/generic_silo_2.ac 5.0630556 45.3325 221.13 180
+OBJECT_SHARED Models/Communications/tower-microwave-1.xml 5.20795 45.28501 570.37 180
+OBJECT_SHARED Models/Transport/Trailer.ac 5.09461206 45.3285535 298.8 298.5
+OBJECT_SHARED Models/Transport/Trailer.ac 5.23161383 45.34492328 331.93 96

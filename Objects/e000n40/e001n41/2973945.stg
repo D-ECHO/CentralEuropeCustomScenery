@@ -1,0 +1,3 @@
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac 1.2620222 41.9685556 686.01 0
+OBJECT_SHARED Models/Communications/Generic_celular_monopole_20m.ac 1.2624417 41.9688472 681.07 0
+OBJECT_SHARED Models/Communications/Antenna2.xml 1.2617028 41.9685944 687.66 0

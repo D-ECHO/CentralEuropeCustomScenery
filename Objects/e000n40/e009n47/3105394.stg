@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 9.5216667 47.7844444 495 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_08.ac 9.6230556 47.7944444 4.98 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 9.6611111 47.8291667 59.9 180
+OBJECT_SHARED Models/Misc/generic_church_02.ac 9.6447222 47.8091667 490.12 180
+OBJECT_SHARED Models/Communications/fernmeldeturm_waldenbuch.xml 9.7225 47.76925 748.06 180
+OBJECT_SHARED Models/Communications/mil-antena-118m.xml 9.726042 47.774431 718.52 180

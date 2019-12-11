@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<PropertyList>
+    
+<path>LIMW_Fence.ac</path>
+
+
+<!-- nasal for the gate -->
+<!-- timer loop will check every 4 sec if door should be moved       -->
+<!-- door movement will take 15 sec to complete                       -->
+	<nasal>
+		<load>
+		if (!contains(globals, "scenery")) globals["scenery"] = {};
+		if (!contains(scenery, "LIMW")) scenery["LIMW"] = {};
+		if (!contains(scenery.LIMW, "hangar")) scenery.LIMW["hangar"] = [nil];
+		scenery.LIMW.hangar[0] =
+			{ door :
+			[aircraft.door.new("/scenery/LIMW/hangar[0]/door[0]", 15)
+			
+			]
+		};
+		
+		#this is the switch target sim time sun rad
+		var limwswitch = 1.57;
+		
+		var loop_id = 0;
+
+		var loop = func(id) {
+				id == loop_id or return;
+				var limwsun = getprop("/sim/time/sun-angle-rad");
+				var doorstate = getprop("/scenery/LIMW/hangar[0]/door[0]/position-norm");
+					#print ("limwsun  ", limwsun);
+				
+				if ((limwsun > limwswitch) and (doorstate == 0)){
+					scenery.LIMW.hangar[0].door[0].toggle();
+					print ("Closing door  ");
+					};
+				
+				if ((limwsun &lt; limwswitch) and (doorstate == 1)){
+					scenery.LIMW.hangar[0].door[0].toggle();
+					#print ("Opening door  ");
+					};
+		
+			settimer(func { loop(id) }, 4);
+			}
+			loop(loop_id += 1);
+	
+		</load>
+		<unload>loop_id += 1</unload>
+	
+	</nasal>
+	<!-- End nasal for the gate -->
+	
+	
+	
+	<!-- gate movement in meter on y axis -->
+	<animation>
+		<type>translate</type>
+		<object-name>gate</object-name>
+			<property>/scenery/LIMW/hangar[0]/door[0]/position-norm</property>
+			<factor>1</factor>
+			<interpolation>
+				<entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+				<entry><ind> 1.0 </ind><dep>  -10 </dep></entry>
+			</interpolation>
+			<axis>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</axis>
+	</animation>
+	<!-- End gate movement -->
+	
+	
+	
+
+		
+</PropertyList>

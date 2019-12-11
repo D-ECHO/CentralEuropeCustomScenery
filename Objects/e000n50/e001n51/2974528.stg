@@ -1,0 +1,17 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.084032 51.104572 177.37 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.100643 51.078254 92.71 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.141767 51.112794 185.24 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.195008 51.095762 157.85 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.202691 51.103162 169.01 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.1270167 51.0800242 4.41 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.2475 51.1116667 -119.63 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 1.2490844 51.109978 -219.3 180
+OBJECT_SHARED Models/Military/Martello_Tower_1.ac 1.051111 51.055833 0.37 0
+OBJECT_SHARED Models/Military/Martello_Tower_1.ac 1.07 51.062222 0.38 0
+OBJECT_SHARED Models/Military/Martello_Tower_1.ac 1.074167 51.063333 1.14 0
+OBJECT_SHARED Models/Military/Martello_Tower_2.ac 1.006111 51.034722 2.22 270
+OBJECT_SHARED Models/Military/Martello_Tower_2.ac 1.011725 51.034675 1.37 0
+OBJECT_SHARED Models/Military/Martello_Tower_2.ac 1.079711 51.064703 3.29 0
+OBJECT_SHARED Models/Military/Martello_Tower_2.ac 1.148889 51.073333 3.75 0
+OBJECT_SHARED Models/Military/Martello_Tower_2.ac 1.197872 51.085261 44.41 0
+OBJECT_SHARED Models/Military/Martello_Tower_2.ac 1.198886 51.091347 69.55 0

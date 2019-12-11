@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Airport/ndb.ac 0.619278 44.819472 120.51 180
+OBJECT_SHARED Models/Airport/ils.xml 0.525853 44.823058 48.2 85.29
+OBJECT_SHARED Models/Communications/vordme_1.xml 0.525853 44.823058 48.2 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 0.5175 44.8475 -381.87 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.7355556 44.83 75.4 180
+OBJECT_SHARED Models/Airport/localizer.xml 0.503597 44.825342 49.1 86

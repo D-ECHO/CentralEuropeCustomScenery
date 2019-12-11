@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 0.5513344 50.8691367 0.68 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 0.5665083 50.860708 50.41 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 0.5949492 50.8609783 -25.41 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.5088582 50.8748131 45.01 7.45
+OBJECT_SHARED Models/Maritime/Civilian/Mersey_Lifeboat.xml 0.59331 50.85271 -0.18 260
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 0.53987 50.80004 -3.24 0
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 0.59307 50.85272 -0.18 0

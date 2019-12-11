@@ -1,0 +1,3 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.4747222 50.8033333 93.31 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.2825 50.8544444 57.77 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.3476205 50.8165532 31.35 180

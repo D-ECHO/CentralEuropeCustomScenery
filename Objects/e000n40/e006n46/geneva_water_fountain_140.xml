@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<!-- Geneva water fountain with 140 meters by Oliver Thurau -->
+<!-- including the small harbor, pier and lighthouse        -->
+
+<path>geneva_water_fountain_140.ac</path>
+
+<!-- water fountain with 140 meters - daytime-->
+<particlesystem>
+	<name>fountain_140</name>
+	
+	<texture>geneva_water_fountain_water.png</texture>
+	<emissive>false</emissive>
+	<lighting>true</lighting>
+       
+	<offsets>
+		<x-m>0</x-m>
+		<y-m>0</y-m>
+		<z-m>0</z-m>
+	</offsets>
+	
+	<condition>
+		<less-than>
+			<property>sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</less-than>
+	</condition>
+	
+	<attach>local</attach>
+           
+	<placer>
+		<type>point</type>
+	</placer>
+           
+	<shooter>
+		<theta-min-deg>0</theta-min-deg>
+		<theta-max-deg>0</theta-max-deg>
+		<phi-min-deg>0</phi-min-deg>
+		<phi-max-deg>0</phi-max-deg>
+		<speed-mps>
+			<value>5500</value>
+			<spread>2600</spread>
+		</speed-mps>
+		<rotation-speed>
+			<x-max-deg-sec>15</x-max-deg-sec>
+			<x-min-deg-sec>-15</x-min-deg-sec>
+			<y-max-deg-sec>15</y-max-deg-sec>
+			<y-min-deg-sec>-15</y-min-deg-sec>
+			<z-max-deg-sec>15</z-max-deg-sec>
+			<z-min-deg-sec>-15</z-min-deg-sec>
+		</rotation-speed>
+	</shooter>
+       
+	<counter>
+		<particles-per-sec>
+			<value>300</value>
+			<spread>100</spread>
+		</particles-per-sec>
+	</counter>
+           
+	<align>billboard</align>
+           
+	<particle>
+		<start>
+			<color>
+				<red><value>0.9</value></red>
+				<green><value>0.9</value></green>
+				<blue><value>0.9</value></blue>
+				<alpha><value>0.2</value></alpha>
+			</color>
+			<size>
+				<value>0.35</value>
+			</size>
+		</start>
+
+		<end>
+			<color>
+				<red><value>1.0</value></red>
+				<green><value>1.0</value></green>
+				<blue><value>1.0</value></blue>
+				<alpha><value>0.0</value></alpha>
+			</color>
+			<size>
+				<value>8</value>
+				<spread>2.2</spread>
+			</size>
+		</end>
+		
+		<life-sec>
+			<value>12</value>
+		</life-sec>
+		
+		<mass-kg>1.4</mass-kg>
+		<radius-m>0.12</radius-m>
+	</particle>
+		
+	<program>
+		<fluid>air</fluid>
+		<gravity>true</gravity>
+		<wind>true</wind>
+	</program>
+           
+</particlesystem>
+
+<!-- water fountain with 140 meters - nighttime-->
+<particlesystem>
+	<name>fountain_140</name>
+	
+	<texture>geneva_water_fountain_water.png</texture>
+	<emissive>true</emissive>
+	<lighting>false</lighting>
+       
+	<offsets>
+		<x-m>0</x-m>
+		<y-m>0</y-m>
+		<z-m>0</z-m>
+	</offsets>
+	
+	<condition>
+		<greater-than>
+			<property>sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+           
+	<attach>local</attach>
+           
+	<placer>
+		<type>point</type>
+	</placer>
+           
+	<shooter>
+		<theta-min-deg>0</theta-min-deg>
+		<theta-max-deg>0</theta-max-deg>
+		<phi-min-deg>0</phi-min-deg>
+		<phi-max-deg>0</phi-max-deg>
+		<speed-mps>
+			<value>5500</value>
+			<spread>2600</spread>
+		</speed-mps>
+		<rotation-speed>
+			<x-max-deg-sec>15</x-max-deg-sec>
+			<x-min-deg-sec>-15</x-min-deg-sec>
+			<y-max-deg-sec>15</y-max-deg-sec>
+			<y-min-deg-sec>-15</y-min-deg-sec>
+			<z-max-deg-sec>15</z-max-deg-sec>
+			<z-min-deg-sec>-15</z-min-deg-sec>
+		</rotation-speed>
+	</shooter>
+       
+	<counter>
+		<particles-per-sec>
+			<value>300</value>
+			<spread>100</spread>
+		</particles-per-sec>
+	</counter>
+           
+	<align>billboard</align>
+           
+	<particle>
+		<start>
+			<color>
+				<red><value>0.9</value></red>
+				<green><value>0.9</value></green>
+				<blue><value>0.9</value></blue>
+				<alpha><value>0.2</value></alpha>
+			</color>
+			<size>
+				<value>0.35</value>
+			</size>
+		</start>
+
+		<end>
+			<color>
+				<red><value>1.0</value></red>
+				<green><value>1.0</value></green>
+				<blue><value>1.0</value></blue>
+				<alpha><value>0.0</value></alpha>
+			</color>
+			<size>
+				<value>8</value>
+				<spread>2.2</spread>
+			</size>
+		</end>
+		
+		<life-sec>
+			<value>12</value>
+		</life-sec>
+		
+		<mass-kg>1.4</mass-kg>
+		<radius-m>0.12</radius-m>
+	</particle>
+		
+	<program>
+		<fluid>air</fluid>
+		<gravity>true</gravity>
+		<wind>true</wind>
+	</program>
+           
+</particlesystem>
+
+
+
+
+<!-- secondary water fountain to make the particle stream look more solid at the bottom part - daytime-->
+<particlesystem>
+	<name>fountain_140addin</name>
+	
+	<texture>geneva_water_fountain_water.png</texture>
+	<emissive>false</emissive>
+	<lighting>true</lighting>
+       
+	<offsets>
+		<x-m>0</x-m>
+		<y-m>0</y-m>
+		<z-m>0</z-m>
+	</offsets>
+	
+	<condition>
+		<less-than>
+			<property>sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</less-than>
+	</condition>
+           
+	<attach>local</attach>
+           
+	<placer>
+		<type>point</type>
+	</placer>
+           
+	<shooter>
+		<theta-min-deg>0</theta-min-deg>
+		<theta-max-deg>0</theta-max-deg>
+		<phi-min-deg>0</phi-min-deg>
+		<phi-max-deg>0</phi-max-deg>
+		<speed-mps>
+			<value>200</value>
+			<spread>20</spread>
+		</speed-mps>
+		<rotation-speed>
+			<x-max-deg-sec>15</x-max-deg-sec>
+			<x-min-deg-sec>-15</x-min-deg-sec>
+			<y-max-deg-sec>15</y-max-deg-sec>
+			<y-min-deg-sec>-15</y-min-deg-sec>
+			<z-max-deg-sec>15</z-max-deg-sec>
+			<z-min-deg-sec>-15</z-min-deg-sec>
+		</rotation-speed>
+	</shooter>
+       
+	<counter>
+		<particles-per-sec>
+			<value>100</value>
+			<spread>30</spread>
+		</particles-per-sec>
+	</counter>
+           
+	<align>billboard</align>
+           
+	<particle>
+		<start>
+			<color>
+				<red><value>0.9</value></red>
+				<green><value>0.9</value></green>
+				<blue><value>0.9</value></blue>
+				<alpha><value>0.2</value></alpha>
+			</color>
+			<size>
+				<value>0.35</value>
+			</size>
+		</start>
+
+		<end>
+			<color>
+				<red><value>0.9</value></red>
+				<green><value>0.9</value></green>
+				<blue><value>0.9</value></blue>
+				<alpha><value>0.0</value></alpha>
+			</color>
+			<size>
+				<value>0.35</value>
+				<spread>0.02</spread>
+			</size>
+		</end>
+		
+		<life-sec>
+			<value>1</value>
+		</life-sec>
+		
+		<mass-kg>1.4</mass-kg>
+		<radius-m>0.12</radius-m>
+	</particle>
+		
+	<program>
+		<fluid>air</fluid>
+		<gravity>true</gravity>
+		<wind>true</wind>
+	</program>
+           
+</particlesystem>
+
+<!-- secondary water fountain to make the particle stream look more solid at the bottom part - nighttime-->
+<particlesystem>
+	<name>fountain_140addin</name>
+	
+	<texture>geneva_water_fountain_water.png</texture>
+	<emissive>true</emissive>
+	<lighting>false</lighting>
+       
+	<offsets>
+		<x-m>0</x-m>
+		<y-m>0</y-m>
+		<z-m>0</z-m>
+	</offsets>
+	
+	<condition>
+		<greater-than>
+			<property>sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+           
+	<attach>local</attach>
+           
+	<placer>
+		<type>point</type>
+	</placer>
+           
+	<shooter>
+		<theta-min-deg>0</theta-min-deg>
+		<theta-max-deg>0</theta-max-deg>
+		<phi-min-deg>0</phi-min-deg>
+		<phi-max-deg>0</phi-max-deg>
+		<speed-mps>
+			<value>200</value>
+			<spread>20</spread>
+		</speed-mps>
+		<rotation-speed>
+			<x-max-deg-sec>15</x-max-deg-sec>
+			<x-min-deg-sec>-15</x-min-deg-sec>
+			<y-max-deg-sec>15</y-max-deg-sec>
+			<y-min-deg-sec>-15</y-min-deg-sec>
+			<z-max-deg-sec>15</z-max-deg-sec>
+			<z-min-deg-sec>-15</z-min-deg-sec>
+		</rotation-speed>
+	</shooter>
+       
+	<counter>
+		<particles-per-sec>
+			<value>100</value>
+			<spread>30</spread>
+		</particles-per-sec>
+	</counter>
+           
+	<align>billboard</align>
+           
+	<particle>
+		<start>
+			<color>
+				<red><value>0.9</value></red>
+				<green><value>0.9</value></green>
+				<blue><value>0.9</value></blue>
+				<alpha><value>0.2</value></alpha>
+			</color>
+			<size>
+				<value>0.35</value>
+			</size>
+		</start>
+
+		<end>
+			<color>
+				<red><value>0.9</value></red>
+				<green><value>0.9</value></green>
+				<blue><value>0.9</value></blue>
+				<alpha><value>0.0</value></alpha>
+			</color>
+			<size>
+				<value>0.35</value>
+				<spread>0.02</spread>
+			</size>
+		</end>
+		
+		<life-sec>
+			<value>1</value>
+		</life-sec>
+		
+		<mass-kg>1.4</mass-kg>
+		<radius-m>0.12</radius-m>
+	</particle>
+		
+	<program>
+		<fluid>air</fluid>
+		<gravity>true</gravity>
+		<wind>true</wind>
+	</program>
+           
+</particlesystem>
+
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>10000</max-m>
+</animation>
+
+</PropertyList>

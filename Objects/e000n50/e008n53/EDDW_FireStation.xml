@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+    <path>EDDW_FireStation.ac</path>
+
+  <animation>
+    <type>material</type>
+    <object-name>Cube.012</object-name>
+    <object-name>Cube.002</object-name> 
+    <object-name>Cube.005</object-name>	
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   0.5 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+    <spec>
+      <red>   0.8 </red>
+      <green> 0.8 </green>
+      <blue>  0.8 </blue>
+    </spec>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>Cube.012</object-name>
+	<object-name>Cube.002</object-name> 
+    <object-name>Cube.005</object-name>	
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0.1 </red>
+      <green> 0.1 </green>
+      <blue>  0.1 </blue>
+    </emission>
+  </animation>	
+	
+
+    <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>15000</max-m>
+    </animation>
+
+</PropertyList>

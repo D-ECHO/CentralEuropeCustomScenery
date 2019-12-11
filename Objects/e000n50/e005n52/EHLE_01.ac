@@ -1,0 +1,119 @@
+AC3Db
+MATERIAL "ac3dmat0" rgb 0.373 0.439 0.373  amb 0.373 0.439 0.373  emis 0 0 0  spec 0.2 0.2 0.2  shi 41  trans 0
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+OBJECT world
+kids 2
+OBJECT poly
+name "box"
+crease 45.000000
+numvert 10
+0 10 11.5
+30 10 11.5
+0 0 0
+30 0 0
+30 0 23
+0 0 23
+0 8 23
+30 8 23
+30 8 0
+0 8 0
+numsurf 6
+SURF 0x10
+mat 0
+refs 4
+1 0.5 1
+0 0.5 0
+6 1 0
+7 1 1
+SURF 0x10
+mat 0
+refs 4
+8 0 1
+9 0 0
+0 0.5 0
+1 0.5 1
+SURF 0x10
+mat 1
+refs 5
+1 0 0.5
+7 0 0
+4 1 0
+3 1 1
+8 0 1
+SURF 0x10
+mat 1
+refs 5
+0 0 0.5
+9 0 0
+2 1 0
+5 1 1
+6 0 1
+SURF 0x10
+mat 1
+refs 4
+8 0 0
+3 1 0
+2 1 1
+9 0 1
+SURF 0x10
+mat 1
+refs 4
+6 0 0
+5 1 0
+4 1 1
+7 0 1
+kids 0
+OBJECT poly
+name "box"
+loc -3.06538e-08 -7.45058e-08 2
+crease 45.000000
+numvert 10
+9 10 30.5
+30 10 30.5
+9 0 21
+30 0 21
+30 0 40
+9 0 40
+9 8 40
+30 8 40
+30 8 21
+9 8 21
+numsurf 5
+SURF 0x10
+mat 0
+refs 4
+1 0.5 1
+0 0.5 0
+6 1 0
+7 1 1
+SURF 0x10
+mat 0
+refs 4
+8 0 1
+9 0 0
+0 0.5 0
+1 0.5 1
+SURF 0x10
+mat 1
+refs 5
+1 0 0.5
+7 0 0
+4 1 0
+3 1 1
+8 0 1
+SURF 0x10
+mat 1
+refs 5
+0 0 0.5
+9 0 0
+2 1 0
+5 1 1
+6 0 1
+SURF 0x10
+mat 1
+refs 4
+6 0 0
+5 1 0
+4 1 1
+7 0 1
+kids 0

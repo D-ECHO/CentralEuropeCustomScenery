@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<path>EHLE_schipholgebouw.ac</path>
+
+<animation>
+	<type>rotate</type>
+ 	<object-name>flag</object-name> 
+	<property>/environment/config/boundary[0]/entry/wind-from-heading-deg</property>
+	<offset-deg>180</offset-deg>
+	<axis>
+		<x>0</x>
+		<y>0</y>
+		<z>-1</z>
+	</axis>
+	<center>
+		<x-m> 0.0  </x-m>
+		<y-m>29.405</y-m>
+		<z-m>17.100</z-m>
+	</center>
+</animation>
+
+<animation>
+	<type>rotate</type>
+ 	<object-name>clock.hr.1</object-name> 
+	<property>/sim/time/utc/hour</property>
+	<factor>30</factor>
+	<offset-deg>30</offset-deg>
+	<axis>
+		<y>1</y>
+	</axis>
+	<center>
+		<x-m>-0.497</x-m>
+		<y-m>31.380</y-m>
+		<z-m> 5.727</z-m>
+	</center>
+</animation>
+
+<animation>
+	<type>rotate</type>
+ 	<object-name>clock.mn.1</object-name> 
+	<property>/sim/time/utc/minute</property>
+	<factor>6</factor>
+	<axis>
+		<y>1</y>
+	</axis>
+	<center>
+		<x-m>-0.497</x-m>
+		<y-m>31.380</y-m>
+		<z-m> 5.727</z-m>
+	</center>
+</animation>
+
+<animation>
+	<type>rotate</type>
+ 	<object-name>clock.hr.2</object-name> 
+	<property>/sim/time/utc/hour</property>
+	<factor>30</factor>
+	<offset-deg>30</offset-deg>
+	<axis>
+		<y>-1</y>
+	</axis>
+	<center>
+		<x-m>-0.497</x-m>
+		<y-m>31.380</y-m>
+		<z-m> 5.727</z-m>
+	</center>
+</animation>
+
+<animation>
+	<type>rotate</type>
+ 	<object-name>clock.mn.2</object-name> 
+	<property>/sim/time/utc/minute</property>
+	<factor>6</factor>
+	<axis>
+		<y>-1</y>
+	</axis>
+	<center>
+		<x-m>-0.497</x-m>
+		<y-m>31.380</y-m>
+		<z-m> 5.727</z-m>
+	</center>
+</animation>
+
+</PropertyList>

@@ -1,0 +1,16 @@
+OBJECT_SHARED Models/Airport/ndb.ac 0.955286 50.972164 2.25 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.830038 50.927517 1.75 180
+OBJECT_SHARED Models/Airport/ils.xml 0.941189 50.960008 1.99 152.77
+OBJECT_SHARED Models/Communications/vordme_1.xml 0.878611 50.999722 1.1 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 0.941158 50.960028 1.98 180
+OBJECT_SHARED Models/Airport/localizer.xml 0.93955 50.953936 2.36 292.82
+OBJECT_SHARED Models/Maritime/Civilian/Mersey_Lifeboat.xml 0.98592 50.91783 -0.33 270
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_21_afloat.xml 0.97864 50.97377 -0.14 0
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 0.7657167 50.93795 2.98 251.68
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 0.7677167 50.9358167 2.41 24.38
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 0.77035 50.9331833 2.66 87.84
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 0.7713667 50.9319333 3.28 336.55
+OBJECT_SHARED Models/Maritime/Civilian/Shannon_Lifeboat.ac 0.985444 50.91732 -0.29 0
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_85.ac 0.764344 50.938473 2.65 90
+OBJECT_STATIC Dungeness_Lighthouse.xml 0.97610123 50.9133288 3.09 0
+OBJECT_STATIC Sound_Mirrors.ac 0.95148849 50.9559284 0.18 154

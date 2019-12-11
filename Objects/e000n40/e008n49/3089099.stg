@@ -1,0 +1,14 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 8.7738889 49.1727778 73.59 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9694589 49.201457 245.56 263.6
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9699207 49.2041476 229.12 264.15
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9703469 49.2071538 235.58 265.12
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.97072 49.2102714 251.34 264.94
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9711908 49.2133752 254.59 264.34
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9787431 49.2046191 253.05 267.87
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9788053 49.2057119 256 268.03
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9788568 49.2067738 246.22 267.7
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9789285 49.2077375 240.82 267.83
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9789739 49.2088238 245.14 267.86
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.9790327 49.2096335 249.51 267.28
+OBJECT_SHARED Models/Communications/fernmeldeturm_gruenwettersbach.xml 8.8502778 49.2411111 -143.76 180
+OBJECT_SHARED Models/Sport/GenericStadium.xml 8.887596 49.238056 180.1 15

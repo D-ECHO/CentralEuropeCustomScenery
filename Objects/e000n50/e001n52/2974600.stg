@@ -1,0 +1,11 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.187848 52.139507 68.49 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.1013889 52.2375 5.71 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.1061111 52.2341667 -76.18 180
+OBJECT_SHARED Models/Airport/marker.ac 1.074592 52.186408 45.57 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0175116 52.2480802 64.12 104.76
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0183406 52.2460016 63.44 105.3
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0208048 52.2410268 61.12 106.6
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0220077 52.2385125 59.96 106.45
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.028793 52.2245539 66.49 106.58
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0488782 52.1281217 68.2 95.86
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0492816 52.1257084 70.92 96.25

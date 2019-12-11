@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Power/windturbine.xml 5.0003 52.60944 -4.18 180
+OBJECT_SHARED Models/Power/windturbine.xml 5.00307 52.60564 -2.12 180
+OBJECT_SHARED Models/Power/windturbine.xml 5.00352 52.60778 -2.33 180
+OBJECT_SHARED Models/Power/windturbine.xml 5.00398 52.60992 -3.47 180
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 5.028167 52.601067 -0.91 328.51
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 5.083617 52.52035 -2.01 98.92
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.03015 52.601117 -0.98 128.14
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.079733 52.5193 -1.62 99.66
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.084717 52.519817 -2.1 172.74
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.0365 52.5748333 -0.96 349.03
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 5.1268333 52.6191667 -1.4 271.54
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 5.0333333 52.5723333 -0.81 98.28

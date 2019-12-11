@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>WangeroogeAlteLeuchtturm.ac</path>
+
+
+        <params>
+         <light>4</light>
+        </params>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight1</object-name>
+		<offset-m>36.2</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>0.0</x>
+                        <y>-0.045</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight2</object-name>
+		<offset-m>36.15</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>0.0296</x>
+                        <y>-0.031</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight3</object-name>
+		<offset-m>36.13</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>0.04</x>
+                        <y>0.0</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight4</object-name>
+		<offset-m>36.15</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>0.0296</x>
+                        <y>0.031</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight5</object-name>
+		<offset-m>36.2</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>0.0</x>
+                        <y>0.045</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight6</object-name>
+		<offset-m>36.15</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>-0.0296</x>
+                        <y>0.031</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight7</object-name>
+		<offset-m>36.13</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>-0.04</x>
+                        <y>0.0</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>WhiteLight8</object-name>
+		<offset-m>36.15</offset-m>
+		<axis>
+			<z>0.359</z>
+                        <x>-0.0296</x>
+                        <y>-0.031</y>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight3</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight4</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight5</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight6</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight7</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>WhiteLight8</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight1</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight2</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight3</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight4</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight5</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight6</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight7</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLight8</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.5</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/light"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+
+
+
+</PropertyList>

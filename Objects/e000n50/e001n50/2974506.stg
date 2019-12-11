@@ -1,0 +1,11 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.6516667 50.7180556 185.66 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.6536111 50.6913889 109.31 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.6658333 50.6355556 1.98 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 1.5136111 50.7311111 -1.3 22.78
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.5647222 50.7225 0 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.7432534 50.6281679 46.27 180
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 1.5625863 50.6984584 37.07 0
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 1.5676115 50.7406293 -2.86 0
+OBJECT_SHARED Models/Misc/NDBoulogne.ac 1.6146 50.7261 59.47 30
+OBJECT_SHARED Models/Misc/ChateauBoulogne.ac 1.617 50.7257 63.18 90
+OBJECT_STATIC Echinghen.ac 1.63537 50.69776 7.55 114.9

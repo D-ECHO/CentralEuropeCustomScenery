@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Airport/ndb.ac 8.409983 54.856897 -0.9 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 8.4705556 54.8716667 -115.31 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 8.2922222 54.8080556 -415.75 180
+OBJECT_SHARED Models/Airport/marker.ac 8.409983 54.856897 -0.9 180
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 8.2995667 54.7576667 -0.05 241.95
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 8.3033833 54.7586833 -0.1 70.62

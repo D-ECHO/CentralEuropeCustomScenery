@@ -1,0 +1,26 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "Default" rgb 0.8 0.8 0.8 amb 0.8 0.8 0.8 emis 0.5 0.5 0.5 spec 1 1 1 shi 32 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "jour"
+data 4
+jour
+texture "Invalidessol-ba.png"
+texrep 1 1
+crease 30.000000
+numvert 4
+-201.157104 2.8 452.201294
+153.367798 2.8 470.562012
+201.157196 2.8 -452.201294
+-153.367706 2.8 -470.562012
+numsurf 1
+SURF 0x10
+mat 1
+refs 4
+3 0.000355422496796 0.607086837292
+0 0.499855458736 0.60708630085
+1 0.499855935574 0.749518334866
+2 0.000355422496796 0.749518871307
+kids 0

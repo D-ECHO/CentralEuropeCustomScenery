@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LFLL-TERM-02.ac</path>
+	<animation>
+		<name>LFLL-TERM02</name>
+		<object-name>LFLL-TERM02-PART01</object-name>
+		<object-name>LFLL-TERM02-PART02-DOWN</object-name>
+		<object-name>LFLL-TERM02-PART02-FEETS</object-name>
+		<object-name>LFLL-TERM02-PART02-UP</object-name>
+		<object-name>LFLL-TERM02-PYRAMID</object-name>
+		<object-name>LFLL-TERM02-ROOF-PIPE</object-name>
+	</animation>
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>20000</max-m>
+	</animation>
+	<animation>
+		<type>textranslate</type>
+		<object-name>LFLL-TERM02</object-name>
+		<property>/sim/time/sun-angle-rad</property>
+		<step>1.57</step>
+		<factor>0.318471338</factor>
+		<axis> 
+			<x>-1</x> 
+			<y>0</y> 
+			<z>0</z> 
+		</axis>
+	</animation>
+</PropertyList>

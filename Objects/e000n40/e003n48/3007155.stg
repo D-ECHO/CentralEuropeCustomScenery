@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 3.8908333 48.7711111 76.16 180
+OBJECT_SHARED Models/Industrial/generic_silo_1.ac 3.9844444 48.7641667 95.91 180
+OBJECT_SHARED Models/Industrial/GenericStorageTank30m.ac 3.97917747 48.75989059 133.52 0
+OBJECT_SHARED Models/Industrial/GenericStorageTank30m.ac 3.97977894 48.76020326 134.39 0
+OBJECT_SHARED Models/Industrial/GenericStorageTank30m.ac 3.98066234 48.76048749 135.15 0
+OBJECT_SHARED Models/Residential/banlieue.xml 3.98585271 48.75163219 112.92 0
+OBJECT_SHARED Models/Residential/banlieue.xml 3.99296593 48.75460689 115.03 0
+OBJECT_SHARED Models/Residential/banlieue.xml 3.99886707 48.75537694 122.01 0

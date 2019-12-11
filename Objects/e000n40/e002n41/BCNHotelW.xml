@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>BCNHotelW.ac</path>
+
+<animation>
+	<type>material</type>
+ <object-name>Hotel</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>1</blue>
+ </emission>
+</animation>
+<animation>
+    <type>textranslate</type> 
+    <object-name>Hotel</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+    </axis> 
+  </animation>
+ 
+</PropertyList>

@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Commercial/generic_skyscraper_07.ac 2.3836111 49.2038889 -419.82 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 2.2588889 49.1366667 -350.97 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.2566667 49.1425 -14.61 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.2941667 49.2272222 87.71 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.4716667 49.2483333 32.39 180
+OBJECT_STATIC ChatChant.ac 2.4855 49.1939 41.32 90
+OBJECT_STATIC Royaumont.ac 2.38201 49.14767 32.48 176

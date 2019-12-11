@@ -1,0 +1,162 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0   spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "FrontColor" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "Google_Earth_Snapshot" rgb 0.435294 0.439216 0.392157 amb 0.435294 0.439216 0.392157 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "KLM_flight_academ" rgb 0.556863 0.568627 0.603922 amb 0.556863 0.568627 0.603922 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "KLM_flight_academ.002" rgb 0.556863 0.568627 0.603922 amb 0.556863 0.568627 0.603922 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "KLM_flight_academy_EH" rgb 0.556863 0.568627 0.603922 amb 0.556863 0.568627 0.603922 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "KLM_flight_academ.001" rgb 0.556863 0.568627 0.603922 amb 0.556863 0.568627 0.603922 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+OBJECT world
+kids 6
+OBJECT poly
+name "Mesh2 Model_FrontColo"
+data 21
+Mesh2 Model_FrontColo
+crease 30.000000
+numvert 4
+-24.7474 0 -17.7883
+5.51351 0 20.4841
+-28.753099 0 16.478399
+9.51924 0 -13.7826
+numsurf 2
+SURF 0x00
+mat 1
+refs 3
+0 974.307983398 700.327026367
+1 -217.067993164 -806.460021973
+2 1132.01000977 -648.75402832
+SURF 0x00
+mat 1
+refs 3
+1 -217.067993164 -806.460021973
+0 974.307983398 700.327026367
+3 -374.773010254 542.622009277
+kids 0
+OBJECT poly
+name "Mesh2 Model_Google_Ea"
+data 21
+Mesh2 Model_Google_Ea
+crease 30.000000
+numvert 4
+-24.7474 9.5 -17.7883
+5.51351 9.5 20.4841
+9.51924 9.5 -13.7826
+-28.753099 9.5 16.478399
+numsurf 2
+SURF 0x00
+mat 2
+refs 3
+0 0.284038990736 0.749958992004
+1 0.548802018166 0.214791998267
+2 0.583849012852 0.693947017193
+SURF 0x00
+mat 2
+refs 3
+1 0.548802018166 0.214791998267
+0 0.284038990736 0.749958992004
+3 0.248990997672 0.270805001259
+kids 0
+OBJECT poly
+name "Mesh2 Model_KLM_f"
+data 17
+Mesh2 Model_KLM_f
+texture "EHGG_KLM2.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-24.7474 9.5 -17.7883
+-28.753099 0 16.478399
+-28.753099 9.5 16.478399
+-24.7474 0 -17.7883
+numsurf 2
+SURF 0x00
+mat 3
+refs 3
+0 0.0 1.0
+1 1.0 0.0
+2 1.0 1.0
+SURF 0x00
+mat 3
+refs 3
+1 1.0 0.0
+0 0.0 1.0
+3 0.0 0.0
+kids 0
+OBJECT poly
+name "Mesh2 Model_KLM_f.001"
+data 21
+Mesh2 Model_KLM_f.001
+texture "EHGG_KLM1.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-28.753099 0 16.478399
+5.51351 9.5 20.4841
+-28.753099 9.5 16.478399
+5.51351 0 20.4841
+numsurf 2
+SURF 0x00
+mat 4
+refs 3
+0 0.0 0.0
+1 1.0 1.0
+2 0.0 1.0
+SURF 0x00
+mat 4
+refs 3
+1 1.0 1.0
+0 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Mesh2 Model_KLM_f.002"
+data 21
+Mesh2 Model_KLM_f.002
+texture "EHGG_KLM2.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+9.51924 0 -13.7826
+5.51351 9.5 20.4841
+5.51351 0 20.4841
+9.51924 9.5 -13.7826
+numsurf 2
+SURF 0x00
+mat 5
+refs 3
+0 1.0 0.0
+1 0.0 1.0
+2 0.0 0.0
+SURF 0x00
+mat 5
+refs 3
+1 0.0 1.0
+0 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "Mesh2 Model_KLM_fligh"
+data 21
+Mesh2 Model_KLM_fligh
+texture "EHGG_KLM1.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-24.7474 9.5 -17.7883
+9.51924 0 -13.7826
+-24.7474 0 -17.7883
+9.51924 9.5 -13.7826
+numsurf 2
+SURF 0x00
+mat 6
+refs 3
+0 1.0 1.0
+1 0.0 0.0
+2 1.0 0.0
+SURF 0x00
+mat 6
+refs 3
+1 0.0 0.0
+0 1.0 1.0
+3 0.0 1.0
+kids 0

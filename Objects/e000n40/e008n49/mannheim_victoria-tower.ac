@@ -1,0 +1,116 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0   spec 0.5 0.5 0.5  shi 64  trans 0
+OBJECT world
+kids 1
+OBJECT group
+name "Cylinder.003"
+kids 2
+OBJECT poly
+name "Cylinder.003_0"
+data 12
+Cylinder.004
+texture "mannheim_victoria-tower_wall1.png"
+texrep 1 1
+crease 30
+numvert 12
+0 0 -35
+0 97 -35
+3.900004 97 -25.9
+-3.899996 97 -25.9
+5e-006 0 35
+3.9 0 25.9
+5e-006 97 35
+-3.9 97 25.9
+3.9 0 -25.9
+-3.9 0 25.9
+-3.9 0 -25.9
+3.9 97 25.9
+numsurf 4
+SURF 0x00
+mat 0
+refs 4
+0 1.0 -29.0
+1 1.0 1.0
+2 0.0 1.0
+8 0.0 -29.0
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 1.0 -29.0
+10 0.0 -29.0
+3 0.0 1.0
+SURF 0x00
+mat 0
+refs 4
+4 1.0 -29.0
+6 1.0 1.0
+7 0.0 1.0
+9 0.0 -29.0
+SURF 0x00
+mat 0
+refs 4
+6 1.0 -29.0
+4 1.0 1.0
+5 0.0 1.0
+11 0.0 -29.0
+kids 0
+OBJECT poly
+name "Cylinder.003_1"
+data 12
+Cylinder.004
+texture "mannheim_victoria-tower_wall2.png"
+texrep 1 1
+crease 30
+numvert 14
+0 97 -35
+3.900004 97 -25.9
+-3.899996 97 -25.9
+3.9 0 25.9
+5e-006 97 35
+-3.9 97 25.9
+3.9 0 -25.9
+15 0 0
+-3.9 0 25.9
+-15 0 0
+-3.9 0 -25.9
+15 97 0
+3.9 97 25.9
+-15 97 0
+numsurf 5
+SURF 0x00
+mat 0
+refs 4
+6 0.0 -9.0
+1 0.0 1.0
+11 2.875 1.0
+7 2.875 -9.0
+SURF 0x00
+mat 0
+refs 4
+7 0.0 -9.0
+11 0.0 1.0
+12 2.875 1.0
+3 2.875 -9.0
+SURF 0x00
+mat 0
+refs 4
+8 0.0 -9.0
+5 0.0 1.0
+13 2.875 1.0
+9 2.875 -9.0
+SURF 0x00
+mat 0
+refs 4
+9 0.0 -9.0
+13 0.0 1.0
+2 2.875 1.0
+10 2.875 -9.0
+SURF 0x00
+mat 0
+refs 4
+0 0.463207423687 0.600297689438
+13 0.45671159029 0.600297689438
+4 0.45671159029 0.606793582439
+11 0.463207423687 0.606793582439
+kids 0

@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Airport/ndb.ac 7.645325 45.123461 253.44 180
+OBJECT_SHARED Models/Airport/marker.ac 7.645325 45.123461 253.44 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_01.xml 7.66166 45.025 -58.58 100
+OBJECT_SHARED Models/Residential/large-residential-highrise.ac 7.6628 45.069 215.46 205
+OBJECT_SHARED Models/Sport/GenericStadium.xml 7.6412 45.10997 271.84 0
+OBJECT_SHARED Models/Industrial/Usine_150_50.ac 7.741 45.103 208.6 30

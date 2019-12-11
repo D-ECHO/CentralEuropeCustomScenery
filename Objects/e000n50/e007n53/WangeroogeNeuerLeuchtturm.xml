@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>WangeroogeNeuerLeuchtturm.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>15000</max-m>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>RedLight.2</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RedLight.2</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>90</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>65.405</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>flash</type>
+  <object-name>RedLight.2</object-name>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>65.405</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+  <factor>20</factor>
+  <power>100</power>
+  <max>100</max>
+ </animation>
+
+</PropertyList>

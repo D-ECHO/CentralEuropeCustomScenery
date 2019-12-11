@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<path>EHAM_tower.ac</path>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m> 2.071</x-m>
+		<y-m>-3.949</y-m>
+		<z-m>95.170</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m> 9.571</x-m>
+		<y-m> 3.551</y-m>
+		<z-m>95.170</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m> 2.071</x-m>
+		<y-m>11.051</y-m>
+		<z-m>95.170</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m>-5.429</x-m>
+		<y-m> 3.551</y-m>
+		<z-m>95.170</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m> 2.071</x-m>
+		<y-m>-6.449</y-m>
+		<z-m>85.170</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m>12.071</x-m>
+		<y-m> 3.551</y-m>
+		<z-m>85.170</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m> 2.071</x-m>
+		<y-m>13.551</y-m>
+		<z-m>85.170</z-m>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/RedLight10000.xml</path> 
+	<offsets> 
+		<x-m>-7.929</x-m>
+		<y-m> 3.551</y-m>
+		<z-m>85.170</z-m>
+	</offsets>
+</model>
+
+</PropertyList>
+ 

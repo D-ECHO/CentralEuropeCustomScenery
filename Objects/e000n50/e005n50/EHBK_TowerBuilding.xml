@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<path>EHBK_TowerBuilding.ac</path>
+
+<animation>
+   <name>Building1</name>
+<object-name>Airco.004_Cube.010</object-name>
+<object-name>Airco.004_Cube.010_0</object-name>
+<object-name>Airco.004_Cube.010_1</object-name>
+<object-name>Chimnee_Cylinder.001</object-name>
+<object-name>Cube.001</object-name>
+<object-name>Lamp.001_Cube.012</object-name>
+<object-name>Lamp.002_Cube.013</object-name>
+<object-name>Lamp.003_Cube.000</object-name>
+<object-name>Lamp.004_Cube.006</object-name>
+<object-name>Lamp.005_Cube.007</object-name>
+<object-name>Lamp.006_Cube.009</object-name>
+<object-name>Lamp_Cube.011</object-name>
+<object-name>MobAntP.001_Cylinder.</object-name>
+<object-name>MobAntP.001_Cylinder._0</object-name>
+<object-name>MobAntP.001_Cylinder._1</object-name>
+<object-name>MobAntP_Cylinder.002</object-name>
+<object-name>MobAntP_Cylinder.002_0</object-name>
+<object-name>MobAntP_Cylinder.002_1</object-name>
+<object-name>MobAntS.001_Cylinder.</object-name>
+<object-name>MobAntS_Cylinder.004</object-name>
+<object-name>TowerBuildingBoard_Cu</object-name>
+<object-name>TowerBuildingRoof1_Cu</object-name>
+<object-name>TowerBuildingRoof2_Cu</object-name>
+<object-name>TowerBuildingRoof3_Cu</object-name>
+<object-name>TowerBuilding_Cube.00</object-name>
+<object-name>TowerBuilding_Cube.00_0</object-name>
+<object-name>TowerBuilding_Cube.00_1</object-name>
+</animation>
+
+<animation>
+    <type>textranslate</type> 
+    <object-name>Building1</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+    </axis> 
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Building1</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+<object-name>TowerBuildingBoard_Cu</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.8</red>	
+  <green>0.7</green>	
+  <blue>0.7</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Building1</object-name>
+ <condition>		
+  <less-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </less-than>
+ </condition>
+ <emission>	
+  <red>0.15</red>	
+  <green>0.15</green>	
+  <blue>0.15</blue>
+ </emission>
+</animation>
+
+<animation>
+   <name>Lights</name>
+<object-name>Light.001_Cone.001</object-name>
+<object-name>Light.002_Cone.002</object-name>
+<object-name>Light.003_Cone.000</object-name>
+<object-name>Light.004_Cone.003</object-name>
+<object-name>Light.005_Cone.005</object-name>
+<object-name>Light.006_Cone.007</object-name>
+<object-name>Light_Cone.004</object-name>
+</animation>
+
+<animation>
+ <type>select</type> 
+ <object-name>Lights</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Lights</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.35</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+</PropertyList>

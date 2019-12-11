@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.535485 52.223704 19.73 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.616931 52.224392 8.68 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.5738721 52.1800488 -17.96 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.5352129 52.199527 26.17 358.6
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.5387319 52.1994744 25.64 358.6
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.613815 52.212578 7.35 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.615253 52.21551 4.2 225
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.615261 52.214541 5.71 225
+OBJECT_SHARED Models/Maritime/Civilian/Mersey_Lifeboat.xml 1.60491 52.15293 -0.01 90
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_21_afloat.xml 1.61906 52.14845 -0.76 0
+OBJECT_STATIC HouseInClouds.ac 1.609498 52.181847 9.8 330
+OBJECT_STATIC ThorpnessWindmill.ac 1.608896 52.181535 8.33 0

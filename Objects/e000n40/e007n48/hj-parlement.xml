@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>hj-parlement.ac</path>
+
+ <animation>
+  <type>range</type>
+  <object-name>Detailed</object-name>
+  <min-m>0</min-m>
+  <max-m>3000</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>Rough</object-name>
+  <min-m>3000</min-m>
+  <max-m>5000</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>Bare</object-name>
+  <min-m>5000</min-m>
+  <max-m>10000</max-m>
+ </animation>
+
+
+
+</PropertyList>

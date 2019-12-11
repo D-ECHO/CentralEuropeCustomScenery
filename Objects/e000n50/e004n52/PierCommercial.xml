@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>PierCommercial.ac</path>
+
+ <animation>
+    <name>TVCombined</name>
+    <object-name>TV1</object-name>
+    <object-name>TV2</object-name>
+    <object-name>TV3</object-name>
+ </animation>
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>TVCombined</object-name>
+    <property>/sim/model/PierComm/Comm</property>
+    <bias>0.0001</bias>
+    <step> 0.125 </step>
+    <factor>0.125</factor>
+    <axis>
+      <x>  0 </x>
+      <y>  1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+
+ <nasal>
+  <load>
+   <![CDATA[
+       var Comm = func () {
+              var Delay = 5;
+              if(getprop("/sim/model/PierComm/Comm") < 7){
+                 setprop("/sim/model/PierComm/Comm",getprop("/sim/model/PierComm/Comm")+1);
+              }else{
+                 setprop("/sim/model/PierComm/Comm",0);
+              };
+              settimer(Comm , Delay);     
+      };
+      setprop("/sim/model/PierComm/Comm",0);
+      Comm();
+   ]]>
+  </load>
+ </nasal>
+
+</PropertyList>

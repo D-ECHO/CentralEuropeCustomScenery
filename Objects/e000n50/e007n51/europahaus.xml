@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>europahaus.ac</path>
+<animation>
+    <type>material</type>
+    <object-name>10m_stern</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.47</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.8</red>	
+	<green>0.8</green>	
+	<blue>0.8</blue>
+    </emission>
+</animation>
+
+
+<animation>
+  <type>spin</type>
+  <object-name>10m_stern</object-name>
+  <object-name>10m_ring</object-name>
+  <use-personality type="bool">true</use-personality>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>0.01</factor>
+  <starting-pos-deg>0</starting-pos-deg>                                               
+  <axis>
+   <x>0.0</x>
+   <y>0.0</y>
+   <z>1.0</z>
+  </axis>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+</animation>
+ 
+</PropertyList>

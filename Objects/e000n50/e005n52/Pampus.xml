@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+  <path>Pampus.ac</path>
+
+  <animation>
+    <object-name>Island</object-name>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>20000</max-m>
+  </animation>
+  <animation>
+    <object-name>Boat</object-name>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>10000</max-m>
+  </animation>
+  <animation>
+    <object-name>Piers</object-name>
+    <object-name>House</object-name>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>5000</max-m>
+  </animation>
+</PropertyList>

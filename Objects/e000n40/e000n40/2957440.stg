@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Aircraft/DR400.xml 0.02809428 40.00074965 -0.09 96
+OBJECT_SHARED Models/Aircraft/EC-135_BGS.xml 0.02856198 40.00036192 0 0
+OBJECT_SHARED Models/Airport/hanger-42fx42f-tan-01.ac 0.0287268 40.00079551 0.01 352
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 0.0492432 40.0009012 -2.03 0
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 0.0829224 40.0052338 -4.63 0
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 0.1346507 40.0739035 -0.02 319.58
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 0.1339268 40.0746991 0 357.57
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 0.1467667 40.0832167 -2.4 0

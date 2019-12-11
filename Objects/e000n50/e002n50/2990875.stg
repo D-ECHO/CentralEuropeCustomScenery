@@ -1,0 +1,16 @@
+OBJECT_SHARED Models/Commercial/generic_skyscraper_03.ac 2.8338889 50.4386111 -373.73 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_04.ac 2.8152778 50.4488889 -345.41 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_04.ac 2.8327778 50.4002778 -383.46 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_09.ac 2.8363889 50.4438889 -393.64 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 2.9333333 50.4508333 -360.93 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.7577778 50.385 92.01 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.8255556 50.4488889 58.17 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.9041667 50.4397222 22.88 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.9644444 50.4630556 29.88 180
+OBJECT_SHARED Models/Airport/LFPZ1b.xml 2.820071 50.46501 47.08 60
+OBJECT_SHARED Models/Airport/EDXW_Hangar25x15.ac 2.820517 50.465469 46.71 330
+OBJECT_SHARED Models/Airport/hangar4.xml 2.821238 50.46563 46.71 90
+OBJECT_SHARED Models/Airport/hangar_15x25m.ac 2.822018 50.465663 46.85 60
+OBJECT_SHARED Models/Airport/Hangar_20mx14m.ac 2.819861 50.464782 47.26 240
+OBJECT_SHARED Models/Airport/Club_House.ac 2.819711 50.464432 47.6 0
+OBJECT_STATIC memovimy.ac 2.77398652 50.3788629 146.41 202

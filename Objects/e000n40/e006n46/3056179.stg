@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Airport/ils.xml 6.922981 46.847344 441.28 130.56
+OBJECT_SHARED Models/Communications/vordme_1.xml 6.922986 46.847281 441.27 180
+OBJECT_SHARED Models/Airport/localizer.xml 6.898875 46.8335 443.66 130.56
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 6.7827769 46.8217127 421.58 243.05
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 6.8353482 46.8539906 415.28 182.14
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 6.7824443 46.8214778 421.57 296.89
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 6.8359276 46.8526846 415.16 288.44

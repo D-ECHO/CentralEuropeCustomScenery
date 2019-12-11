@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Airport/marker.ac 1.296222 49.089278 56.4 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.3458333 49.1044444 130.57 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.3552778 49.0011111 92.58 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.455 49.0802778 98.62 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.3080556 49.0052778 125.8 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.3625 49.0877778 131.89 180

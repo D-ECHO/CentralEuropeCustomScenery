@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Communications/tower-microwave-1.xml 1.815818 41.604609 1176.82 0
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac 1.815654 41.604575 1170.64 290
+OBJECT_SHARED Models/Airport/helipad40m.ac 1.8156 41.603915 1167.47 0
+OBJECT_SHARED Models/Communications/Antenna2.xml 1.815793 41.604626 1175.8 359
+OBJECT_SHARED Models/Misc/toro_osborne.ac 1.774691667 41.581852778 519.72 0

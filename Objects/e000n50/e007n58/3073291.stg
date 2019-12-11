@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/ndb.ac 7.999028 58.140017 4.43 180
+OBJECT_SHARED Models/Airport/marker.ac 7.999028 58.140017 4.43 180
+OBJECT_SHARED Models/Maritime/Civilian/CruiseShip.ac 7.996708 58.136863 0 20
+OBJECT_SHARED Models/Misc/breton-church.ac 7.994611 58.146161 12.25 270

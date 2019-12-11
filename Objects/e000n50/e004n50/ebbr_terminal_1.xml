@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+    <path>ebbr_terminal_1.ac</path>
+
+    <animation>
+        <type>material</type>
+        <object-name>Cube.003</object-name>
+        <object-name>Cube.004</object-name>
+        <object-name>Cube.038</object-name>
+        <object-name>Cube.029</object-name>
+        <object-name>Cube.037</object-name>
+        <object-name>Cube.007</object-name>
+        <object-name>Cube.008</object-name>
+        <condition>
+            <greater-than>
+                <property>/sim/time/sun-angle-rad</property>
+                <value>1.57</value>
+            </greater-than>
+        </condition>
+        <texture>ebbr_terminal_1_2.png</texture>
+        <emission>
+            <red> 0.98</red>
+            <green> 0.96</green>
+            <blue> 0.78</blue>
+        </emission>
+    </animation>
+
+    <animation>
+        <type>range</type>
+        <object-name>Pilars</object-name>
+        <object-name>Pilars2</object-name>
+        <object-name>Pilars3</object-name>
+        <object-name>Pilars4</object-name>
+        <object-name>Pilars5</object-name>
+        <min-m>0</min-m>
+        <max-m>1000</max-m>
+    </animation>
+
+    <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>15000</max-m>
+    </animation>
+
+</PropertyList>

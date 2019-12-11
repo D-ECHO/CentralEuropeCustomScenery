@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 1.7583333 52.4866666 -30 180
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 1.76163 52.47044 -0.35 0
+OBJECT_SHARED Models/Maritime/Civilian/Pilot_Boat.ac 1.75537 52.47199 0.47 0
+OBJECT_SHARED Models/Power/Vestas_Off_Shore140M.xml 1.761262 52.480114 1.81 90
+OBJECT_SHARED Models/Maritime/Civilian/Shannon_Lifeboat.ac 1.753237 52.471777 0 0
+OBJECT_SHARED Models/Maritime/Civilian/Shannon_Lifeboat.ac 1.754036 52.472063 0 180
+OBJECT_STATIC Lowestoft_Lighthouse.xml 1.75833842 52.48668251 3.99 204

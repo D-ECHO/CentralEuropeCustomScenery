@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.38005 52.482064 0.46 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.428198 52.454261 0.84 180
+OBJECT_SHARED Models/Industrial/Gasometer.ac 0.252761 52.395558 31.04 180
+OBJECT_SHARED Models/Industrial/WaterWorks30m.xml 0.251744 52.383339 4.28 180
+OBJECT_SHARED Models/Industrial/GenericStorageTank5m.ac 0.252101 52.38299 -87.09 180
+OBJECT_SHARED Models/Industrial/GenericStorageTank5m.ac 0.252144 52.383098 -86.97 180

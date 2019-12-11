@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<path>EHBK_Building3.ac</path>
+
+<animation>
+   <name>Building1</name>
+<object-name>APGBuilding3LookOut_C</object-name>
+<object-name>APGBuilding3_Cube.009</object-name>
+<object-name>APGBuilding3_Cube.009_0</object-name>
+<object-name>APGBuilding3_Cube.009_1</object-name>
+<object-name>AircoS.000_AircoS_Cub</object-name>
+<object-name>AircoS.000_AircoS_Cub_0</object-name>
+<object-name>AircoS.000_AircoS_Cub_1</object-name>
+<object-name>AircoS.001_AircoS.001</object-name>
+<object-name>AircoS.001_AircoS.001_0</object-name>
+<object-name>AircoS.001_AircoS.001_1</object-name>
+<object-name>AircoS.002_AircoS.002</object-name>
+<object-name>AircoS.002_AircoS.002_0</object-name>
+<object-name>AircoS.002_AircoS.002_1</object-name>
+<object-name>AircoS.003_AircoS_Cub</object-name>
+<object-name>AircoS.003_AircoS_Cub_0</object-name>
+<object-name>AircoS.003_AircoS_Cub_1</object-name>
+<object-name>G3_Plane.004</object-name>
+<object-name>G3_Plane.004_0</object-name>
+<object-name>G3_Plane.004_1</object-name>
+<object-name>G4_Plane.004</object-name>
+<object-name>G4_Plane.004_0</object-name>
+<object-name>G4_Plane.004_1</object-name>
+<object-name>Vent.001_Cube.004</object-name>
+<object-name>Vent_Cube.003</object-name>
+</animation>
+
+<animation>
+    <type>textranslate</type> 
+    <object-name>Building1</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+    </axis> 
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Building1</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Building1</object-name>
+ <condition>		
+  <less-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </less-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+
+<animation>
+   <name>Lights</name>
+<object-name>Light.001_Cube.000</object-name>
+<object-name>Light.001_Cube.001_Li</object-name>
+<object-name>Light.001_Cube.002_Li</object-name>
+<object-name>Light.001_Cube.003_Li</object-name>
+<object-name>Light.001_Cube.004_Li</object-name>
+<object-name>Light.001_Cube.005_Li</object-name>
+<object-name>Light.001_Cube.006</object-name>
+<object-name>Light.001_Cube.007_Li</object-name>
+<object-name>Light_Cube</object-name>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Lights</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>0.6</green>	
+  <blue>0.0</blue>
+ </emission>
+</animation>
+
+<animation>
+   <name>Text</name>
+<object-name>G3_Plane.004</object-name>
+<object-name>G3_Plane.004_0</object-name>
+<object-name>G3_Plane.004_1</object-name>
+<object-name>G4_Plane.004</object-name>
+<object-name>G4_Plane.004_0</object-name>
+<object-name>G4_Plane.004_1</object-name>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Text</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.6</red>	
+  <green>0.6</green>	
+  <blue>0.4</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Text</object-name>
+ <condition>		
+  <less-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </less-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+</PropertyList>

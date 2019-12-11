@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>tour-first.ac</path>
+	
+	<animation>
+		<type>select</type>
+		<object-name>first</object-name>
+		<condition>
+			<greater-than>
+				<property>sim/time/utc/year</property>
+				<value>2011</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+</PropertyList>

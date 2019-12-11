@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<path>VUMC.ac</path>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -13.90</x-m>
+  <y-m>-158.15</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -11.50</x-m>
+  <y-m>-160.50</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -11.50</x-m>
+  <y-m>-163.80</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -11.50</x-m>
+  <y-m>-167.10</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -11.50</x-m>
+  <y-m>-170.50</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -13.90</x-m>
+  <y-m>-172.85</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -16.25</x-m>
+  <y-m>-175.20</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -18.60</x-m>
+  <y-m>-177.60</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -22.00</x-m>
+  <y-m>-177.60</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -25.30</x-m>
+  <y-m>-177.60</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -28.60</x-m>
+  <y-m>-177.60</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -30.95</x-m>
+  <y-m>-175.20</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -33.30</x-m>
+  <y-m>-172.85</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -35.65</x-m>
+  <y-m>-170.50</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -35.65</x-m>
+  <y-m>-167.10</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -35.65</x-m>
+  <y-m>-163.80</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -35.65</x-m>
+  <y-m>-160.50</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -33.30</x-m>
+  <y-m>-158.15</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -30.95</x-m>
+  <y-m>-155.80</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+<model>
+ <path>Models/Effects/GreenLight6000.xml</path> 
+ <offsets> 
+  <x-m> -28.60</x-m>
+  <y-m>-153.45</y-m>
+  <z-m>  34.7</z-m>
+ <heading-deg>0</heading-deg>
+ </offsets>
+</model>
+
+</PropertyList>
+ 

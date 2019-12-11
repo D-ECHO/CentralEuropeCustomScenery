@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Airport/ndb.ac 6.208702 49.27618 179.18 0
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 6.0811111 49.3272222 -213.55 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 6.0986111 49.3233333 -186.13 180
+OBJECT_SHARED Models/Power/generic_pylon_200m.ac 6.1825 49.2813889 70.39 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 6.0947222 49.3122222 197.63 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 6.1866667 49.3447222 143.14 180

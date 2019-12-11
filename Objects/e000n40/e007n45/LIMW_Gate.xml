@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<PropertyList>
+    
+<path>LIMW_Gate.ac</path>
+
+
+
+	<!-- Nasal for the entrance bars, rotating in 3 sec -->
+<nasal>
+		<load>
+		if (!contains(globals, "scenery")) globals["scenery"] = {};
+		if (!contains(scenery, "LIMW")) scenery["LIMW"] = {};
+		if (!contains(scenery.LIMW, "Bar")) scenery.LIMW["Bar"] = [nil];
+		scenery.LIMW.Bar[0] =
+			{ door :
+			[aircraft.door.new("/scenery/LIMW/Bar[0]/door[0]", 3)]
+		    };
+		
+		
+		
+		var loop_id = 0;
+
+		var loop = func(id) {
+				id == loop_id or return;
+				
+				var doorstate = getprop("/scenery/LIMW/Bar[0]/door[0]/position-norm");
+					
+				
+				if ((doorstate == 0)){
+					scenery.LIMW.Bar[0].door[0].toggle();
+					
+					};
+				
+				if ((doorstate == 1)){
+					scenery.LIMW.Bar[0].door[0].toggle();
+					
+					};
+			# bars change state every 60 sec
+			settimer(func { loop(id) }, 60);
+			}
+			loop(loop_id += 1);
+	
+		</load>
+		<unload>loop_id += 1</unload>
+	
+	</nasal>
+
+    <!-- End Nasal for the entrance bars -->
+	
+	
+	<!-- Rotate bar 1 --> 
+	
+	<animation>
+		<type>rotate</type>
+		<object-name>sbarre1</object-name>
+			<property>/scenery/LIMW/Bar[0]/door[0]/position-norm</property>
+			<factor>-75</factor>
+			<center>
+  <x-m>-8.0</x-m>
+  <y-m>32.0</y-m>
+  <z-m>1.2</z-m>
+ </center>
+ <axis>
+  <x>1</x>
+  <y>0</y>
+  <z>0</z>
+ </axis>
+
+			
+	</animation>
+<!-- Rotate bar 2 --> 
+	
+	<animation>
+		<type>rotate</type>
+		<object-name>sbarre2</object-name>
+			<property>/scenery/LIMW/Bar[0]/door[0]/position-norm</property>
+			<factor>75</factor>
+			<center>
+  <x-m>-8.0</x-m>
+  <y-m>21.0</y-m>
+  <z-m>1.2</z-m>
+ </center>
+ <axis>
+  <x>1</x>
+  <y>0</y>
+  <z>0</z>
+ </axis>
+
+</animation>
+	
+	
+	
+	
+</PropertyList>

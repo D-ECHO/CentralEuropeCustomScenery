@@ -1,0 +1,3 @@
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac 4.604185 45.3891778 1385.57 308
+OBJECT_SHARED Models/Misc/gothical_church.xml 4.7478186 45.38491812 156.62 124
+OBJECT_STATIC antenne_pilat.xml 4.6118236 45.3925225 1354.02 336

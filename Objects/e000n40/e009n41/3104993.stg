@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 9.3173056 41.609 -0.04 293.6
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 9.2899333 41.5912333 -0.02 62.55
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 9.2880833 41.59155 -0.01 316.9
+OBJECT_SHARED Models/Maritime/Misc/phare.xml 9.36589639 41.59448758 36.14 0
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 9.2937667 41.5903833 -0.03 218.48
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 9.2974 41.5931 -0.04 264.16
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 9.3039333 41.5980833 -0.07 124.48
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 9.3089167 41.6019833 -0.03 62.44
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.2948667 41.5898667 -0.02 52.36
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.29835 41.5927 -0.04 338.27
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.30495 41.5976833 -0.06 204.18
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.3097 41.6015 -0.02 102.61
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 9.4 41.545 -1.98 117.44

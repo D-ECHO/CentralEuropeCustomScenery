@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.4061841 51.3798907 -16.62 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 1.4466666 51.375 5.49 180
+OBJECT_SHARED Models/Maritime/Civilian/Mersey_Lifeboat.xml 1.37912 51.39 0 100
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 1.37689 51.38994 1.28 0
+OBJECT_STATIC Kent_Police_Lifeboat.xml 1.37906 51.39017 0 90

@@ -1,0 +1,15 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 7.5958333 48.1763889 90.78 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 7.6380556 48.1869444 -269.4 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 7.7344444 48.1991667 131.95 180
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5893374 48.161807 173.25 0
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5904582 48.1627831 173 0
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5906967 48.1618646 173.61 0
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5915881 48.1627613 173.28 0
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5920959 48.1618914 173.37 0
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5928214 48.1628392 172.93 0
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5934486 48.1620755 172.96 0
+OBJECT_SHARED Models/Transport/egkk_carpark_surf.xml 7.5941961 48.1629713 172.34 0
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.5421635 48.1391088 178.67 184
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.6278031 48.1781202 173 321.6
+OBJECT_SHARED Models/Maritime/Civilian/lock1.ac 7.589683 48.1494933 170.3 66
+OBJECT_SHARED Models/Maritime/Civilian/dam.xml 7.5891193 48.1535016 158.09 246

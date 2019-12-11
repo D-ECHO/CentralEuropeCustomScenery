@@ -1,0 +1,162 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0   spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "FrontColor" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "ZilverenToren3" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "ZilverenToren1" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "ZilverenToren0" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "ZilverenToren2" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "roof" rgb 0.454902 0.45098 0.372549 amb 0.454902 0.45098 0.372549 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+OBJECT world
+kids 6
+OBJECT poly
+name "Mesh2 Model_FrontColo"
+data 21
+Mesh2 Model_FrontColo
+crease 30.000000
+numvert 4
+3.91269 0 -32.375401
+-28.250999 0 35.031898
+-48.907398 0 8.02614
+24.569099 0 -5.36965
+numsurf 2
+SURF 0x00
+mat 1
+refs 3
+0 -154.042999268 1274.61999512
+1 1112.23999023 -1379.20996094
+2 1925.48999023 -315.989990234
+SURF 0x00
+mat 1
+refs 3
+1 1112.23999023 -1379.20996094
+0 -154.042999268 1274.61999512
+3 -967.289001465 211.404006958
+kids 0
+OBJECT poly
+name "Mesh2 Model_M_303"
+data 17
+Mesh2 Model_M_303
+texture "ZilverenToren3.png"
+texrep 1 1
+crease 30.000000
+numvert 4
+-28.250999 0 35.031898
+24.569099 75 -5.36965
+-28.250999 75 35.031898
+24.569099 0 -5.36965
+numsurf 2
+SURF 0x00
+mat 2
+refs 3
+0 0.0 0.0
+1 1.0 1.0
+2 0.0 1.0
+SURF 0x00
+mat 2
+refs 3
+1 1.0 1.0
+0 0.0 0.0
+3 1.0 1.47910996551e-031
+kids 0
+OBJECT poly
+name "Mesh2 Model_M_303.001"
+data 21
+Mesh2 Model_M_303.001
+texture "ZilverenToren1.png"
+texrep 1 1
+crease 30.000000
+numvert 4
+3.91269 0 -32.375401
+-48.907398 75 8.02614
+3.91269 75 -32.375401
+-48.907398 0 8.02614
+numsurf 2
+SURF 0x00
+mat 3
+refs 3
+0 0.0 0.0
+1 1.0 1.0
+2 1.66533003708e-016 1.0
+SURF 0x00
+mat 3
+refs 3
+1 1.0 1.0
+0 0.0 0.0
+3 1.0 9.86076013977e-032
+kids 0
+OBJECT poly
+name "Mesh2 Model_M_303.002"
+data 21
+Mesh2 Model_M_303.002
+texture "ZilverenToren0.png"
+texrep 1 1
+crease 30.000000
+numvert 4
+-28.250999 0 35.031898
+-48.907398 75 8.02614
+-48.907398 0 8.02614
+-28.250999 75 35.031898
+numsurf 2
+SURF 0x00
+mat 4
+refs 3
+0 1.0 0.0
+1 2.99760004891e-015 1.0
+2 0.0 5.9621600954e-016
+SURF 0x00
+mat 4
+refs 3
+1 2.99760004891e-015 1.0
+0 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "Mesh2 Model_M_3031_Zi"
+data 21
+Mesh2 Model_M_3031_Zi
+texture "ZilverenToren2.png"
+texrep 1 1
+crease 30.000000
+numvert 4
+3.91269 75 -32.375401
+24.569099 0 -5.36965
+3.91269 0 -32.375401
+24.569099 75 -5.36965
+numsurf 2
+SURF 0x00
+mat 5
+refs 3
+0 1.0 1.0
+1 2.77556010266e-015 0.0
+2 1.0 5.9621600954e-016
+SURF 0x00
+mat 5
+refs 3
+1 2.77556010266e-015 0.0
+0 1.0 1.0
+3 0.0 1.0
+kids 0
+OBJECT poly
+name "Mesh2 Model_roof"
+data 16
+Mesh2 Model_roof
+crease 30.000000
+numvert 4
+3.91269 75 -32.375401
+-28.250999 75 35.031898
+24.569099 75 -5.36965
+-48.907398 75 8.02614
+numsurf 2
+SURF 0x00
+mat 6
+refs 3
+0 154.042999268 1274.61999512
+1 -1112.23999023 -1379.20996094
+2 967.289001465 211.404006958
+SURF 0x00
+mat 6
+refs 3
+1 -1112.23999023 -1379.20996094
+0 154.042999268 1274.61999512
+3 -1925.48999023 -315.989990234
+kids 0

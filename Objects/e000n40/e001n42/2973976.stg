@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/tower-microwave-small-1.ac 1.2145528 42.4088833 2431.19 0
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac 1.2148556 42.4088528 2433.63 0
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac 1.2153139 42.4083611 2428.02 0
+OBJECT_SHARED Models/Communications/Antenna2.xml 1.2151028 42.4084278 2433.18 0

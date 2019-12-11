@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+  <path>LERS_Terminal.ac</path>
+
+  <effect>
+	  <inherits-from>Effects/model-combined-deferred</inherits-from>
+	  <parameters>
+		  <lightmap-enabled type="int">1</lightmap-enabled>
+		  <lightmap-multi type="int">1</lightmap-multi>
+		  <!-- use only the red channel -->
+		  <lightmap-factor type="float" n="0"><use>/scenery/LERS/lightsFactor</use></lightmap-factor>
+		  <lightmap-factor type="float" n="1">0</lightmap-factor>
+		  <lightmap-factor type="float" n="2">0</lightmap-factor>
+		  <lightmap-factor type="float" n="3">0</lightmap-factor>
+		  <texture n="3"> <!-- lightmap -->
+			  <image>LERS_Terminal_2.png</image>
+			  <filter>linear-mipmap-linear</filter>
+			  <wrap-s>repeat</wrap-s>
+			  <wrap-t>repeat</wrap-t>
+			  <internal-format>normalized</internal-format>
+		  </texture>
+	  </parameters>
+	  <object-name>Main</object-name>
+  </effect>
+
+  <!--
+      THE FOLLOWING CODE IS USED BY OTHER MODELS IN THE SCENERY!!!!
+      the following properties are used in all the light related effects
+      at LERS, as a better alternative to using sun-angle-rad directly.
+      Credits for the original idea go to LOWI scenery developers.
+      See their LOWI_garage_main.xml 
+
+      Can be extended with loop freq throttling and weather data:
+      http://forum.flightgear.org/viewtopic.php?p=208233#p208233
+  -->
+  <nasal>
+    <load><![CDATA[
+if (!contains(globals, "scenery")) globals["scenery"] = {};
+if (!contains(scenery, "LERS")) scenery["LERS"] = {};
+if (!contains(scenery.LERS, "lightsFactor")) scenery.LERS.lightmapFactor = nil;
+if (!contains(scenery.LERS, "lightsSwitch")) scenery.LERS.lightSwitch = nil;
+
+var loopIntervalInSeconds = 1.0;
+var isActive = 0;
+var lowerBound = 1.45;
+var upperBound = 1.60;
+var updateLightmapFactors = func() {
+  isActive or return;
+  
+  var sunAngle = getprop("/sim/time/sun-angle-rad") or 0.0;
+  
+  if(sunAngle < lowerBound) {
+    # DAY
+    setprop("/scenery/LERS/lightsFactor", 0.0);
+    setprop("/scenery/LERS/lightsSwitch", 0);
+    
+  } else if((lowerBound <= sunAngle) and (sunAngle <= upperBound)) {
+    # DAWN/SUNRISE
+    var lmFactor = (sunAngle - lowerBound) / (upperBound - lowerBound);
+    var lmSwitch = 1; #(lmFactor > 0.5 ? 1 : 0);
+    setprop("/scenery/LERS/lightsFactor", lmFactor);
+    setprop("/scenery/LERS/lightsSwitch", lmSwitch);
+#    print("sunAngle = ", sunAngle);
+#    print("MIDDLE lightsFactor = ", lmFactor);
+    
+  } else {
+    # NIGHT
+    setprop("/scenery/LERS/lightsFactor", 1.0);
+    setprop("/scenery/LERS/lightsSwitch", 1);
+  }
+
+  settimer(updateLightmapFactors, loopIntervalInSeconds);
+}
+isActive = 1;
+updateLightmapFactors();
+]]>
+    </load>
+    <unload>isActive = 0</unload>
+
+  </nasal>
+
+</PropertyList>

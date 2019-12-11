@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<path>EHLE_aviodrome.ac</path>
+
+<animation>
+	<type>rotate</type>
+ 	<object-name>flag</object-name> 
+	<property>/environment/config/boundary[0]/entry/wind-from-heading-deg</property>
+	<factor>-1</factor>
+	<axis>
+		<x1-m> 42.228</x1-m>
+		<y1-m>-85.372</y1-m>
+		<z1-m> 10.000</z1-m>
+		<x2-m> 42.228</x2-m>
+		<y2-m>-85.372</y2-m>
+		<z2-m> 15.000</z2-m>
+	</axis>
+</animation>
+
+</PropertyList>

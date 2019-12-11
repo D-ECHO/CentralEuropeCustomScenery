@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>pirellone.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+    <!--max-property>sim/rendering/static-lod/detailed</max-property-->
+    <!--max-property>sim/rendering/static-lod/rough</max-property-->
+  </animation>
+
+
+  
+  <animation>
+    <type>select</type>
+    <object-name>Light1</object-name>
+    <enable-hot type="bool">false</enable-hot>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+  </animation>
+  
+
+
+  <animation>
+    <type>select</type>
+    <object-name>Light1</object-name>
+    <enable-hot type="bool">false</enable-hot>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+  </animation>
+  
+
+
+  <animation>
+    <type>select</type>
+    <object-name>IlluminatedWindows1</object-name>
+    <enable-hot type="bool">false</enable-hot>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.50</value><!-- just for dusk settings-->
+        </greater-than>
+    </condition>
+  </animation>
+  
+<animation>
+    <type>select</type>
+    <object-name>IlluminatedWindows2</object-name>
+    <enable-hot type="bool">false</enable-hot>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.70</value><!-- just for dusk settings-->
+        </greater-than>
+    </condition>
+  </animation>
+  
+
+</PropertyList>

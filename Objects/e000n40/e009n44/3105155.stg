@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/tacan.xml 9.938889 44.075556 362.68 180
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 9.8577744 44.0973309 0.02 50.22
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 9.8571136 44.0970099 0 289.76
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 9.849576 44.026495 -2.4 0

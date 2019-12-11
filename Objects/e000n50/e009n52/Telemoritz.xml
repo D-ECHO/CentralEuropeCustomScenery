@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+
+<!-- $Id$ -->
+
+<PropertyList>
+
+ <path>Telemoritz.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>25000</max-m>
+ </animation>
+
+ <!-- Die VW-Logos auf der obersten Plattform rotieren langsam. Beim
+      echten Turm ist der Antrieb schon lange kaputt, aber in der
+      Simulation ist die Reparatur zum Glück einfach :-) -->
+ <animation>
+  <type>rotate</type>
+  <object-name>VWLogos</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>2.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <!-- Nachts die Leuchtreklamen anschalten. -->
+ <animation>
+   <type>material</type>
+   <object-name>Mesh</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+   <global type="bool">true</global>
+   <emission>
+     <red>1</red>
+     <green>1</green>
+     <blue>1</blue>
+   </emission>
+   <texture>vwlogo.rgb</texture>
+ </animation>
+ 
+ <animation>
+   <type>material</type>
+   <object-name>Mesh</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+   <global type="bool">true</global>
+   <emission>
+     <red>1</red>
+     <green>1</green>
+     <blue>1</blue>
+   </emission>
+   <texture>vwblau.rgb</texture>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe01</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe02</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe03</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe04</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe05</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe06</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe07</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe08</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe09</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe10</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe11</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe12</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe13</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe14</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe15</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe16</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <animation>
+   <type>select</type>
+   <object-name>Lampe17</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+ </animation>
+
+ <!-- Lampe oben auf der Antenne -->
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe01</object-name>
+   <offset-m>141</offset-m>
+   <axis>
+     <x>0</x>
+     <y>0</y>
+     <z>1</z>
+   </axis>
+ </animation>
+
+ <!-- Lampen in der Mitte der Antenne -->
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe02</object-name>
+   <offset-m>125.7</offset-m>
+   <axis>
+     <x>0.5</x>
+     <y>-0.5</y>
+     <z>125.7</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe03</object-name>
+   <offset-m>125.7</offset-m>
+   <axis>
+     <x>0.5</x>
+     <y>0.5</y>
+     <z>125.7</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe04</object-name>
+   <offset-m>125.7</offset-m>
+   <axis>
+     <x>-0.5</x>
+     <y>-0.5</y>
+     <z>125.7</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe05</object-name>
+   <offset-m>125.7</offset-m>
+   <axis>
+     <x>-0.5</x>
+     <y>0.5</y>
+     <z>125.7</z>
+   </axis>
+ </animation>
+
+ <!-- Lampen auf der obersten Plattform -->
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe06</object-name>
+   <offset-m>105.3</offset-m>
+   <axis>
+     <x>5.3</x>
+     <y>5.3</y>
+     <z>105.0</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe07</object-name>
+   <offset-m>105.3</offset-m>
+   <axis>
+     <x>-5.3</x>
+     <y>5.3</y>
+     <z>105.0</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe08</object-name>
+   <offset-m>105.3</offset-m>
+   <axis>
+     <x>5.3</x>
+     <y>-5.3</y>
+     <z>105.0</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe09</object-name>
+   <offset-m>105.3</offset-m>
+   <axis>
+     <x>-5.3</x>
+     <y>-5.3</y>
+     <z>105.0</z>
+   </axis>
+ </animation>
+
+ <!-- Lampen auf der untersten Plattform -->
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe10</object-name>
+   <offset-m>81.5</offset-m>
+   <axis>
+     <x>7.36</x>
+     <y>7.36</y>
+     <z>80.66</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe11</object-name>
+   <offset-m>81.5</offset-m>
+   <axis>
+     <x>-7.36</x>
+     <y>7.36</y>
+     <z>80.66</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe12</object-name>
+   <offset-m>81.5</offset-m>
+   <axis>
+     <x>7.36</x>
+     <y>-7.36</y>
+     <z>80.66</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe13</object-name>
+   <offset-m>81.5</offset-m>
+   <axis>
+     <x>-7.36</x>
+     <y>-7.36</y>
+     <z>80.66</z>
+   </axis>
+ </animation>
+
+ <!-- Lampen am Schaft -->
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe14</object-name>
+   <offset-m>41.0</offset-m>
+   <axis>
+     <x>2.5</x>
+     <y>2.5</y>
+     <z>40.0</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe15</object-name>
+   <offset-m>41.0</offset-m>
+   <axis>
+     <x>-2.5</x>
+     <y>2.5</y>
+     <z>40.0</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe16</object-name>
+   <offset-m>41.0</offset-m>
+   <axis>
+     <x>2.5</x>
+     <y>-2.5</y>
+     <z>40.0</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>translate</type>
+   <object-name>Lampe17</object-name>
+   <offset-m>41.0</offset-m>
+   <axis>
+     <x>-2.5</x>
+     <y>-2.5</y>
+     <z>40.0</z>
+   </axis>
+ </animation>
+
+ <animation>
+   <type>dist-scale</type>
+   <object-name>Lampe01</object-name>
+   <interpolation>
+     <entry><ind>0</ind><dep>0.2</dep></entry>
+     <entry><ind>500</ind><dep>0.5</dep></entry>
+     <entry><ind>16000</ind><dep>8</dep></entry>
+   </interpolation>
+ </animation>
+
+ <animation>
+   <type>dist-scale</type>
+   <object-name>Lampe02</object-name>
+   <interpolation>
+     <entry><ind>0</ind><dep>0.2</dep></entry>
+     <entry><ind>500</ind><dep>0.5</dep></entry>
+     <entry><ind>16000</ind><dep>8</dep></entry>
+   </interpolation>
+ </animation>
+
+ <animation>
+   <type>dist-scale</type>
+   <object-name>Lampe03</object-name>
+   <interpolation>
+     <entry><ind>0</ind><dep>0.2</dep></entry>
+     <entry><ind>500</ind><dep>0.5</dep></entry>
+     <entry><ind>16000</ind><dep>8</dep></entry>
+   </interpolation>
+ </animation>
+
+ <animation>
+   <type>dist-scale</type>
+   <object-name>Lampe04</object-name>
+   <interpolation>
+     <entry><ind>0</ind><dep>0.2</dep></entry>
+     <entry><ind>500</ind><dep>0.5</dep></entry>
+     <entry><ind>16000</ind><dep>8</dep></entry>
+   </interpolation>
+ </animation>
+
+ <animation>
+   <type>dist-scale</type>
+   <object-name>Lampe05</object-name>
+   <interpolation>
+     <entry><ind>0</ind><dep>0.2</dep></entry>
+     <entry><ind>500</ind><dep>0.5</dep></entry>
+     <entry><ind>16000</ind><dep>8</dep></entry>
+   </interpolation>
+ </animation>
+
+ <animation>
+   <type>material</type>
+   <object-name>Mesh</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+   <global type="bool">true</global>
+   <emission>
+     <red>1</red>
+     <green>1</green>
+     <blue>1</blue>
+   </emission>
+   <texture>TelemoritzRoteLampe.rgb</texture>
+ </animation>
+
+ <!-- Tagsüber Strom sparen und die Leuchtreklamen ausschalten. -->
+ <animation>
+   <type>material</type>
+   <object-name>Mesh</object-name>
+   <condition>
+     <less-than-equals>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </less-than-equals>
+   </condition>
+   <global type="bool">true</global>
+   <emission>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+   </emission>
+   <texture>vwlogo.rgb</texture>
+ </animation>
+ 
+ <animation>
+   <type>material</type>
+   <object-name>Mesh</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+   <global type="bool">true</global>
+   <emission>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+   </emission>
+   <texture>vwblau.rgb</texture>
+ </animation>
+
+ <animation>
+   <type>material</type>
+   <object-name>Mesh</object-name>
+   <condition>
+     <greater-than>
+       <property>/sim/time/sun-angle-rad</property>
+       <value>1.57</value>
+     </greater-than>
+   </condition>
+   <global type="bool">true</global>
+   <emission>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+   </emission>
+   <texture>TelemoritzRoteLampe.rgb</texture>
+ </animation>
+
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe01</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe02</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe03</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe04</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe05</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe06</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe07</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe08</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe09</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe10</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe11</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe12</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe13</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe14</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe15</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe16</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+ <animation>
+   <type>billboard</type>
+   <object-name>Lampe17</object-name>
+   <spherical type="bool">true</spherical>
+ </animation>
+
+</PropertyList>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="POS_26" lat="N48 46.787710" lon="E8 5.236755" heading="120.45"  radius="32" airlineCodes="" />
+        <Parking index="1" type="gate" name="POS_22" lat="N48 46.905957" lon="E8 5.336730" heading="120.45"  radius="32" airlineCodes="" />
+        <Parking index="2" type="gate" name="POS_23" lat="N48 46.880854" lon="E8 5.314134" heading="120.45"  radius="32" airlineCodes="" />
+        <Parking index="3" type="gate" name="POS_24" lat="N48 46.850530" lon="E8 5.285975" heading="120.16"  radius="32" airlineCodes="" />
+        <Parking index="4" type="gate" name="POS_25" lat="N48 46.817901" lon="E8 5.264415" heading="120.45"  radius="32" airlineCodes="" />
+        <Parking index="5" type="gate" name="POS_27" lat="N48 46.757650" lon="E8 5.209858" heading="122.01"  radius="32" airlineCodes="" />
+        <Parking index="6" type="gate" name="Apron_2_Business" lat="N48 46.723174" lon="E8 5.194061" heading="348"  radius="18" airlineCodes="" />
+        <Parking index="7" type="gate" name="Apron_3_Business_1" lat="N48 46.457331" lon="E8 4.897648" heading="207.8"  radius="18" airlineCodes="" />
+        <Parking index="8" type="gate" name="Apron_3_Business_2" lat="N48 46.442348" lon="E8 4.931323" heading="301.1"  radius="18" airlineCodes="" />
+        <Parking index="9" type="gate" name="Apron_3_Business_3" lat="N48 46.431766" lon="E8 4.917680" heading="211.3"  radius="18" airlineCodes="" />
+        <Parking index="10" type="gate" name="Apron_3_Business_4" lat="N48 46.439799" lon="E8 4.970588" heading="210.43"  radius="18" airlineCodes="" />
+        <Parking index="11" type="gate" name="Apron_3_Hangar" lat="N48 46.319594" lon="E8 4.873141" heading="353.82"  radius="18" airlineCodes="" />
+        <Parking index="12" type="gate" name="Apron_4_Business_1" lat="N48 46.151392" lon="E8 4.713302" heading="302.59"  radius="18" airlineCodes="" />
+        <Parking index="13" type="gate" name="GAT_1" lat="N48 46.191892" lon="E8 4.766592" heading="180.29"  radius="10" airlineCodes="" />
+        <Parking index="14" type="gate" name="GAT_2" lat="N48 46.161295" lon="E8 4.781004" heading="350.79"  radius="10" airlineCodes="" />
+        <Parking index="15" type="gate" name="GAT_Grass_1" lat="N48 46.177709" lon="E8 4.824104" heading="310.05"  radius="10" airlineCodes="" />
+        <Parking index="16" type="gate" name="GAT_Grass_2" lat="N48 46.185104" lon="E8 4.834294" heading="-41.54"  radius="10" airlineCodes="" />
+        <Parking index="17" type="gate" name="GAT_Grass_3" lat="N48 46.221998" lon="E8 4.842753" heading="153.22"  radius="10" airlineCodes="" />
+        <Parking index="18" type="gate" name="GAT_Grass_4" lat="N48 46.196892" lon="E8 4.868992" heading="342.1"  radius="10" airlineCodes="" />
+        <Parking index="19" type="gate" name="GAT_Grass_5" lat="N48 46.197992" lon="E8 4.880681" heading="348.25"  radius="10" airlineCodes="" />
+        <Parking index="20" type="gate" name="GAT_Grass_6" lat="N48 46.185476" lon="E8 4.848181" heading="147.94"  radius="10" airlineCodes="" />
+        <Parking index="21" type="ga" name="DRF_Helipad" lat="N48 46.609039" lon="E8 5.140243" heading="125.91"  radius="18" airlineCodes="" />
+ </parkingList>
+</groundnet>

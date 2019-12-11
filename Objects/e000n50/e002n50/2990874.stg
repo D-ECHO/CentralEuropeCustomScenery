@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 2.66 50.4186111 62.79 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 2.6511 50.4206 -116.64 0
+OBJECT_SHARED Models/Commercial/generic_skyscraper_01.xml 2.7225 50.47 -395.51 180
+OBJECT_SHARED Models/Power/generic_pylon_200m.ac 2.7075 50.4383333 -26.13 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.5433333 50.4577778 106.14 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.6738889 50.4633333 56.37 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.7175 50.4238889 91.85 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.745 50.4366667 67.87 180
+OBJECT_STATIC TourLanterne.ac 2.719668 50.401158 169.95 97
+OBJECT_STATIC NDLorette.ac 2.7177 50.40101 165.77 187
+OBJECT_STATIC ChatOlhain.ac 2.58347 50.42431 80.4 27
+OBJECT_STATIC BSCOlhain.ac 2.58436 50.42436 82.63 90
+OBJECT_STATIC VillChat.ac 2.58943 50.37673 143.14 90

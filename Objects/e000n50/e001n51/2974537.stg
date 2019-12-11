@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.390166 51.166455 65.23 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.3054631 51.1389835 4.77 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.335 51.1377778 82.91 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.3425 51.1411111 70.84 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 1.359167 51.1625 89.72 180
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_21_afloat.xml 1.41017 51.22174 -0.21 0
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 1.40997 51.2217 -0.2 0
+OBJECT_SHARED Models/Misc/generic_castle2.ac 1.32455 51.132905 98.72 0
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_85.ac 1.403259 51.213519 5.26 90
+OBJECT_STATIC Varne_Lightship.xml 1.40061384 51.16714406 28.12 0
+OBJECT_STATIC Deal_Castle.ac 1.40366 51.21938 6.44 90
+OBJECT_STATIC Walmer_Castle.ac 1.40202 51.20058 9.91 104

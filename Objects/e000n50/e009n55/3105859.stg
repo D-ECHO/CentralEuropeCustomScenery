@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Power/windturbine.xml 9.8204633 55.0096675 39.95 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.8205415 55.0114284 43.51 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 9.8515 55.045667 2.75 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 9.964 55.006667 0.89 180
+OBJECT_SHARED Models/Maritime/Misc/Buoy-IsolatedDanger.ac 9.8982333 55.1204833 -4.75 209.83
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.85821 55.07364 -2.21 98.81
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.8679 55.06939 -2.24 321.95
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 9.7544 55.0948 -0.33 10.71
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 9.9416666 55.0666666 -3.31 201.8
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 9.9066667 55.0858333 -3.36 25.5

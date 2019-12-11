@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Airport/ndb.ac 6.24425 46.408694 426.37 180
+OBJECT_SHARED Models/Communications/radome-8m.xml 6.0995625 46.425613 1662.48 0
+OBJECT_SHARED Models/Communications/radome-24m.xml 6.0999818 46.4258195 1665.93 0
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.1857898 46.3764473 450.53 56.13
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.1900642 46.3806989 457.43 57.04
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.1946905 46.3859744 465.16 58.41
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.1971967 46.3887392 470.74 57.51
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.1992567 46.3909297 474.48 57.48
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.1998921 46.3916292 474.87 57.93
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.2014454 46.3933391 474.57 59.49
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.2109279 46.4051629 471.48 60.75
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 6.2177943 46.4135074 463.91 60.43
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac 6.099712 46.4255743 1665.53 312

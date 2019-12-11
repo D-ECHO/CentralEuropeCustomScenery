@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 2.1077778 48.3888889 13.97 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.105 48.3919444 117.54 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.1463889 48.4469444 84.58 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.2319444 48.4108333 129.93 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.0097222 48.4511111 143.52 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.0588889 48.4377778 142.7 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.1416667 48.4361111 142.84 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 2.1675183 48.4998499 150.55 190.83
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.0255772 48.4016869 135.79 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.0409989 48.4115673 132.36 180

@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.8088889 50.0819444 -20.85 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 1.83017 50.01239 -311.26 0
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 1.8263889 50.1158333 -425.09 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.8575 50.0863889 29.62 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.8713889 50.0958333 67.7 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.8092076 50.0171904 48.4 180
+OBJECT_STATIC ViaScard.ac 1.86273 50.11994 26.29 31

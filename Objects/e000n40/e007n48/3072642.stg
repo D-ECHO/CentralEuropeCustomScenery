@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 7.6166667 48.015 63.96 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 7.5777778 48.0813889 -263.66 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_01.xml 7.6691667 48.0811111 197.45 180
+OBJECT_SHARED Models/Misc/breton-church.ac 7.528368 48.0186031 204.39 141.6
+OBJECT_SHARED Models/Maritime/Civilian/SimpleFreighter.ac 7.5783855 48.0193025 190.49 40
+OBJECT_SHARED Models/Maritime/Civilian/Tanker_sailing.xml 7.5735138 48.0514213 192.19 0
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.5772159 48.0915679 176.92 344
+OBJECT_SHARED Models/Maritime/Civilian/lock1.ac 7.5783651 48.0195978 182.58 130.4
+OBJECT_SHARED Models/Maritime/Civilian/dam.xml 7.5740175 48.0202892 169.46 311.6
+OBJECT_STATIC neuf-brisach.xml 7.528146705 48.017726 197.71 95

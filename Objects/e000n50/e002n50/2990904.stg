@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Airport/marker.ac 2.054306 50.996583 3.1 180
+OBJECT_SHARED Models/Power/generic_pylon_200m.ac 2.135 50.9833333 -73.81 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.1256216 50.8932673 1.29 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.1346203 50.9644388 0.65 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.2351895 50.9683376 0 180

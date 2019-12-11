@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>EDHL_Hangar_R1.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>5000</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>Label</object-name>
+  <min-m>0</min-m>
+  <max-m>300</max-m>
+ </animation>
+
+</PropertyList>

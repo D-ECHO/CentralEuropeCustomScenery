@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="General_aviation" lat="N49 57.720072" lon="E8 38.566930" heading="267.27"  radius="18" airlineCodes="" />
+        <Parking index="1" type="ga" name="General_aviation" lat="N49 57.733790" lon="E8 38.565605" heading="267.27"  radius="18" airlineCodes="" />
+        <Parking index="2" type="ga" name="General_aviation" lat="N49 57.747764" lon="E8 38.563884" heading="267.27"  radius="18" airlineCodes="" />
+        <Parking index="3" type="ga" name="Heli_Transair" lat="N49 57.753704" lon="E8 38.907011" heading="268.19"  radius="10" airlineCodes="" />
+        <Parking index="4" type="ga" name="Heli_Transair" lat="N49 57.736391" lon="E8 38.874231" heading="268.19"  radius="10" airlineCodes="" />
+        <Parking index="5" type="ga" name="Heli_Transair" lat="N49 57.735083" lon="E8 38.852749" heading="268.19"  radius="10" airlineCodes="" />
+        <Parking index="6" type="ga" name="Polizeifliegerstaffel_Hessen" lat="N49 57.719339" lon="E8 38.219240" heading="5"  radius="10" airlineCodes="" />
+        <Parking index="7" type="ga" name="Polizeifliegerstaffel_Hessen" lat="N49 57.717593" lon="E8 38.249331" heading="5"  radius="10" airlineCodes="" />
+        <Parking index="8" type="ga" name="General_aviation_2" lat="N49 57.719995" lon="E8 38.537531" heading="86.18"  radius="10" airlineCodes="" />
+        <Parking index="9" type="ga" name="General_aviation_2" lat="N49 57.728856" lon="E8 38.536604" heading="86.18"  radius="10" airlineCodes="" />
+        <Parking index="10" type="ga" name="General_aviation_2" lat="N49 57.739421" lon="E8 38.535544" heading="86.18"  radius="10" airlineCodes="" />
+        <Parking index="11" type="ga" name="General_aviation_2" lat="N49 57.721699" lon="E8 38.504154" heading="265.02"  radius="10" airlineCodes="" />
+        <Parking index="12" type="ga" name="General_aviation_2" lat="N49 57.713434" lon="E8 38.514220" heading="86.18"  radius="10" airlineCodes="" />
+        <Parking index="13" type="ga" name="Gras_parking" lat="N49 57.737834" lon="E8 38.750761" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="14" type="ga" name="Gras_parking" lat="N49 57.775227" lon="E8 38.745067" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="15" type="ga" name="Gras_parking" lat="N49 57.761338" lon="E8 38.746965" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="16" type="ga" name="Gras_parking" lat="N49 57.749586" lon="E8 38.748389" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="17" type="ga" name="Gras_parking" lat="N49 57.719518" lon="E8 38.657759" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="18" type="ga" name="Gras_parking" lat="N49 57.727957" lon="E8 38.656812" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="19" type="ga" name="Gras_parking" lat="N49 57.736090" lon="E8 38.655721" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="20" type="ga" name="Gras_parking" lat="N49 57.743893" lon="E8 38.654883" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="21" type="ga" name="Gras_parking" lat="N49 57.751790" lon="E8 38.653570" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="22" type="ga" name="Gras_parking" lat="N49 57.750784" lon="E8 38.627663" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="23" type="ga" name="Gras_parking" lat="N49 57.742417" lon="E8 38.628829" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="24" type="ga" name="Gras_parking" lat="N49 57.734425" lon="E8 38.630069" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="25" type="ga" name="Gras_parking" lat="N49 57.726385" lon="E8 38.631088" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="26" type="ga" name="Gras_parking" lat="N49 57.717969" lon="E8 38.632363" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="27" type="ga" name="Gras_parking" lat="N49 57.720131" lon="E8 38.602750" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="28" type="ga" name="Gras_parking" lat="N49 57.729580" lon="E8 38.601876" heading="264.71"  radius="10" airlineCodes="" />
+        <Parking index="29" type="ga" name="Gras_parking" lat="N49 57.738266" lon="E8 38.600747" heading="265.33"  radius="10" airlineCodes="" />
+        <Parking index="30" type="ga" name="Gras_parking" lat="N49 57.745906" lon="E8 38.599545" heading="265.33"  radius="10" airlineCodes="" />
+        <Parking index="31" type="ga" name="Gras_parking" lat="N49 57.753498" lon="E8 38.598817" heading="265.33"  radius="10" airlineCodes="" />
+        <Parking index="32" type="ga" name="Gras_parking" lat="N49 57.761279" lon="E8 38.597724" heading="265.33"  radius="10" airlineCodes="" />
+        <Parking index="33" type="ga" name="Gras_parking" lat="N49 57.769319" lon="E8 38.596412" heading="265.33"  radius="10" airlineCodes="" />
+        <Parking index="34" type="ga" name="Gras_parking" lat="N49 57.785646" lon="E8 38.606684" heading="321.49"  radius="10" airlineCodes="" />
+        <Parking index="35" type="ga" name="Gras_parking" lat="N49 57.790825" lon="E8 38.615387" heading="321.49"  radius="10" airlineCodes="" />
+        <Parking index="36" type="ga" name="Gras_parking" lat="N49 57.794925" lon="E8 38.625334" heading="321.49"  radius="10" airlineCodes="" />
+        <Parking index="37" type="ga" name="Flightschool" lat="N49 57.724340" lon="E8 38.351720" heading="94.92"  radius="10" airlineCodes="" />
+        <Parking index="38" type="ga" name="General_aviation_2" lat="N49 57.730816" lon="E8 38.513293" heading="86.18"  radius="10" airlineCodes="" />
+        <Parking index="39" type="ga" name="Ramp_East" lat="N49 57.800755" lon="E8 38.690417" heading="86.75"  radius="18" airlineCodes="" />
+        <Parking index="40" type="ga" name="Ramp_East" lat="N49 57.765512" lon="E8 38.689123" heading="86.75"  radius="18" airlineCodes="" />
+        <Parking index="41" type="ga" name="Ramp_East" lat="N49 57.798402" lon="E8 38.773099" heading="214.2"  radius="10" airlineCodes="" />
+        <Parking index="42" type="ga" name="Ramp_East" lat="N49 57.781565" lon="E8 38.808824" heading="214.2"  radius="10" airlineCodes="" />
+        <Parking index="43" type="ga" name="Ramp_East" lat="N49 57.789311" lon="E8 38.790613" heading="214.2"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>

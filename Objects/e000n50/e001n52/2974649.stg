@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.2505556 52.9244444 49.54 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.2523526 52.9233251 48.69 180
+OBJECT_SHARED Models/Maritime/Civilian/lifeboat.xml 1.30331 52.93505 -0.16 270
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 1.30333 52.93491 -0.15 0
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 1.41979 52.89063 -0.24 0
+OBJECT_STATIC Cromer_Lighthouse.xml 1.3096393 52.9216618 43.45 72
+OBJECT_STATIC Cromer_Pier.ac 1.30171289 52.9346457 -0.05 262

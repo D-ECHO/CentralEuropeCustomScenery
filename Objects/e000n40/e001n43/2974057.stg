@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Airport/ils.xml 1.349764 43.642669 148.68 216.94
+OBJECT_SHARED Models/Airport/ils.xml 1.358258 43.634517 148.82 216.93
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.4658333 43.7041667 59.04 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 1.309806 43.680833 165.88 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 1.349764 43.642669 148.68 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 1.358258 43.634517 148.82 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.4730556 43.6436111 99.44 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.2722222 43.7055556 171.41 180
+OBJECT_SHARED Models/Airport/localizer.xml 1.341497 43.648369 147.4 37
+OBJECT_SHARED Models/Airport/localizer.xml 1.355444 43.639194 148.11 37
+OBJECT_SHARED Models/Airport/EIDW_Radar2.xml 1.34175 43.63721 174.88 0
+OBJECT_SHARED Models/Communications/Generic_Antenna43m.xml 1.34138 43.63774 174.82 0
+OBJECT_SHARED Models/Communications/Generic_Antenna43m.xml 1.34215 43.63678 174.91 0

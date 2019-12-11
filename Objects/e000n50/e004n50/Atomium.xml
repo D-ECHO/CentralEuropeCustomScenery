@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>Atomium.ac</path>
+	<animation>
+		<type>shader</type>
+		<shader>chrome</shader>
+		<texture>Atomium.png</texture>
+        <object-name>Spheres</object-name>      
+    </animation>
+</PropertyList>

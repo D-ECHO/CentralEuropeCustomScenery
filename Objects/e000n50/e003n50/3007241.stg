@@ -1,0 +1,17 @@
+OBJECT_SHARED Models/Airport/marker.ac 3.302444 50.215278 56.33 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 3.4555556 50.2405556 34.39 180
+OBJECT_SHARED Models/Airport/hangar3.ac 3.262882 50.143298 93.12 105
+OBJECT_SHARED Models/Airport/EHLE_hangar_1.ac 3.265103 50.143173 93.98 107
+OBJECT_SHARED Models/Airport/EDXW_Hangar25x15.ac 3.266152 50.143382 94.34 107
+OBJECT_SHARED Models/Airport/hangar4.xml 3.260666 50.14229 91.63 105
+OBJECT_SHARED Models/Airport/Hangar_20x18m_Rond.ac 3.263781 50.143454 93.7 105
+OBJECT_SHARED Models/Airport/Hangar_20x18m_Rond.ac 3.264051 50.1435 93.88 105
+OBJECT_SHARED Models/Aircraft/m2000-C_lowpoly.ac 3.2654907 50.1431281 94.06 180
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.2507729 50.1415836 91.45 72
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.2518179 50.1426445 93.24 48
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.2530476 50.14313 90.8 312
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.2680474 50.1434266 94.35 0
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.2693195 50.1446664 90.92 192
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.269601 50.1456298 89.09 216
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.2767925 50.136585 94.21 144
+OBJECT_SHARED Models/Residential/french_house_n.xml 3.2780375 50.1372402 92.74 0

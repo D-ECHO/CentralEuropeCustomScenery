@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Power/windturbine.xml 9.2336111 49.3411111 282.77 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 9.0802778 49.365 41.83 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 9.0916667 49.2961111 225.34 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 9.1416667 49.3447222 157.22 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 9.0463889 49.3416667 -166.14 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac 9.1188889 49.2969444 -242.44 180

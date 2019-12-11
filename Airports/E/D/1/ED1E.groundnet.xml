@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Christoph_2_rooftop_helipad" lat="N50 8.730946" lon="E8 42.608111" heading="-0.72"  radius="8" airlineCodes="" />
+        <Parking index="1" type="ga" name="Lower_roftop_helipad" lat="N50 8.725882" lon="E8 42.535639" heading="-140.44"  radius="8" airlineCodes="" />
+ </parkingList>
+</groundnet>

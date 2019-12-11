@@ -1,0 +1,15 @@
+OBJECT_SHARED Models/Airport/ils.xml 2.864355 42.752628 37.32 211.7
+OBJECT_SHARED Models/Airport/localizer.xml 2.86035 42.755747 36.12 32
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 2.8014255 42.7791616 47.56 13.58
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 2.8055449 42.7798921 41.95 13.25
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 2.8080766 42.7803183 39.88 12.89
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 2.8117406 42.7809324 36.33 12.86
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.754224 42.8087119 287 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.8217794 42.8186703 164.05 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.8526915 42.7792285 27.01 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.8529531 42.7627503 31.73 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.9046249 42.7887909 17.48 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.9159602 42.8289651 11.47 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.9289486 42.8059825 10.68 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.9882111 42.8485222 -0.36 180
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 2.867139 42.750472 39.97 180

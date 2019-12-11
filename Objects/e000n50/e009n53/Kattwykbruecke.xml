@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+  <path>Kattwykbruecke.ac</path>
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>8000</max-m>
+  </animation>
+  <animation>
+    <object-name>MovingPart</object-name>
+    <type>translate</type>
+    <axis>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
+    </axis>
+    <expression>
+      <clip>
+        <clipMin>0</clipMin>
+        <clipMax>46</clipMax>
+        <product>
+          <value>184</value>
+          <cos>
+            <product>
+              <property>/sim/time/elapsed-sec</property>
+              <value>0.1</value>
+            </product>
+          </cos>
+        </product>
+      </clip>
+    </expression>
+  </animation>
+</PropertyList>

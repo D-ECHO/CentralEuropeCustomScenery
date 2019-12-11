@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <path>Dammtorwall15.ac</path>
+
+  <animation>
+    <object-name>Untextured</object-name>
+    <type>range</type>
+    <min-m>1000</min-m>
+    <max-m>10000</max-m>
+  </animation>
+
+  <animation>
+    <object-name>Textured</object-name>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>1000</max-m>
+  </animation>
+
+
+
+</PropertyList>

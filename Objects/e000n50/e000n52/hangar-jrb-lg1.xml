@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>hangar-jrb-lg1.ac</path>
+
+ <animation>
+  <type>range</type>
+  <object-name>HighRez</object-name>
+  <min-m>0</min-m>
+  <max-property>/sim/rendering/static-lod/rough</max-property>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>LowRez</object-name>
+  <min-property>/sim/rendering/static-lod/rough</min-property>
+  <max-property>/sim/rendering/static-lod/bare</max-property>
+ </animation>
+
+</PropertyList>
+

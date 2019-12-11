@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Military/RAFTower.xml 5.9942 44.05706 449.75 0
+OBJECT_SHARED Models/Industrial/water-tower.ac 5.99975 44.06722 425.59 0
+OBJECT_SHARED Models/Communications/base_clape_03.xml 5.79682532 44.12304369 1782.84 0
+OBJECT_SHARED Models/Communications/base_clape_03.xml 5.79689466 44.12263879 1781.11 0
+OBJECT_SHARED Models/Airport/SignalsSquare.ac 5.99489 44.05986 450.34 0
+OBJECT_SHARED Models/Airport/helipad_circle.xml 5.99847 44.06699 427.2 0
+OBJECT_SHARED Models/Aircraft/Cessna172.xml 5.99178 44.06438 461.26 0
+OBJECT_SHARED Models/Airport/windsock_lit.xml 5.99499 44.05973 450.43 0
+OBJECT_SHARED Models/Communications/tower-microwave-small-1.ac 5.79559716 44.12289838 1761.55 0
+OBJECT_SHARED Models/Communications/communication-building1.ac 5.79589248 44.12303039 1769.53 96
+OBJECT_SHARED Models/Communications/communication-building1-without-antenna.ac 5.79646611 44.12277447 1773.34 0
+OBJECT_SHARED Models/Industrial/iruej_chimney.xml 5.99986 44.06259 284.03 180
+OBJECT_SHARED Models/Airport/anemometer_10m.xml 5.99517 44.05995 450.09 0

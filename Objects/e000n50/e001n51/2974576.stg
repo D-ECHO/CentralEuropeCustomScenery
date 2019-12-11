@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.043912 51.77323 1.54 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.111509 51.813985 17.56 180
+OBJECT_SHARED Models/Maritime/Civilian/lifeboat.xml 1.20426 51.80336 0 160
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_21_afloat.xml 1.14386 51.77701 -0.31 0
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 1.14365 51.77699 -0.31 0
+OBJECT_SHARED Models/Maritime/Civilian/Pilot_Boat.ac 1.01236 51.79201 -0.01 0
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 1.1475 51.848611 16.51 180
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_85.ac 1.156759 51.784967 -0.05 45

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>jubilaeumssaeule_stgt.ac</path>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>25000</max-m>
+	</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>tuerkis</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.67</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.</red>	
+	<green>0.30</green>	
+	<blue>0.25</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>grau70</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.67</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.35</red>	
+	<green>0.35</green>	
+	<blue>0.35</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>braun</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.67</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.23</red>	
+	<green>0.20</green>	
+	<blue>0.18</blue>
+    </emission>
+</animation>
+</PropertyList>

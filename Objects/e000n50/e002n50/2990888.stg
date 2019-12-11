@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.0002778 50.7233333 153.93 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.1736111 50.7222222 88.01 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.1930556 50.7227778 73.41 180
+OBJECT_SHARED Models/Communications/radome-8m.xml 2.03683 50.6505 187.92 0
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.2386111 50.6986111 90.84 180
+OBJECT_SHARED Models/Commercial/Office15x15.ac 2.239947 50.729976 71.8 333
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.1146734 50.6542155 120.54 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.116863 50.7020259 45.82 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.1190527 50.7498362 128.84 180
+OBJECT_SHARED Models/Airport/hangar_15x25m.ac 2.239822 50.729793 71.54 333
+OBJECT_SHARED Models/Airport/Hall32x50mLit.xml 2.239134 50.730072 71.74 64
+OBJECT_SHARED Models/Airport/Club_House.ac 2.240304 50.729782 71.74 333

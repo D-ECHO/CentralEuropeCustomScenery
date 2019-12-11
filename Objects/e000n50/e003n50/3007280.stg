@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Airport/ndb.ac 3.224833 50.824028 15.21 180
+OBJECT_SHARED Models/Airport/ils.xml 3.194389 50.813833 16.33 61.91
+OBJECT_SHARED Models/Communications/vordme_1.xml 3.218222 50.82 16.48 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 3.1535815 50.8207922 15.71 70.34
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 3.154993 50.8232877 17.5 70.34
+OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 3.1047222 50.7844444 12.21 0
+OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 3.1077778 50.7863889 8.39 0

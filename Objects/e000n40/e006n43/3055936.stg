@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/ndb.ac 6.152806 43.032694 47.84 180
+OBJECT_SHARED Models/Airport/tacan.xml 6.147639 43.100306 0.46 180
+OBJECT_SHARED Models/Communications/base_clape_01.xml 6.0976219 43.0297137 91.31 0
+OBJECT_SHARED Models/Communications/base_clape_01.xml 6.148459 43.09726 -25.43 0

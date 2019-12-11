@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>PontDeuxRives.ac</path>
+
+ <animation>
+    <type>material</type> 
+    <object-name>structure</object-name>
+    <object-name>cables</object-name> 
+    <condition>		
+        <greater-than>		
+            <property>/sim/time/sun-angle-rad</property>
+            <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+        <red>0.4</red>	
+        <green>0.3</green>	
+        <blue>0.2</blue>
+    </emission>
+</animation>
+
+</PropertyList>
+

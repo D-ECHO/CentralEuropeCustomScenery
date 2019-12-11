@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+    <path>ELLX_tower_building.ac</path>
+
+    <animation>
+	  <type>range</type>
+	  <min-m>0</min-m>
+	  <max-m>15000</max-m>
+    </animation>
+
+<animation>
+	<type>material</type> 
+	<object-name>GLASS</object-name>
+	<object-name>WINDOW1</object-name>
+	<object-name>WINDOW2</object-name>
+	<object-name>DOOR</object-name>
+	<condition>		
+		<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>1</red>	
+		<green>0.9</green>	
+		<blue>0.8</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type> 
+	<object-name>GLASS</object-name>
+	<object-name>WINDOW1</object-name>
+	<object-name>WINDOW2</object-name>
+	<object-name>DOOR</object-name>
+	<condition>		
+		<less-than-equals>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</less-than-equals>
+	</condition>
+	<emission>	
+		<red>0</red>	
+		<green>0</green>	
+		<blue>0</blue>
+	</emission>
+</animation>
+
+    <model>
+	  <path>Models/Effects/RedLight10000.xml</path> 
+	  <offsets> 
+	     <x-m>14.66</x-m>
+	     <y-m>-0.77</y-m>
+	     <z-m>23.87</z-m>
+	     <heading-deg>0</heading-deg>
+	  </offsets>
+    </model>
+
+    <model>
+	  <path>Models/Effects/RedLight10000.xml</path> 
+	  <offsets> 
+	     <x-m>22.94</x-m>
+	     <y-m>-2.26</y-m>
+	     <z-m>23.87</z-m>
+	     <heading-deg>0</heading-deg>
+	  </offsets>
+    </model>
+
+    <model>
+	  <path>Models/Effects/RedLight10000.xml</path> 
+	  <offsets> 
+	     <x-m>24.68</x-m>
+	     <y-m>5.89</y-m>
+	     <z-m>23.87</z-m>
+	     <heading-deg>0</heading-deg>
+	  </offsets>
+    </model>
+
+    <model>
+	  <path>Models/Effects/RedLight10000.xml</path> 
+	  <offsets> 
+	     <x-m>16.47</x-m>
+	     <y-m>7.72</y-m>
+	     <z-m>23.87</z-m>
+	     <heading-deg>0</heading-deg>
+	  </offsets>
+    </model>
+
+    <model>
+	  <path>Models/Effects/strobe10000.xml</path> 
+	  <offsets> 
+	     <x-m>20.68</x-m>
+	     <y-m>-1.5</y-m>
+	     <z-m>26</z-m>
+	     <heading-deg>0</heading-deg>
+	  </offsets>
+    </model>
+
+</PropertyList>
+

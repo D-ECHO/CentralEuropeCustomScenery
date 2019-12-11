@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Airport/ndb.ac 7.479083 47.661694 251.03 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 7.2738889 47.7308333 180.59 180
+OBJECT_SHARED Models/Power/generic_pylon_200m.ac 7.3494444 47.7302778 320.57 180
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 7.4995 47.632806 256.67 180
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.4862331 47.6429713 256.24 284

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+    <path>veltinsarena.ac</path>
+
+<animation> 
+    <type>textranslate</type> 
+    <object-name>logo</object-name>
+    <property>/sim/time/sun-angle-rad</property>
+    <step>1.57</step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+      <z>  0 </z> 
+    </axis> 
+</animation>
+   
+<animation>
+    <type>material</type>
+    <object-name>fenster</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.7</blue>
+    </emission>
+</animation>   
+   
+<animation>
+    <type>material</type>
+    <object-name>vorbau_u</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.4</red>	
+	<green>0.4</green>	
+	<blue>0.5</blue>
+    </emission>
+</animation>      
+   
+<animation>
+    <type>material</type>
+    <object-name>logo</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>1</red>	
+	<green>1</green>	
+	<blue>1</blue>
+    </emission>
+</animation>      
+   
+<animation>
+    <type>material</type>
+    <object-name>dachring</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.2</red>	
+	<green>0.2</green>	
+	<blue>1</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>dach</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.25</red>	
+	<green>0.25</green>	
+	<blue>0.30</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>schiebedach</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.2</red>	
+	<green>0.2</green>	
+	<blue>0.24</blue>
+    </emission>
+</animation>
+
+</PropertyList>

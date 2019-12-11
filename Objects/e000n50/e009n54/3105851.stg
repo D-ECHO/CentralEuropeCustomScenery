@@ -1,0 +1,16 @@
+OBJECT_SHARED Models/Airport/ndb.ac 9.829733 54.937834 0 0
+OBJECT_SHARED Models/Power/windturbine.xml 9.8021896 54.9834043 6.72 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.8064059 54.9833315 5.29 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.869917 54.8793831 0 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.8706215 54.8785153 0 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.8837495 54.875293 8.55 180
+OBJECT_SHARED Models/Airport/ils.xml 9.798603 54.958106 5.68 39.03
+OBJECT_SHARED Models/Communications/vordme_1.xml 9.798619 54.958164 5.6 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 9.993378 54.905414 33.29 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 9.7852778 54.9177778 -413.4 180
+OBJECT_SHARED Models/Military/RAFTower.xml 9.787295 54.962636 6.25 180
+OBJECT_SHARED Models/Airport/localizer.xml 9.783442 54.969922 -0.26 49.41
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 9.9045716 54.89843 -0.04 55.36
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.7844341 54.8999948 -0.04 244.86
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 9.8711882 54.8821767 -0.03 269.99
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 9.7852609 54.8944575 -0.17 311.35

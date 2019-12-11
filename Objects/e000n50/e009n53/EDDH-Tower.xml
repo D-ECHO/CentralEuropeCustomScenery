@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>EDDH-Tower.ac</path>
+ 
+	<animation>
+	  <type>range</type>
+	  <min-m>0</min-m>
+	  <max-m>10000</max-m>
+	</animation>
+	 
+	<animation>
+		<type>rotate</type>
+		<object-name>Radar</object-name>
+		<property>/sim/time/elapsed-sec</property>
+		<factor>-240.0</factor>
+		<axis>
+		  <z>1</z>
+		</axis>
+	</animation>
+
+ 	<animation>
+		<type>select</type>
+		<object-name>WhiteLightOn</object-name>
+		<object-name>WhiteLightOff</object-name>
+		<object-name>RedLightOn</object-name>
+		<condition>
+			<or>
+				<greater-than>
+					<property>/sim/time/sun-angle-rad</property>
+					<value>1.57</value>
+				</greater-than>
+				<less-than>
+					<property>environment/visibility-m</property>
+					<value>1300.00</value>
+				</less-than>
+			</or>
+		</condition>
+	</animation>
+	<!--
+ 	<animation>
+		<type>dist-scale</type>
+		<object-name>WhiteLightOn</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>1</dep>
+			</entry>
+			<entry>
+				<ind>1500</ind>
+				<dep>2</dep>
+			</entry>
+			<entry>
+				<ind>5000</ind>
+				<dep>3</dep>
+			</entry>
+		</interpolation>
+		<center>
+			<x>0</x>
+			<y>0</y>
+			<z>48.453</z>
+		</center>
+	</animation>
+	-->
+ 	<animation>
+		<type>timed</type>
+		<object-name>WhiteLightOn</object-name>
+		<object-name>WhiteLightOff</object-name>
+		<use-personality type="bool">true</use-personality>
+		<branch-duration-sec>1.2</branch-duration-sec>
+		<branch-duration-sec>2.0</branch-duration-sec>
+	</animation>
+
+</PropertyList>
+         

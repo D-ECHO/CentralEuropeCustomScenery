@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Residential/immeuble1.xml 5.316989 45.1502142 278.45 10
+OBJECT_SHARED Models/Residential/zone_maisons_grd.xml 5.3218241 45.1448517 274.79 20
+OBJECT_SHARED Models/Agriculture/farmhouse3.ac 5.30791 45.15607 368.31 0
+OBJECT_SHARED Models/Sport/TennisCourt.ac 5.3161346 45.1576025 295.34 0
+OBJECT_STATIC PontTrellins.ac 5.42296 45.1955 217.29 68.5

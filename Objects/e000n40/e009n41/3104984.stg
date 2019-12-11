@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Airport/localizer.xml 9.084761 41.494961 8.56 132
+OBJECT_SHARED Models/Aircraft/DR400-green.xml 9.09680136 41.49949659 16.58 120
+OBJECT_SHARED Models/Aircraft/Cessna172_red.xml 9.09664094 41.49926145 16.48 96
+OBJECT_SHARED Models/Aircraft/Cessna172_yellow.xml 9.09647858 41.49932746 16.49 236
+OBJECT_SHARED Models/Aircraft/Cessna172_yellow.xml 9.09672784 41.4993011 16.5 116
+OBJECT_SHARED Models/Maritime/Misc/phare.xml 9.097675 41.394934 24.46 90
+OBJECT_SHARED Models/Transport/hatchback_blue.ac 9.09916118 41.499408 16.69 36
+OBJECT_SHARED Models/Transport/hatchback_black.ac 9.09927924 41.499495 16.73 36
+OBJECT_SHARED Models/Transport/hatchback_green.ac 9.09923472 41.4994603 16.72 36
+OBJECT_SHARED Models/Airport/ahm26.ac 9.097913 41.498615 16.31 42
+OBJECT_SHARED Models/Airport/ahm26.ac 9.098337 41.498915 16.45 222
+OBJECT_SHARED Models/Airport/atc-tower-100m.ac 9.09874 41.4996 -33.25 42

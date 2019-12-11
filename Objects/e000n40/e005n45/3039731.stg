@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Maritime/Civilian/wide_clear_yacht.ac 5.83469386 45.77936412 229.93 0
+OBJECT_SHARED Models/Maritime/Civilian/wide_red_yacht.ac 5.839745 45.76230229 227.93 36
+OBJECT_SHARED Models/Maritime/Civilian/black-sailing-boat.ac 5.83618706 45.78808675 229.91 340
+OBJECT_SHARED Models/Maritime/Civilian/red-sailing-boat-20m.ac 5.84444898 45.77877184 229.62 0
+OBJECT_SHARED Models/Maritime/Civilian/red-sailing-boat-20m.ac 5.86647186 45.75360265 227.95 72
+OBJECT_SHARED Models/Maritime/Civilian/blue-sailing-boat-20m.ac 5.83350198 45.79166776 229.94 344
+OBJECT_STATIC Hautecombe.ac 5.83952 45.75267 228.01 90

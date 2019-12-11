@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+
+<PropertyList>
+
+ <path>LIMEAC-ClubHouse.ac</path>
+  <animation>
+        <type>material</type>
+        <object-name>windows</object-name>
+        <object-name>lit</object-name>
+  <condition>
+    <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+  
+  </condition>    
+		
+        <emission>
+
+            <red>0.3</red>
+            <green>0.25</green>
+            <blue>0.2</blue>
+			
+        </emission>
+    </animation>
+
+<animation>
+        <type>material</type>
+      <object-name>Man</object-name>
+     
+  <condition>
+    <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+  
+  </condition>    
+		
+        <emission>
+
+            <red>0.95</red>
+            <green>0.75</green>
+            <blue>0.75</blue>
+			
+        </emission>
+    </animation>
+
+<!-- Obstruction Lights START -->
+ <animation>
+ <type>noshadow</type>
+  <object-name>red1</object-name>
+  <object-name>red2</object-name>
+   
+</animation>
+
+<animation>
+  <type>alpha-test</type>
+   <alpha-factor>0.01</alpha-factor>
+</animation>
+
+
+<animation>
+ <type>select</type>
+   <object-name>red1</object-name>
+  <object-name>red2</object-name>
+  
+<condition>
+<greater-than>
+<property>sim/time/sun-angle-rad</property>
+<value>1.57</value>
+</greater-than>
+ </condition>
+</animation>
+
+    
+<animation>
+	  
+<type>range</type>
+	  
+<min-m>0</min-m>
+	  
+<max-m>10000</max-m>
+    
+</animation>
+
+<!-- OFFSET -->
+<animation>
+		<type>translate</type>
+		 <object-name>red1</object-name>
+		<offset-m>25.3502465</offset-m>
+		<axis>
+			<x>13.35</x>
+			<y>18.35</y>
+			<z>11.3</z>
+		</axis>
+</animation>
+
+<animation>
+		<type>translate</type>
+		 <object-name>red2</object-name>
+		<offset-m>27.8503519</offset-m>
+		<axis>
+			<x>17.6</x>
+			<y>18.39</y>
+			<z>11.3</z>
+		</axis>
+</animation>
+
+
+<!-- END OFFSET -->
+    
+<animation>
+        
+<type>billboard</type>       
+  <object-name>red1</object-name>
+  <object-name>red2</object-name>
+  
+<spherical type="bool">true</spherical>
+    
+</animation>
+
+  
+<animation>
+    <type>dist-scale</type>
+ 	 <object-name>red1</object-name>
+  	<object-name>red2</object-name>
+ 	 
+<interpolation>
+      
+<entry><ind>0</ind><dep>0.025</dep></entry>
+
+<entry><ind>300</ind><dep>0.1</dep></entry>
+      
+<entry><ind>1500</ind><dep>0.3</dep></entry>
+      
+<entry><ind>4000</ind><dep>1</dep></entry>
+      
+<entry><ind>10000</ind><dep>1.5</dep></entry>
+    
+</interpolation>
+  
+</animation>  
+
+<!-- ObstructionLights END -->
+
+
+</PropertyList>

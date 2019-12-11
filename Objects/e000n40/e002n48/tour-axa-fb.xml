@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>tour-axa-fb.ac</path>
+	
+	<animation>
+		<type>select</type>
+		<object-name>Detailed</object-name>
+		<condition>
+			<and>
+				<greater-than>
+					<property>sim/time/utc/year</property>
+					<value>1974</value>
+				</greater-than>
+				<less-than>
+					<property>sim/time/utc/year</property>
+					<value>2011</value>
+				</less-than>
+			</and>
+		</condition>
+	</animation>
+
+</PropertyList>

@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Airport/ndb.ac 7.326639 43.725389 558.6 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 7.3268 43.67515 11.88 0
+OBJECT_SHARED Models/Communications/base_clape_03.xml 7.32708 43.68329 112.99 0
+OBJECT_SHARED Models/Maritime/Civilian/ContainerShip.xml 7.2989932 43.6346859 -4.01 268
+OBJECT_SHARED Models/Maritime/Civilian/LargeFerry.xml 7.2893027 43.6798511 -0.39 0
+OBJECT_SHARED Models/Maritime/Civilian/SailBoatUnderSail.xml 7.2578194 43.6808901 -0.68 0
+OBJECT_SHARED Models/Maritime/Civilian/SailBoatUnderSail.xml 7.2863264 43.6877936 -0.11 0
+OBJECT_SHARED Models/Maritime/Civilian/SailBoatUnderSail.xml 7.2995358 43.6790946 -0.34 0
+OBJECT_SHARED Models/Maritime/Misc/Saint_Mathieu_Signal_Tower.xml 7.32721 43.68252 120.88 0
+OBJECT_STATIC LFMN_Monument.ac 7.28090361 43.6934436 20.22 121.2

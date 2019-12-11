@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 7.5852778 48.3705556 114.27 180
+OBJECT_SHARED Models/Industrial/generic_silo_1.ac 7.5391667 48.3397222 111.31 180
+OBJECT_SHARED Models/Maritime/Civilian/barge.xml 7.7150426 48.311637 155.95 12
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.6793074 48.3007726 160.8 140
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.7213906 48.3673209 154.21 190
+OBJECT_SHARED Models/Maritime/Civilian/lock1.ac 7.6788622 48.2806036 164.21 79.6
+OBJECT_SHARED Models/Maritime/Civilian/dam.xml 7.6771002 48.2840014 157.53 262

@@ -1,0 +1,11 @@
+OBJECT_SHARED Models/Airport/ils.xml 2.528917 49.257692 86.47 115.07
+OBJECT_SHARED Models/Communications/radio-medium.xml 2.6419444 49.2802778 88.71 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 2.514778 49.255278 83.83 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 2.517278 49.256028 84.69 180
+OBJECT_SHARED Models/Airport/marker.ac 2.545083 49.261389 87.37 180
+OBJECT_SHARED Models/Airport/marker.ac 2.646833 49.2915 111.42 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 2.6666667 49.3583333 -391.62 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.695 49.2733333 73.52 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.6969444 49.2888889 60.75 180
+OBJECT_SHARED Models/Industrial/generic_flare_01.ac 2.5111111 49.2825 -84.27 180
+OBJECT_STATIC Roberval.ac 2.69022 49.2956 44.83 278.7

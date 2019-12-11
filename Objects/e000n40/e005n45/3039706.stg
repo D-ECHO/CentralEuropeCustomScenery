@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 5.5041667 45.4127778 645.51 180
+OBJECT_SHARED Models/Maritime/Civilian/blue-sailing-boat.ac 5.54617711 45.46371744 493.99 288
+OBJECT_SHARED Models/Maritime/Civilian/black-sailing-boat.ac 5.51719491 45.43720807 494 0
+OBJECT_SHARED Models/Maritime/Civilian/black-sailing-boat.ac 5.53424698 45.45420742 493.99 0
+OBJECT_SHARED Models/Maritime/Civilian/black-sailing-boat.ac 5.53854102 45.46071581 493.99 288
+OBJECT_SHARED Models/Maritime/Civilian/black-sailing-boat.ac 5.54673483 45.46772695 493.99 0
+OBJECT_SHARED Models/Maritime/Civilian/red-sailing-boat-20m.ac 5.52423588 45.44705886 493.98 320
+OBJECT_SHARED Models/Maritime/Civilian/wooden_green_fishing_boat.ac 5.54969256 45.46994568 493.99 48
+OBJECT_SHARED Models/Maritime/Civilian/wooden_green_fishing_boat.ac 5.55354431 45.468702 493.99 288
+OBJECT_SHARED Models/Maritime/Civilian/white_sharp_pointed_boat.ac 5.55263737 45.46939385 493.99 0
+OBJECT_SHARED Models/Maritime/Civilian/white_sharp_pointed_boat.ac 5.55362554 45.47099118 493.99 0
+OBJECT_SHARED Models/Maritime/Civilian/green_sharp_pointed_boat.ac 5.52009199 45.43661643 494 0

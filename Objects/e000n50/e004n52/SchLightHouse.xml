@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>SchLightHouse.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>16000</max-m>
+ </animation>
+
+ <animation>
+  <type>alpha-test</type>
+  <alpha-factor>0.01</alpha-factor>
+ </animation>
+
+ <animation>
+  <type>noshadow</type>
+  <object-name>Base</object-name>
+  <object-name>Base.001</object-name>
+  <object-name>BaseTop</object-name>
+  <object-name>Light</object-name>
+  <object-name>Hat</object-name>
+  <object-name>Doors</object-name>
+  <object-name>Plate</object-name>
+  <object-name>Up</object-name>
+  <object-name>Low</object-name>
+  <object-name>Windows</object-name>
+  <object-name>Windows.001</object-name>
+  <object-name>Windows.002</object-name>
+  <object-name>Windows.003</object-name>
+  <object-name>Windows.004</object-name>
+ </animation>
+
+ <animation>
+   <name>BothHouse</name>
+       <object-name>House</object-name>
+       <object-name>House.001</object-name>
+       <object-name>Top</object-name>
+       <object-name>Top_0</object-name>
+       <object-name>Top_1</object-name>
+       <object-name>Top.001</object-name>
+       <object-name>Top.001_0</object-name>
+       <object-name>Top.001_1</object-name>
+       <object-name>Top2</object-name>
+       <object-name>Top2_0</object-name>
+       <object-name>Top2_1</object-name>
+       <object-name>Top2.001</object-name>
+       <object-name>Top2.001_0</object-name>
+       <object-name>Top2.001_1</object-name>
+ </animation>
+
+ <animation>
+    <name>Combi</name>
+       <object-name>Halo</object-name>
+       <object-name>Halo.001</object-name>
+<!--
+       <object-name>FlashS</object-name>
+       <object-name>FlashS.001</object-name>
+-->
+ </animation>
+
+ <effect>
+  <inherits-from>Effects/model-transparent</inherits-from>
+  <object-name>Combi</object-name>
+ </effect>
+
+ <animation>
+  <type>select</type>
+  <object-name>Halo</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/model/lights/SchLightHouse/h0</property>
+    <value>0</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Halo.001</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/model/lights/SchLightHouse/h1</property>
+    <value>0</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Halo</object-name>
+  <property>/sim/model/lights/SchLightHouse/h0</property>
+  <factor>36</factor>
+  <offset-deg>142</offset-deg>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>48</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>-1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Halo.001</object-name>
+  <property>/sim/model/lights/SchLightHouse/h1</property>
+  <factor>36</factor>
+  <offset-deg>142</offset-deg>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>48</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>-1</z>
+  </axis>
+ </animation>
+
+  <animation>
+    <type>textranslate</type> 
+    <object-name>BothHouse</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <bias>0.0001</bias>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> 1 </x> 
+      <y>  0 </y> 
+    </axis> 
+  </animation>
+
+        <nasal>
+                <load>
+<![CDATA[
+                        var Loaded = 1;
+                        setprop("/sim/model/lights/SchLightHouse/h0",-1000);
+                        setprop("/sim/model/lights/SchLightHouse/h1",-1000);
+                        var Off0 = func {
+                                setprop("/sim/model/lights/SchLightHouse/h0",-1000);
+                        }
+                        var Off1 = func {
+                                setprop("/sim/model/lights/SchLightHouse/h1",-1000);
+                                IncTim.stop();
+                        }
+                        var Incr = func {
+                                setprop("/sim/model/lights/SchLightHouse/h0",(getprop("/sim/model/lights/SchLightHouse/h0")+.03));
+                                setprop("/sim/model/lights/SchLightHouse/h1",(getprop("/sim/model/lights/SchLightHouse/h1")+.03));
+                        }
+                        var IncTim = maketimer(0.03, Incr);
+                        var On = func {
+                                if (!Loaded) { return };
+#                                print("I'm still there!");
+                                settimer(On, 10);
+                                if (getprop("/sim/time/sun-angle-rad") < 1.57) return;
+                                IncTim.start();
+                                setprop("/sim/model/lights/SchLightHouse/h0",1);
+                                settimer(func {setprop("/sim/model/lights/SchLightHouse/h1",1)} , 2);
+                                settimer(Off0, 5.5);
+                                settimer(Off1, 7.5);
+                        }
+                        On();
+]]>
+                </load>
+                <unload>
+                        Loaded = 0;
+#                        print("Bye, bye!");
+                </unload>
+        </nasal>
+
+</PropertyList>

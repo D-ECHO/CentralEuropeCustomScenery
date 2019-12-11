@@ -1,0 +1,17 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.015819 51.344962 55.33 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.17675 51.316186 26.48 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.22946 51.263932 31.47 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.245102 51.319456 2.15 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.0130556 51.2661111 29.82 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.0147967 51.2646872 8.85 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.0577778 51.2913889 23.86 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0010353 51.2502673 24.67 9.99
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0016928 51.2503398 24.47 11.38
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0024591 51.2504485 24.24 12.77
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.0077717 51.2504108 45.54 2.46
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.051258 51.2515715 87.55 355.49
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.1096009 51.266428 36.28 64.22
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.1100807 51.2886819 28.64 97.75
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 1.1137329 51.2719064 47.84 261.25
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_21_afloat.xml 1.01977 51.36421 -0.02 0
+OBJECT_SHARED Models/Maritime/Civilian/Atlantic_85.ac 1.025789 51.362671 3.71 340

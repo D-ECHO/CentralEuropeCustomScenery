@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Airport/ils.xml 7.650661 45.191811 286.41 358.71
+OBJECT_SHARED Models/Airport/tacan.xml 7.652806 45.193833 285.83 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 7.649572 45.219722 303.68 180
+OBJECT_SHARED Models/Airport/marker.ac 7.648278 45.180306 278.74 180
+OBJECT_SHARED Models/Airport/localizer.xml 7.650814 45.219417 302.69 358.71
+OBJECT_SHARED Models/Industrial/Water-Tower-35m.ac 7.7 45.156 240.7 0
+OBJECT_SHARED Models/Misc/church36m_blue2.ac 7.705697 45.150372 236.68 170

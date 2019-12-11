@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 6.5966667 49.2591667 252.93 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 6.6811111 49.2822222 62.69 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_06.ac 6.73 49.3233333 -249.26 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_09.ac 6.7397222 49.3505556 -163.65 180
+OBJECT_SHARED Models/Industrial/Gasometer.ac 6.7425 49.3530556 182.25 180
+OBJECT_SHARED Models/Industrial/Gasometer.ac 6.7441667 49.3530556 185.61 180

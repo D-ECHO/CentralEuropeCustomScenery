@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Airport/ndb.ac 6.355278 49.679722 251.11 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.4786111 49.6261111 360.46 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.4794444 49.6275 362.57 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.4808333 49.6294444 357.59 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.4816667 49.6308333 351.45 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.4838889 49.6291667 358.83 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.4872222 49.6288889 389.65 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 6.31783 49.72841 274.04 0
+OBJECT_SHARED Models/Communications/radio-tall.xml 6.32092 49.73027 278.82 0
+OBJECT_SHARED Models/Communications/radio-tall.xml 6.32391 49.73221 265.58 0
+OBJECT_SHARED Models/Communications/fi-lahti-radiomast.xml 6.25801 49.71676 354.68 0
+OBJECT_SHARED Models/Communications/fi-lahti-radiomast.xml 6.26114 49.71848 357.88 0
+OBJECT_SHARED Models/Communications/fi-lahti-radiomast.xml 6.26428 49.72022 372.85 0

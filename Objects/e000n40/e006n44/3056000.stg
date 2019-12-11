@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 6.00457 44.06369 370.65 0
+OBJECT_SHARED Models/Industrial/WaterWorks30m.xml 6.00403 44.06465 421.3 0
+OBJECT_SHARED Models/Industrial/WaterWorks30m.xml 6.00462 44.06445 420.71 0
+OBJECT_SHARED Models/Power/rw_generic_pylon_50m.xml 6.00458 44.07454 420.91 0
+OBJECT_SHARED Models/Power/rw_generic_pylon_50m.xml 6.00476 44.07484 420.77 0
+OBJECT_SHARED Models/Misc/roman_church.xml 6.00086 44.08879 634.48 0
+OBJECT_SHARED Models/Power/transformer_station.ac 6.00353 44.07474 426.11 0
+OBJECT_SHARED Models/Communications/Generic_Antenna43m.xml 6.00062 44.08933 651.57 0

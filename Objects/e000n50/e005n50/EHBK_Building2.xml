@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<path>EHBK_Building2.ac</path>
+
+<animation>
+   <name>Building1</name>
+<object-name>Airco.000_Cube.002</object-name>
+<object-name>Airco.000_Cube.002_0</object-name>
+<object-name>Airco.000_Cube.002_1</object-name>
+<object-name>Airco.001_Cube.003</object-name>
+<object-name>Airco.001_Cube.003_0</object-name>
+<object-name>Airco.001_Cube.003_1</object-name>
+<object-name>AircoS.001_Cube.002</object-name>
+<object-name>AircoS.001_Cube.002_0</object-name>
+<object-name>AircoS.001_Cube.002_1</object-name>
+<object-name>AircoS.002_Cube.002</object-name>
+<object-name>AircoS.002_Cube.002_0</object-name>
+<object-name>AircoS.002_Cube.002_1</object-name>
+<object-name>AircoS_Cube.002</object-name>
+<object-name>AircoS_Cube.002_0</object-name>
+<object-name>AircoS_Cube.002_1</object-name>
+<object-name>Ar1_Plane.002</object-name>
+<object-name>Ar2_Plane.002</object-name>
+<object-name>Ar3_Plane.002</object-name>
+<object-name>Building2_Cube.002</object-name>
+<object-name>Building2_Cube.002_0</object-name>
+<object-name>Building2_Cube.002_1</object-name>
+<object-name>Cust_Plane.002</object-name>
+<object-name>DomeLight.001_Cub.002</object-name>
+<object-name>DomeLight.001_Cub.002_0</object-name>
+<object-name>DomeLight.001_Cub.002_1</object-name>
+<object-name>DomeLight.002_Cub.002</object-name>
+<object-name>DomeLight.002_Cub.002_0</object-name>
+<object-name>DomeLight.002_Cub.002_1</object-name>
+<object-name>DomeLight_Cube.002</object-name>
+<object-name>DomeLight_Cube.002_0</object-name>
+<object-name>DomeLight_Cube.002_1</object-name>
+<object-name>Vent.001_Cube.002</object-name>
+<object-name>Vent_Cube.002</object-name>
+</animation>
+
+<animation>
+    <type>textranslate</type> 
+    <object-name>Building1</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+    </axis> 
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Building1</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Building1</object-name>
+ <condition>		
+  <less-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </less-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+
+<animation>
+   <name>Lights</name>
+<object-name>Light.001_Cube.002</object-name>
+<object-name>Light.002_Cube.002</object-name>
+<object-name>Light.003_Cube.002</object-name>
+<object-name>Light.004_Cube.002</object-name>
+<object-name>Light.005_Cube.002</object-name>
+<object-name>Light.006_Cube.002</object-name>
+<object-name>Light.007_Cube.002</object-name>
+<object-name>Light.008_Cube.002</object-name>
+<object-name>Light.009_Cube.002</object-name>
+<object-name>Light.010_Cube.002</object-name>
+<object-name>Light_Cube.003</object-name>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Lights</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>0.6</green>	
+  <blue>0.0</blue>
+ </emission>
+</animation>
+
+<animation>
+   <name>Text</name>
+<object-name>Ar1_Plane.002</object-name>
+<object-name>Ar2_Plane.002</object-name>
+<object-name>Ar3_Plane.002</object-name>
+<object-name>Cust_Plane.002</object-name>
+<object-name>G3_Plane.003</object-name>
+<object-name>G4_Plane.003</object-name>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Text</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.6</red>	
+  <green>0.6</green>	
+  <blue>0.4</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>Text</object-name>
+ <condition>		
+  <less-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </less-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+</PropertyList>

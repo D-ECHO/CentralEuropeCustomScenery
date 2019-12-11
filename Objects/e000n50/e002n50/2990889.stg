@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.2538889 50.6672222 10.66 180
+OBJECT_SHARED Models/Industrial/generic_silo_1.ac 2.4169444 50.6408333 -24.2 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.4088889 50.7427778 67.33 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.4097222 50.7438889 62.88 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.4138889 50.7013889 72.33 180

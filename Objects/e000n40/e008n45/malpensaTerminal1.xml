@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>malpensaTerminal1.ac</path>
+
+ <!--animation>
+  <type>range</type>
+  <object-name>Antenna</object-name>
+  <min-m>0</min-m>
+  <max-m>4000</max-m>
+ </animation-->
+
+</PropertyList>

@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Airport/ndb.ac 7.608056 49.854721 390.48 0
+OBJECT_SHARED Models/Power/windturbine.xml 7.5344444 49.8219444 396.11 180
+OBJECT_SHARED Models/Power/windturbine.xml 7.5355556 49.8227778 401.38 180
+OBJECT_SHARED Models/Power/windturbine.xml 7.5363889 49.8236111 400.76 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 7.7188889 49.8269444 208.06 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 7.7022222 49.7747222 -291.63 180
+OBJECT_SHARED Models/Misc/generic_church_03.ac 7.7211111 49.8169444 207.23 180

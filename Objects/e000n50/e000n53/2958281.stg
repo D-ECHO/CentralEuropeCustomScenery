@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Maritime/Civilian/Mersey_Lifeboat.xml 0.35524 53.14573 -0.06 270
+OBJECT_SHARED Models/Maritime/Civilian/D_Class_IRB.xml 0.35498 53.14571 -0.05 0
+OBJECT_SHARED Models/Maritime/Civilian/Shannon_Lifeboat.ac 0.355532 53.14547 -0.08 0
+OBJECT_STATIC Skegness_Wheel.xml 0.346179 53.143609 6.22 0

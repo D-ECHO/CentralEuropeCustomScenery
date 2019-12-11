@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 1.9589139 51.1494086 -0.5 91.95
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 1.8514876 51.2058267 -0.58 278.03
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 1.76024 51.1623149 -0.35 262.06
+OBJECT_STATIC Sandettie_Lightship.xml 1.78682197 51.15979233 -0.46 0

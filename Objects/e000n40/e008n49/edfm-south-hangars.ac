@@ -1,0 +1,232 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0   spec 0.5 0.5 0.5  shi 64  trans 0
+OBJECT world
+kids 3
+OBJECT poly
+name "Cube"
+data 4
+Cube
+crease 30
+numvert 12
+-120 -1 -3e-006
+-65 -1 2e-006
+-65 -1 14.000003
+-120 -1 13.999996
+-120 8 -3e-006
+-65 8 2e-006
+-65 6 14.000003
+-120 6 13.999996
+-65 6 -13.999997
+-120 6 -14.000004
+-65 -1 -13.999997
+-120 -1 -14.000004
+numsurf 8
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 0
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 0
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+SURF 0x00
+mat 0
+refs 4
+0 0 0
+4 0 0
+9 0 0
+11 0 0
+SURF 0x00
+mat 0
+refs 4
+5 0 0
+1 0 0
+10 0 0
+8 0 0
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+5 0 0
+8 0 0
+9 0 0
+SURF 0x00
+mat 0
+refs 4
+11 0 0
+9 0 0
+8 0 0
+10 0 0
+kids 0
+OBJECT poly
+name "Cube.001"
+data 8
+Cube.001
+crease 30
+numvert 12
+-37 -1 -3e-006
+37 -1 2e-006
+37 -1 14.000003
+-37 -1 13.999997
+-37 8 -3e-006
+37 8 2e-006
+37 6 14.000003
+-37 6 13.999997
+37 6 -13.999997
+-37 6 -14.000003
+37 -1 -13.999997
+-37 -1 -14.000003
+numsurf 8
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 0
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 0
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+SURF 0x00
+mat 0
+refs 4
+0 0 0
+4 0 0
+9 0 0
+11 0 0
+SURF 0x00
+mat 0
+refs 4
+5 0 0
+1 0 0
+10 0 0
+8 0 0
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+5 0 0
+8 0 0
+9 0 0
+SURF 0x00
+mat 0
+refs 4
+11 0 0
+9 0 0
+8 0 0
+10 0 0
+kids 0
+OBJECT poly
+name "Cube.002"
+data 8
+Cube.002
+crease 30
+numvert 12
+42 -1 -3e-006
+70 -1 2e-006
+70 -1 14.000003
+42 -1 13.999997
+42 10 -3e-006
+70 10 2e-006
+70 8 14.000003
+42 8 13.999997
+70 8 -13.999997
+42 8 -14.000003
+70 -1 -13.999997
+42 -1 -14.000003
+numsurf 8
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 0
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 0
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+SURF 0x00
+mat 0
+refs 4
+0 0 0
+4 0 0
+9 0 0
+11 0 0
+SURF 0x00
+mat 0
+refs 4
+5 0 0
+1 0 0
+10 0 0
+8 0 0
+SURF 0x00
+mat 0
+refs 4
+4 0 0
+5 0 0
+8 0 0
+9 0 0
+SURF 0x00
+mat 0
+refs 4
+11 0 0
+9 0 0
+8 0 0
+10 0 0
+kids 0

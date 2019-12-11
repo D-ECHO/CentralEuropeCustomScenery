@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 3.8747222 48.2175 207.28 180
+OBJECT_SHARED Models/Communications/Kat_7_Radio_Telescope.ac 3.883029 48.223292 179.71 210
+OBJECT_SHARED Models/Communications/Kat_7_Radio_Telescope.ac 3.885879 48.221067 167.94 80
+OBJECT_SHARED Models/Communications/Kat_7_Radio_Telescope.ac 3.887703 48.221077 170.74 20
+OBJECT_SHARED Models/Communications/Kat_7_Radio_Telescope.ac 3.888903 48.222098 178.68 120

@@ -1,0 +1,1030 @@
+<?xml version="1.0"?>
+<!-- project: D:\fg_models\models\sonstige\akw_biblis\akw_biblis_lights -->
+<!-- cursor: 153.541961669922 333.188781738281 12.000004768372 -->
+
+<PropertyList>
+
+	<path>biblis_npp.ac</path>
+
+	<!-- ########### BEGIN Night/Day Texture Switch ########### -->
+
+<animation>
+    <type>select</type>
+    <object-name>OuthouseWallsDay</object-name>
+    <condition>
+      <not>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+      </not>
+    </condition>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>OuthouseWallsNight</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+  </animation>
+
+	<!-- ########### END Night/Day Texture Switch ########### -->
+
+
+ 	<animation> 
+		<type>range</type> 
+		<min-m>0</min-m> 
+		<max-m>25000</max-m> 
+	</animation>
+
+	<MeshXparams>
+		<light-near>0.4</light-near>
+		<light-med>0.8</light-med>
+		<light-far>10</light-far>
+	</MeshXparams>
+
+	<animation>
+		<name>MeshXGroup</name>
+		<object-name>MeshX00</object-name>
+		<object-name>MeshX01</object-name>
+		<object-name>MeshX02</object-name>
+		<object-name>MeshX03</object-name>
+		<object-name>MeshX04</object-name>
+		<object-name>MeshX05</object-name>
+		<object-name>MeshX06</object-name>
+		<object-name>MeshX07</object-name>
+		<object-name>MeshX08</object-name>
+		<object-name>MeshX09</object-name>
+		<object-name>MeshX10</object-name>
+		<object-name>MeshX11</object-name>
+		<object-name>MeshX12</object-name>
+		<object-name>MeshX13</object-name>
+		<object-name>MeshX14</object-name>
+		<object-name>MeshX15</object-name>
+		<object-name>MeshX16</object-name>
+		<object-name>MeshX17</object-name>
+		<object-name>MeshX18</object-name>
+		<object-name>MeshX19</object-name>
+		<object-name>MeshX20</object-name>
+		<object-name>MeshX21</object-name>
+		<object-name>MeshX22</object-name>
+		<object-name>MeshX23</object-name>
+		<object-name>MeshX24</object-name>
+		<object-name>MeshX25</object-name>
+	</animation>
+
+ 	<animation> 
+		<type>select</type> 
+		<name>MeshXGroupNight</name> 
+		<object-name>MeshXGroup</object-name> 
+		<condition> 
+			<greater-than> 
+				<property>/sim/time/sun-angle-rad</property> 
+				<value>1.57</value> 
+			</greater-than> 
+		</condition> 
+	</animation>
+
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX00</object-name> 
+		<offset-m>127.865088</offset-m> 
+		<axis> 
+			<x>99.960007</x> 
+			<y>41.959999</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX01</object-name> 
+		<offset-m>127.577036</offset-m> 
+		<axis> 
+			<x>100.677414</x> 
+			<y>39.282593</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX02</object-name> 
+		<offset-m>125.438983</offset-m> 
+		<axis> 
+			<x>98.717407</x> 
+			<y>37.32259</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX03</object-name> 
+		<offset-m>123.561971</offset-m> 
+		<axis> 
+			<x>96.040009</x> 
+			<y>38.039993</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX04</object-name> 
+		<offset-m>123.859362</offset-m> 
+		<axis> 
+			<x>95.322601</x> 
+			<y>40.717403</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX05</object-name> 
+		<offset-m>126.024205</offset-m> 
+		<axis> 
+			<x>97.282593</x> 
+			<y>42.677406</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX06</object-name> 
+		<offset-m>154.300616</offset-m> 
+		<axis> 
+			<x>99.960007</x> 
+			<y>41.959999</y> 
+			<z>109.79998</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX07</object-name> 
+		<offset-m>154.061999</offset-m> 
+		<axis> 
+			<x>100.677414</x> 
+			<y>39.282593</y> 
+			<z>109.79998</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX08</object-name> 
+		<offset-m>152.296217</offset-m> 
+		<axis> 
+			<x>98.717407</x> 
+			<y>37.32259</y> 
+			<z>109.79998</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX09</object-name> 
+		<offset-m>150.753972</offset-m> 
+		<axis> 
+			<x>96.040009</x> 
+			<y>38.039993</y> 
+			<z>109.79998</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX10</object-name> 
+		<offset-m>150.997818</offset-m> 
+		<axis> 
+			<x>95.322601</x> 
+			<y>40.717403</y> 
+			<z>109.79998</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX11</object-name> 
+		<offset-m>152.778596</offset-m> 
+		<axis> 
+			<x>97.282593</x> 
+			<y>42.677406</y> 
+			<z>109.79998</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX12</object-name> 
+		<offset-m>147.456446</offset-m> 
+		<axis> 
+			<x>-124.040016</x> 
+			<y>41.959999</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX13</object-name> 
+		<offset-m>146.111</offset-m> 
+		<axis> 
+			<x>-123.322609</x> 
+			<y>39.282593</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX14</object-name> 
+		<offset-m>147.260123</offset-m> 
+		<axis> 
+			<x>-125.282608</x> 
+			<y>37.32259</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX15</object-name> 
+		<offset-m>149.725224</offset-m> 
+		<axis> 
+			<x>-127.960014</x> 
+			<y>38.039993</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX16</object-name> 
+		<offset-m>151.038485</offset-m> 
+		<axis> 
+			<x>-128.677429</x> 
+			<y>40.717403</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX17</object-name> 
+		<offset-m>149.918326</offset-m> 
+		<axis> 
+			<x>-126.71743</x> 
+			<y>42.677406</y> 
+			<z>67.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX18</object-name> 
+		<offset-m>170.887691</offset-m> 
+		<axis> 
+			<x>-124.040024</x> 
+			<y>41.959999</y> 
+			<z>109.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX19</object-name> 
+		<offset-m>169.728082</offset-m> 
+		<axis> 
+			<x>-123.322609</x> 
+			<y>39.282593</y> 
+			<z>109.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX20</object-name> 
+		<offset-m>170.718311</offset-m> 
+		<axis> 
+			<x>-125.282608</x> 
+			<y>37.32259</y> 
+			<z>109.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX21</object-name> 
+		<offset-m>172.849184</offset-m> 
+		<axis> 
+			<x>-127.960014</x> 
+			<y>38.039993</y> 
+			<z>109.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX22</object-name> 
+		<offset-m>173.987993</offset-m> 
+		<axis> 
+			<x>-128.677429</x> 
+			<y>40.717403</y> 
+			<z>109.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX23</object-name> 
+		<offset-m>173.016479</offset-m> 
+		<axis> 
+			<x>-126.71743</x> 
+			<y>42.677406</y> 
+			<z>109.799973</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX24</object-name> 
+		<offset-m>79.387849</offset-m> 
+		<axis> 
+			<x>60</x> 
+			<y>10.000001</y> 
+			<z>51.014023</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>translate</type> 
+		<object-name>MeshX25</object-name> 
+		<offset-m>114.028201</offset-m> 
+		<axis> 
+			<x>-100</x> 
+			<y>20</y> 
+			<z>51.014023</z> 
+		</axis> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX00</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX01</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX02</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX03</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX04</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX05</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX06</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX07</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX08</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX09</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX10</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX11</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX12</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX13</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX14</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX15</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX16</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX17</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX18</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX19</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX20</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX21</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX22</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX23</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX24</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>billboard</type> 
+		<object-name>MeshX25</object-name> 
+		<spherical type="bool">true</spherical> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX00</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX01</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX02</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX03</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX04</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX05</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX06</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX07</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX08</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX09</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX10</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX11</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX12</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX13</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX14</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX15</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX16</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX17</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX18</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX19</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX20</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX21</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX22</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX23</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX24</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+ 	<animation> 
+		<type>dist-scale</type> 
+		<object-name>MeshX25</object-name> 
+		<interpolation> 
+			<entry> 
+				<ind>0</ind> 
+				<dep alias="../../../../MeshXparams/light-near"/> 
+			</entry> 
+			<entry> 
+				<ind>500</ind> 
+				<dep alias="../../../../MeshXparams/light-med"/> 
+			</entry> 
+			<entry> 
+				<ind>16000</ind> 
+				<dep alias="../../../../MeshXparams/light-far"/> 
+			</entry> 
+		</interpolation> 
+	</animation>
+
+
+</PropertyList>

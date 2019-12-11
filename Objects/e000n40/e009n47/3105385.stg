@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Airport/marker.ac 9.491047 47.662917 402.21 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_01.xml 9.4602778 47.6630556 -0.41 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_06.ac 9.4613889 47.6636111 -4.29 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 9.4638889 47.6641667 -24.74 180
+OBJECT_SHARED Models/Airport/localizer.xml 9.495914 47.665275 403.66 119.9
+OBJECT_SHARED Models/Maritime/Civilian/MediumFerry.xml 9.264269 47.69514 392 315
+OBJECT_SHARED Models/Airport/helipad_circle.xml 9.428544 47.672829 444.12 0
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.4817833 47.6459 387.98 259.24
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 9.4822667 47.6473167 387.99 330.62

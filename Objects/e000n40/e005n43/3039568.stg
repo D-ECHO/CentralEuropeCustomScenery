@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 5.0211111 43.3577778 -343.04 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 5.0211111 43.3577778 -235.08 180
+OBJECT_SHARED Models/Power/generic_pylon_200m.ac 5.02699729 43.36324931 19.61 0
+OBJECT_SHARED Models/Power/generic_pylon_200m.ac 5.03002463 43.35269549 24.07 0
+OBJECT_SHARED Models/Power/generic_power_plant.xml 5.01971612 43.36153277 4.14 0
+OBJECT_SHARED Models/Power/TankFO50x12m.ac 5.01561033 43.35769935 0 0
+OBJECT_SHARED Models/Power/TankFO50x12m.ac 5.01794552 43.35773471 0 0
+OBJECT_SHARED Models/Power/TankFO50x12m.ac 5.02005943 43.35789289 7.29 0
+OBJECT_SHARED Models/Power/Poolbeg_TurboGas.ac 5.01874774 43.35905699 1.06 0
+OBJECT_SHARED Models/Power/Poolbeg_Turbosteam.xml 5.02331163 43.35971411 7.09 0
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 5.0191 43.3527 -0.02 141.17
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 5.0244603 43.3287633 -0.57 250.1

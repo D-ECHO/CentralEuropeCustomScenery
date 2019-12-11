@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 2.6686111 48.4561111 -26.63 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.5127778 48.4886111 31.81 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.5397222 48.4288889 24.45 180
+OBJECT_STATIC ChatFont.ac 2.69948 48.4021 76.32 0

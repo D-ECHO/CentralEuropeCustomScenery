@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<PropertyList>
+    
+<path>LIMW_Hngr1.ac</path>
+
+
+<!-- nasal for the door function - 6 doors driven by 1 door property -->
+<!-- timer loop will check every 4 sec if door should be moved       -->
+<!-- door movement will take 3 sec to complete                       -->
+
+	<nasal>
+		<load>
+		if (!contains(globals, "scenery")) globals["scenery"] = {};
+		if (!contains(scenery, "LIMW")) scenery["LIMW"] = {};
+		if (!contains(scenery.LIMW, "hangar")) scenery.LIMW["hangar"] = [nil];
+		scenery.LIMW.hangar[0] =
+			{ door :
+			[aircraft.door.new("/scenery/LIMW/hangar[0]/door[0]", 3)
+			
+			]
+		};
+		
+		#this is the switch target sim time sun rad
+		var limwswitch = 1.57;
+		
+		var loop_id = 0;
+
+		var loop = func(id) {
+				id == loop_id or return;
+				var limwsun = getprop("/sim/time/sun-angle-rad");
+				var doorstate = getprop("/scenery/LIMW/hangar[0]/door[0]/position-norm");
+					#print ("limwsun  ", limwsun);
+				
+				if ((limwsun > limwswitch) and (doorstate == 0)){
+					scenery.LIMW.hangar[0].door[0].toggle();
+					print ("toggle door  ");
+					};
+				
+				if ((limwsun &lt; limwswitch) and (doorstate == 1)){
+					scenery.LIMW.hangar[0].door[0].toggle();
+					#print ("toggle door  ");
+					};
+		
+			settimer(func { loop(id) }, 4);
+			}
+			loop(loop_id += 1);
+	
+		</load>
+		<unload>loop_id += 1</unload>
+	
+	</nasal>
+
+<!-- Windows Lighting START -->
+<animation> 
+    <type>textranslate</type> 
+    <object-name>windows</object-name> 
+		
+	<property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> 0 </x> 
+      <y>  -1 </y> 
+      <z>  0 </z> 
+    </axis> 
+  </animation>
+ 
+  <animation>
+    <type>material</type>
+ <object-name>windows</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   1 </red>
+      <green> 1 </green>
+      <blue>  1 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+   <object-name>windows</object-name>
+	 
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+  <!-- Windows Lighting END -->
+		
+	<!-- door movement in meter on x axis -->
+	<!-- move door 11 -->
+	<animation>
+		<type>translate</type>
+		<object-name>Door11</object-name>
+			<property>/scenery/LIMW/hangar[0]/door[0]/position-norm</property>
+			<factor>1</factor>
+			<interpolation>
+				<entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+				<entry><ind> 1.0 </ind><dep>  3.50 </dep></entry>
+			</interpolation>
+			<axis>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</axis>
+	</animation>
+
+	<!-- move door 12 -->
+	<animation>
+		<type>translate</type>
+		<object-name>Door12</object-name>
+			<property>/scenery/LIMW/hangar[0]/door[0]/position-norm</property>
+			<factor>1</factor>
+			<interpolation>
+				<entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+				<entry><ind> 1.0 </ind><dep>  6.70 </dep></entry>
+			</interpolation>
+			<axis>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</axis>
+	</animation>
+
+		
+	<!-- move door 21 -->
+	<animation>
+		<type>translate</type>
+		<object-name>Door21</object-name>
+			<property>/scenery/LIMW/hangar[0]/door[0]/position-norm</property>
+			<factor>1</factor>
+			<interpolation>
+				<entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+				<entry><ind> 1.0 </ind><dep> -3.50 </dep></entry>
+			</interpolation>
+			<axis>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</axis>
+	</animation>
+
+	<!-- move door 22 -->
+	<animation>
+		<type>translate</type>
+		<object-name>Door22</object-name>
+			<property>/scenery/LIMW/hangar[0]/door[0]/position-norm</property>
+			<factor>1</factor>
+			<interpolation>
+				<entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+				<entry><ind> 1.0 </ind><dep> -6.70 </dep></entry>
+			</interpolation>
+			<axis>
+				<x>1</x>
+				<y>0</y>
+				<z>0</z>
+			</axis>
+	</animation>
+
+	
+	
+</PropertyList>

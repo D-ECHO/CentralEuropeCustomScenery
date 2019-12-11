@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 4.7269444 44.3825 11.43 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 4.7068048 44.3792538 57.67 0
+OBJECT_SHARED Models/Communications/tower-microwave-1.xml 4.6727778 44.4627778 366.5 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 4.5111987 44.386737 381.37 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 4.747283 44.444398 123.43 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 4.748232 44.448625 120.89 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 4.74924 44.444171 120.89 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 4.749904 44.448429 119.51 0
+OBJECT_STATIC PontRobinet.ac 4.69807 44.45233 60.55 84
+OBJECT_STATIC PontRobinet.ac 4.69807 44.45233 60.55 84

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Terminal1 of EDDK including both stars and the starwalk. Extracted from lasermans custom EDDK scenery
+(see https://forum.flightgear.org/viewtopic.php?f=5&t=31646&sid=41902416330d05743348877858cd667a&start=15)
+The texturing of some building parts is incomplete, but its still a nice model anyway.
+-->
+<PropertyList>
+    <path>EDDK-Terminal1.ac</path>
+
+    <!-- whether the animation really has a visual effect is unclear -->
+    <animation>
+        <type>shader</type>
+        <shader>chrome</shader>
+        <texture>EGLL-tower1.png</texture>
+
+        <object-name>fenster.sternB</object-name>
+        <object-name>fenster.sternC</object-name>
+    </animation>
+</PropertyList>

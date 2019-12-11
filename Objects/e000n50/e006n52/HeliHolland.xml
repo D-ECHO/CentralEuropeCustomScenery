@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>HeliHolland.ac</path>
+
+<nasal>
+	  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "HeliHolland")) scenery["HeliHolland"] = {};
+   if (!contains(scenery.HeliHolland, "HeliHolland")) scenery.HeliHolland["HeliHolland"] = {};
+   if (contains(scenery, "sharedDoor")) {
+     scenery.HeliHolland.HeliHolland[0] =
+       { door :
+       [scenery.sharedDoor.new("/scenery/HeliHolland/HeliHolland[0]/door[0]", 20), scenery.sharedDoor.new("/scenery/HeliHolland/HeliHolland[0]/door[1]", 20)
+	 ]
+       };
+   } else {
+     scenery.HeliHolland.HeliHolland[0] =
+       { door :
+       [aircraft.door.new("/scenery/HeliHolland/HeliHolland[0]/door[0]", 20),
+ aircraft.door.new("/scenery/HeliHolland/HeliHolland[0]/door[1]", 20)         ]
+       };
+   }
+  </load>
+  <unload>
+   if (contains(scenery, "sharedDoor")) {
+     scenery.HeliHolland.HeliHolland[0].door[0].destroy();
+ scenery.HeliHolland.HeliHolland[0].door[1].destroy();  }
+  </unload>
+</nasal>
+<animation>
+  	<type>alpha-test</type>
+  	<alpha-factor>0.01</alpha-factor>
+</animation>
+<animation>
+ <type>pick</type>
+ 	<object-name>Door1</object-name>
+ 	<object-name>Door2</object-name>
+ 	<object-name>Door3</object-name>
+ 	<object-name>Door4</object-name>
+ 	<object-name>Door5</object-name>
+ 	<object-name>Door6</object-name>
+ 	<visible>true</visible>
+ <action>
+  	<name>click</name>
+  	<button>0</button>
+  	<repeatable>false</repeatable>
+  <binding>
+   	<command>nasal</command>
+   	<script>scenery.HeliHolland.HeliHolland[0].door[0].toggle();</script>
+  </binding>
+ </action>
+</animation>
+
+
+
+<animation>
+<type>translate</type>
+<object-name>Door6</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>2.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation><animation>
+<type>translate</type>
+<object-name>Door5</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>4.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+
+<animation>
+<type>translate</type>
+<object-name>Door4</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>6.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>Door3</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>6.00</dep></entry>
+<entry><ind>1.0</ind><dep>6.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>Door2</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>4.00</dep></entry>
+<entry><ind>1.0</ind><dep>4.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>Door1</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>2.00</dep></entry>
+<entry><ind>1.0</ind><dep>2.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation> 
+<animation>
+ <type>pick</type>
+ 	<object-name>Door7</object-name>
+ 	<object-name>Door8</object-name>
+ 	<object-name>Door9</object-name>
+ 	<object-name>Door10</object-name>
+ 	<object-name>Door11</object-name>
+ 	<object-name>Door12</object-name>
+ 	<visible>true</visible>
+ <action>
+  	<name>click</name>
+  	<button>0</button>
+  	<repeatable>false</repeatable>
+  <binding>
+   	<command>nasal</command>
+   	<script>scenery.HeliHolland.HeliHolland[0].door[1].toggle();</script>
+  </binding>
+ </action>
+</animation>
+
+
+
+<animation>
+<type>translate</type>
+<object-name>Door12</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>2.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation><animation>
+<type>translate</type>
+<object-name>Door11</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>4.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+
+<animation>
+<type>translate</type>
+<object-name>Door10</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>6.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>Door9</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>6.00</dep></entry>
+<entry><ind>1.0</ind><dep>6.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>Door8</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>4.00</dep></entry>
+<entry><ind>1.0</ind><dep>4.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>Door7</object-name>
+<property>/scenery/HeliHolland/HeliHolland[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>0.4</ind><dep>2.00</dep></entry>
+<entry><ind>1.0</ind><dep>2.00</dep></entry>
+</interpolation>
+<axis>
+<x>0</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation> </PropertyList>

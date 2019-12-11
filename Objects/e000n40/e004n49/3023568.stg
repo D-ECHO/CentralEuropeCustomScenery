@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Airport/ils.xml 4.061953 49.31175 87.02 112.58
+OBJECT_SHARED Models/Communications/radio-medium.xml 4.1466667 49.2580556 129.76 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 4.041169 49.309739 87.4 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 4.045361 49.311639 85.51 180
+OBJECT_SHARED Models/Airport/marker.ac 4.077822 49.318178 89.04 180
+OBJECT_SHARED Models/Airport/marker.ac 4.156031 49.338836 82.78 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 4.1636111 49.3516667 -341.01 180
+OBJECT_SHARED Models/Airport/localizer.xml 4.030167 49.304572 92.83 112.5
+OBJECT_STATIC ReimsCathe.ac 4.034042 49.253863 97.91 127

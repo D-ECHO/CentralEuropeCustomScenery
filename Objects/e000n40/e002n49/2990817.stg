@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Communications/radio-tall.xml 2.39653 49.50144 -242.15 0
+OBJECT_SHARED Models/Communications/vordme_1.xml 2.489472 49.552639 127.71 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.3352778 49.5186111 84.74 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.3488889 49.5194444 140.15 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.3763889 49.5166667 98.37 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.2905556 49.5961111 148.03 180

@@ -1,0 +1,26 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "Default" rgb 0.8 0.8 0.8 amb 0.8 0.8 0.8 emis 0.5 0.5 0.5 spec 1 1 1 shi 32 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "jour"
+data 4
+jour
+texture "Texture02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+633.953186 0 189.197296
+631.010376 0 -198.791504
+-633.953186 0 -189.197296
+-631.010376 0 198.791504
+numsurf 1
+SURF 0x10
+mat 1
+refs 4
+3 0.116312026978 0.00010286946781
+0 0.116312563419 0.499602913857
+1 0.000145196914673 0.499602913857
+2 0.000145196914673 0.00010286946781
+kids 0

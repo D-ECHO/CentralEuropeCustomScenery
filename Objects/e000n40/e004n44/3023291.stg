@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Airport/ils.xml 4.970525 44.916856 159.58 351
+OBJECT_SHARED Models/Communications/vordme_1.xml 4.970525 44.916856 159.58 180
+OBJECT_SHARED Models/Airport/marker.ac 4.96675 44.905333 157.81 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 4.7994444 44.9661111 586.59 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 4.9719444 44.9819444 125.16 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 4.8689832 44.876432 109.46 0
+OBJECT_SHARED Models/Airport/localizer.xml 4.972075 44.932933 156.32 352
+OBJECT_SHARED Models/Residential/ZoneImmeublesHauts.xml 4.92246 44.92919 156.05 0
+OBJECT_SHARED Models/Aircraft/EC-135-Gendarmerie.xml 4.96587356 44.9143372 155.66 84

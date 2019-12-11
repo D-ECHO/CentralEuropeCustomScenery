@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 7.8694444 48.765 -7.93 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 7.7638889 48.8027778 129.78 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 7.7669444 48.8033333 138.55 180
+OBJECT_SHARED Models/Maritime/Civilian/barge.xml 7.971218 48.7547915 115.71 168
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.9874509 48.7633851 122.13 80
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.9927871 48.7575246 120.62 254

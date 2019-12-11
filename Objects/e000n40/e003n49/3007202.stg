@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 3.5161111 49.5330556 145.99 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 3.5177778 49.5338889 148.71 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 3.6611111 49.6072222 36.39 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 3.6125 49.5655556 175.81 180
+OBJECT_SHARED Models/Airport/hangar_15x25m.ac 3.62711 49.59032 78.21 96
+OBJECT_SHARED Models/Airport/Hangar_70x15.ac 3.62724 49.5899 78.12 6
+OBJECT_SHARED Models/Airport/Hangar_22x18m.ac 3.62712 49.59053 78.14 186

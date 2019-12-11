@@ -1,0 +1,11 @@
+OBJECT_SHARED Models/Transport/hatchback_red.ac 6.95621157 52.8036775 11.55 276
+OBJECT_SHARED Models/Transport/hatchback_red.ac 6.95623508 52.80358719 11.52 96
+OBJECT_SHARED Models/Transport/hatchback_red.ac 6.95624798 52.80348138 11.49 276.2
+OBJECT_SHARED Models/Transport/hatchback_silver.ac 6.95621818 52.80363491 11.54 276
+OBJECT_SHARED Models/Transport/hatchback_silver.ac 6.95622181 52.80365717 11.55 96
+OBJECT_SHARED Models/Transport/hatchback_silver.ac 6.9562485 52.80350564 11.5 96
+OBJECT_SHARED Models/Transport/van_red.ac 6.95624805 52.80353364 11.51 276
+OBJECT_SHARED Models/Transport/van_silver.ac 6.95624094 52.80356338 11.52 96
+OBJECT_SHARED Models/Transport/van_silver.ac 6.95626474 52.80345637 11.49 276
+OBJECT_SHARED Models/Transport/van_blue_dirty.ac 6.95623138 52.80361255 11.53 276
+OBJECT_STATIC HeliHolland.xml 6.95642287 52.8036931 11.55 4

@@ -1,0 +1,17 @@
+OBJECT_SHARED Models/Commercial/generic_skyscraper_03.ac 1.3833333 50.0633333 -438.55 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.455 50.1047222 27.51 180
+OBJECT_SHARED Models/Airport/LFPZ1b.xml 1.4269 50.06739 94.31 342
+OBJECT_SHARED Models/Airport/EDXW_Hangar25x15.ac 1.42605 50.06756 94.26 252
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3317854 50.0173038 64.95 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3333252 50.0153842 67.97 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3348976 50.0134958 72.05 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3454619 50.0070877 77.45 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3478068 50.0057871 78.78 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3502639 50.0044433 81.57 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3527698 50.0030227 83.57 0
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3727659 50.0138019 85.85 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 1.3799391 50.0739681 -0.08 180
+OBJECT_SHARED Models/Communications/Antenna-Pylon.ac 1.4011 50.04174 83.67 0
+OBJECT_SHARED Models/Airport/hangar_15x25m.ac 1.4257 50.06766 94.1 163
+OBJECT_SHARED Models/Airport/Club_House.ac 1.42735 50.0682 94.83 128
+OBJECT_SHARED Models/Airport/Pompe_100LL.ac 1.42755 50.06846 95 307

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>LEBL_Terminal1.ac</path>
+<animation>
+	<type>material</type> 
+	<object-name>Terminal</object-name>
+	<object-name>SmallGates</object-name>
+	<object-name>TWR.Windows</object-name>
+	<condition>		
+		<greater-than>		
+		<property>/sim/time/sun-angle-rad</property>
+		<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.5</red>	
+		<green>0.5</green>	
+		<blue>0.4</blue>
+	</emission>
+</animation>
+<animation>
+	<type>material</type> 
+	<object-name>TWR</object-name>
+	<condition>		
+		<greater-than>		
+		<property>/sim/time/sun-angle-rad</property>
+		<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.1</red>	
+		<green>0.1</green>	
+		<blue>0.0</blue>
+	</emission>
+</animation>
+</PropertyList>

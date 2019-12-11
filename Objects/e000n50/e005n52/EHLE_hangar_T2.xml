@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<path>EHLE_hangar_T2.ac</path>
+
+<nasal>
+	<load>
+		if (!contains(globals, "scenery")) globals["scenery"] = {};
+		if (!contains(scenery, "EHLE")) scenery["EHLE"] = {};
+		if (!contains(scenery.EHLE, "hangart2")) scenery.EHLE["hangart2"] = [nil];
+		scenery.EHLE.hangart2[0] =
+			{ door :
+				[aircraft.door.new("/scenery/EHLE/hangart2[0]/door[0]", 20)]
+			};
+	</load>
+</nasal>
+
+<animation>
+	<type>pick</type>
+	<object-name>door.1</object-name>
+	<object-name>door.2</object-name>
+	<object-name>door.3</object-name>
+	<object-name>door.4</object-name>
+	<visible>true</visible>
+	<action>
+		<name>click</name>
+		<button>0</button>
+		<repeatable>false</repeatable>
+		<binding>
+			<command>nasal</command>
+			<script>scenery.EHLE.hangart2[0].door[0].toggle();</script>
+		</binding>
+	</action>
+</animation>
+
+<animation>
+	<type>translate</type>
+	<object-name>door.1</object-name>
+	<property>/scenery/EHLE/hangart2[0]/door[0]position-norm</property>
+	<factor>7.5</factor>
+	<axis>
+		<x>1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>translate</type>
+	<object-name>door.2</object-name>
+	<property>/scenery/EHLE/hangart2[0]/door[0]/position-norm</property>
+	<factor>15</factor>
+	<axis>
+		<x>1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>translate</type>
+	<object-name>door.3</object-name>
+	<property>/scenery/EHLE/hangart2[0]/door[0]/position-norm</property>
+	<factor>15</factor>
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+<animation>
+	<type>translate</type>
+	<object-name>door.4</object-name>
+	<property>/scenery/EHLE/hangart2[0]/door[0]/position-norm</property>
+	<factor>7.5</factor>
+	<axis>
+		<x>-1</x>
+	</axis>
+</animation>
+
+</PropertyList>
+ 

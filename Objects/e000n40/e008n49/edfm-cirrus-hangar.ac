@@ -1,0 +1,174 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0   spec 0.5 0.5 0.5  shi 64  trans 0
+OBJECT world
+kids 1
+OBJECT group
+name "Cube.001"
+kids 4
+OBJECT poly
+name "Cube.001_0"
+data 8
+Cube.001
+texture "edfm-cirrus-metal-wall.png"
+texrep 1 1
+crease 30
+numvert 12
+-10 9 20
+-50 9 20
+-50 9 -20
+-50 10 -20
+-50 14 20
+-10 14 20
+20 14 20
+20 9 20
+50 9 -20
+50 9 20
+50 14 20
+50 10 -20
+numsurf 6
+SURF 0x00
+mat 0
+refs 4
+2 3.75 0.0
+1 0.0 0.0
+4 0.0 1.0
+3 3.75 1.0
+SURF 0x00
+mat 0
+refs 4
+1 3.625 0.0
+0 0.0 0.0
+5 0.0 1.0
+4 3.625 1.0
+SURF 0x00
+mat 0
+refs 4
+5 0.0 1.0
+0 0.0 0.0
+7 2.875 0.0
+6 2.875 1.0
+SURF 0x00
+mat 0
+refs 4
+9 3.75 0.0
+8 0.0 0.0
+11 0.0 1.0
+10 3.75 1.0
+SURF 0x00
+mat 0
+refs 4
+2 8.125 0.0
+3 8.125 1.0
+11 0.0 1.0
+8 0.0 0.0
+SURF 0x00
+mat 0
+refs 4
+3 0.0 0.875
+4 0.0 0.0
+10 5.0 0.0
+11 5.0 0.875
+kids 0
+OBJECT poly
+name "Cube.001_1"
+data 8
+Cube.001
+texture "edfm-cirrus-technik.png"
+texrep 1 1
+crease 30
+numvert 12
+-10 0 20
+-50 0 20
+-50 0 -20
+-10 9 20
+-50 9 20
+-50 9 -20
+20 9 20
+20 0 20
+50 0 -20
+50 0 20
+50 9 -20
+50 9 20
+numsurf 4
+SURF 0x00
+mat 0
+refs 4
+1 0.0 0.229999899864
+4 0.0 0.0
+5 1.0 0.0
+2 1.0 0.229999899864
+SURF 0x00
+mat 0
+refs 4
+3 0.0 1.0
+0 0.0 0.0
+7 1.0 0.0
+6 1.0 1.0
+SURF 0x00
+mat 0
+refs 4
+8 0.0 0.229999899864
+10 0.0 0.0
+11 1.0 0.0
+9 1.0 0.229999899864
+SURF 0x00
+mat 0
+refs 4
+2 0.0 0.229999899864
+5 0.0 0.0
+10 1.0 0.0
+8 1.0 0.229999899864
+kids 0
+OBJECT poly
+name "Cube.001_2"
+data 8
+Cube.001
+texture "edfm-cirrus-duscholux.png"
+texrep 1 1
+crease 30
+numvert 4
+20 14 20
+20 9 20
+50 9 20
+50 14 20
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+1 0.0 0.308000028133
+2 1.0 0.308000028133
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "Cube.001_3"
+data 8
+Cube.001
+texture "edfm-cirrus-door.png"
+texrep 1 1
+crease 30
+numvert 8
+-10 0 20
+-50 0 20
+-10 9 20
+-50 9 20
+20 9 20
+20 0 20
+50 0 20
+50 9 20
+numsurf 2
+SURF 0x00
+mat 0
+refs 4
+0 5.0 0.0
+2 5.0 1.0
+3 0.0 1.0
+1 0.0 0.0
+SURF 0x00
+mat 0
+refs 4
+4 0.0 1.0
+5 0.0 0.0
+6 4.0 0.0
+7 4.0 1.0
+kids 0

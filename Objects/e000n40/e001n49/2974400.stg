@@ -1,0 +1,15 @@
+OBJECT_SHARED Models/Airport/ils.xml 1.208762 49.01897 134.85 320.2
+OBJECT_SHARED Models/Airport/ils.xml 1.232439 49.036467 139.35 139.48
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.1413889 49.0508333 30.87 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 1.214028 49.028528 139.88 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 1.220861 49.031694 137.63 180
+OBJECT_SHARED Models/Airport/marker.ac 1.243778 49.046806 132.79 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_06.ac 1.1611111 49.0094444 -289.84 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.1397222 49.0036111 106.99 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.1755556 49.0925 95.1 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.0927778 49.0086111 133.81 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.0933333 49.0325 133.99 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.0936111 49.0083333 133.59 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.1394444 49.0347222 131.57 180
+OBJECT_SHARED Models/Airport/localizer.xml 1.204103 49.016264 135.36 309.79
+OBJECT_SHARED Models/Airport/localizer.xml 1.233796 49.039627 135.31 129.81

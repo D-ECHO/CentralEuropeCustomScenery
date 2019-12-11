@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Apron_Start" lat="N49 14.295821" lon="E8 41.106428" heading="327.53"  radius="36" airlineCodes="" />
+        <Parking index="1" type="ga" name="Hangar_Grass_Start" lat="N49 14.300099" lon="E8 41.088609" heading="0"  radius="36" airlineCodes="" />
+        <Parking index="2" type="ga" name="Glider_start_west" lat="N49 14.159956" lon="E8 40.357842" heading="68.22"  radius="36" airlineCodes="" />
+        <Parking index="3" type="ga" name="Glider_start_east" lat="N49 14.362579" lon="E8 41.056531" heading="242.65"  radius="36" airlineCodes="" />
+ </parkingList>
+</groundnet>

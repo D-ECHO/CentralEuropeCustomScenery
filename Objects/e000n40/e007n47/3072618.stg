@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 7.6980556 47.6380556 -125.13 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.5777934 47.6412561 256.19 349.73
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.6085293 47.6374977 270.46 349.73
+OBJECT_SHARED Models/Industrial/gravelpit.ac 7.5146865 47.6273821 242.37 212
+OBJECT_SHARED Models/Maritime/Civilian/lock1.ac 7.5259723 47.6532208 227.03 129.6
+OBJECT_SHARED Models/Maritime/Civilian/dam.xml 7.5212055 47.6543192 227.48 312
+OBJECT_STATIC de_bw_sausenburg.ac 7.68765207 47.73595296 663.85 90

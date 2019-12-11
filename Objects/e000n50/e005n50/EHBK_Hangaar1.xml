@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<path>EHBK_Hangaar1.ac</path>
+
+
+<animation>
+    <name>EHBK_Hangaar1</name> 
+<object-name>Hangar1.002_1_Hangar1</object-name>
+<object-name>Hangar1Door.003_Hanga</object-name>
+<object-name>Hangar1Door_Hangar1Do</object-name>
+<object-name>Hangar1Roof.004_Hanga</object-name>
+<object-name>Lamp.015_Lamp_Cube.01</object-name>
+</animation>
+
+
+<animation>
+    <type>textranslate</type> 
+    <object-name>EHBK_Hangaar1</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> 0 </x> 
+      <y> -1 </y> 
+    </axis> 
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>EHBK_Hangaar1</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type> 
+ <object-name>EHBK_Hangaar1</object-name>
+ <condition>		
+  <less-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </less-than>
+ </condition>
+ <emission>	
+  <red>0.15</red>	
+  <green>0.15</green>	
+  <blue>0.15</blue>
+ </emission>
+</animation>
+
+<animation>
+  <enable-hot type="bool">false</enable-hot>
+  <object-name>Cone.016_Cone_Cube.01</object-name>
+  <type>select</type>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+</animation>
+
+</PropertyList>

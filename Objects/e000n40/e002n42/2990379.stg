@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Airport/ils.xml 2.875783 42.739389 35.76 31.47
+OBJECT_SHARED Models/Communications/vordme_1.xml 2.875783 42.739389 35.76 180
+OBJECT_SHARED Models/Airport/localizer.xml 2.878766 42.733753 38.03 211.7
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.9034044 42.7302776 23.5 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.9823232 42.6682336 2.06 180
+OBJECT_SHARED Models/Aircraft/EC145-Securite_Civile.ac 2.87499 42.73273 41.79 0

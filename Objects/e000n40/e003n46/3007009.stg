@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 3.3822222 46.5805556 131.3 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 3.499556 46.541333 262.15 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 3.4547222 46.5141667 230.74 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 3.2947222 46.535 262.46 180

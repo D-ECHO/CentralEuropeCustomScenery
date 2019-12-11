@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Airport/ils.xml 2.298825 43.217686 128.95 262.64
+OBJECT_SHARED Models/Communications/radio-medium.xml 2.4625 43.2219444 11.12 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 2.298825 43.217686 128.95 180
+OBJECT_SHARED Models/Airport/localizer.xml 2.319453 43.214939 118.23 264
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.2666291 43.2029295 155.38 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.3847381 43.1426915 270.39 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.3922674 43.2192813 105.14 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.4031442 43.2481186 108.61 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.4403527 43.1816057 161.34 180
+OBJECT_SHARED Models/Power/windturbine_flash.xml 2.4762358 43.1328747 414.33 180

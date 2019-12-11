@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>LEBL_TWR.ac</path>
+
+<animation>
+	<type>material</type> 
+	<object-name>TWR.Windows</object-name>
+	<object-name>TWR</object-name>
+	<object-name>TWR.001</object-name>
+	<condition>		
+		<greater-than>		
+		<property>/sim/time/sun-angle-rad</property>
+		<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.5</red>	
+		<green>0.5</green>	
+		<blue>0.3</blue>
+	</emission>
+</animation>
+
+
+<animation>
+<type>timed</type>
+<object-name>LightOFF</object-name>
+<object-name>LightON</object-name>
+	<use-personality type="bool">true</use-personality>
+ 	<branch-duration-sec>
+  	<random>
+  	<min>1.5</min>
+   	<max>2.5</max>
+  	</random>
+ 	</branch-duration-sec>
+ 	<branch-duration-sec>
+  	<random>
+  	 <min>1.5</min>
+   	<max>2.3</max>
+  	</random>
+ 	</branch-duration-sec>
+</animation>
+<animation>
+	<object-name>LightON</object-name>
+	<type>billboard</type>
+	<spherical type="bool">false</spherical>
+	<center>
+		<x-m>-2</x-m>
+		<y-m>4.7</y-m>
+		<z-m>66.87</z-m>
+	</center>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>Radar</object-name>
+	<property>/sim/time/elapsed-sec</property>
+		<factor>50.0</factor>
+		<center>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</center>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>1</z>
+		</axis>
+</animation>
+
+</PropertyList>

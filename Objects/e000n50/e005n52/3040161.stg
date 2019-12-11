@@ -1,0 +1,11 @@
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 5.371047 52.502408 -2.58 9.04
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 5.394864 52.505294 -1.79 191.01
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 5.393906 52.507119 -1.89 91.58
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 5.486306 52.575147 -1.92 218.21
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.372022 52.501089 -2.5 6.1
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.428803 52.525081 -1.05 103.25
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.429056 52.524792 -1.06 150.18
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac 5.372897 52.572847 -4.21 247.31
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 5.4225 52.6178333 -1.23 74.61
+OBJECT_STATIC Houtribsluis.xml 5.42791874 52.527252 -1.03 82.1
+OBJECT_STATIC LelystadTvTower.xml 5.45746594 52.52130737 -2.42 10

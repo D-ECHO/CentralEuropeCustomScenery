@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Power/windturbine.xml 9.6736111 54.7633333 37.36 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.6805556 54.7638889 39.15 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.6808333 54.7633333 39.29 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.6869444 54.7633333 44.37 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.7381251 54.8376485 1.22 180
+OBJECT_SHARED Models/Power/windturbine.xml 9.7405642 54.838793 5.41 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 9.5036111 54.7911111 -333.79 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 9.626474 54.8618022 -0.16 75.35
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 9.631667 54.851667 -0.24 27.24
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 9.731667 54.83 -0.15 108.94
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 9.603333 54.854167 -0.25 58.59
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 9.746667 54.815833 -0.05 301.54
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 9.6537821 54.8225065 -0.01 161.67

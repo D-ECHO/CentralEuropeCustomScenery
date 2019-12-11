@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+    <path>ebgb_control_tower.ac</path>
+
+    <model>
+        <path>Models/Effects/strobe10000.xml</path> 
+        <offsets> 
+            <x-m>0</x-m>
+            <y-m>-9.7420</y-m>
+            <z-m>11.5</z-m>
+            <heading-deg>0</heading-deg>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Models/Effects/RedLight10000.xml</path> 
+        <offsets> 
+            <x-m>-1.1038</x-m>
+            <y-m>-9.2681</y-m>
+            <z-m>14.9955</z-m>
+            <heading-deg>0</heading-deg>
+        </offsets>
+    </model>
+
+    <model>
+        <path>Models/Effects/RedLight10000.xml</path> 
+        <offsets> 
+            <x-m>1.1532</x-m>
+            <y-m>-10.6306</y-m>
+            <z-m>14.9955</z-m>
+            <heading-deg>0</heading-deg>
+        </offsets>
+    </model>
+
+    <animation>
+        <type>range</type>
+        <min-m>0</min-m>
+        <max-m>7000</max-m>
+    </animation>
+
+</PropertyList>
+

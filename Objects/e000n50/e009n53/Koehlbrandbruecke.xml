@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <path>Koehlbrandbruecke.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>40000</max-m>
+  </animation>
+
+  <animation>
+    <type>range</type>
+    <object-name>Wires</object-name>
+    <min-m>0</min-m>
+    <max-m>1000</max-m>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>Wires</object-name>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>PylonLights</object-name>
+    <object-name>StreetLights</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+  </animation>
+
+</PropertyList>

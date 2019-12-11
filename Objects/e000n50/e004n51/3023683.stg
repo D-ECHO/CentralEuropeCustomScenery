@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 4.841944 51.118611 10.27 180
+OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 4.9341667 51.1247222 14.08 0
+OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 4.9536111 51.1230556 15.3 0
+OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 4.9577778 51.1216667 14.07 0
+OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 4.9622222 51.12 14.02 0

@@ -1,0 +1,3 @@
+OBJECT_SHARED Models/Airport/tacan.xml 3.821833 50.572333 55.1 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 3.832778 50.573889 56.18 180
+OBJECT_SHARED Models/Airport/localizer.xml 3.817472 50.574406 53.08 100

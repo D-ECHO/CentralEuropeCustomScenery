@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.539463 52.238549 101.61 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.592441 52.223926 95.73 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.6117 52.172053 122.14 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.691787 52.128147 92.27 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.708843 52.217489 83.6 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 0.5472222 52.1902778 72.77 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 0.6133333 52.1713889 -119.55 180
+OBJECT_STATIC Ickworth.ac 0.65685 52.220322 99.2 70

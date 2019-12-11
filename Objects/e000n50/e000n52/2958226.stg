@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.507178 52.320614 32.34 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 0.565848 52.303113 25.23 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 0.7266938 52.2521558 -23.23 180
+OBJECT_SHARED Models/Airport/localizer.xml 0.51380552 52.35799296 10.41 76
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 0.503617 52.36065 8.67 77.19

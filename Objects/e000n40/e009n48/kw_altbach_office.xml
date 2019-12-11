@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>kw_altbach_office.ac</path>
+
+<animation>
+    <type>material</type>
+    <object-name>fenster</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.55</blue>
+    </emission>
+</animation>
+
+</PropertyList>

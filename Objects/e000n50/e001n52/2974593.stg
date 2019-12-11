@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.306755 52.039406 22.75 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.344341 52.090738 31.8 180
+OBJECT_SHARED Models/Misc/trigpoint.ac 1.463846 52.104716 14.08 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.3161806 52.0994284 -25.39 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 1.460917 52.040383 0 102.75
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 1.463333 52.035833 -0.14 191.96

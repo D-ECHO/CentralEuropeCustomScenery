@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Radisson.ac</path>
+ 
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>25000</max-m>
+ </animation>
+         
+ <animation>
+  <type>range</type>
+  <object-name>Label</object-name>
+  <min-m>0</min-m>
+  <max-m>2000</max-m>
+ </animation>
+         
+</PropertyList>
+         

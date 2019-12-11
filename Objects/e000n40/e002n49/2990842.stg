@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.5 49.9097222 -10.86 180
+OBJECT_SHARED Models/Industrial/bond-warehouse.ac 2.6936 49.9735 110.42 90
+OBJECT_SHARED Models/Airport/hangar3.ac 2.69171 49.972969 110 270
+OBJECT_SHARED Models/Airport/hangar3.ac 2.692307 49.973005 109.88 0
+OBJECT_SHARED Models/Airport/hangar2.ac 2.692037 49.972979 109.92 270
+OBJECT_SHARED Models/Airport/tower_small_airfield.xml 2.689605 49.973049 109.46 350
+OBJECT_SHARED Models/Airport/EDFH_firestationgarage.ac 2.690114 49.972826 110.14 260

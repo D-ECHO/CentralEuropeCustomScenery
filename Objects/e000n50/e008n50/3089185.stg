@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Commercial/generic_skyscraper_06.ac 8.4544444 50.5858333 -180.89 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 8.4822222 50.5916667 171.97 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.4502464 50.6189386 324.63 294.1
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.4621323 50.6022171 224.08 308.9
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.4781041 50.5947205 264.3 317.5
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.4798684 50.5906166 185.45 247.44
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.4807103 50.5919031 201.27 247.44
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.4811316 50.5925469 216.33 279.46
+OBJECT_STATIC buderus-blast-furnace.ac 8.49831 50.56813 153.48 19.9
+OBJECT_STATIC buderus-silo-wetzlar.ac 8.49639428 50.5687307 155.26 27.57

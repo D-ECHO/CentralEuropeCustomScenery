@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>Hangar_LHT.ac</path>
+	<model>
+		<path>Models/Effects/RedLight10000.xml</path>
+		<offsets>
+				<x-m>15.7</x-m>
+				<y-m>9</y-m>
+				<z-m>26.5</z-m>
+		</offsets>
+	</model>
+	<model>
+		<path>Models/Effects/RedLight10000.xml</path>
+		<offsets>
+				<x-m>15.7</x-m>
+				<y-m>231.4</y-m>
+				<z-m>26.5</z-m>
+		</offsets>
+	</model>
+ 
+</PropertyList>
