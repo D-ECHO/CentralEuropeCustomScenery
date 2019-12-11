@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Apron" lat="N47 50.617202" lon="E11 3.577027" heading="-100"  radius="10" pushBackRoute="5" airlineCodes="" />
+        <Parking index="1" type="ga" name="Grass_parking_spot_1" lat="N47 50.632624" lon="E11 3.601993" heading="90"  radius="10" pushBackRoute="5" airlineCodes="" />
+        <Parking index="2" type="ga" name="Grass_parking_spot_2" lat="N47 50.642734" lon="E11 3.602051" heading="90"  radius="10" pushBackRoute="3" airlineCodes="" />
+ </parkingList>
+ <TaxiNodes>
+        <node index="3" lat="N47 50.642906" lon="E11 3.612814" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="4" lat="N47 50.632849" lon="E11 3.612809" isOnRunway="0" holdPointType="none"  />
+        <node index="5" lat="N47 50.620510" lon="E11 3.592640" isOnRunway="0" holdPointType="PushBack"  />
+        <node index="6" lat="N47 50.626769" lon="E11 3.615067" isOnRunway="0" holdPointType="none"  />
+        <node index="7" lat="N47 50.635712" lon="E11 3.652649" isOnRunway="0" holdPointType="none"  />
+        <node index="8" lat="N47 50.632943" lon="E11 3.640664" isOnRunway="0" holdPointType="none"  />
+        <node index="9" lat="N47 50.920486" lon="E11 3.656905" isOnRunway="0" holdPointType="none"  />
+        <node index="10" lat="N47 50.913593" lon="E11 3.656710" isOnRunway="0" holdPointType="none"  />
+        <node index="11" lat="N47 50.638020" lon="E11 3.660850" isOnRunway="1" holdPointType="none"  />
+        <node index="12" lat="N47 50.920327" lon="E11 3.667138" isOnRunway="0" holdPointType="none"  />
+        <node index="13" lat="N47 50.911282" lon="E11 3.666979" isOnRunway="1" holdPointType="none"  />
+        <node index="14" lat="N47 50.621913" lon="E11 3.603740" isOnRunway="0" holdPointType="none"  />
+        <node index="15" lat="N47 50.632624" lon="E11 3.574868" isOnRunway="0" holdPointType="none"  />
+        <node index="16" lat="N47 50.642734" lon="E11 3.574926" isOnRunway="0" holdPointType="none"  />
+ </TaxiNodes>
+ <TaxiWaySegments>
+        <arc begin="4" end="3" isPushBackRoute="0" name=""  />
+        <arc begin="3" end="4" isPushBackRoute="0" name=""  />
+        <arc begin="6" end="4" isPushBackRoute="0" name=""  />
+        <arc begin="4" end="6" isPushBackRoute="0" name=""  />
+        <arc begin="6" end="5" isPushBackRoute="0" name=""  />
+        <arc begin="5" end="6" isPushBackRoute="0" name=""  />
+        <arc begin="8" end="6" isPushBackRoute="0" name=""  />
+        <arc begin="6" end="8" isPushBackRoute="0" name=""  />
+        <arc begin="7" end="11" isPushBackRoute="0" name=""  />
+        <arc begin="11" end="7" isPushBackRoute="0" name=""  />
+        <arc begin="8" end="7" isPushBackRoute="0" name=""  />
+        <arc begin="7" end="8" isPushBackRoute="0" name=""  />
+        <arc begin="12" end="13" isPushBackRoute="0" name=""  />
+        <arc begin="9" end="12" isPushBackRoute="0" name=""  />
+        <arc begin="10" end="9" isPushBackRoute="0" name=""  />
+        <arc begin="13" end="10" isPushBackRoute="0" name=""  />
+        <arc begin="0" end="14" isPushBackRoute="1" name="Apron"  />
+        <arc begin="14" end="0" isPushBackRoute="1" name="Apron"  />
+        <arc begin="14" end="5" isPushBackRoute="1" name="Apron"  />
+        <arc begin="5" end="14" isPushBackRoute="1" name="Apron"  />
+        <arc begin="1" end="15" isPushBackRoute="1" name="Grass_parking_spot_1"  />
+        <arc begin="15" end="1" isPushBackRoute="1" name="Grass_parking_spot_1"  />
+        <arc begin="15" end="5" isPushBackRoute="1" name="Grass_parking_spot_1"  />
+        <arc begin="5" end="15" isPushBackRoute="1" name="Grass_parking_spot_1"  />
+        <arc begin="2" end="16" isPushBackRoute="1" name="Grass_parking_spot_2"  />
+        <arc begin="16" end="2" isPushBackRoute="1" name="Grass_parking_spot_2"  />
+        <arc begin="16" end="3" isPushBackRoute="1" name="Grass_parking_spot_2"  />
+        <arc begin="3" end="16" isPushBackRoute="1" name="Grass_parking_spot_2"  />
+ </TaxiWaySegments>
+</groundnet>

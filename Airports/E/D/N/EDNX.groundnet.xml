@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Hangar_start_1" lat="N48 14.131739" lon="E11 33.132660" heading="70.76"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="Hangar_start_2" lat="N48 14.110565" lon="E11 33.146146" heading="68.2"  radius="10" airlineCodes="" />
+        <Parking index="2" type="ga" name="Apron_spot_1" lat="N48 14.127871" lon="E11 33.201279" heading="-59.12"  radius="10" airlineCodes="" />
+        <Parking index="3" type="ga" name="Apron_spot_2" lat="N48 14.135653" lon="E11 33.207843" heading="301.46"  radius="10" airlineCodes="" />
+        <Parking index="4" type="ga" name="Apron_spot_3" lat="N48 14.175531" lon="E11 33.145673" heading="214.27"  radius="10" airlineCodes="" />
+        <Parking index="5" type="ga" name="Apron_spot_4" lat="N48 14.169138" lon="E11 33.159101" heading="216.87"  radius="10" airlineCodes="" />
+        <Parking index="6" type="ga" name="Apron_spot_5" lat="N48 14.163350" lon="E11 33.172419" heading="213.83"  radius="10" airlineCodes="" />
+        <Parking index="7" type="ga" name="Apron_spot_6" lat="N48 14.158127" lon="E11 33.185657" heading="210.75"  radius="10" airlineCodes="" />
+        <Parking index="8" type="ga" name="Apron_east_spot_1" lat="N48 14.179881" lon="E11 33.266203" heading="214.27"  radius="10" airlineCodes="" />
+        <Parking index="9" type="ga" name="Apron_east_spot_2" lat="N48 14.173217" lon="E11 33.283068" heading="216.87"  radius="10" airlineCodes="" />
+        <Parking index="10" type="ga" name="Apron_east_spot_3" lat="N48 14.166186" lon="E11 33.299247" heading="213.83"  radius="10" airlineCodes="" />
+        <Parking index="11" type="ga" name="Apron_east_spot_4" lat="N48 14.159842" lon="E11 33.315328" heading="210.75"  radius="10" airlineCodes="" />
+        <Parking index="12" type="ga" name="Apron_east_spot_5" lat="N48 14.152800" lon="E11 33.332131" heading="211.17"  radius="10" airlineCodes="" />
+        <Parking index="13" type="ga" name="Apron_east_spot_6" lat="N48 14.153624" lon="E11 33.287578" heading="390.65"  radius="10" airlineCodes="" />
+        <Parking index="14" type="ga" name="Apron_east_spot_7" lat="N48 14.147106" lon="E11 33.304169" heading="393.72"  radius="10" airlineCodes="" />
+        <Parking index="15" type="ga" name="Apron_east_spot_8" lat="N48 14.139880" lon="E11 33.320863" heading="396.77"  radius="10" airlineCodes="" />
+        <Parking index="16" type="ga" name="Heli_parking_1" lat="N48 14.161205" lon="E11 33.260677" heading="77.33"  radius="10" airlineCodes="" />
+        <Parking index="17" type="ga" name="Heli_parking_2" lat="N48 14.157145" lon="E11 33.237209" heading="255.12"  radius="10" airlineCodes="" />
+        <Parking index="18" type="ga" name="Fuel_station" lat="N48 14.120705" lon="E11 33.188536" heading="29.82"  radius="10" airlineCodes="" />
+        <Parking index="19" type="ga" name="Flugwerft_Schleissheim" lat="N48 14.723097" lon="E11 33.418373" heading="84.56"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>
