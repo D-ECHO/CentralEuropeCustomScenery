@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Hangar_West" lat="N47 22.564549" lon="E8 45.599173" heading="-224.7"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="South_Field" lat="N47 22.463512" lon="E8 45.613949" heading="38.97"  radius="10" airlineCodes="" />
+        <Parking index="2" type="ga" name="Helipad" lat="N47 22.514998" lon="E8 45.671380" heading="300"  radius="10" airlineCodes="" />
+        <Parking index="3" type="ga" name="Heli_Hangar" lat="N47 22.540085" lon="E8 45.641830" heading="43.15"  radius="10" airlineCodes="" />
+        <Parking index="4" type="ga" name="Hangar_East" lat="N47 22.535488" lon="E8 45.689712" heading="-140.91"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>

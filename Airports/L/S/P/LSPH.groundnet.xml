@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Winterthur_Ramp" lat="N47 31.098116" lon="E8 46.350300" heading="163.15"  radius="18" airlineCodes="" />
+ </parkingList>
+</groundnet>
