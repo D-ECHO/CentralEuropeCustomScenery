@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Eurofighter_Hangar_1" lat="N47 12.047792" lon="E14 45.236422" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="1" type="gate" name="Eurofighter_Hangar_2" lat="N47 12.046000" lon="E14 45.220614" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="2" type="gate" name="Eurofighter_Hangar_3" lat="N47 12.043817" lon="E14 45.204370" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="3" type="gate" name="Eurofighter_Hangar_4" lat="N47 12.039944" lon="E14 45.169437" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="4" type="gate" name="Eurofighter_Hangar_5" lat="N47 12.037843" lon="E14 45.153317" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="5" type="gate" name="Eurofighter_Hangar_6" lat="N47 12.036043" lon="E14 45.137639" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="6" type="gate" name="Eurofighter_Hangar_7" lat="N47 12.031692" lon="E14 45.098003" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="7" type="gate" name="Eurofighter_Hangar_8" lat="N47 12.029556" lon="E14 45.081901" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="8" type="gate" name="Eurofighter_Hangar_9" lat="N47 12.027524" lon="E14 45.066030" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="9" type="gate" name="Eurofighter_Hangar_10" lat="N47 12.023350" lon="E14 45.031436" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="10" type="gate" name="Eurofighter_Hangar_11" lat="N47 12.021266" lon="E14 45.015794" heading="350.35"  radius="10" airlineCodes="" />
+        <Parking index="11" type="gate" name="Eurofighter_Hangar_12" lat="N47 12.019391" lon="E14 44.999617" heading="350.35"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>
