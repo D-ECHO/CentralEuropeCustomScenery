@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Hangar_Nord" lat="N46 41.055964" lon="E7 53.300216" heading="0"  radius="17" airlineCodes="" />
+        <Parking index="1" type="gate" name="KLM700_Parking_Place" lat="N46 40.407052" lon="E7 52.889157" heading="0"  radius="17" airlineCodes="" />
+ </parkingList>
+</groundnet>
