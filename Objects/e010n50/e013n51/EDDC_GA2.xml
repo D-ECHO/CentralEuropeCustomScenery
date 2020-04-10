@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<!-- Ganeral Avision Hangar GA2 at EDDC Airport -->
+	<!-- 12.02.2013 - by Andre Burkert 		--> 
+	<!-- movable doors and flasching alarm lamps    -->
+
+	<path>EDDC_GA2.ac</path>
+
+<!-- nasal for the hangar door manual animation EDDC_GA2 -->
+	 <nasal>
+	  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "EDDC")) scenery["EDDC"] = {};
+   if (!contains(scenery.EDDC, "EDDC_GA2")) scenery.EDDC["EDDC_GA2"] = {};
+   if (contains(scenery, "sharedDoor")) {
+     scenery.EDDC.EDDC_GA2[0] =
+       { door :
+       [scenery.sharedDoor.new("/scenery/EDDC/EDDC_GA2[0]/door[0]", 10),
+        scenery.sharedDoor.new("/scenery/EDDC/EDDC_GA2[0]/door[1]", 10)
+	 ]
+       };
+   } else {
+     scenery.EDDC.EDDC_GA2[0] =
+       { door :
+       [aircraft.door.new("/scenery/EDDC/EDDC_GA2[0]/door[0]", 10),
+	aircraft.door.new("/scenery/EDDC/EDDC_GA2[0]/door[1]", 10)
+         ]
+       };
+   }
+  </load>
+  <unload>
+   if (contains(scenery, "sharedDoor")) {
+     scenery.EDDC.EDDC_GA2[0].door[0].destroy();
+     scenery.EDDC.EDDC_GA2[0].door[1].destroy();
+   }
+  </unload>
+ </nasal>
+
+<animation>
+	<type>range</type>
+  	<min-m>0</min-m>
+  	<max-m>20000</max-m>
+</animation>
+
+<animation>
+  	<type>alpha-test</type>
+  	<alpha-factor>0.01</alpha-factor>
+</animation>
+
+<!--  animation GA2 Door 1 - left  -->
+<animation>
+ <type>pick</type>
+ 	<object-name>ga2door1a</object-name>
+ 	<object-name>ga2door1b</object-name>
+ 	<visible>true</visible>
+ <action>
+  	<name>click</name>
+  	<button>0</button>
+  	<repeatable>false</repeatable>
+  <binding>
+   	<command>nasal</command>
+   	<script>scenery.EDDC.EDDC_GA2[0].door[0].toggle();</script>
+  </binding>
+ </action>
+</animation>
+<animation>
+<type>rotate</type>
+	<object-name>ga2door1a</object-name>
+	<object-name>ga2door1b</object-name>
+	<property>/scenery/EDDC/EDDC_GA2[0]/door[0]/position-norm</property>
+	<factor>85</factor>
+	<center>
+		<x-m>  20.24223 </x-m>
+		<y-m>   6.91424 </y-m>
+		<z-m>   4.20000 </z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+<type>rotate</type>
+	<object-name>ga2door1b</object-name>
+	<property>/scenery/EDDC/EDDC_GA2[0]/door[0]/position-norm</property>
+	<factor>-170</factor>
+	<center>
+		<x-m>  20.24223 </x-m>
+		<y-m>   6.91424 </y-m>
+		<z-m>   2.60000 </z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>	
+</animation>
+<!--  flashing alarm lamp Door 1 -->
+<animation>
+<type>range</type>
+  	<object-name>ga2flash1</object-name>
+  	<min-m>0</min-m>
+  	<max-m>1500</max-m>
+</animation>
+<animation>
+	<object-name>ga2flash1</object-name>
+<type>rotate</type>
+	<property>/scenery/EDDC/EDDC_GA2[0]/door[0]/position-norm</property>
+	<factor>10000</factor>
+  	<axis>
+		<x1-m>  10.69173 </x1-m>
+		<y1-m>  7.00224 </y1-m>
+		<z1-m>  4.79500 </z1-m>
+		<x2-m>  10.69173 </x2-m>
+		<y2-m>  7.00224 </y2-m>
+		<z2-m>  4.59500 </z2-m>
+	</axis>
+</animation>
+<!--  GA2 Door 2 - right  -->
+<animation>
+<type>pick</type>
+ 	<object-name>ga2door2a</object-name>
+ 	<object-name>ga2door2b</object-name>
+ 	<visible>true</visible>
+<action>
+<name>click</name>
+  	<button>0</button>
+  	<repeatable>false</repeatable>
+  <binding>
+   	<command>nasal</command>
+   	<script>scenery.EDDC.EDDC_GA2[0].door[1].toggle();</script>
+  </binding>
+ </action>
+</animation>
+<animation>
+<type>rotate</type>
+	<object-name>ga2door2a</object-name>
+	<object-name>ga2door2b</object-name>
+	<property>/scenery/EDDC/EDDC_GA2[0]/door[1]/position-norm</property>
+	<factor>85</factor>
+	<center>
+		<x-m> -18.40777 </x-m>
+		<y-m>   6.91424 </y-m>
+		<z-m>   4.20000 </z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+<animation>
+<type>rotate</type>
+	<object-name>ga2door2b</object-name>
+	<property>/scenery/EDDC/EDDC_GA2[0]/door[1]/position-norm</property>
+	<factor>-170</factor>
+	<center>
+		<x-m> -18.40777 </x-m>
+		<y-m>   6.91424 </y-m>
+		<z-m>   2.60000 </z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>	
+</animation>
+<!--  flashing alarm lamp Door 2  -->
+<animation>
+<type>range</type>
+  	<object-name>ga2flash2</object-name>
+  	<min-m>0</min-m>
+  	<max-m>1500</max-m>
+</animation>
+<animation>
+	<object-name>ga2flash2</object-name>
+<type>rotate</type>
+	<property>/scenery/EDDC/EDDC_GA2[0]/door[1]/position-norm</property>
+	<factor>10000</factor>
+  	<axis>
+		<x1-m> -8.88327 </x1-m>
+		<y1-m>  7.00224 </y1-m>
+		<z1-m>  4.79500 </z1-m>
+		<x2-m> -8.88327 </x2-m>
+		<y2-m>  7.00224 </y2-m>
+		<z2-m>  4.59500 </z2-m>
+	</axis>
+</animation>
+<!--  flashing alarm lamp emission  -->
+<animation>
+<type>material</type>
+	<object-name>ga2flash1</object-name>
+	<object-name>ga2flash2</object-name>
+<emission>	
+	<red>1.0</red>	
+	<green>1.0</green>	
+	<blue>1.0</blue>
+</emission>
+</animation>
+<!--  transparent effect  -->
+<effect>
+<inherits-from>Effects/model-transparent</inherits-from>
+ 	<object-name>ga2window</object-name>
+ 	<object-name>ga2door1a</object-name>
+ 	<object-name>ga2door1b</object-name>
+ 	<object-name>ga2door2a</object-name>
+ 	<object-name>ga2door2b</object-name>
+</effect>
+<!--  night light area  -->
+<animation>
+<type>material</type>
+	<object-name>ga2lightarea</object-name>
+<transparency>
+	<alpha-prop>environment/visibility-m</alpha-prop>
+	<factor>1</factor>
+	<offset>0</offset>
+</transparency>
+	<threshold>0.001</threshold>
+</animation>
+<animation>
+<type>select</type>
+	<object-name>ga2lightarea</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.49</value>
+</greater-than>
+</condition>
+</animation>
+<animation>
+<type>select</type>
+<object-name>ga2lightarea</object-name>
+<condition>
+      <not>
+        <property>/sim/rendering/rembrandt/enabled</property>
+      </not>
+</condition>
+</animation>
+<!--  night floodlight  -->
+<animation>
+<type>material</type>
+	<object-name>ga2light</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.49</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.9</red>	
+	<green>0.9</green>	
+	<blue>0.9</blue>
+</emission>
+</animation>
+<!--  night emission  -->
+<animation>
+<type>material</type>
+	<object-name>blah</object-name>
+	<object-name>ga2door1a</object-name>
+	<object-name>ga2door1b</object-name>
+	<object-name>ga2door2a</object-name>
+	<object-name>ga2door2b</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.2</red>	
+	<green>0.2</green>	
+	<blue>0.2</blue>
+</emission>
+</animation>
+<!--  enable-hot  -->
+<animation>
+ 	<object-name>blah</object-name>
+ 	<object-name>ga2flash1</object-name>
+ 	<object-name>ga2flash2</object-name>
+ 	<object-name>ga2light</object-name>
+ 	<object-name>ga2lightarea</object-name>
+ 	<object-name>ga2door1a</object-name>
+ 	<object-name>ga2door1b</object-name>
+ 	<object-name>ga2door2a</object-name>
+ 	<object-name>ga2door2b</object-name>
+<enable-hot type="bool">false</enable-hot>
+</animation>
+
+</PropertyList>

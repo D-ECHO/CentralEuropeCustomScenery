@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Power/windturbine.xml 10.7514381 55.346947 18.68 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 10.8515 55.290167 0.14 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 10.96766 55.33028 0.3 180
+OBJECT_SHARED Models/Misc/generic_castle.xml 10.786493 55.312626 7.25 180
+OBJECT_STATIC veststorebaeltsbroen.xml 10.9015443 55.3106347 0 26.03

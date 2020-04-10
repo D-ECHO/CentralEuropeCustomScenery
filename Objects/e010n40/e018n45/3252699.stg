@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Airport/ndb.ac 18.837608 45.455419 82.84 180
+OBJECT_SHARED Models/Airport/ils.xml 18.822297 45.458506 82.24 70
+OBJECT_SHARED Models/Airport/marker.ac 18.837472 45.455456 82.84 0
+OBJECT_SHARED Models/Airport/localizer.xml 18.792831 45.467236 83.14 70
+OBJECT_SHARED Models/Airport/apt-light.xml 18.805718 45.466534 82.99 0
+OBJECT_SHARED Models/Airport/apt-light.xml 18.807671 45.46603 83 0
+OBJECT_SHARED Models/Airport/apt-light.xml 18.808712 45.465737 83.06 0

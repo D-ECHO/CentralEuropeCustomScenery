@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>EDDC_WEASTATION.ac</path>
+
+<animation>
+<type>range</type>
+<min-m>0</min-m>
+<max-m>8000</max-m>
+</animation>
+
+<animation>
+ <type>material</type>
+    <object-name>weastationwindow</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.6</red>	
+  <green>0.6</green>	
+  <blue>0.6</blue>
+ </emission>
+</animation>
+
+<animation>
+ <type>material</type>
+    <object-name>blah</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.1</red>	
+  <green>0.1</green>	
+  <blue>0.1</blue>
+ </emission>
+</animation>
+
+</PropertyList>

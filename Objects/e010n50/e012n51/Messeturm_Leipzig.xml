@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>Messeturm_Leipzig.ac</path>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-property>/sim/rendering/static-lod/bare</max-property>
+	</animation>
+	
+<animation>
+   <type>range</type>
+   <object-name>stahlseile</object-name>
+   <object-name>streben</object-name>
+   <object-name>rohreduenn</object-name>
+   <min-m>0</min-m>
+  <max-property>/sim/rendering/static-lod/detailed</max-property>
+ </animation>
+
+<animation>
+    <type>material</type>
+    <object-name>MM</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.5</red>	
+	<green>0.5</green>	
+	<blue>0.5</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>rohredick</object-name>
+	<object-name>rohreduenn</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.05</red>	
+	<green>0.05</green>	
+	<blue>0.05</blue>
+    </emission>
+</animation>
+	
+	<lampenXparams>
+		<light-near>0.4</light-near>
+		<light-med>0.8</light-med>
+		<light-far>5</light-far>
+	</lampenXparams>
+
+	<animation>
+		<name>lampenXGroup</name>
+		<object-name>lampenX0</object-name>
+		<object-name>lampenX1</object-name>
+		<object-name>lampenX2</object-name>
+		<object-name>lampenX3</object-name>
+		<object-name>lampenX4</object-name>
+		<object-name>lampenX5</object-name>
+		<object-name>lampenX6</object-name>
+		<object-name>lampenX7</object-name>
+		<object-name>lampenX8</object-name>
+	</animation>
+
+	<animation>
+		<type>select</type>
+		<name>lampenXGroupNight</name>
+		<object-name>lampenXGroup</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>lampenXGroup</object-name>
+		<alpha-factor>0.001</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX0</object-name>
+		<offset-m>86</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>86</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX1</object-name>
+		<offset-m>76.444443</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>76.444443</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX2</object-name>
+		<offset-m>66.888885</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>66.888885</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX3</object-name>
+		<offset-m>57.333332</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>57.333332</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX4</object-name>
+		<offset-m>47.777779</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>47.777779</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX5</object-name>
+		<offset-m>38.222221</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>38.222221</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX6</object-name>
+		<offset-m>28.666664</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>28.666664</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX7</object-name>
+		<offset-m>19.111111</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>19.111111</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>lampenX8</object-name>
+		<offset-m>9.555555</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>9.555555</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX0</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX3</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX4</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX5</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX6</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX7</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>lampenX8</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX0</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep> 0.4 </dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep> 0.8 </dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep> 10.0 </dep>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX1</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX2</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX3</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX4</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX5</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX6</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX7</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>lampenX8</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../lampenXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../lampenXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../lampenXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+</PropertyList>

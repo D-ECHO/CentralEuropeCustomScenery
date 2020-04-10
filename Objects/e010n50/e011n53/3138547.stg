@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac 11.8391667 53.8591667 -273 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 11.9622222 53.8519444 -404.92 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 11.9888889 53.8313889 -422.57 180
+OBJECT_SHARED Models/Misc/generic_church_03.ac 11.9863889 53.8472222 3.44 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.983745 53.82509 4.76 85.75
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.98382 53.825686 3.24 56.77
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.989673 53.827506 2.53 22.38
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.995171 53.828497 1.78 22.61
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.998551 53.829568 1.36 28.2

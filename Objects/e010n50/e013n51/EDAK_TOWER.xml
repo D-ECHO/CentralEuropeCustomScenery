@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<!-- EDAK TOWER	-->
+	<!-- 03.05.2015 - update by Andre Burkert	-->
+	<!-- 02.04.2013 - by Andre Burkert	--> 
+
+	<path>EDAK_TOWER.ac</path>
+
+<!-- Obstruction lamp effect -->
+	<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m>  -0.66271 </x-m>
+			<y-m>  -1.59994 </y-m>
+			<z-m>  20.34000 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+<!-- Windsock Models -->
+	<model>
+    <path>Models/Airport/LOIU_windsock_lit.xml</path>
+    <offsets>
+      <x-m>  1.56647 </x-m>
+      <y-m> -0.00328 </y-m>
+      <z-m> 14.03300 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg> 264.0</heading-deg>
+    </offsets>
+	</model>
+<!--  night emission  -->
+<animation>
+    <type>textranslate</type> 
+    <object-name>EDAK_TOWER1</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x>  0 </x> 
+      <y> -1 </y> 
+    </axis> 
+</animation>
+<animation>
+<type>material</type>
+	<object-name>EDAK_TOWER1</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.6</blue>
+</emission>
+</animation>
+<!--   REMBRANDT model-transparent  -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>EDAK_TOWER2</object-name>
+</effect>
+
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+
+</PropertyList>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_NA_TERM_CONCOURSE_A.ac</path>
+	
+<!-- 					11.09.2013 - by Andre Burkert								--> 
+<!-- ############################################################### -->
+<!-- CONCOURSE A at Terminal 1 : Gates 1 - 7									-->
+<!-- FGFS Heading as Terminal building											-->
+<!-- a open Terminal window field at Gate 4 for placing Concourse		-->
+<!-- ############################################################### -->
+
+<!--  textranslate and night emission  -->
+<animation>
+    <type>textranslate</type> 
+    <object-name>LKPR_NA_TERM_CONCOURSE_A2</object-name>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> 0 </x> 
+      <y> 1 </y> 
+    </axis> 
+</animation>
+<animation>
+<type>material</type>
+    <object-name>LKPR_NA_TERM_CONCOURSE_A2</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.6</blue>
+</emission>
+</animation>
+
+<!--   REMBRANDT model-transparent for the banister -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>LKPR_NA_TERM_CONCOURSE_A3</object-name>
+</effect>
+
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+
+</PropertyList>

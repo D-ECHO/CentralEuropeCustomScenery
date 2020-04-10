@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 12.085667 54.502833 -0.38 180
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 12.1769 54.52547 -0.32 340.4
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 12.2133333 54.5216667 -0.51 317.69
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 12.2331 54.5195 -0.48 218.97
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 12.0836633 54.50856 -0.48 314.44

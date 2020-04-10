@@ -1,0 +1,2727 @@
+AC3Db
+MATERIAL "AutoWhite" rgb 1 1 1  amb 1 1 1  emis 0.1 0.1 0.1  spec 0 0 0 shi 64  trans 0
+OBJECT world
+kids 160
+OBJECT poly
+name "Main.001"
+texture "bp_parliament_02.rgb"
+numvert 4
+-27.5 25 -24.75
+-27.5 25 -101.75
+-27.5 0.0 -101.75
+-27.5 0.0 -24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Main.002"
+texture "bp_parliament_02m.rgb"
+numvert 4
+-27.5 25 101.75
+-27.5 25 24.75
+-27.5 0.0 24.75
+-27.5 0.0 101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Main.003"
+texture "bp_parliament_06m.rgb"
+numvert 4
+27.5 0.0 35.75
+27.5 0.0 101.75
+27.5 25 101.75
+27.5 25 35.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 0.0 0.0
+0 1.0 0.0
+3 1.0 1.0
+2 0.0 1.0
+kids 0
+OBJECT poly
+name "Main.004"
+texture "bp_parliament_06.rgb"
+numvert 4
+27.5 0.0 -101.75
+27.5 0.0 -35.75
+27.5 25 -35.75
+27.5 25 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 0.0 0.0
+0 1.0 0.0
+3 1.0 1.0
+2 0.0 1.0
+kids 0
+OBJECT poly
+name "Main.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+27.5 25 -101.75
+27.5 25 101.75
+-27.5 25 101.75
+-27.5 25 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft.001"
+texture "bp_parliament_04.rgb"
+numvert 4
+-38.5 25 -101.75
+38.5 25 -101.75
+38.5 0.0 -101.75
+-38.5 0.0 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Sideleft.002"
+texture "bp_parliament_04.rgb"
+numvert 4
+-38.5 25 -129.25
+38.5 25 -129.25
+38.5 0.0 -129.25
+-38.5 0.0 -129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Sideleft.003"
+texture "bp_parliament_03.rgb"
+numvert 4
+-38.5 25 -101.75
+-38.5 25 -129.25
+-38.5 0.0 -129.25
+-38.5 0.0 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Sideleft.004"
+texture "bp_parliament_03.rgb"
+numvert 4
+38.5 0.0 -129.25
+38.5 0.0 -101.75
+38.5 25 -101.75
+38.5 25 -129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 0.0 0.0
+0 1.0 0.0
+3 1.0 1.0
+2 0.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-38.5 25 -101.75
+-38.5 25 -129.25
+-34.5 35 -125.25
+-34.5 35 -105.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+38.5 25 -101.75
+34.5 35 -105.75
+34.5 35 -125.25
+38.5 25 -129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-38.5 25 -129.25
+38.5 25 -129.25
+34.5 35 -125.25
+-34.5 35 -125.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-38.5 25 -101.75
+-34.5 35 -105.75
+34.5 35 -105.75
+38.5 25 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-34.5 35 -105.75
+-34.5 35 -125.25
+34.5 35 -125.25
+34.5 35 -105.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone1.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 -126.501
+-35.75 45 -126.499
+-38.5 25 -123.75
+-38.5 25 -129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone1.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 -126.499
+-35.75 45 -126.501
+-33 25 -129.25
+-33 25 -123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone1.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.749 45 -126.5
+-35.751 45 -126.5
+-38.5 25 -129.25
+-33 25 -129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone1.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.751 45 -126.5
+-35.749 45 -126.5
+-33 25 -123.75
+-38.5 25 -123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone2.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 -126.499
+35.75 45 -126.501
+38.5 25 -129.25
+38.5 25 -123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone2.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 -126.501
+35.75 45 -126.499
+33 25 -123.75
+33 25 -129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone2.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.751 45 -126.5
+35.749 45 -126.5
+33 25 -129.25
+38.5 25 -129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone2.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.749 45 -126.5
+35.751 45 -126.5
+38.5 25 -123.75
+33 25 -123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone3.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 -104.501
+-35.75 45 -104.499
+-38.5 25 -101.75
+-38.5 25 -107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone3.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 -104.499
+-35.75 45 -104.501
+-33 25 -107.25
+-33 25 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone3.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.749 45 -104.5
+-35.751 45 -104.5
+-38.5 25 -107.25
+-33 25 -107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone3.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.751 45 -104.5
+-35.749 45 -104.5
+-33 25 -101.75
+-38.5 25 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone4.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 -104.499
+35.75 45 -104.501
+38.5 25 -107.25
+38.5 25 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone4.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 -104.501
+35.75 45 -104.499
+33 25 -101.75
+33 25 -107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone4.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.751 45 -104.5
+35.749 45 -104.5
+33 25 -107.25
+38.5 25 -107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideleft_roof_cone4.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.749 45 -104.5
+35.751 45 -104.5
+38.5 25 -101.75
+33 25 -101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright.001"
+texture "bp_parliament_04.rgb"
+numvert 4
+38.5 25 101.75
+-38.5 25 101.75
+-38.5 0.0 101.75
+38.5 0.0 101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Sideright.002"
+texture "bp_parliament_04.rgb"
+numvert 4
+38.5 25 129.25
+-38.5 25 129.25
+-38.5 0.0 129.25
+38.5 0.0 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Sideright.003"
+texture "bp_parliament_03.rgb"
+numvert 4
+-38.5 25 129.25
+-38.5 25 101.75
+-38.5 0.0 101.75
+-38.5 0.0 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Sideright.004"
+texture "bp_parliament_03.rgb"
+numvert 4
+38.5 0.0 101.75
+38.5 0.0 129.25
+38.5 25 129.25
+38.5 25 101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 0.0 0.0
+0 1.0 0.0
+3 1.0 1.0
+2 0.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-38.5 25 101.75
+-34.5 35 105.75
+-34.5 35 125.25
+-38.5 25 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+38.5 25 101.75
+38.5 25 129.25
+34.5 35 125.25
+34.5 35 105.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-38.5 25 129.25
+-34.5 35 125.25
+34.5 35 125.25
+38.5 25 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-38.5 25 101.75
+38.5 25 101.75
+34.5 35 105.75
+-34.5 35 105.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-34.5 35 105.75
+34.5 35 105.75
+34.5 35 125.25
+-34.5 35 125.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone1.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 126.499
+-35.75 45 126.501
+-38.5 25 129.25
+-38.5 25 123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone1.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 126.501
+-35.75 45 126.499
+-33 25 123.75
+-33 25 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone1.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.751 45 126.5
+-35.749 45 126.5
+-33 25 129.25
+-38.5 25 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone1.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.749 45 126.5
+-35.751 45 126.5
+-38.5 25 123.75
+-33 25 123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone2.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 126.501
+35.75 45 126.499
+38.5 25 123.75
+38.5 25 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone2.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 126.499
+35.75 45 126.501
+33 25 129.25
+33 25 123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone2.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.749 45 126.5
+35.751 45 126.5
+38.5 25 129.25
+33 25 129.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone2.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.751 45 126.5
+35.749 45 126.5
+33 25 123.75
+38.5 25 123.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone3.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 104.499
+-35.75 45 104.501
+-38.5 25 107.25
+-38.5 25 101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone3.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.75 45 104.501
+-35.75 45 104.499
+-33 25 101.75
+-33 25 107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone3.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.751 45 104.5
+-35.749 45 104.5
+-33 25 107.25
+-38.5 25 107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone3.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-35.749 45 104.5
+-35.751 45 104.5
+-38.5 25 101.75
+-33 25 101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone4.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 104.501
+35.75 45 104.499
+38.5 25 101.75
+38.5 25 107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone4.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.75 45 104.499
+35.75 45 104.501
+33 25 107.25
+33 25 101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone4.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.749 45 104.5
+35.751 45 104.5
+38.5 25 107.25
+33 25 107.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Sideright_roof_cone4.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+35.751 45 104.5
+35.749 45 104.5
+33 25 101.75
+38.5 25 101.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front.001"
+texture "bp_parliament_08.rgb"
+numvert 4
+-27.5 25 -24.75
+-38.5 25 -24.75
+-38.5 0.0 -24.75
+-27.5 0.0 -24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Front.002"
+texture "bp_parliament_08.rgb"
+numvert 4
+-27.5 25 24.75
+-38.5 25 24.75
+-38.5 0.0 24.75
+-27.5 0.0 24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Front.003"
+texture "bp_parliament_01.rgb"
+numvert 4
+-38.5 0.0 24.75
+-38.5 0.0 -24.75
+-38.5 25 -24.75
+-38.5 25 24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 0.0 0.0
+0 1.0 0.0
+3 1.0 1.0
+2 0.0 1.0
+kids 0
+OBJECT poly
+name "Front.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-27.5 25 -24.75
+-27.5 25 24.75
+-38.5 25 24.75
+-38.5 25 -24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_left.001"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.75 60 -22.001
+-35.75 60 -21.999
+-38.5 25 -19.25
+-38.5 25 -24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_left.002"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.75 60 -21.999
+-35.75 60 -22.001
+-33 25 -24.75
+-33 25 -19.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_left.003"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.749 60 -22
+-35.751 60 -22
+-38.5 25 -24.75
+-33 25 -24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_left.004"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.751 60 -22
+-35.749 60 -22
+-33 25 -19.25
+-38.5 25 -19.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_right.001"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.75 60 21.999
+-35.75 60 22.001
+-38.5 25 24.75
+-38.5 25 19.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_right.002"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.75 60 22.001
+-35.75 60 21.999
+-33 25 19.25
+-33 25 24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_right.003"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.751 60 22
+-35.749 60 22
+-33 25 24.75
+-38.5 25 24.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Front_cone_right.004"
+texture "bp_parliament_11.rgb"
+numvert 4
+-35.749 60 22
+-35.751 60 22
+-38.5 25 19.25
+-33 25 19.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Neck.001"
+texture "bp_parliament_07.rgb"
+numvert 4
+60.5 25 -35.75
+27.5 25 -35.75
+27.5 0.0 -35.75
+60.5 0.0 -35.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Neck.002"
+texture "bp_parliament_07.rgb"
+numvert 4
+60.5 25 35.75
+27.5 25 35.75
+27.5 0.0 35.75
+60.5 0.0 35.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Neck.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+27.5 25 35.75
+27.5 25 -35.75
+60.5 25 -35.75
+60.5 25 35.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Back.001"
+texture "bp_parliament_08.rgb"
+numvert 4
+60.5 25 41.25
+71.5 25 41.25
+71.5 0.0 41.25
+60.5 0.0 41.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Back.002"
+texture "bp_parliament_08.rgb"
+numvert 4
+60.5 25 -41.25
+71.5 25 -41.25
+71.5 0.0 -41.25
+60.5 0.0 -41.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Back.003"
+texture "bp_parliament_05.rgb"
+numvert 4
+60.5 25 41.25
+60.5 25 -41.25
+60.5 0.0 -41.25
+60.5 0.0 41.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Back.004"
+texture "bp_parliament_05.rgb"
+numvert 4
+71.5 0.0 -41.25
+71.5 0.0 41.25
+71.5 25 41.25
+71.5 25 -41.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 0.0 0.0
+0 1.0 0.0
+3 1.0 1.0
+2 0.0 1.0
+kids 0
+OBJECT poly
+name "Back_roof.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+60.5 25 41.25
+60.5 25 -41.25
+66 35 -37.25
+66 35 37.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Back_roof.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+71.5 25 41.25
+66 35 37.25
+66 35 -37.25
+71.5 25 -41.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Back_roof.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+71.5 25 -41.25
+65.999 35 -37.25
+66.001 35 -37.25
+60.5 25 -41.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Back_roof.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+71.5 25 41.25
+60.5 25 41.25
+65.999 35 37.25
+66.001 35 37.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft.001"
+texture "bp_parliament_09.rgb"
+numvert 4
+-13.75 40 -46.75
+13.75 40 -46.75
+13.75 25 -46.75
+-13.75 25 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft.002"
+texture "bp_parliament_09.rgb"
+numvert 4
+13.75 40 -74.25
+-13.75 40 -74.25
+-13.75 25 -74.25
+13.75 25 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft.003"
+texture "bp_parliament_09.rgb"
+numvert 4
+-13.75 40 -74.25
+-13.75 40 -46.75
+-13.75 25 -46.75
+-13.75 25 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft.004"
+texture "bp_parliament_09.rgb"
+numvert 4
+13.75 40 -46.75
+13.75 40 -74.25
+13.75 25 -74.25
+13.75 25 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft_roof.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.75 50 -50.75
+9.75 50 -70.25
+13.75 40 -74.25
+13.75 40 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft_roof.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-9.75 50 -70.25
+-9.75 50 -50.75
+-13.75 40 -46.75
+-13.75 40 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft_roof.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-9.75 50 -50.75
+9.75 50 -50.75
+13.75 40 -46.75
+-13.75 40 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft_roof.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.75 50 -70.25
+-9.75 50 -70.25
+-13.75 40 -74.25
+13.75 40 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft_roof.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.75 50 -70.25
+9.75 50 -50.75
+-9.75 50 -50.75
+-9.75 50 -70.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone1.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 -71.501
+-11 60 -71.499
+-13.75 40 -68.75
+-13.75 40 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone1.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 -71.499
+-11 60 -71.501
+-8.25 40 -74.25
+-8.25 40 -68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone1.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-10.999 60 -71.5
+-11.001 60 -71.5
+-13.75 40 -74.25
+-8.25 40 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone1.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11.001 60 -71.5
+-10.999 60 -71.5
+-8.25 40 -68.75
+-13.75 40 -68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone2.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 -71.499
+11 60 -71.501
+13.75 40 -74.25
+13.75 40 -68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone2.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 -71.501
+11 60 -71.499
+8.25 40 -68.75
+8.25 40 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone2.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11.001 60 -71.5
+10.999 60 -71.5
+8.25 40 -74.25
+13.75 40 -74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone2.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+10.999 60 -71.5
+11.001 60 -71.5
+13.75 40 -68.75
+8.25 40 -68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone3.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 -49.501
+-11 60 -49.499
+-13.75 40 -46.75
+-13.75 40 -52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone3.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 -49.499
+-11 60 -49.501
+-8.25 40 -52.25
+-8.25 40 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone3.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-10.999 60 -49.5
+-11.001 60 -49.5
+-13.75 40 -52.25
+-8.25 40 -52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone3.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11.001 60 -49.5
+-10.999 60 -49.5
+-8.25 40 -46.75
+-13.75 40 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone4.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 -49.499
+11 60 -49.501
+13.75 40 -52.25
+13.75 40 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone4.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 -49.501
+11 60 -49.499
+8.25 40 -46.75
+8.25 40 -52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone4.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11.001 60 -49.5
+10.999 60 -49.5
+8.25 40 -52.25
+13.75 40 -52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperleft_roof_cone4.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+10.999 60 -49.5
+11.001 60 -49.5
+13.75 40 -46.75
+8.25 40 -46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright.001"
+texture "bp_parliament_09.rgb"
+numvert 4
+13.75 40 46.75
+-13.75 40 46.75
+-13.75 25 46.75
+13.75 25 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright.002"
+texture "bp_parliament_09.rgb"
+numvert 4
+-13.75 40 74.25
+13.75 40 74.25
+13.75 25 74.25
+-13.75 25 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright.003"
+texture "bp_parliament_09.rgb"
+numvert 4
+-13.75 40 46.75
+-13.75 40 74.25
+-13.75 25 74.25
+-13.75 25 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright.004"
+texture "bp_parliament_09.rgb"
+numvert 4
+13.75 40 74.25
+13.75 40 46.75
+13.75 25 46.75
+13.75 25 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright_roof.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.75 50 70.25
+9.75 50 50.75
+13.75 40 46.75
+13.75 40 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright_roof.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-9.75 50 50.75
+-9.75 50 70.25
+-13.75 40 74.25
+-13.75 40 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright_roof.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.75 50 50.75
+-9.75 50 50.75
+-13.75 40 46.75
+13.75 40 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright_roof.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-9.75 50 70.25
+9.75 50 70.25
+13.75 40 74.25
+-13.75 40 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright_roof.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.75 50 70.25
+-9.75 50 70.25
+-9.75 50 50.75
+9.75 50 50.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+1 1.0 1.0
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone1.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 71.499
+-11 60 71.501
+-13.75 40 74.25
+-13.75 40 68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone1.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 71.501
+-11 60 71.499
+-8.25 40 68.75
+-8.25 40 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone1.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11.001 60 71.5
+-10.999 60 71.5
+-8.25 40 74.25
+-13.75 40 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone1.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-10.999 60 71.5
+-11.001 60 71.5
+-13.75 40 68.75
+-8.25 40 68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone2.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 71.501
+11 60 71.499
+13.75 40 68.75
+13.75 40 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone2.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 71.499
+11 60 71.501
+8.25 40 74.25
+8.25 40 68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone2.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+10.999 60 71.5
+11.001 60 71.5
+13.75 40 74.25
+8.25 40 74.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone2.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11.001 60 71.5
+10.999 60 71.5
+8.25 40 68.75
+13.75 40 68.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone3.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 49.499
+-11 60 49.501
+-13.75 40 52.25
+-13.75 40 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone3.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11 60 49.501
+-11 60 49.499
+-8.25 40 46.75
+-8.25 40 52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone3.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-11.001 60 49.5
+-10.999 60 49.5
+-8.25 40 52.25
+-13.75 40 52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone3.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-10.999 60 49.5
+-11.001 60 49.5
+-13.75 40 46.75
+-8.25 40 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone4.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 49.501
+11 60 49.499
+13.75 40 46.75
+13.75 40 52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone4.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11 60 49.499
+11 60 49.501
+8.25 40 52.25
+8.25 40 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone4.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+10.999 60 49.5
+11.001 60 49.5
+13.75 40 52.25
+8.25 40 52.25
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Upperright_roof_cone4.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+11.001 60 49.5
+10.999 60 49.5
+8.25 40 46.75
+13.75 40 46.75
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0
+OBJECT poly
+name "Dome.001"
+texture "bp_parliament_10.rgb"
+numvert 4
+-12.7033 50 5.2619
+-12.7033 50 -5.2619
+-12.7033 25 -5.2619
+-12.7033 25 5.2619
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome.002"
+texture "bp_parliament_10.rgb"
+numvert 4
+12.7033 50 -5.2619
+12.7033 50 5.2619
+12.7033 25 5.2619
+12.7033 25 -5.2619
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome.003"
+texture "bp_parliament_10.rgb"
+numvert 4
+-5.2619 50 -12.7033
+5.2619 50 -12.7033
+5.2619 25 -12.7033
+-5.2619 25 -12.7033
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome.004"
+texture "bp_parliament_10.rgb"
+numvert 4
+5.2619 50 12.7033
+-5.2619 50 12.7033
+-5.2619 25 12.7033
+5.2619 25 12.7033
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome.005"
+texture "bp_parliament_10.rgb"
+numvert 4
+-5.2619 50 12.7033
+-12.7033 50 5.2619
+-12.7033 25 5.2619
+-5.2619 25 12.7033
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome.006"
+texture "bp_parliament_10.rgb"
+numvert 4
+-12.7033 50 -5.2619
+-5.2619 50 -12.7033
+-5.2619 25 -12.7033
+-12.7033 25 -5.2619
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome.007"
+texture "bp_parliament_10.rgb"
+numvert 4
+12.7033 50 5.2619
+5.2619 50 12.7033
+5.2619 25 12.7033
+12.7033 25 5.2619
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome.008"
+texture "bp_parliament_10.rgb"
+numvert 4
+5.2619 50 -12.7033
+12.7033 50 -5.2619
+12.7033 25 -5.2619
+5.2619 25 -12.7033
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-9.9247 63.5974 -4.1069
+-12.7033 50 -5.2619
+-12.7033 50 5.2619
+-9.9247 63.5974 4.1069
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.9247 63.5974 -4.1069
+9.9247 63.5974 4.1069
+12.7033 50 5.2619
+12.7033 50 -5.2619
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 -9.9247
+4.1069 63.5974 -9.9247
+5.2619 50 -12.7033
+-5.2619 50 -12.7033
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 9.9247
+-5.2619 50 12.7033
+5.2619 50 12.7033
+4.1069 63.5974 9.9247
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 9.9247
+-9.9247 63.5974 4.1069
+-12.7033 50 5.2619
+-5.2619 50 12.7033
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.006"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 -9.9247
+-5.2619 50 -12.7033
+-12.7033 50 -5.2619
+-9.9247 63.5974 -4.1069
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.007"
+texture "bp_parliament_roof.rgb"
+numvert 4
+4.1069 63.5974 9.9247
+5.2619 50 12.7033
+12.7033 50 5.2619
+9.9247 63.5974 4.1069
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_bottom.008"
+texture "bp_parliament_roof.rgb"
+numvert 4
+4.1069 63.5974 -9.9247
+9.9247 63.5974 -4.1069
+12.7033 50 -5.2619
+5.2619 50 -12.7033
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-9.9247 63.5974 -4.1069
+-9.9247 63.5974 4.1069
+-2 75 1
+-2 75 -1
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+9.9247 63.5974 -4.1069
+2 75 -1
+2 75 1
+9.9247 63.5974 4.1069
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 -9.9247
+-1 75 -2
+1 75 -2
+4.1069 63.5974 -9.9247
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 9.9247
+4.1069 63.5974 9.9247
+1 75 2
+-1 75 2
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 9.9247
+-1 75 2
+-2 75 1
+-9.9247 63.5974 4.1069
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.006"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-4.1069 63.5974 -9.9247
+-9.9247 63.5974 -4.1069
+-2 75 -1
+-1 75 -2
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.007"
+texture "bp_parliament_roof.rgb"
+numvert 4
+4.1069 63.5974 9.9247
+9.9247 63.5974 4.1069
+2 75 1
+1 75 2
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_roof_top.008"
+texture "bp_parliament_roof.rgb"
+numvert 4
+4.1069 63.5974 -9.9247
+1 75 -2
+2 75 -1
+9.9247 63.5974 -4.1069
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.001"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-0.001 95 -0.0005
+-2 75 -1
+-2 75 1
+-0.001 95 0.0005
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.002"
+texture "bp_parliament_roof.rgb"
+numvert 4
+0.001 95 -0.0005
+0.001 95 0.0005
+2 75 1
+2 75 -1
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.003"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-0.0005 95 -0.001
+0.0005 95 -0.001
+1 75 -2
+-1 75 -2
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.004"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-0.0005 95 0.001
+-1 75 2
+1 75 2
+0.0005 95 0.001
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.005"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-0.0005 95 0.001
+-0.001 95 0.0005
+-2 75 1
+-1 75 2
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.006"
+texture "bp_parliament_roof.rgb"
+numvert 4
+-0.0005 95 -0.001
+-1 75 -2
+-2 75 -1
+-0.001 95 -0.0005
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.007"
+texture "bp_parliament_roof.rgb"
+numvert 4
+0.0005 95 0.001
+1 75 2
+2 75 1
+0.001 95 0.0005
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+OBJECT poly
+name "Dome_cone.008"
+texture "bp_parliament_roof.rgb"
+numvert 4
+0.0005 95 -0.001
+0.001 95 -0.0005
+2 75 -1
+1 75 -2
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 1.0 1.0
+1 0.0 1.0
+2 0.0 0.0
+3 1.0 0.0
+kids 0
+
+
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>EDDC_TOWER.ac</path>
+
+<animation>
+	<type>range</type>
+  	<min-m>0</min-m>
+  	<max-m>20000</max-m>
+</animation>
+
+<animation>
+  	<type>alpha-test</type>
+  	<alpha-factor>0.01</alpha-factor>
+</animation>
+
+<animation>
+ <type>material</type>  
+    <object-name>bluelight</object-name>
+    <object-name>monitors</object-name>
+    <object-name>redlight</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>1</blue>
+ </emission>
+</animation>
+<animation>
+ <type>material</type>  
+    <object-name>stairs</object-name>
+    <object-name>windowleft</object-name>
+    <object-name>windowright</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+<!--  transparent effect  -->
+<effect>
+<inherits-from>Effects/model-transparent</inherits-from>
+ 	<object-name>banister</object-name>
+</effect>
+
+</PropertyList>

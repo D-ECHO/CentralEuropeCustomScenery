@@ -1,0 +1,65 @@
+AC3Db
+MATERIAL "def" rgb 0.72 0.72 0.72 amb 0.8 0.8 0.8 emis 0.08 0.08 0.08 spec 0.2 0.2 0.2 shi 128 trans 0
+OBJECT world
+kids 1
+OBJECT group
+name "ILS_Hut_04"
+kids 1
+OBJECT group
+name "LOD 0.000000/2000.000000"
+data 37
+lod_near=0.000000
+lod_far=2000.000000
+kids 1
+OBJECT poly
+name "POLY_OS=0 HARD= BLEND=yes"
+data 95
+poly_os=0.000000
+blend=-1.000000
+hard_surf=
+deck=0
+mod_lit=0
+wall=0
+draw_disable=0
+manip_type=0
+texture "lirq_ilsh41.png"
+crease 45.000000
+numvert 12
+2.25 0 2.25
+2.25 0 -2.25
+0 1.8 0
+-2.25 0 2.25
+0 1.8 0
+-2.25 0 -2.25
+2.25 0 2.25
+0 1.8 0
+-2.25 0 2.25
+0 1.8 0
+2.25 0 -2.25
+-2.25 0 -2.25
+numsurf 4
+SURF 0x10
+mat 0
+refs 3
+0 0.98558 0.474335
+1 0.98558 0.56398
+2 0.941467 0.51915
+SURF 0x10
+mat 0
+refs 3
+3 0.897339 0.474335
+4 0.941467 0.51915
+5 0.897339 0.56398
+SURF 0x10
+mat 0
+refs 3
+6 0.98558 0.474335
+7 0.941467 0.51915
+8 0.897339 0.474335
+SURF 0x10
+mat 0
+refs 3
+9 0.941467 0.51915
+10 0.98558 0.56398
+11 0.897339 0.56398
+kids 0

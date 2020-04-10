@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+  <path>LOWW_tower.ac</path>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>SMR</object-name>
+    <property>/sim/time/elapsed-sec</property>
+    <factor>360</factor>
+    <center>
+      <x-m>1.4</x-m>
+      <y-m>-1.4</y-m>
+      <z-m>106.9</z-m>
+    </center>
+    <axis>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
+    </axis>
+  </animation>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>11.8</x-m>
+      <y-m>11.8</y-m>
+      <z-m>24.84</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-11.8</x-m>
+      <y-m>11.8</y-m>
+      <z-m>24.84</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>11.8</x-m>
+      <y-m>-11.8</y-m>
+      <z-m>24.84</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-11.8</x-m>
+      <y-m>-11.8</y-m>
+      <z-m>24.84</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-5.40605</x-m>
+      <y-m>11.99143</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>4.23096</x-m>
+      <y-m>11.5096</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>11.50957</x-m>
+      <y-m>4.23101</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>11.99145</x-m>
+      <y-m>-5.40601</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>5.40604</x-m>
+      <y-m>-11.99144</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-4.23098</x-m>
+      <y-m>-11.50959</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-11.50959</x-m>
+      <y-m>-4.23098</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-11.99144</x-m>
+      <y-m>5.40603</y-m>
+      <z-m>69.9</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>2.3</x-m>
+      <y-m>-6.7645</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>0.3</x-m>
+      <y-m>-6.7645</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-4.1645</x-m>
+      <y-m>-2.3</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>-4.1645</x-m>
+      <y-m>-0.3</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>0.3</x-m>
+      <y-m>4.1645</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>2.3</x-m>
+      <y-m>4.1645</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>6.7645</x-m>
+      <y-m>-0.3</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>6.7645</x-m>
+      <y-m>-2.3</y-m>
+      <z-m>99.7</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>0.78511</x-m>
+      <y-m>-0.78511</y-m>
+      <z-m>106.05339</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>2.01489</x-m>
+      <y-m>-0.78511</y-m>
+      <z-m>106.05339</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>2.01489</x-m>
+      <y-m>-2.01489</y-m>
+      <z-m>106.05339</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Models/Effects/RedLight10000.xml</path>
+    <offsets>
+      <x-m>0.78511</x-m>
+      <y-m>-2.01489</y-m>
+      <z-m>106.05339</z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

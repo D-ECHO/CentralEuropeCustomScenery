@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>Wintergartenhochhaus_Leipzig.ac</path>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-property>/sim/rendering/static-lod/bare</max-property>
+	</animation>
+
+<animation>
+	<type>select</type>
+		<object-name>fenster</object-name>
+		<object-name>obenlicht</object-name>
+		<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>ring</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.47</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>1.0</red>	
+	<green>0.8</green>	
+	<blue>0.0</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>MM</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.47</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.0</red>	
+	<green>0.2</green>	
+	<blue>1</blue> 
+    </emission>
+</animation>
+
+<animation>
+  <type>spin</type>
+  <object-name>ring</object-name>
+  <object-name>MM</object-name>
+  <property>/sim/fdm-initialized</property>
+  <factor>3</factor>
+  <axis>
+   <x>0.0</x>
+   <y>0.0</y>
+   <z>1.0</z>
+  </axis>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+ </animation>
+ 
+</PropertyList>

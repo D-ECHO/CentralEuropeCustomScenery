@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>SplitTower.ac</path>
+
+ <!-- LOD -->
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-property>/sim/rendering/static-lod/detailed</max-property>
+ </animation>
+
+</PropertyList>

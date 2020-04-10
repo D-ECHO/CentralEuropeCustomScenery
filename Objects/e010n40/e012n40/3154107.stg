@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/ndb.ac 12.956111 40.911111 163.63 180
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 12.9575 40.911944 186.26 180
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 12.952635 40.877799 -0.46 0
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 12.970237 40.895248 5.81 0

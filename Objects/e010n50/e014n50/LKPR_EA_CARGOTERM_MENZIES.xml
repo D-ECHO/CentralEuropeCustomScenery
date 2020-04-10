@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_EA_CARGOTERM_MENZIES.ac</path>
+
+<animation>	
+<type>material</type>
+    <object-name>LKPR_EA_CARGOTERM_MENZIES3</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.5</red>	
+	<green>0.5</green>	
+	<blue>0.5</blue>
+</emission>
+</animation>
+<animation>	
+<type>material</type>
+    <object-name>LKPR_EA_CARGOTERM_MENZIES1</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.2</red>	
+	<green>0.2</green>	
+	<blue>0.2</blue>
+</emission>
+</animation>
+<!-- obstruction light -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-31.59 </x-m>
+		<y-m>-73.22499 </y-m>
+		<z-m> 15.20 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 31.59</x-m>
+		<y-m>-73.22499 </y-m>
+		<z-m> 15.20</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-31.59</x-m>
+		<y-m> 73.22499 </y-m>
+		<z-m> 15.20</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 31.59</x-m>
+		<y-m> 73.22499 </y-m>
+		<z-m> 15.20</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 50.53999</x-m>
+		<y-m>-93.08499 </y-m>
+		<z-m> 21.20</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 50.53999</x-m>
+		<y-m>-86.62294 </y-m>
+		<z-m> 21.20</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-24.49393</x-m>
+		<y-m>-96.45091 </y-m>
+		<z-m> 18.20</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-24.43794</x-m>
+		<y-m>-92.08127 </y-m>
+		<z-m> 18.20</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+</PropertyList>

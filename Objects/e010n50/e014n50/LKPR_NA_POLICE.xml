@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_NA_POLICE.ac</path>
+<!-- obstruction light -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>1.96518</x-m>
+		<y-m>-30.63908</y-m>
+		<z-m>26.7</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>1.96518</x-m>
+		<y-m>34.10201</y-m>
+		<z-m>26.7</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/rough</max-property>
+</animation>
+</PropertyList>

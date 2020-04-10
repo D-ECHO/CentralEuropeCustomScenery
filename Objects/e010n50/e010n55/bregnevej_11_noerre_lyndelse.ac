@@ -1,0 +1,1873 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "Material.006" rgb 0.85 0.85 0.85 amb 0.85 0.85 0.85 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material" rgb 0.939394 0.819786 0.676254 amb 0.939394 0.819786 0.676254 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material.002" rgb 0.594897 0.501194 0.284039 amb 0.594897 0.501194 0.284039 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material.007" rgb 1 0.779881 0.515736 amb 1 0.779881 0.515736 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material.005" rgb 0.28 0.28 0.28 amb 0.28 0.28 0.28 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material.003" rgb 0.792664 0.537916 0.525113 amb 0.792664 0.537916 0.525113 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material.001" rgb 0.582138 0.411643 0.448178 amb 0.582138 0.411643 0.448178 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material.004" rgb 0.821185 0.889515 0.907496 amb 0.821185 0.889515 0.907496 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+OBJECT world
+kids 68
+OBJECT poly
+name "Plane.022"
+data 9
+Plane.022
+crease 30
+numvert 4
+0.875058 0.2 -10.725715
+1.675058 0.2 -10.725715
+1.675058 2.2 -10.725715
+0.875058 2.2 -10.725715
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Cube.002"
+data 8
+Cube.002
+crease 30
+numvert 8
+2.185057 0 -10.715215
+2.185057 0 -9.540215
+-5.56494 0 -9.540215
+-5.564938 0 -10.715215
+2.185058 2.5 -10.715215
+2.185054 2.5 -9.540215
+-5.564941 2.5 -9.540215
+-5.564939 2.5 -10.715215
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Plane"
+data 5
+Plane
+crease 30
+numvert 4
+0.114792 2.500231 -3.260216
+0.114792 2.500231 3.659784
+0.114792 3.400231 2.898065
+0.114792 3.400231 -2.50118
+numsurf 1
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.039"
+data 9
+Plane.041
+crease 30
+numvert 4
+-5.574942 1.65 2.784784
+-5.574942 1.65 3.984784
+-5.574942 2.2 3.984784
+-5.574942 2.2 2.784784
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.038"
+data 9
+Plane.040
+crease 30
+numvert 4
+-5.574942 1.65 0.384785
+-5.574942 1.65 1.584784
+-5.574942 2.2 1.584784
+-5.574942 2.2 0.384784
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.033"
+data 9
+Plane.034
+crease 30
+numvert 4
+2.195058 2.2 -10.416009
+2.195058 1.06 -10.416009
+2.195058 1.06 -9.86601
+2.195058 2.2 -9.86601
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.032"
+data 9
+Plane.033
+crease 30
+numvert 4
+9.085058 2.2 -8.700215
+9.085058 0.5 -8.700215
+9.085058 0.5 -5.100215
+9.085058 2.2 -5.100216
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.031"
+data 9
+Plane.032
+crease 30
+numvert 4
+7.115058 2.2 -4.239777
+7.115058 1 -4.239777
+4.215058 1 -4.239777
+4.215059 2.2 -4.239777
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.030"
+data 9
+Plane.031
+crease 30
+numvert 4
+0.706644 2.2 -4.239777
+0.706644 1.65 -4.239777
+0.156644 1.65 -4.239777
+0.156644 2.2 -4.239777
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.037"
+data 9
+Plane.039
+crease 30
+numvert 4
+-5.574942 1.65 -3.265215
+-5.574942 1.65 -2.065216
+-5.574942 2.2 -2.065216
+-5.574942 2.2 -3.265216
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.036"
+data 9
+Plane.038
+crease 30
+numvert 4
+-6.164942 2.3 -8.305215
+-6.164942 0 -8.305215
+-8.564941 0 -8.305215
+-8.564941 2.3 -8.305215
+numsurf 1
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.035"
+data 9
+Plane.036
+crease 30
+numvert 4
+-1.224941 2.2 -10.725215
+-1.224941 1 -10.725215
+-2.424942 1 -10.725215
+-2.424941 2.2 -10.725215
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.034"
+data 9
+Plane.035
+crease 30
+numvert 4
+0.835059 2.2 -10.725215
+0.835059 1 -10.725215
+-0.364941 1 -10.725215
+-0.364941 2.2 -10.725215
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.011"
+data 9
+Plane.011
+crease 30
+numvert 4
+-1.188566 4.270742 -4.685215
+-1.188566 4.270742 -3.835215
+-2.021317 5.396142 -3.835215
+-2.021317 5.396141 -4.685215
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.010"
+data 9
+Plane.010
+crease 30
+numvert 4
+-5.664941 2.51 -16.965214
+-5.664941 2.51 -14.165215
+-9.164942 2.51 -14.165215
+-9.164941 2.51 -16.965216
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.013"
+data 9
+Plane.013
+crease 30
+numvert 4
+-2.324942 4.95 5.669785
+-2.324942 3.75 5.669785
+-3.524942 3.75 5.669785
+-3.524941 4.95 5.669785
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.012"
+data 9
+Plane.012
+crease 30
+numvert 4
+-3.828566 5.3957 3.474785
+-3.828566 5.3957 4.324784
+-4.661318 4.2703 4.324784
+-4.661317 4.2703 3.474784
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.015"
+data 9
+Plane.015
+crease 30
+numvert 4
+9.085058 2.71 -7.300216
+9.085058 2.71 -6.500216
+9.085058 4.71 -6.500216
+9.085058 4.71 -7.300216
+numsurf 1
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.014"
+data 9
+Plane.014
+crease 30
+numvert 4
+-2.324942 4.95 -9.550216
+-2.324942 3.75 -9.550216
+-3.524942 3.75 -9.550216
+-3.524941 4.95 -9.550216
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.017"
+data 9
+Plane.017
+crease 30
+numvert 4
+7.398059 5.01596 -4.967216
+7.398059 4.21596 -4.967216
+6.598059 4.21596 -4.967216
+6.598059 5.01596 -4.967216
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.016"
+data 9
+Plane.016
+crease 30
+numvert 4
+2.595058 5.01596 -4.967216
+2.595058 4.21596 -4.967216
+1.795058 4.21596 -4.967216
+1.795058 5.01596 -4.967216
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.019"
+data 9
+Plane.019
+crease 30
+numvert 4
+0.115058 2.51 -3.592474
+0.114861 2.51 3.659785
+-1.885139 2.51 3.659784
+-1.884941 2.51 -3.592474
+numsurf 1
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.018"
+data 9
+Plane.018
+crease 30
+numvert 4
+-1.874942 2.95 -0.700215
+-1.874942 2.95 1.099784
+-1.874942 4.95 1.099784
+-1.874942 4.95 -0.700215
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Cube.013"
+data 8
+Cube.017
+crease 30
+numvert 9
+0.115058 2.51 -10.040215
+0.115058 2.51 6.159785
+-2.924941 6.61 -10.040215
+-2.924942 6.609999 6.159785
+-5.964942 2.51 6.159783
+-5.964941 2.51 -10.040215
+-2.924942 6.61 0.187907
+0.115058 2.51 3.635378
+0.115058 2.51 -3.202419
+numsurf 4
+SURF 0x00
+mat 6
+refs 4
+1 0 0
+7 0 0
+6 0 0
+3 0 0
+SURF 0x00
+mat 6
+refs 4
+0 0 0
+2 0 0
+6 0 0
+8 0 0
+SURF 0x00
+mat 6
+refs 4
+4 0 0
+6 0 0
+2 0 0
+5 0 0
+SURF 0x00
+mat 6
+refs 3
+3 0 0
+6 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "Cube.012"
+data 8
+Cube.016
+crease 30
+numvert 4
+9.078485 3.320344 -4.968215
+4.918485 3.320344 -4.968216
+6.998485 5.77905 -6.292216
+6.998485 5.778999 -4.968215
+numsurf 3
+SURF 0x00
+mat 3
+refs 3
+1 0 0
+0 0 0
+3 0 0
+SURF 0x00
+mat 3
+refs 3
+1 0 0
+3 0 0
+2 0 0
+SURF 0x00
+mat 3
+refs 3
+0 0 0
+2 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "Cube.015"
+data 8
+Cube.019
+crease 30
+numvert 4
+0.115058 2.509639 -3.260215
+0.115058 2.509639 3.659784
+-2.924942 6.609638 0.199785
+0.115058 6.609638 0.199785
+numsurf 2
+SURF 0x00
+mat 6
+refs 3
+1 0 0
+3 0 0
+2 0 0
+SURF 0x00
+mat 6
+refs 3
+0 0 0
+2 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "Cube.014"
+data 8
+Cube.018
+crease 30
+numvert 6
+9.575055 2.55 -10.715715
+-2.924937 2.55 -10.715715
+9.575059 6.65 -6.900215
+9.575051 2.55 -3.860215
+-2.924941 2.55 -3.860216
+-2.924938 6.65 -6.900216
+numsurf 2
+SURF 0x00
+mat 6
+refs 4
+2 0 0
+5 0 0
+4 0 0
+3 0 0
+SURF 0x00
+mat 6
+refs 4
+2 0 0
+0 0 0
+1 0 0
+5 0 0
+kids 0
+OBJECT poly
+name "Cube.017"
+data 8
+Cube.021
+crease 30
+numvert 4
+9.078485 3.330406 -4.468216
+4.918485 3.330407 -4.468216
+6.998485 5.789112 -6.292216
+6.998485 5.789062 -4.468216
+numsurf 2
+SURF 0x00
+mat 6
+refs 3
+1 0 0
+3 0 0
+2 0 0
+SURF 0x00
+mat 6
+refs 3
+0 0 0
+2 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "Cube.016"
+data 8
+Cube.020
+crease 30
+numvert 4
+4.275058 3.330406 -4.468216
+0.115058 3.330407 -4.468216
+2.195059 5.789112 -6.292216
+2.195058 5.789062 -4.468216
+numsurf 2
+SURF 0x00
+mat 6
+refs 3
+1 0 0
+3 0 0
+2 0 0
+SURF 0x00
+mat 6
+refs 3
+0 0 0
+2 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "Cube.009"
+data 8
+Cube.009
+crease 30
+numvert 6
+9.075056 2.5 -10.715715
+-2.924937 2.5 -10.715715
+9.075059 6.6 -6.900215
+9.075052 2.5 -3.860215
+-2.924941 2.5 -3.860216
+-2.924939 6.6 -6.900216
+numsurf 5
+SURF 0x00
+mat 3
+refs 4
+2 0 0
+5 0 0
+4 0 0
+3 0 0
+SURF 0x00
+mat 3
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+4 0 0
+1 0 0
+SURF 0x00
+mat 3
+refs 3
+1 0 0
+4 0 0
+5 0 0
+SURF 0x00
+mat 3
+refs 4
+2 0 0
+0 0 0
+1 0 0
+5 0 0
+kids 0
+OBJECT poly
+name "Plane.042"
+data 9
+Plane.044
+crease 30
+numvert 4
+-9.174942 1.2 -6.825215
+-9.174942 1.2 -6.255216
+-9.174942 2.2 -6.255216
+-9.174942 2.2 -6.825215
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.043"
+data 9
+Plane.045
+crease 30
+numvert 4
+-9.174942 1.2 -6.155215
+-9.174942 1.2 -5.585216
+-9.174942 2.2 -5.585216
+-9.174942 2.2 -6.155215
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Cube.018"
+data 8
+Cube.013
+crease 30
+numvert 8
+-5.094942 2.5 -11.825214
+-5.094942 2.5 -11.125216
+-5.794941 2.5 -11.125216
+-5.794941 2.5 -11.825215
+-5.094942 4.5 -11.825214
+-5.094942 4.5 -11.125215
+-5.794941 4.5 -11.125216
+-5.794941 4.5 -11.825214
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Cube.011"
+data 8
+Cube.011
+crease 30
+numvert 4
+4.275058 3.320344 -4.968216
+0.115058 3.320344 -4.968216
+2.195059 5.77905 -6.292216
+2.195058 5.778999 -4.968216
+numsurf 3
+SURF 0x00
+mat 3
+refs 3
+1 0 0
+0 0 0
+3 0 0
+SURF 0x00
+mat 3
+refs 3
+1 0 0
+3 0 0
+2 0 0
+SURF 0x00
+mat 3
+refs 3
+0 0 0
+2 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "Cube.008"
+data 8
+Cube.008
+crease 30
+numvert 13
+0.115058 2.5 -9.540214
+0.115058 2.5 5.659782
+-2.924941 6.6 -9.540214
+-2.924942 6.599999 5.659782
+-5.964942 2.5 5.659781
+-5.964941 2.5 -9.540212
+0.115058 2.5 3.659784
+0.115058 2.5 -3.260216
+-2.924942 6.6 0.199785
+-1.884941 2.5 3.659784
+-1.884941 2.5 -3.260216
+0.115058 6.6 0.199785
+-1.884942 6.6 0.199785
+numsurf 12
+SURF 0x00
+mat 3
+refs 3
+1 0 0
+3 0 0
+4 0 0
+SURF 0x00
+mat 3
+refs 3
+2 0 0
+0 0 0
+5 0 0
+SURF 0x10
+mat 3
+refs 3
+8 0 0
+9 0 0
+10 0 0
+SURF 0x00
+mat 3
+refs 4
+2 0 0
+5 0 0
+4 0 0
+3 0 0
+SURF 0x10
+mat 3
+refs 3
+8 0 0
+12 0 0
+9 0 0
+SURF 0x10
+mat 3
+refs 3
+12 0 0
+8 0 0
+10 0 0
+SURF 0x10
+mat 3
+refs 4
+6 0 0
+9 0 0
+12 0 0
+11 0 0
+SURF 0x10
+mat 3
+refs 4
+7 0 0
+11 0 0
+12 0 0
+10 0 0
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+1 0 0
+4 0 0
+5 0 0
+SURF 0x10
+mat 3
+refs 4
+0 0 0
+2 0 0
+8 0 0
+7 0 0
+SURF 0x10
+mat 3
+refs 4
+1 0 0
+6 0 0
+8 0 0
+3 0 0
+SURF 0x10
+mat 3
+refs 3
+9 0 0
+12 0 0
+10 0 0
+kids 0
+OBJECT poly
+name "Cube.010"
+data 8
+Cube.012
+crease 30
+numvert 8
+6.975059 3.76497 -9.540215
+6.975059 3.76497 -8.740215
+6.275059 3.76497 -8.740215
+6.275059 3.76497 -9.540215
+6.975059 6.56497 -9.540215
+6.975058 6.56497 -8.740215
+6.275059 6.56497 -8.740215
+6.275059 6.56497 -9.540215
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Cube.005"
+data 8
+Cube.005
+crease 30
+numvert 8
+-3.024942 0 -14.165215
+-3.024942 0 -10.715216
+-5.564941 0 -10.715217
+-5.56494 0 -14.165215
+-3.024941 2.5 -14.165214
+-3.024943 2.5 -10.715215
+-5.564941 2.5 -10.715217
+-5.564941 2.5 -14.165215
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Cube"
+data 4
+Cube
+crease 30
+numvert 8
+-0.284943 0 -9.540211
+-0.284943 0 5.659781
+-5.564941 0 5.659779
+-5.564939 0 -9.540215
+-0.284941 2.5 -9.540208
+-0.284944 2.5 5.659785
+-5.564941 2.5 5.659778
+-5.56494 2.5 -9.540212
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Plane.028"
+data 9
+Plane.029
+crease 30
+numvert 4
+-0.274941 2.2 -0.340215
+-0.274942 1 -0.340215
+-0.274941 1 0.859785
+-0.274941 2.2 0.859784
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.029"
+data 9
+Plane.030
+crease 30
+numvert 4
+-0.274941 2.2 -2.740216
+-0.274942 1 -2.740215
+-0.274941 1 -1.540215
+-0.274941 2.2 -1.540216
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.040"
+data 9
+Plane.042
+crease 30
+numvert 4
+-9.174942 1.2 -8.165215
+-9.174942 1.2 -7.595216
+-9.174942 2.2 -7.595216
+-9.174942 2.2 -8.165215
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.041"
+data 9
+Plane.043
+crease 30
+numvert 4
+-9.174942 1.2 -7.495215
+-9.174942 1.2 -6.925216
+-9.174942 2.2 -6.925216
+-9.174942 2.2 -7.495215
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.046"
+data 9
+Plane.048
+crease 30
+numvert 4
+-9.174942 1.2 -4.145216
+-9.174942 1.2 -3.575216
+-9.174942 2.2 -3.575216
+-9.174942 2.2 -4.145216
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.047"
+data 9
+Plane.049
+crease 30
+numvert 4
+-9.174942 1.2 -3.475215
+-9.174942 1.2 -2.905216
+-9.174942 2.2 -2.905216
+-9.174942 2.2 -3.475216
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.044"
+data 9
+Plane.046
+crease 30
+numvert 4
+-9.174942 1.2 -5.485215
+-9.174942 1.2 -4.915215
+-9.174942 2.2 -4.915215
+-9.174942 2.2 -5.485215
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.045"
+data 9
+Plane.047
+crease 30
+numvert 4
+-9.174942 1.2 -4.815215
+-9.174942 1.2 -4.245215
+-9.174942 2.2 -4.245215
+-9.174942 2.2 -4.815215
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.020"
+data 9
+Plane.020
+crease 30
+numvert 4
+0.915058 0.2 -4.250216
+1.715058 0.2 -4.250216
+1.715058 2.2 -4.250216
+0.915058 2.2 -4.250216
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.021"
+data 9
+Plane.021
+crease 30
+numvert 4
+2.275059 0.2 -9.550216
+3.075058 0.2 -9.550216
+3.075058 2.2 -9.550216
+2.275058 2.2 -9.550216
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.048"
+data 9
+Plane.050
+crease 30
+numvert 4
+-9.174942 1.2 -2.805215
+-9.174942 1.2 -2.235216
+-9.174942 2.2 -2.235216
+-9.174942 2.2 -2.805216
+numsurf 1
+SURF 0x00
+mat 4
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.023"
+data 9
+Plane.023
+crease 30
+numvert 4
+-3.023942 0.2 -11.615214
+-3.023942 0.2 -10.815215
+-3.023942 2.2 -10.815215
+-3.023942 2.2 -11.615214
+numsurf 1
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.024"
+data 9
+Plane.025
+crease 30
+numvert 4
+-5.654942 0 -15.965215
+-5.654942 0 -15.165215
+-5.654942 2 -15.165215
+-5.654942 2 -15.965215
+numsurf 1
+SURF 0x00
+mat 7
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.025"
+data 9
+Plane.026
+crease 30
+numvert 4
+-5.574942 0.2 -8.165215
+-5.574942 0.2 -7.365215
+-5.574942 2.2 -7.365215
+-5.574942 2.2 -8.165215
+numsurf 1
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.026"
+data 9
+Plane.027
+crease 30
+numvert 4
+-5.574942 0.2 -6.065216
+-5.574942 0.2 -5.265215
+-5.574942 2.2 -5.265215
+-5.574942 2.2 -6.065216
+numsurf 1
+SURF 0x00
+mat 3
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.027"
+data 9
+Plane.028
+crease 30
+numvert 4
+-0.274941 2.2 2.059784
+-0.274942 1 2.059784
+-0.274941 1 3.259784
+-0.274941 2.2 3.259784
+numsurf 1
+SURF 0x00
+mat 1
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.006"
+data 9
+Plane.006
+crease 30
+numvert 4
+6.975059 6.575 -9.540215
+6.975059 6.575 -8.740215
+6.275059 6.575 -8.740215
+6.275059 6.575 -9.540215
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.007"
+data 9
+Plane.007
+crease 30
+numvert 4
+2.185059 2.51 -10.715714
+2.185059 2.51 -9.540715
+-5.564942 2.51 -9.540715
+-5.56494 2.51 -10.715714
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.004"
+data 9
+Plane.004
+crease 30
+numvert 4
+9.075059 1.51 -4.260215
+9.075059 1.51 -0.910216
+8.835059 1.51 -0.910217
+8.835059 1.51 -4.260216
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.005"
+data 9
+Plane.005
+crease 30
+numvert 4
+-5.094942 4.51 -11.825214
+-5.094942 4.51 -11.125216
+-5.794941 4.51 -11.125216
+-5.794941 4.51 -11.825215
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.002"
+data 9
+Plane.002
+crease 30
+numvert 4
+-5.564942 2.5 -8.315215
+-5.564942 2.5 -2.215216
+-9.164942 2.5 -2.215216
+-9.164941 2.5 -8.315216
+numsurf 1
+SURF 0x00
+mat 8
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.003"
+data 9
+Plane.003
+crease 30
+numvert 4
+5.475059 1.51 5.419785
+5.475059 1.51 5.659784
+-0.284942 1.51 5.659784
+-0.284941 1.51 5.419785
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.001"
+data 9
+Plane.001
+crease 30
+numvert 4
+-9.164942 0 -8.315215
+-9.164942 0 -2.215216
+-9.164942 2.5 -2.215216
+-9.164942 2.5 -8.315216
+numsurf 1
+SURF 0x00
+mat 7
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Cube.004"
+data 8
+Cube.004
+crease 30
+numvert 8
+-5.564942 0 -14.165214
+-5.564942 0 -8.315217
+-9.164941 0 -8.315217
+-9.16494 0 -14.165215
+-5.564941 2.5 -14.165213
+-5.564943 2.5 -8.315215
+-9.164942 2.5 -8.315218
+-9.164941 2.5 -14.165214
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Cube.003"
+data 8
+Cube.003
+crease 30
+numvert 8
+-5.664942 0 -16.965214
+-5.664942 0 -14.165215
+-9.164941 0 -14.165216
+-9.16494 0 -16.965216
+-5.664941 2.5 -16.965214
+-5.664943 2.5 -14.165215
+-9.164941 2.5 -14.165216
+-9.164941 2.5 -16.965214
+numsurf 6
+SURF 0x00
+mat 7
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 7
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 7
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 7
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 7
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 7
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Cube.001"
+data 8
+Cube.001
+crease 30
+numvert 8
+9.075056 0 -9.540215
+9.075056 0 -4.260217
+-0.284939 0 -4.260217
+-0.284937 0 -9.540215
+9.075058 2.5 -9.540214
+9.075053 2.5 -4.260215
+-0.28494 2.5 -4.260218
+-0.284939 2.5 -9.540215
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Cube.006"
+data 8
+Cube.006
+crease 30
+numvert 8
+5.475057 0 5.419785
+5.475057 0 5.659784
+-0.284941 0 5.659784
+-0.284939 0 5.419785
+5.475059 1.5 5.419785
+5.475055 1.5 5.659784
+-0.284941 1.5 5.659784
+-0.28494 1.5 5.419785
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Cube.007"
+data 8
+Cube.007
+crease 30
+numvert 8
+9.075059 0 -4.260215
+9.075059 0 -0.910216
+8.835059 0 -0.910217
+8.835059 0 -4.260215
+9.075059 1.5 -4.260214
+9.075059 1.5 -0.910215
+8.835059 1.5 -0.910217
+8.835059 1.5 -4.260215
+numsurf 6
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x00
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x00
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x00
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x00
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "Plane.008"
+data 9
+Plane.008
+crease 30
+numvert 4
+-5.564941 2.51 -14.165215
+-5.564941 2.51 -8.315216
+-9.164942 2.51 -8.315217
+-9.164941 2.51 -14.165215
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "Plane.009"
+data 9
+Plane.009
+crease 30
+numvert 4
+-3.024941 2.51 -14.165215
+-3.024941 2.51 -10.715216
+-5.564941 2.51 -10.715216
+-5.564941 2.51 -14.165215
+numsurf 1
+SURF 0x00
+mat 5
+refs 4
+0 0 0
+3 0 0
+2 0 0
+1 0 0
+kids 0

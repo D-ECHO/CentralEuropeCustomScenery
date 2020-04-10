@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>EDHL_Terminal.ac</path>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>25000</max-m>
+ </animation>
+ 
+ 
+ <animation>
+  <type>range</type>
+  <object-name>Light</object-name>
+  <min-m>0</min-m>
+  <max-m>1000</max-m>
+ </animation>
+ 
+ <animation>
+  <type>range</type>
+  <object-name>Label</object-name>
+  <min-m>0</min-m>
+  <max-m>300</max-m>
+ </animation>
+ 
+ <animation>
+  <object-name>Umbrellas</object-name>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>1000</max-m>
+ </animation>
+
+ <animation>
+  <object-name>Beacon.Beacon</object-name>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>2000</max-m>
+ </animation>
+ 
+ <animation>
+  <type>alpha-test</type>
+  <alpha-factor>0.01</alpha-factor>
+ </animation>
+
+ <animation>
+  <object-name>Beacon</object-name>
+  <enable-hot type="bool">false</enable-hot>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Beacon</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>15.0524</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Beacon.Light</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>WhiteHalo.1</object-name>
+  <min-m>0</min-m>
+  <max-m>750</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>WhiteHalo.2</object-name>
+  <min-m>0</min-m>
+  <max-m>750</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>WhiteFlash.1s</object-name>
+  <min-m>0</min-m>
+  <max-m>1000</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>WhiteFlash.2s</object-name>
+  <min-m>0</min-m>
+  <max-m>1000</max-m>
+ </animation>
+ 
+ 
+ <animation>
+  <type>range</type>
+  <object-name>WhiteFlash.1l</object-name>
+  <min-m>1000</min-m>
+  <max-m>16000</max-m>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>WhiteFlash.2l</object-name>
+  <min-m>1000</min-m>
+  <max-m>16000</max-m>
+ </animation>
+
+ <animation>
+  <type>flash</type>
+  <object-name>WhiteFlash.1s</object-name>
+  <center>
+   <x-m>-1.07635</x-m>
+   <y-m>0</y-m>
+   <z-m>15.0524</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0.1</z>
+  </axis>
+  <power>100</power>
+ </animation>
+
+ <animation>
+  <type>flash</type>
+  <object-name>WhiteFlash.1l</object-name>
+  <center>
+   <x-m>-1.07635</x-m>
+   <y-m>0</y-m>
+   <z-m>15.0524</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0.1</z>
+  </axis>
+  <power>100</power>
+ </animation>
+
+ <animation>
+  <type>flash</type>
+  <object-name>WhiteFlash.2s</object-name>
+  <center>
+   <x-m>1.07635</x-m>
+   <y-m>0</y-m>
+   <z-m>15.0524</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0.1</z>
+  </axis>
+  <power>100</power>
+ </animation>
+
+ <animation>
+  <type>flash</type>
+  <object-name>WhiteFlash.2l</object-name>
+  <center>
+   <x-m>1.07635</x-m>
+   <y-m>0</y-m>
+   <z-m>15.0524</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0.1</z>
+  </axis>
+  <power>100</power>
+ </animation>
+
+</PropertyList>
+

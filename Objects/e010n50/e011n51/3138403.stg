@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Power/windturbine.xml 11.8636111 51.6163889 160.78 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.9013889 51.5708333 21.46 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.9033333 51.5713889 21.22 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.9566667 51.5961111 148.98 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.9769444 51.5516667 -21.33 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_01.xml 11.9886111 51.5319444 -278.56 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 11.9588889 51.5277778 -357.25 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 11.9944444 51.515 -320.39 180
+OBJECT_SHARED Models/Power/generic_power_plant.xml 11.9472222 51.5236111 75.95 113.15
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 11.8022124 51.5834831 70.19 240.27

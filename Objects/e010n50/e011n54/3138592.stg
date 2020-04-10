@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Power/windturbine.xml 11.0472222 54.5108333 0.08 180
+OBJECT_SHARED Models/Power/windturbine.xml 11.0525 54.5063889 -0.36 180
+OBJECT_SHARED Models/Power/windturbine.xml 11.0633333 54.5061111 -0.53 180
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 11.2314749 54.5071877 0 18.04
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 11.0168014 54.5910873 -2.32 86.86
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 11.1480691 54.5976347 -5.33 328.43
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 11.2202504 54.576715 -3.16 209.3

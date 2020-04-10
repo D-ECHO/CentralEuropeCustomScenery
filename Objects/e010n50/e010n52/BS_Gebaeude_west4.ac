@@ -1,0 +1,632 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+OBJECT world
+kids 3
+OBJECT group
+name "group"
+loc 1.99236 0 63.4652
+kids 6
+OBJECT poly
+name "rect"
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+12.983 6 11.1105
+15.035 12 5.47241
+-15.0352 12 -5.47229
+-17.0872 6 0.165833
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 0.5 0
+1 0.5 1
+0 1 1
+kids 0
+OBJECT poly
+name "rect"
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+15.035 12 5.47241
+-15.0352 12 -5.47229
+-12.983 6.00005 -11.1105
+17.0872 6.00005 -0.165771
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 0 0
+1 0.5 0
+0 0.5 1
+kids 0
+OBJECT poly
+name "rect"
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+-12.983 0 -11.1105
+-12.983 6.00005 -11.1105
+17.0872 6.00005 -0.165771
+17.0872 0 -0.165833
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 3.16364 -0.0706854
+2 3.16364 1.19313
+1 -2.39653 1.19313
+0 -2.39653 -0.0706854
+kids 0
+OBJECT poly
+name "rect"
+crease 45.000000
+numvert 5
+17.0872 0 -0.165833
+17.0872 6.00005 -0.165771
+15.035 12 5.47241
+12.983 6 11.1105
+12.983 0 11.1105
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0.879905 0
+3 0.879905 0.17557
+2 0.93995 0.35114
+1 1 0.175572
+0 1 0
+kids 0
+OBJECT poly
+name "rect"
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+12.983 0 11.1105
+12.983 6 11.1105
+-17.0872 6 0.165833
+-17.0872 0 0.165833
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 -3.15542 -0.0706854
+2 -3.15542 1.19311
+1 2.40475 1.19311
+0 2.40475 -0.0706854
+kids 0
+OBJECT poly
+name "rect"
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 5
+-17.0872 0 0.165833
+-17.0872 6 0.165833
+-15.0352 12 -5.47229
+-12.983 6.00005 -11.1105
+-12.983 0 -11.1105
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0.120096 0
+3 0.120096 0.175572
+2 0.060045 0.35114
+1 0 0.17557
+0 0 0
+kids 0
+OBJECT group
+name "group"
+loc -26.2936 0 17.4652
+kids 14
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+6 6 -31
+5.91278e-005 12 -30.9999
+6.29425e-005 12 31.0001
+6 6 31
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 0.5 0
+1 0.5 1
+0 1 1
+kids 0
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+crease 45.000000
+numvert 3
+5.91278e-005 12 -30.9999
+-2.99988 9.00011 -30.9999
+-5.99994 6.00005 -30.9999
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+crease 45.000000
+numvert 3
+-5.99994 6.00005 31.0001
+-2.99988 9.00011 31.0001
+6.29425e-005 12 31.0001
+numsurf 1
+SURF 0x30
+mat 0
+refs 3
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+-6 0 31
+-5.99994 6.00005 31.0001
+-5.99994 6.00005 -30.9999
+-6 0 -31
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 -5.11273 -0.0494988
+2 -5.11271 1.92095
+1 7.14406 1.92095
+0 7.14405 -0.0494988
+kids 0
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+crease 45.000000
+numvert 5
+-6 0 -31
+-5.99994 6.00005 -30.9999
+5.91278e-005 12 -30.9999
+6 6 -31
+6 0 -31
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0 0
+3 0 0
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+6 0 -31
+6 6 -31
+6 6 31
+6 0 31
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 7.14405 -0.0494988
+2 7.14405 1.92094
+1 -5.11273 1.92094
+0 -5.11273 -0.0494988
+kids 0
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+crease 45.000000
+numvert 5
+6 0 31
+6 6 31
+6.29425e-005 12 31.0001
+-5.99994 6.00005 31.0001
+-6 0 31
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0 0
+3 5.08626e-006 0.500004
+2 0.500005 1
+1 1 0.5
+0 1 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.28571 0 0
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 8
+9.15527e-005 12.0001 9.15527e-005
+6.29425e-005 12 31.0001
+-2.99988 9.00011 31.0001
+-5.99994 6.00005 31.0001
+-5.99988 6.00011 9.34601e-005
+-5.99994 6.00005 -30.9999
+-2.99988 9.00011 -30.9999
+5.91278e-005 12 -30.9999
+numsurf 1
+SURF 0x30
+mat 0
+refs 8
+7 0.5 1
+6 0.25 1
+5 0 1
+4 0 0.5
+3 0 0
+2 0.25 0
+1 0.5 0
+0 0.5 0.5
+kids 0
+OBJECT poly
+name "rect"
+loc -1.71429 0 0
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 5
+-3.00003 0 6
+-3.00003 6 6
+-3.00006 12 6.29425e-005
+-3.00006 6.00005 -5.99994
+-3.00003 0 -6
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 -0.170478 -0.0494988
+3 -0.170467 1.92095
+2 1.01567 3.89138
+1 2.2018 1.92094
+0 2.2018 -0.0494988
+kids 0
+OBJECT poly
+name "rect"
+loc -1.71429 0 0
+crease 45.000000
+numvert 4
+3.00006 0 6
+3.00006 6 6
+-3.00003 6 6
+-3.00003 0 6
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -1.71429 0 0
+crease 45.000000
+numvert 5
+3.00006 0 -6
+3.00006 6.00005 -5.99994
+3.00009 12.0001 9.15527e-005
+3.00006 6 6
+3.00006 0 6
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0 0
+3 0 0
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -1.71429 0 0
+crease 45.000000
+numvert 4
+-3.00003 0 -6
+-3.00006 6.00005 -5.99994
+3.00006 6.00005 -5.99994
+3.00006 0 -6
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -1.71429 0 0
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+3.00009 12.0001 9.15527e-005
+-3.00006 12 6.29425e-005
+-3.00006 6.00005 -5.99994
+3.00006 6.00005 -5.99994
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 0 0
+1 0.5 0
+0 0.5 1
+kids 0
+OBJECT poly
+name "rect"
+loc -1.71429 0 0
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+3.00006 6 6
+3.00009 12.0001 9.15527e-005
+-3.00006 12 6.29425e-005
+-3.00003 6 6
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 0.5 0
+1 0.5 1
+0 1 1
+kids 0
+OBJECT group
+name "group"
+loc 3.74235 0 -23.7848
+kids 12
+OBJECT poly
+name "rect"
+loc 5.25 0 -4.25
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+-5 5 8.00006
+-6.10352e-005 9.00005 8.00006
+-6.19888e-005 9.00005 -8.00006
+-5 5 -8.00003
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 0.5 0
+1 0.5 1
+0 1 1
+kids 0
+OBJECT poly
+name "rect"
+loc 5.25 0 -4.25
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+-6.10352e-005 9.00005 8.00006
+-6.19888e-005 9.00005 -8.00006
+4.99994 5.00005 -8.00006
+4.99994 5.00005 8.00006
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 0 0
+1 0.5 0
+0 0.5 1
+kids 0
+OBJECT poly
+name "rect"
+loc 5.25 0 -4.25
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+5 0 -8.00003
+4.99994 5.00005 -8.00006
+4.99994 5.00005 8.00006
+5 0 8.00006
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.437532 0.0479279
+2 0.437532 1.21402
+1 -2.09756 1.21402
+0 -2.09755 0.0479279
+kids 0
+OBJECT poly
+name "rect"
+loc 5.25 0 -4.25
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 5
+5 0 8.00006
+4.99994 5.00005 8.00006
+-6.10352e-005 9.00005 8.00006
+-5 5 8.00006
+-5 0 8.00006
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0 0
+3 0 0
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 5.25 0 -4.25
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+-5 0 8.00006
+-5 5 8.00006
+-5 5 -8.00003
+-5 0 -8.00003
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 -2.09755 0.0479279
+2 -2.09755 1.21401
+1 0.437532 1.21401
+0 0.437532 0.0479279
+kids 0
+OBJECT poly
+name "rect"
+loc 5.25 0 -4.25
+crease 45.000000
+numvert 5
+-5 0 -8.00003
+-5 5 -8.00003
+-6.19888e-005 9.00005 -8.00006
+4.99994 5.00005 -8.00006
+5 0 -8.00003
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0 0
+3 0 0
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -5.25 0 4.25
+crease 45.000000
+numvert 5
+-15.5 0 5
+-15.5 5 5
+-15.5001 9.00005 6.10352e-005
+-15.5001 5.00005 -4.99994
+-15.5 0 -5
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 0 0
+3 0 0
+2 0 0
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -5.25 0 4.25
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+15.5 0 5
+15.5 5 5
+-15.5 5 5
+-15.5 0 5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 -7.23593 -0.289391
+2 -7.23593 1.12418
+1 1.19678 1.12418
+0 1.19678 -0.289391
+kids 0
+OBJECT poly
+name "rect"
+loc -5.25 0 4.25
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 5
+15.5 0 -5
+15.5 5.00005 -4.99994
+15.5 9.00005 6.10352e-005
+15.5 5 5
+15.5 0 5
+numsurf 1
+SURF 0x30
+mat 0
+refs 5
+4 1.30895 0.0479279
+3 1.30895 1.21401
+2 0.516753 2.14689
+1 -0.275457 1.21402
+0 -0.275467 0.0479279
+kids 0
+OBJECT poly
+name "rect"
+loc -5.25 0 4.25
+texture "Fenster_BS.rgb"
+crease 45.000000
+numvert 4
+-15.5 0 -5
+-15.5001 5.00005 -4.99994
+15.5 5.00005 -4.99994
+15.5 0 -5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1.19678 -0.289391
+2 1.19678 1.12419
+1 -7.23596 1.12419
+0 -7.23593 -0.289391
+kids 0
+OBJECT poly
+name "rect"
+loc -5.25 0 4.25
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+15.5 9.00005 6.10352e-005
+-15.5001 9.00005 6.10352e-005
+-15.5001 5.00005 -4.99994
+15.5 5.00005 -4.99994
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 0 0
+1 0.5 0
+0 0.5 1
+kids 0
+OBJECT poly
+name "rect"
+loc -5.25 0 4.25
+texture "Dach_rot_BS.rgb"
+crease 45.000000
+numvert 4
+15.5 5 5
+15.5 9.00005 6.10352e-005
+-15.5001 9.00005 6.10352e-005
+-15.5 5 5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 0.5 0
+1 0.5 1
+0 1 1
+kids 0

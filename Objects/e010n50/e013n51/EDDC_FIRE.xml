@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- EDDC Fire Station - with occasionally selected Vehicles -->
+<PropertyList>
+<path>EDDC_FIRE.ac</path>
+
+<animation>
+<type>textranslate</type>
+<object-name>eddc_fire</object-name>
+<object-name>firedoor1</object-name>
+<object-name>firedoor2</object-name>
+<object-name>firedoor3</object-name>
+<object-name>firedoor4</object-name>
+<property>/sim/time/sun-angle-rad</property>
+<step>1.57</step>
+<factor>0.318471338</factor>
+<axis>
+	<x>0</x>
+	<y>-1</y>
+</axis>
+</animation>
+
+<animation>
+<type>material</type>
+<object-name>eddc_fire</object-name>
+<object-name>firedoor1</object-name>
+<object-name>firedoor2</object-name>
+<object-name>firedoor3</object-name>
+<object-name>firedoor4</object-name>
+<condition>
+	<greater-than>
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+	</greater-than>
+</condition>
+<emission>
+	<red>0.6</red>
+	<green>0.6</green>
+	<blue>0.6</blue>
+</emission>
+</animation>
+
+<model>
+<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+	<x-m>-8.40724</x-m>
+	<y-m>25.16000</y-m>
+	<z-m>7.00000</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+	<x-m>-8.40724</x-m>
+	<y-m>-25.16000</y-m>
+	<z-m>7.00000</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+	<x-m>8.40724</x-m>
+	<y-m>25.16000</y-m>
+	<z-m>7.00000</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+	<x-m>8.40724</x-m>
+	<y-m>-25.16000</y-m>
+	<z-m>7.00000</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<animation>
+<type>select</type>
+<object-name>firedoor4</object-name>
+<condition>
+<not>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>6</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>14</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>18</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</not>
+</condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>firedoor3</object-name>
+<condition>
+<not>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>7</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>12</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>17</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</not>
+</condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>firedoor2</object-name>
+<condition>
+<not>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>10</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>12</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>18</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</not>
+</condition>
+</animation>
+
+<animation>
+<type>select</type>
+<object-name>firedoor1</object-name>
+<condition>
+<not>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>11</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>12</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>19</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</not>
+</condition>
+</animation>
+
+<model>
+<path>Models/Airport/Vehicle/RTW_Sprinter_515.xml</path>
+<condition>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>6</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>14</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>18</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</condition>
+<offsets>
+	<x-m>-13.00</x-m>
+	<y-m>-21.71522</y-m>
+	<z-m>0</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Models/Airport/Vehicle/RW_GWG_MAN.ac</path>
+<condition>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>7</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>12</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>17</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</condition>
+<offsets>
+	<x-m>-4.00</x-m>
+	<y-m>-11.21544</y-m>
+	<z-m>0</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Models/Airport/Vehicle/Rosenbauer_FLF_Panther8x8SWB.ac</path>
+<condition>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>10</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>12</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>18</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</condition>
+<offsets>
+	<x-m>-4.00</x-m>
+	<y-m>-0.31</y-m>
+	<z-m>0</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<model>
+<path>Models/Airport/Vehicle/Rosenbauer_FLF_VFAEG.ac</path>
+<condition>
+<or>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>11</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>12</value>
+	</less-than-equals>
+</and>
+<and>
+	<greater-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>19</value>
+	</greater-than-equals>
+	<less-than-equals>
+		<property>/sim/time/utc/hour</property>
+		<value>20</value>
+	</less-than-equals>
+</and>
+</or>
+</condition>
+<offsets>
+	<x-m>-8.00</x-m>
+	<y-m>5.17247</y-m>
+	<z-m>0</z-m>
+	<pitch-deg>0.00</pitch-deg>
+	<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+
+<animation>
+<type>range</type>
+<min-m>0</min-m>
+<max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+
+</PropertyList>

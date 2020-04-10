@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+ <path>EDAU_Traffic_Light_1.ac</path>
+
+ <animation>
+  <type>alpha-test</type>
+  <alpha-factor>0.01</alpha-factor>
+ </animation>
+
+ <animation>
+  <type>noshadow</type>
+  <object-name>green_light_inner</object-name>
+  <object-name>green_light_outer</object-name>
+  <object-name>yellow_light</object-name>
+  <object-name>red_light</object-name>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <object-name>green_light_inner</object-name>
+  <min-m>0</min-m>
+  <max-m>27</max-m>
+ </animation>
+ <animation>
+  <type>range</type>
+  <object-name>green_light_outer</object-name>
+  <min-m>0</min-m>
+  <max-m>35</max-m>
+ </animation>
+ <animation>
+  <type>range</type>
+  <object-name>yellow_light</object-name>
+  <min-m>28</min-m>
+  <max-m>80</max-m>
+ </animation>
+  <animation>
+  <type>range</type>
+  <object-name>red_light</object-name>
+  <min-m>0</min-m>
+  <max-m>27</max-m>
+ </animation>
+ 
+</PropertyList>

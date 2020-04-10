@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--This xml and 3d model is made by Martien van der Plas at 28 February 2016 -->
+<PropertyList>
+
+
+ <path>Wiener_Riesenrad.ac</path>
+
+
+
+ 
+<animation>
+  <type>rotate</type>
+  <object-name>Wheel</object-name>
+  <object-name>FrameWheel</object-name>
+  <object-name>TL_Tubes</object-name>
+  <object-name>Car1</object-name>
+  <object-name>Car2</object-name>
+  <object-name>Car3</object-name>
+  <object-name>Car4</object-name>
+  <object-name>Car5</object-name>
+  <object-name>Car6</object-name>
+  <object-name>Car7</object-name>
+  <object-name>Car8</object-name>
+  <object-name>Car9</object-name>
+  <object-name>Car10</object-name>
+  <object-name>Car11</object-name>
+  <object-name>Car12</object-name>
+  <object-name>Car13</object-name>
+  <object-name>Car14</object-name>
+  <object-name>Car15</object-name>
+  <object-name>GlassCar1</object-name>
+  <object-name>GlassCar2</object-name>
+  <object-name>GlassCar3</object-name>
+  <object-name>GlassCar4</object-name>
+  <object-name>GlassCar5</object-name>
+  <object-name>GlassCar6</object-name>
+  <object-name>GlassCar7</object-name>
+  <object-name>GlassCar8</object-name>
+  <object-name>GlassCar9</object-name>
+  <object-name>GlassCar10</object-name>
+  <object-name>GlassCar11</object-name>
+  <object-name>GlassCar12</object-name>
+  <object-name>GlassCar13</object-name>
+  <object-name>GlassCar14</object-name>
+  <object-name>GlassCar15</object-name>
+  
+<property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>0.0</x-m>
+
+   <y-m>0.0</y-m>
+
+   <z-m>34.27</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ 
+<animation>
+  <type>material</type>
+  <object-name>TL_Tubes</object-name>
+  <object-name>GlassCar1</object-name>
+  <object-name>GlassCar2</object-name>
+  <object-name>GlassCar3</object-name>
+  <object-name>GlassCar4</object-name>
+  <object-name>GlassCar5</object-name>
+  <object-name>GlassCar6</object-name>
+  <object-name>GlassCar7</object-name>
+  <object-name>GlassCar8</object-name>
+  <object-name>GlassCar9</object-name>
+  <object-name>GlassCar10</object-name>
+  <object-name>GlassCar11</object-name>
+  <object-name>GlassCar12</object-name>
+  <object-name>GlassCar13</object-name>
+  <object-name>GlassCar14</object-name>
+  <object-name>GlassCar15</object-name>
+  <emission>
+   <red> 0.5 </red>
+   <green> 0.5 </green>
+   <blue> 0.5 </blue>
+  </emission>
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car1</object-name>
+  <object-name>GlassCar1</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>0</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>64.75001</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car2</object-name>
+  <object-name>GlassCar2</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>12.29548</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>61.88612</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car3</object-name>
+  <object-name>GlassCar3</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>22.52671</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>54.55315</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car4</object-name>
+  <object-name>GlassCar4</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>28.82908</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>43.63714</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car5</object-name>
+  <object-name>GlassCar5</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>30.064</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>31.11015</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car6</object-name>
+  <object-name>GlassCar6</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>26.39645</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>19.03</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car7</object-name>
+  <object-name>GlassCar7</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>17.76851</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>9.81654</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car8</object-name>
+  <object-name>GlassCar8</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>6.30236</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>4.61972</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car9</object-name>
+  <object-name>GlassCar9</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-6.30236</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>4.61972</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car10</object-name>
+  <object-name>GlassCar10</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-17.76851</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>9.81374</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car11</object-name>
+  <object-name>GlassCar11</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-26.39646</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>19.03</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car12</object-name>
+  <object-name>GlassCar12</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-30.064</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>31.11015</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car13</object-name>
+  <object-name>GlassCar13</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-28.82908</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>43.63714</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car14</object-name>
+  <object-name>GlassCar14</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-22.52671</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>54.55315</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car15</object-name>
+  <object-name>GlassCar15</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-12.29549</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>61.88612</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+</PropertyList>

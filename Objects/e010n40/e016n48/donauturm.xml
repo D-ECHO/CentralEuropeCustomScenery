@@ -1,0 +1,1160 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<path>donauturm.ac</path>
+
+	<params>
+		<flasher>8</flasher>
+		<clight>8</clight>
+	</params>
+
+	<animation>
+		<name>lights</name>
+		<object-name>clight00</object-name>
+		<object-name>clight01</object-name>
+		<object-name>clight02</object-name>
+		<object-name>clight03</object-name>
+		<object-name>clight04</object-name>
+		<object-name>clight05</object-name>
+		<object-name>clight06</object-name>
+		<object-name>clight07</object-name>
+		<object-name>clight08</object-name>
+		<object-name>clight09</object-name>
+		<object-name>clight10</object-name>
+		<object-name>clight11</object-name>
+		<object-name>clight12</object-name>
+		<object-name>clight13</object-name>
+		<object-name>clight14</object-name>
+		<object-name>clight15</object-name>
+		<object-name>clight16</object-name>
+		<object-name>clight17</object-name>
+		<object-name>plight0</object-name>
+		<object-name>plight1</object-name>
+		<object-name>plight2</object-name>
+		<object-name>alight0</object-name>
+		<object-name>alight1</object-name>
+		<object-name>alight2</object-name>
+		<object-name>alight3</object-name>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>platform_grid_i</object-name>
+		<object-name>platform_grid_o</object-name>
+		<object-name>grid</object-name>
+		<alpha-factor>0.01</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>spin</type>
+		<object-name>tilde</object-name>
+		<property>/sim/time/elapsed-sec</property>
+		<factor>-.02</factor>
+		<center>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>237.0</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>1.0</z>
+		</axis>
+	</animation>
+
+	<!--flasher-->
+
+	<animation>
+		<type>select</type>
+		<object-name>flasher</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>timed</type>
+		<object-name>flasher</object-name>
+		<object-name>None</object-name>
+		<duration-sec>2.0</duration-sec>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>flasher</object-name>
+		<alpha-factor>0.001</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>flasher</object-name>
+		<offset-m>253</offset-m>
+		<axis>
+			<z>1</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>flasher</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>flasher</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/flasher"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+<!-- column lights (3 levels @ 6 lamps) -->
+
+	<animation>
+		<type>select</type>
+		<name>lights-night</name>
+		<object-name>lights</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight00</object-name>
+		<offset-m>116.772992</offset-m>
+		<axis>
+			<x>3.554058</x>
+			<y>2.060023</y>
+			<z>116.700714</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight01</object-name>
+		<offset-m>116.772992</offset-m>
+		<axis>
+			<x>3.553877</x>
+			<y>-2.060335</y>
+			<z>116.700714</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight02</object-name>
+		<offset-m>116.773431</offset-m>
+		<axis>
+			<x>-0.014547</x>
+			<y>-4.120358</y>
+			<z>116.700714</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight03</object-name>
+		<offset-m>116.773870</offset-m>
+		<axis>
+			<x>-3.582791</x>
+			<y>-2.060022</y>
+			<z>116.700714</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight04</object-name>
+		<offset-m>116.773870</offset-m>
+		<axis>
+			<x>-3.58261</x>
+			<y>2.060337</y>
+			<z>116.700714</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight05</object-name>
+		<offset-m>116.773431</offset-m>
+		<axis>
+			<x>-0.014185</x>
+			<y>4.120358</y>
+			<z>116.700714</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight06</object-name>
+		<offset-m>83.945075</offset-m>
+		<axis>
+			<x>4.034585</x>
+			<y>2.345691</y>
+			<z>83.815247</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight07</object-name>
+		<offset-m>83.945076</offset-m>
+		<axis>
+			<x>4.034379</x>
+			<y>-2.346047</y>
+			<z>83.815247</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight08</object-name>
+		<offset-m>83.946464</offset-m>
+		<axis>
+			<x>-0.028888</x>
+			<y>-4.691738</y>
+			<z>83.815247</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight09</object-name>
+		<offset-m>83.947852</offset-m>
+		<axis>
+			<x>-4.091949</x>
+			<y>-2.34569</y>
+			<z>83.815247</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight10</object-name>
+		<offset-m>83.947852</offset-m>
+		<axis>
+			<x>-4.091743</x>
+			<y>2.346048</y>
+			<z>83.815247</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight11</object-name>
+		<offset-m>83.946464</offset-m>
+		<axis>
+			<x>-0.028476</x>
+			<y>4.691738</y>
+			<z>83.815247</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight12</object-name>
+		<offset-m>50.018645</offset-m>
+		<axis>
+			<x>4.543665</x>
+			<y>2.639579</y>
+			<z>49.741859</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight13</object-name>
+		<offset-m>50.018645</offset-m>
+		<axis>
+			<x>4.543433</x>
+			<y>-2.63998</y>
+			<z>49.741859</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight14</object-name>
+		<offset-m>50.021267</offset-m>
+		<axis>
+			<x>-0.028914</x>
+			<y>-5.279558</y>
+			<z>49.741859</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight15</object-name>
+		<offset-m>50.023889</offset-m>
+		<axis>
+			<x>-4.601029</x>
+			<y>-2.639578</y>
+			<z>49.741859</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight16</object-name>
+		<offset-m>50.023888</offset-m>
+		<axis>
+			<x>-4.600797</x>
+			<y>2.639981</y>
+			<z>49.741859</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>clight17</object-name>
+		<offset-m>50.021267</offset-m>
+		<axis>
+			<x>-0.02845</x>
+			<y>5.279558</y>
+			<z>49.741859</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight00</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight01</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight02</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight03</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight04</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight05</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight06</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight07</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight08</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight09</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight10</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight11</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight12</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight13</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight14</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight15</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight16</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>clight17</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight00</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight01</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight02</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight03</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight04</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight05</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight06</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight07</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight08</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight09</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight10</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight11</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight12</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight13</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight14</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight15</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight16</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>clight17</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+<!-- platform lights -->
+
+	<animation>
+		<type>translate</type>
+		<object-name>plight0</object-name>
+		<offset-m>152.905391</offset-m>
+		<axis>
+			<x>5.457027</x>
+			<y>10.777681</y>
+			<z>152.427429</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>plight1</object-name>
+		<offset-m>152.878694</offset-m>
+		<axis>
+			<x>5.337348</x>
+			<y>-10.45402</y>
+			<z>152.427429</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>plight2</object-name>
+		<offset-m>152.980168</offset-m>
+		<axis>
+			<x>-12.990004</x>
+			<y>0.265481</y>
+			<z>152.427429</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>plight0</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>plight1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>plight2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>plight0</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>plight1</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>plight2</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+<!-- antenna lights -->
+
+	<animation>
+		<type>translate</type>
+		<object-name>alight0</object-name>
+		<offset-m>219.374905</offset-m>
+		<axis>
+			<x>1.729409</x>
+			<y>0.004127</y>
+			<z>219.368088</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>alight1</object-name>
+		<offset-m>219.374767</offset-m>
+		<axis>
+			<x>0.00413</x>
+			<y>-1.711916</y>
+			<z>219.368088</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>alight2</object-name>
+		<offset-m>219.374768</offset-m>
+		<axis>
+			<x>-1.711913</x>
+			<y>0.013364</y>
+			<z>219.368088</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>alight3</object-name>
+		<offset-m>219.374905</offset-m>
+		<axis>
+			<x>0.013367</x>
+			<y>1.729406</y>
+			<z>219.368088</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>alight0</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>alight1</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>alight2</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>alight3</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>alight0</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>alight1</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>alight2</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>alight3</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep>0.4</dep>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep>0.8</dep>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../params/clight"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>platform_grid_i</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>platform_grid_o</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>cable</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>cable</object-name>
+		<alpha-factor>0.1</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>bungee_o</object-name>
+		<alpha-factor>0.1</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>bungee_i</object-name>
+		<alpha-factor>0.1</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant0</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant1</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant2</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant3</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant4</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant5</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant10</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant11</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>ant12</object-name>
+		<min-m>0</min-m>
+		<max-m>1500</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>interior</object-name>
+		<min-m>0</min-m>
+		<max-m>1000</max-m>
+	</animation>
+
+	<animation>
+		<type>range</type>
+		<object-name>grid</object-name>
+		<min-m>0</min-m>
+		<max-m>4000</max-m>
+	</animation>
+
+</PropertyList>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_EA_GASTRO_HROCH.ac</path>
+	
+<!--   REMBRANDT model-transparent -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>LKPR_EA_GASTRO_HROCH2</object-name>
+</effect>
+<!-- obstruction light -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -1.349 </x-m>
+		<y-m> 21.73 </y-m>
+		<z-m> 11.20 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -1.349 </x-m>
+		<y-m> 42.77999 </y-m>
+		<z-m> 11.20 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 21.361 </x-m>
+		<y-m> 42.77999 </y-m>
+		<z-m> 11.20 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 21.361</x-m>
+		<y-m> 21.73 </y-m>
+		<z-m> 11.20 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+</PropertyList>

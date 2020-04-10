@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 12.2585527 59.3749461 164.9 1.66
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 12.3186341 59.3741591 220.68 358.44
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 12.3823205 59.3731971 219.89 358.66
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 12.4576799 59.3724975 247.87 358.14
+OBJECT_SHARED Models/Communications/mil-antena-118m.xml 12.399444444 59.325 218.22 180

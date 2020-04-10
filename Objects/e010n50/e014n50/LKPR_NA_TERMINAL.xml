@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_NA_TERMINAL.ac</path>
+	
+<!-- 					11.09.2013 - by Andre Burkert								--> 
+<!-- ############################################################### -->
+<!-- model position: 50.107113 14.267629 on coordinate origin  		-->
+<!-- model offset: -3.98 meter - for FGFS scenery database     		-->
+<!-- each building has its own angle to the coordinate origin 			-->
+<!-- necessary because different terrain heights 							-->
+<!-- ############################################################### -->
+<!-- each pier has a open window field at the front for placing gates-->
+<!-- there are: LKPR_NA_TERM_CONCOURSE_A , _B , _C and _D				-->
+<!-- each CONCOURSE has the same heading as the terminal					-->
+<!-- ############################################################### -->
+
+<!--  textranslate and night emission  -->
+<animation>
+    <type>textranslate</type> 
+    <object-name>LKPR_NA_TERMINAL1</object-name>
+    <object-name>LKPR_NA_TERMINAL2</object-name>
+    <object-name>LKPR_NA_TERMINAL5</object-name> 
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> 0 </x> 
+      <y> 1 </y> 
+    </axis> 
+</animation>
+<animation>
+<type>material</type>
+    <object-name>LKPR_NA_TERMINAL1</object-name>
+    <object-name>LKPR_NA_TERMINAL2</object-name> 
+    <object-name>LKPR_NA_TERMINAL5</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.6</blue>
+</emission>
+</animation>
+
+<!--   REMBRANDT model-transparent for the banister -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>LKPR_NA_TERMINAL3</object-name>
+</effect>
+
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+
+
+<!-- obstruction light TERMINAL 1 -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 158.03413 </x-m>
+		<y-m> 214.37534 </y-m>
+		<z-m>  18.07445 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  62.29034 </x-m>
+		<y-m> 169.12128 </y-m>
+		<z-m>  18.10667 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 163.75125 </x-m>
+		<y-m> 202.28172 </y-m>
+		<z-m>  20.98766 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  68.00745 </x-m>
+		<y-m> 157.02766 </y-m>
+		<z-m>  21.01988 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 180.18335 </x-m>
+		<y-m> 167.51439 </y-m>
+		<z-m>  18.15511 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  84.33956 </x-m>
+		<y-m> 122.26032 </y-m>
+		<z-m>  18.18733 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- obstruction light TERMINAL 1 Offset-Building -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -6.66478 </x-m>
+		<y-m> 53.48068 </y-m>
+		<z-m> 38.11463 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-17.57525 </x-m>
+		<y-m> 61.24302 </y-m>
+		<z-m> 38.11463 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -9.98134 </x-m>
+		<y-m> 71.91675 </y-m>
+		<z-m> 38.19623 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  0.9291262 </x-m>
+		<y-m> 64.1544 </y-m>
+		<z-m> 37.99623 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- obstruction light TERMINAL 2 -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>   7.33705 </x-m>
+		<y-m>-290.33514 </y-m>
+		<z-m>  35.75187 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  28.83072 </x-m>
+		<y-m>-259.71603 </y-m>
+		<z-m>  38.97687 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  50.41775 </x-m>
+		<y-m>-229.16251 </y-m>
+		<z-m>  27.67073 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-132.60023 </x-m>
+		<y-m>-191.96202 </y-m>
+		<z-m>  34.40848 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-118.04035 </x-m>
+		<y-m>-171.19939 </y-m>
+		<z-m>  38.14117 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -89.51955 </x-m>
+		<y-m>-130.78941 </y-m>
+		<z-m>  26.32734 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+
+</PropertyList>

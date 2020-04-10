@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>LOWS_Tower.ac</path>
+
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>0.00098</x-m>
+   <y-m>-6.47372</y-m>
+   <z-m>46.04</z-m>
+  </offsets>
+ </model>
+
+
+
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>5.60739</x-m>
+   <y-m>-3.23686</y-m>
+   <z-m>46.04</z-m>
+  </offsets>
+ </model>
+
+
+
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>5.60739</x-m>
+   <y-m>3.23686</y-m>
+   <z-m>46.04</z-m>
+  </offsets>
+ </model>
+
+
+
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>0.00098</x-m>
+   <y-m>6.47372</y-m>
+   <z-m>46.04</z-m>
+  </offsets>
+ </model>
+
+
+
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>-5.60542</x-m>
+   <y-m>3.23686</y-m>
+   <z-m>46.04</z-m>
+  </offsets>
+ </model>
+
+
+
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>-5.60542</x-m>
+   <y-m>-3.23686</y-m>
+   <z-m>46.04</z-m>
+  </offsets>
+ </model>
+
+
+
+
+</PropertyList>

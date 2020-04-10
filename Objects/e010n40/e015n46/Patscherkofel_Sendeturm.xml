@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>Patscherkofel_Sendeturm.ac</path>
+  
+  <!-- Winter Ground -->     
+    <animation>
+    <type>textranslate</type> 
+    
+        <object-name>base</object-name>
+            <condition>
+                <equals>
+                <property>sim/startup/season</property>
+                <value>winter</value>
+                </equals>
+            </condition>
+			<offset>0.50</offset>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> 0 </x> 
+      <y> -1 </y> 
+      <z>  0 </z> 
+    </axis> 
+    </animation>
+  <!-- Winter Roof -->
+      <animation>
+    <type>select</type>  
+        <object-name>AuxBldgRoofWint</object-name>
+            <condition>
+                <equals>
+                <property>sim/startup/season</property>
+                <value>winter</value>
+                </equals>
+            </condition>
+    </animation>
+<!-- summer Roof -->
+      <animation>
+    <type>select</type>  
+        <object-name>AuxBldgRoof</object-name>
+            <condition>
+                <equals>
+                <property>sim/startup/season</property>
+                <value>summer</value>
+                </equals>
+            </condition>
+    </animation>
+	
+  
+<!--- Aux Building Windows -->
+<animation> 
+    <type>textranslate</type> 
+    <object-name>windowslit</object-name>
+	
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> 0 </x> 
+      <y> -1 </y> 
+      <z>  0 </z> 
+    </axis> 
+  </animation>
+ 
+  <animation>
+    <type>material</type>
+    <object-name>windowslit</object-name>
+
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   1 </red>
+      <green> 1 </green>
+      <blue>  1 </blue>
+    </emission>
+  </animation>
+
+<!-- END  Aux Building Windows -->
+
+<!--START Obstruction Lights  Sendeturm-->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  0.000 </x-m>
+		<y-m>  9.994 </y-m>
+		<z-m> 29.900 </z-m>
+		<pitch-deg> 0.00</pitch-deg>
+		<heading-deg>0.0 </heading-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -8.504 </x-m>
+		<y-m> -5.005 </y-m>
+		<z-m> 29.900 </z-m>
+		<pitch-deg> 0.00</pitch-deg>
+		<heading-deg>0.0 </heading-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  8.504 </x-m>
+		<y-m> -5.005 </y-m>
+		<z-m> 29.900 </z-m>
+		<pitch-deg> 0.00</pitch-deg>
+		<heading-deg>0.0 </heading-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  0.000 </x-m>
+		<y-m>  0.000 </y-m>
+		<z-m> 68.000 </z-m>
+		<pitch-deg> 0.00</pitch-deg>
+		<heading-deg>0.0 </heading-deg>
+	</offsets>
+</model>
+<!--END Obstruction Lights  Sendeturm-->
+
+
+<!-- MODELS -->
+
+<!-- Antennas located on the two level balcony -->
+<model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> 18.1 </x-m>
+      <y-m> 46.2 </y-m>
+      <z-m> 5.7 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 90.0 </heading-deg>
+    </offsets>
+  </model> 
+<model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> 17.5 </x-m>
+      <y-m> 49.0 </y-m>
+      <z-m> 5.7 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 90.0 </heading-deg>
+    </offsets>
+  </model> 
+  <model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> 18.1 </x-m>
+      <y-m> 46.2 </y-m>
+      <z-m> 0.3 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 90.0 </heading-deg>
+    </offsets>
+  </model> 
+<model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> 17.5 </x-m>
+      <y-m> 49.0 </y-m>
+      <z-m> 0.3 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 90.0 </heading-deg>
+    </offsets>
+  </model> 
+
+<!-- Antennas located on the balcony. From left to right -->
+  <model>
+    <path>Patscherkofel_Antenna_Ear.ac</path>
+    <offsets>
+      <x-m> 9.39 </x-m>
+      <y-m> 46.92 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 180.0 </heading-deg>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> 5.6 </x-m>
+      <y-m> 46.2 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 220.0 </heading-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> 2.5 </x-m>
+      <y-m> 45.5 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 200.0 </heading-deg>
+    </offsets>
+  </model>
+<model>
+    <path>Patscherkofel_Antenna_Drum_1m.ac</path>
+    <offsets>
+      <x-m> 0.0 </x-m>
+      <y-m> 45.5 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 200.0 </heading-deg>
+    </offsets>
+  </model>
+<model>
+    <path>Patscherkofel_Antenna_Drum_1m.ac</path>
+    <offsets>
+      <x-m> 0.0 </x-m>
+      <y-m> 45.5 </y-m>
+      <z-m> 4.2 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 200.0 </heading-deg>
+    </offsets>
+  </model>  
+<model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -2.4 </x-m>
+      <y-m> 44.7 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model>
+  
+ <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -6.0 </x-m>
+      <y-m> 43.6 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model> 
+  <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -9.0 </x-m>
+      <y-m> 43.1 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 160.0 </heading-deg>
+    </offsets>
+  </model>  
+
+<model>
+    <path>Patscherkofel_Antenna_Drum_1e6m.ac</path>
+    <offsets>
+      <x-m> -12.0 </x-m>
+      <y-m> 42.3 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model>    
+<model>
+    <path>Patscherkofel_Antenna_Drum_1e6m.ac</path>
+    <offsets>
+      <x-m> -14.3 </x-m>
+      <y-m> 41.8 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model> 
+ 
+  <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -17.4 </x-m>
+      <y-m> 40.6 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model>  
+<model>
+    <path>Patscherkofel_Antenna_Drum_1m.ac</path>
+    <offsets>
+      <x-m> -20.7 </x-m>
+      <y-m> 39.8 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 200.0 </heading-deg>
+    </offsets>
+  </model>
+<model>
+    <path>Patscherkofel_Antenna_Drum_1m.ac</path>
+    <offsets>
+      <x-m> -20.7 </x-m>
+      <y-m> 39.8 </y-m>
+      <z-m> 4.2 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 200.0 </heading-deg>
+    </offsets>
+  </model>    
+
+ <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -23.6 </x-m>
+      <y-m> 39.15 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model>     
+ 
+ <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -27 </x-m>
+      <y-m> 38.0 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -30 </x-m>
+      <y-m> 37.3 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 160.0 </heading-deg>
+    </offsets>
+  </model> 
+  <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -33.5 </x-m>
+      <y-m> 36.3 </y-m>
+      <z-m> 2.97 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 230.0 </heading-deg>
+    </offsets>
+  </model>  
+  
+  <!-- Main Turm Anyennas -->
+  <!-- Facing NorthWest El 15.75 -->
+  <model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> -3.8 </x-m>
+      <y-m> 7.2 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>
+  <model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> -7.8 </x-m>
+      <y-m> -0.50 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>
+  
+   <model>
+    <path>Patscherkofel_Antenna_Drum_1e6m.ac</path>
+    <offsets>
+      <x-m> -4.36 </x-m>
+      <y-m> 5.2 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>   
+ <model>
+    <path>Patscherkofel_Antenna_Drum_1e6m.ac</path>
+    <offsets>
+      <x-m> -6 </x-m>
+      <y-m> 2.25 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>
+   <model>
+    <path>Patscherkofel_Antenna_Drum_1m.ac</path>
+    <offsets>
+      <x-m> -10.45 </x-m>
+      <y-m> -4.954 </y-m>
+      <z-m> 15.727 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>
+   <model>
+    <path>Patscherkofel_Antenna_Drum_1m.ac</path>
+    <offsets>
+      <x-m> -10.45 </x-m>
+      <y-m> -4.954 </y-m>
+      <z-m> 17.934 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>         
+<!-- Facing NorthWest El 21.75 -->  
+   <model>
+    <path>Patscherkofel_Antenna_Ear.ac</path>
+    <offsets>
+      <x-m> -5.3 </x-m>
+      <y-m> -0.46 </y-m>
+      <z-m> 21.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>
+  <model>
+    <path>Patscherkofel_Antenna_Ear.ac</path>
+    <offsets>
+      <x-m> -2.45 </x-m>
+      <y-m> 4.9 </y-m>
+      <z-m> 21.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>
+  
+  <!-- Facing South El 15.75 -->    
+ <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -5 </x-m>
+      <y-m> -7 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 0.0 </heading-deg>
+    </offsets>
+  </model>       
+ <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> -7 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 0.0 </heading-deg>
+    </offsets>
+  </model> 
+   <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> 5 </x-m>
+      <y-m> -7 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 0.0 </heading-deg>
+    </offsets>
+  </model> 
+  <!-- Facing South El 21.75 -->    
+ <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> -5 </x-m>
+      <y-m> -5 </y-m>
+      <z-m> 21.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 0.0 </heading-deg>
+    </offsets>
+  </model>       
+ <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> 0 </x-m>
+      <y-m> -5 </y-m>
+      <z-m> 21.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 0.0 </heading-deg>
+    </offsets>
+  </model> 
+   <model>
+    <path>Patscherkofel_Antenna_Drum_2m.ac</path>
+    <offsets>
+      <x-m> 5 </x-m>
+      <y-m> -5 </y-m>
+      <z-m> 21.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 0.0 </heading-deg>
+    </offsets>
+  </model>
+  <!-- Facing NorthEast El 15.75 -->  
+   <model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> 1.65 </x-m>
+      <y-m> 5.5 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 120.0 </heading-deg>
+    </offsets>
+  </model>
+  <model>
+    <path>Patscherkofel_Antenna_Ear_08.ac</path>
+    <offsets>
+      <x-m> 5.62 </x-m>
+      <y-m> -1.43 </y-m>
+      <z-m> 15.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 120.0 </heading-deg>
+    </offsets>
+  </model>
+
+  
+<!-- Facing NorthEast El 21.75 -->  
+   <model>
+    <path>Patscherkofel_Antenna_Ear.ac</path>
+    <offsets>
+      <x-m> 1.65 </x-m>
+      <y-m> 5.5 </y-m>
+      <z-m> 21.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 120.0 </heading-deg>
+    </offsets>
+  </model>
+  <model>
+    <path>Patscherkofel_Antenna_Ear.ac</path>
+    <offsets>
+      <x-m> 5.62 </x-m>
+      <y-m> -1.43 </y-m>
+      <z-m> 21.75 </z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 120.0 </heading-deg>
+    </offsets>
+  </model>  
+  
+  <!-- MAIN COLUMNS -->
+  <model>
+    <path>Patscherkofel_Columns.ac</path>
+    <offsets>
+      <x-m>0.0</x-m>
+      <y-m>0.0</y-m>
+      <z-m>0.0</z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 0.0 </heading-deg>
+    </offsets>
+  </model>  
+  <model>
+    <path>Patscherkofel_Columns.ac</path>
+    <offsets>
+      <x-m>0.0</x-m>
+      <y-m>0.0</y-m>
+      <z-m>0.0</z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 120.0 </heading-deg>
+    </offsets>
+  </model> 
+  <model>
+    <path>Patscherkofel_Columns.ac</path>
+    <offsets>
+      <x-m>0.0</x-m>
+      <y-m>0.0</y-m>
+      <z-m>0.0</z-m>
+      <roll-deg>    0.0 </roll-deg>
+      <pitch-deg>   0.0 </pitch-deg>
+      <heading-deg> 240.0 </heading-deg>
+    </offsets>
+  </model>
+
+	<!-- Light poles -->
+	<model>
+	<name>pole_01</name>
+	<path>Models/Airport/light-pole-20m-circular.ac</path>
+		<offsets>
+			<x-m>-12.988</x-m>
+			<y-m>11.935</y-m>
+			<z-m>-8.0</z-m>
+			<roll-deg>    0.0 </roll-deg>
+			<pitch-deg>   0.0 </pitch-deg>
+			<heading-deg> 68.5 </heading-deg>
+		</offsets>
+	</model>
+	
+	<model>
+	<name>pole_02</name>
+	<path>Models/Airport/light-pole-20m-circular.ac</path>
+		<offsets>
+			<x-m>10.837</x-m>
+			<y-m>18.113</y-m>
+			<z-m>-8.0</z-m>
+			<roll-deg>    0.0 </roll-deg>
+			<pitch-deg>   0.0 </pitch-deg>
+			<heading-deg> -41.5 </heading-deg>
+		</offsets>
+	</model>
+	
+	<animation>
+		<type>select</type>
+		<object-name>light-faces-lit</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+	<animation>
+		<type>select</type>
+		<object-name>light-faces</object-name>
+		<condition>
+			<less-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</less-than>
+		</condition>
+	</animation>
+	
+	<animation>
+		<type>select</type>
+		<object-name>red-light</object-name>
+		<condition>
+			<equals>
+				<property>/sim/signals/fdm-initialized</property>
+				<value>0</value>
+			</equals>
+		</condition>
+	</animation>
+	
+	<!-- Car ... only in summer !!! When available put here a UNIMOG! -->
+	<model>
+	<name>parked_car</name>
+	<path>Models/Transport/hummerh2-ba.ac</path>
+		<condition>
+			<equals>
+				<property>sim/startup/season</property>
+				<value>summer</value>
+			</equals>
+		</condition>
+		<offsets>
+			<x-m>-21.4</x-m>
+			<y-m>6.7</y-m>
+			<z-m>0.118</z-m>
+			<roll-deg>    0.0 </roll-deg>
+			<pitch-deg>   0.0 </pitch-deg>
+			<heading-deg> -246.5 </heading-deg>
+		</offsets>
+	</model>
+  
+
+<!-- LOD - Details -->
+<animation>
+	<type>range</type>
+	<object-name>parked_car</object-name>
+	<object-name>pole_01</object-name>
+	<object-name>pole_02</object-name>
+	<object-name>antenna_0</object-name>
+	<object-name>antenna_1</object-name>
+	<object-name>ear_0</object-name>
+	<object-name>ear_1</object-name>
+		<min-m>0</min-m>
+		<max-m>4000</max-m>
+</animation>
+
+<!-- LOD - Overall Model -->
+<animation>
+	<type>range</type>
+		<min-m>0</min-m>
+		<max-m>15000</max-m>
+</animation>
+  
+</PropertyList>

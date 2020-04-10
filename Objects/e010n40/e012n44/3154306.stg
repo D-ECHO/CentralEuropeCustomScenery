@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Airport/ndb.ac 12.506 44.079028 14.23 180
+OBJECT_SHARED Models/Airport/marker.ac 12.632472 44.008722 11.14 180
+OBJECT_SHARED Models/Airport/localizer.xml 12.592667 44.030917 5.1 51.16
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 12.6579446 44.0078443 -0.02 153.27
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 12.6575712 44.0078384 0 73.22
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 12.616639 44.015167 8.88 180
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 12.573886 44.074117 -1.97 0
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 12.621 44.016889 6.68 51.16

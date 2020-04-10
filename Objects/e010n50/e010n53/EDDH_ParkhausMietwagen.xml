@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+  <path>EDDH_ParkhausMietwagen.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>/sim/rendering/static-lod/rough</max-property>
+  </animation>
+</PropertyList>

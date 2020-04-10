@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 10.0289736 54.580479 -0.16 8.37
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 10.0288174 54.5814466 -0.12 94.25
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 10.0322 54.5429 -0.9 341.52
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 10.0357 54.538 -1.45 260.3
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 10.0391 54.5444 -1.19 350.15
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 10.0436 54.5412 -1.68 87.74
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 10.0478802 54.5140629 -3.11 313.56
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 10.1933051 54.5375384 -5.3 137.93
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 10.1815831 54.5038251 -4.1 302.2

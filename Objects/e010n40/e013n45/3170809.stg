@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Industrial/Industrial50x100.xml 13.2610914 45.9289591 42.29 4
+OBJECT_SHARED Models/Power/Poolbeg_TurboGas.ac 13.2588951 45.9283188 38.53 4
+OBJECT_SHARED Models/Power/Poolbeg_Turbosteam.xml 13.2580312 45.9280159 33.63 184
+OBJECT_SHARED Models/Power/coal_heap_small.ac 13.2623739 45.9270099 34.34 22.4
+OBJECT_SHARED Models/StreetFurniture/RoadbridgeSmall.ac 13.2608182 45.9454931 40.88 24.7
+OBJECT_SHARED Models/StreetFurniture/RoadbridgeSmall.ac 13.2704178 45.9305333 34.64 0.1

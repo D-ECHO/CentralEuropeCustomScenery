@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 17.1355543 42.9632787 0 262.81
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 17.136998 42.9606202 0 185.19
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 17.15058 42.95556 0 280.95
+OBJECT_SHARED Models/Maritime/Misc/Buoy-IsolatedDanger.ac 17.1646373 42.9602343 -0.03 341.5
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 17.16273 42.94334 -0.01 94.78

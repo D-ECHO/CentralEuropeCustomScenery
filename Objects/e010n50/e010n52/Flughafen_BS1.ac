@@ -1,0 +1,131 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+MATERIAL "ac3dmat13" rgb 0.533333 0.533333 0.533333  amb 0.533333 0.533333 0.533333  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+OBJECT world
+kids 5
+OBJECT poly
+name "Circle.004"
+loc -165 0 -34
+data 10
+Circle.004
+crease 30.000000
+kids 0
+OBJECT poly
+name "a.001"
+loc -165 0 -34
+data 8
+Cube.005
+crease 30.000000
+kids 0
+OBJECT poly
+name "Circle.004"
+loc -187 0 -50
+data 10
+Circle.004
+crease 30.000000
+kids 0
+OBJECT poly
+name "a.001"
+loc -187 0 -50
+data 8
+Cube.005
+crease 30.000000
+kids 0
+OBJECT group
+name "group"
+loc -0.0579987 1.76 -0.5245
+kids 5
+OBJECT poly
+name "rect"
+loc 0 1.04 0
+crease 45.000000
+numvert 4
+-3.14632 0 0.592224
+-1.26843 0 -2.93958
+3.14632 0 -0.592224
+1.26843 0 2.93958
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 0.93895 -0.26 -1.7659
+texture "BS-Haus2.rgb"
+crease 45.000000
+numvert 4
+-2.20738 -1.5 -1.17368
+2.20737 -1.5 1.17368
+2.20737 1.5 1.17368
+-2.20738 1.5 -1.17368
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.875722 0.819368
+2 0.940727 0.819368
+1 0.940727 0.593298
+0 0.875722 0.593298
+kids 0
+OBJECT poly
+name "rect"
+loc 2.20737 -0.26 1.17368
+texture "BS-Haus2.rgb"
+crease 45.000000
+numvert 4
+-0.938934 -1.5 1.7659
+0.93895 -1.5 -1.7659
+0.93895 1.5 -1.7659
+-0.938934 1.5 1.7659
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.825433 0.818553
+2 0.87133 0.818553
+1 0.87133 0.596828
+0 0.825433 0.596828
+kids 0
+OBJECT poly
+name "rect"
+loc -2.20737 -0.26 -1.17368
+texture "BS-Haus2.rgb"
+crease 45.000000
+numvert 4
+-0.93895 1.5 1.7659
+0.938934 1.5 -1.7659
+0.938934 -1.5 -1.7659
+-0.93895 -1.5 1.7659
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.995715 0.821503
+1 0.946863 0.821503
+2 0.946863 0.590804
+3 0.995715 0.590804
+kids 0
+OBJECT poly
+name "rect"
+loc -0.93895 -0.26 1.7659
+texture "BS-Haus2.rgb"
+crease 45.000000
+numvert 4
+-2.20737 1.5 -1.17368
+2.20738 1.5 1.17368
+2.20738 -1.5 1.17368
+-2.20737 -1.5 -1.17368
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.875722 0.819368
+1 0.940727 0.819368
+2 0.940727 0.593298
+3 0.875722 0.593298
+kids 0

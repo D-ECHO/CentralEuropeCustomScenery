@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>EDDP_VDGS-136.ac</path>
+	
+	<animation>
+    <type>material</type>
+    <object-name>schild1</object-name>
+	<object-name>schild2</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>.9</red>	
+	<green>.9</green>	
+	<blue>.7</blue>
+    </emission>
+</animation>
+
+	<animation>
+    <type>material</type>
+    <object-name>schild1</object-name>
+	<object-name>schild2</object-name>
+    <condition>
+        <less-than-equals>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </less-than-equals>
+    </condition>
+    <emission>	
+	<red>.4</red>	
+	<green>.4</green>	
+	<blue>.4</blue>
+    </emission>
+</animation>
+
+</PropertyList>

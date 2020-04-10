@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+    
+<path>ParabitaAntennaRai2.ac</path>
+
+
+  <!-- Obstruction Lights START -->
+  <animation>
+ <type>noshadow</type>
+  <object-name>beacontop</object-name>
+  <object-name>beaconmid1</object-name>
+  <object-name>beaconmid2</object-name>
+  <object-name>beaconlow1</object-name>
+  <object-name>beaconlow2</object-name>
+</animation>
+
+<animation>
+  <type>alpha-test</type>
+   <alpha-factor>0.01</alpha-factor>
+</animation>
+
+
+<animation>
+ <type>select</type>
+  <object-name>beacontop</object-name>
+  <object-name>beaconmid1</object-name>
+  <object-name>beaconmid2</object-name>
+  <object-name>beaconlow1</object-name>
+  <object-name>beaconlow2</object-name>
+  
+<condition>
+<greater-than>
+<property>sim/time/sun-angle-rad</property>
+<value>1.57</value>
+</greater-than>
+ </condition>
+</animation>
+
+    
+<animation>
+	  
+<type>range</type>
+	  
+<min-m>0</min-m>
+	  
+<max-m>10000</max-m>
+    
+</animation>
+
+ <!-- OFFSET -->
+<animation>
+		<type>translate</type>
+		<object-name>beacontop</object-name>
+		<offset-m>90.5</offset-m>
+		<axis>
+			<x>0</x>
+			<y>0</y>
+			<z>90.5</z>
+		</axis>
+</animation>
+<animation>
+		<type>translate</type>
+		<object-name>beaconmid1</object-name>
+		<offset-m>56.55731606</offset-m>
+		<axis>
+			<x>-1.8</x>
+			<y>1.8</y>
+			<z>56.5</z>
+		</axis>
+</animation>
+
+<animation>
+		<type>translate</type>
+		<object-name>beaconmid2</object-name>
+		<offset-m>56.55731606</offset-m>
+		<axis>
+			<x>1.8</x>
+			<y>-1.8</y>
+			<z>56.5</z>
+		</axis>
+</animation>
+<animation>
+		<type>translate</type>
+		<object-name>beaconlow1</object-name>
+		<offset-m>32.33852192</offset-m>
+		<axis>
+			<x>3.3</x>
+			<y>3.3</y>
+			<z>32</z>
+		</axis>
+</animation>
+
+<animation>
+		<type>translate</type>
+		<object-name>beaconlow2</object-name>
+		<offset-m>32.33852192</offset-m>
+		<axis>
+			<x>-3.3</x>
+			<y>-3.3</y>
+			<z>32</z>
+		</axis>
+</animation>
+
+
+<!-- FINE OFFSET -->
+    
+<animation>
+        
+<type>billboard</type>       
+  <object-name>beacontop</object-name>
+  <object-name>beaconmid1</object-name>
+  <object-name>beaconmid2</object-name>
+  <object-name>beaconlow1</object-name>
+  <object-name>beaconlow2</object-name>
+<spherical type="bool">true</spherical>
+    
+</animation>
+
+  
+<animation>
+    <type>dist-scale</type>
+ <object-name>beacontop</object-name>
+  <object-name>beaconmid1</object-name>
+  <object-name>beaconmid2</object-name>
+  <object-name>beaconlow1</object-name>
+  <object-name>beaconlow2</object-name>
+<interpolation>
+      
+<entry><ind>0</ind><dep>0.025</dep></entry>
+
+<entry><ind>300</ind><dep>0.1</dep></entry>
+      
+<entry><ind>1500</ind><dep>0.3</dep></entry>
+      
+<entry><ind>4000</ind><dep>1</dep></entry>
+      
+<entry><ind>10000</ind><dep>1.5</dep></entry>
+    
+</interpolation>
+  
+</animation>
+
+<!-- ObstructionLights END -->
+
+
+</PropertyList>

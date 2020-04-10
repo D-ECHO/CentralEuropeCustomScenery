@@ -1,0 +1,1408 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0.1 0.1 0.1  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "Material.002" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.003" rgb 0.698039 0.698039 0.698039 amb 0.698039 0.698039 0.698039 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.004" rgb 0.698039 0.698039 0.698039 amb 0.698039 0.698039 0.698039 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.005" rgb 0.317647 0.294118 0.247059 amb 0.317647 0.294118 0.247059 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.006" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.007" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.008" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.009" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.010" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.011" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.012" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.013" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.014" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.015" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.016" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.017" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.018" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.019" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.020" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.021" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.022" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.023" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.024" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.025" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.026" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.027" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.001" rgb 0.317647 0.294118 0.247059 amb 0.317647 0.294118 0.247059 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+OBJECT world
+kids 27
+OBJECT poly
+name "ShapeIndexedFaceS"
+data 17
+ShapeIndexedFaceS
+crease 30.000000
+numvert 36
+15 14 0
+14.0954 14.000019 -5.1303
+11.4907 14.000036 -9.64181
+7.5 14.000049 -12.9904
+2.60472 14.000055 -14.7721
+-2.60472 14.000055 -14.7721
+-7.5 14.000049 -12.9904
+-11.4907 14.000036 -9.64181
+-14.0954 14.000019 -5.1303
+-15 14 0
+-14.0954 13.999981 5.1303
+-11.4907 13.999964 9.64182
+-7.5 13.999951 12.9904
+-2.60472 13.999945 14.7721
+2.60473 13.999945 14.7721
+7.5 13.999951 12.9904
+11.4907 13.999964 9.64181
+14.0954 13.999981 5.1303
+15 59 0.000168
+14.0954 59.000019 -5.130132
+11.4907 59.000034 -9.641643
+7.5 59.00005 -12.990232
+2.60472 59.000053 -14.771933
+-2.60472 59.000053 -14.771933
+-7.5 59.00005 -12.990232
+-11.4907 59.000034 -9.641643
+-14.0954 59.000019 -5.130132
+-15 59 0.000168
+-14.0954 58.999981 5.130468
+-11.4907 58.999966 9.641988
+-7.5 58.99995 12.990568
+-2.60472 58.999947 14.772268
+2.60473 58.999947 14.772268
+7.5 58.99995 12.990568
+11.4907 58.999966 9.641978
+14.0954 58.999981 5.130468
+numsurf 32
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+0 0 0
+17 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+17 0 0
+16 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+16 0 0
+15 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+15 0 0
+14 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+14 0 0
+13 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+13 0 0
+12 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+12 0 0
+11 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+11 0 0
+10 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+10 0 0
+9 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+9 0 0
+8 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+8 0 0
+7 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+7 0 0
+6 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+5 0 0
+4 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+4 0 0
+3 0 0
+SURF 0x30
+mat 1
+refs 3
+1 0 0
+3 0 0
+2 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+19 0 0
+20 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+20 0 0
+21 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+21 0 0
+22 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+22 0 0
+23 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+23 0 0
+24 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+24 0 0
+25 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+25 0 0
+26 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+26 0 0
+27 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+27 0 0
+28 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+28 0 0
+29 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+29 0 0
+30 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+30 0 0
+31 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+31 0 0
+32 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+32 0 0
+33 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+33 0 0
+34 0 0
+SURF 0x30
+mat 1
+refs 3
+18 0 0
+34 0 0
+35 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.001"
+data 21
+ShapeIndexedFaceS.001
+crease 30.000000
+numvert 48
+9 59 0
+8.69333 59.000008 -2.32937
+7.79423 59.000015 -4.5
+6.36396 59.000023 -6.36396
+4.5 59.000031 -7.79423
+2.32937 59.000034 -8.69333
+0 59.000034 -9
+-2.32937 59.000034 -8.69333
+-4.5 59.000031 -7.79423
+-6.36396 59.000023 -6.36396
+-7.79423 59.000015 -4.5
+-8.69333 59.000008 -2.32937
+-9 59 0
+-8.69333 58.999992 2.32937
+-7.79423 58.999985 4.5
+-6.36396 58.999977 6.36396
+-4.5 58.999969 7.79423
+-2.32937 58.999966 8.69333
+0 58.999966 9
+2.32937 58.999966 8.69333
+4.5 58.999969 7.79423
+6.36396 58.999977 6.36396
+7.79423 58.999985 4.5
+8.69333 58.999992 2.32937
+6 62 1.1e-005
+5.79556 62.000008 -1.552899
+5.19615 62.000011 -2.999989
+4.24264 62.000015 -4.242629
+3 62.000019 -5.196138
+1.55291 62.000023 -5.795548
+0 62.000023 -5.999989
+-1.55291 62.000023 -5.795548
+-3 62.000019 -5.196138
+-4.24264 62.000015 -4.242629
+-5.19615 62.000011 -2.999989
+-5.79556 62.000008 -1.552899
+-6 62 1.1e-005
+-5.79555 61.999992 1.552921
+-5.19615 61.999989 3.000011
+-4.24264 61.999985 4.242651
+-3 61.999981 5.196161
+-1.55291 61.999977 5.795571
+0 61.999977 6.000011
+1.55292 61.999977 5.795561
+3 61.999981 5.196161
+4.24264 61.999985 4.242651
+5.19615 61.999989 3.000011
+5.79556 61.999992 1.552921
+numsurf 24
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+25 0 0
+24 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+2 0 0
+26 0 0
+25 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+3 0 0
+27 0 0
+26 0 0
+SURF 0x30
+mat 2
+refs 4
+3 0 0
+4 0 0
+28 0 0
+27 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+5 0 0
+29 0 0
+28 0 0
+SURF 0x30
+mat 2
+refs 4
+5 0 0
+6 0 0
+30 0 0
+29 0 0
+SURF 0x30
+mat 2
+refs 4
+6 0 0
+7 0 0
+31 0 0
+30 0 0
+SURF 0x30
+mat 2
+refs 4
+7 0 0
+8 0 0
+32 0 0
+31 0 0
+SURF 0x30
+mat 2
+refs 4
+8 0 0
+9 0 0
+33 0 0
+32 0 0
+SURF 0x30
+mat 2
+refs 4
+9 0 0
+10 0 0
+34 0 0
+33 0 0
+SURF 0x30
+mat 2
+refs 4
+10 0 0
+11 0 0
+35 0 0
+34 0 0
+SURF 0x30
+mat 2
+refs 4
+11 0 0
+12 0 0
+36 0 0
+35 0 0
+SURF 0x30
+mat 2
+refs 4
+12 0 0
+13 0 0
+37 0 0
+36 0 0
+SURF 0x30
+mat 2
+refs 4
+13 0 0
+14 0 0
+38 0 0
+37 0 0
+SURF 0x30
+mat 2
+refs 4
+14 0 0
+15 0 0
+39 0 0
+38 0 0
+SURF 0x30
+mat 2
+refs 4
+15 0 0
+16 0 0
+40 0 0
+39 0 0
+SURF 0x30
+mat 2
+refs 4
+16 0 0
+17 0 0
+41 0 0
+40 0 0
+SURF 0x30
+mat 2
+refs 4
+17 0 0
+18 0 0
+42 0 0
+41 0 0
+SURF 0x30
+mat 2
+refs 4
+18 0 0
+19 0 0
+43 0 0
+42 0 0
+SURF 0x30
+mat 2
+refs 4
+19 0 0
+20 0 0
+44 0 0
+43 0 0
+SURF 0x30
+mat 2
+refs 4
+20 0 0
+21 0 0
+45 0 0
+44 0 0
+SURF 0x30
+mat 2
+refs 4
+21 0 0
+22 0 0
+46 0 0
+45 0 0
+SURF 0x30
+mat 2
+refs 4
+22 0 0
+23 0 0
+47 0 0
+46 0 0
+SURF 0x30
+mat 2
+refs 4
+23 0 0
+0 0 0
+24 0 0
+47 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.002"
+data 21
+ShapeIndexedFaceS.002
+crease 30.000000
+numvert 36
+6 62 0
+5.63816 62.000008 -2.05212
+4.59627 62.000015 -3.85673
+3 62.000019 -5.19615
+1.04189 62.000023 -5.90885
+-1.04189 62.000023 -5.90885
+-3 62.000019 -5.19615
+-4.59627 62.000015 -3.85672
+-5.63816 62.000008 -2.05212
+-6 62 0
+-5.63816 61.999992 2.05212
+-4.59627 61.999985 3.85673
+-3 61.999981 5.19615
+-1.04189 61.999977 5.90885
+1.04189 61.999977 5.90885
+3 61.999981 5.19615
+4.59627 61.999985 3.85672
+5.63816 61.999992 2.05212
+6 64 7e-006
+5.63816 64.000008 -2.052113
+4.59627 64.000015 -3.856723
+3 64.000023 -5.196142
+1.04189 64.000023 -5.908843
+-1.04189 64.000023 -5.908843
+-3 64.000023 -5.196142
+-4.59627 64.000015 -3.856713
+-5.63816 64.000008 -2.052113
+-6 64 7e-006
+-5.63816 63.999992 2.052127
+-4.59627 63.999985 3.856737
+-3 63.999981 5.196157
+-1.04189 63.999977 5.908858
+1.04189 63.999977 5.908858
+3 63.999981 5.196157
+4.59627 63.999985 3.856727
+5.63816 63.999992 2.052127
+numsurf 34
+SURF 0x30
+mat 3
+refs 4
+0 0 0
+1 0 0
+19 0 0
+18 0 0
+SURF 0x30
+mat 3
+refs 4
+20 0 0
+19 0 0
+1 0 0
+2 0 0
+SURF 0x30
+mat 3
+refs 4
+21 0 0
+20 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 3
+refs 4
+22 0 0
+21 0 0
+3 0 0
+4 0 0
+SURF 0x30
+mat 3
+refs 4
+23 0 0
+22 0 0
+4 0 0
+5 0 0
+SURF 0x30
+mat 3
+refs 4
+24 0 0
+23 0 0
+5 0 0
+6 0 0
+SURF 0x30
+mat 3
+refs 4
+25 0 0
+24 0 0
+6 0 0
+7 0 0
+SURF 0x30
+mat 3
+refs 4
+26 0 0
+25 0 0
+7 0 0
+8 0 0
+SURF 0x30
+mat 3
+refs 4
+27 0 0
+26 0 0
+8 0 0
+9 0 0
+SURF 0x30
+mat 3
+refs 4
+28 0 0
+27 0 0
+9 0 0
+10 0 0
+SURF 0x30
+mat 3
+refs 4
+29 0 0
+28 0 0
+10 0 0
+11 0 0
+SURF 0x30
+mat 3
+refs 4
+30 0 0
+29 0 0
+11 0 0
+12 0 0
+SURF 0x30
+mat 3
+refs 4
+31 0 0
+30 0 0
+12 0 0
+13 0 0
+SURF 0x30
+mat 3
+refs 4
+32 0 0
+31 0 0
+13 0 0
+14 0 0
+SURF 0x30
+mat 3
+refs 4
+33 0 0
+32 0 0
+14 0 0
+15 0 0
+SURF 0x30
+mat 3
+refs 4
+34 0 0
+33 0 0
+15 0 0
+16 0 0
+SURF 0x30
+mat 3
+refs 4
+35 0 0
+34 0 0
+16 0 0
+17 0 0
+SURF 0x30
+mat 3
+refs 4
+17 0 0
+0 0 0
+18 0 0
+35 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+19 0 0
+20 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+20 0 0
+21 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+21 0 0
+22 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+22 0 0
+23 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+23 0 0
+24 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+24 0 0
+25 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+25 0 0
+26 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+26 0 0
+27 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+27 0 0
+28 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+28 0 0
+29 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+29 0 0
+30 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+30 0 0
+31 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+31 0 0
+32 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+32 0 0
+33 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+33 0 0
+34 0 0
+SURF 0x30
+mat 3
+refs 3
+18 0 0
+34 0 0
+35 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.003"
+data 21
+ShapeIndexedFaceS.003
+crease 30.000000
+numvert 4
+-13 8.999951 13.000033
+13 8.999951 13.000033
+-13 9.000049 -12.999967
+13 9.000049 -12.999967
+numsurf 1
+SURF 0x30
+mat 4
+refs 4
+0 0 0
+1 0 0
+3 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.004"
+data 21
+ShapeIndexedFaceS.004
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+2.604783 14.000008 -14.7721
+-2.604658 13.999992 -14.7721
+2.604658 59.000008 -14.7721
+-2.604783 58.999992 -14.7721
+numsurf 1
+SURF 0x10
+mat 5
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.005"
+data 21
+ShapeIndexedFaceS.005
+texture "bp_hotel_bp_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+13.000012 3.6e-005 -13
+-12.999988 -3.6e-005 -13
+12.999988 9.000036 -13
+-13.000012 8.999964 -13
+numsurf 1
+SURF 0x10
+mat 6
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.006"
+data 21
+ShapeIndexedFaceS.006
+texture "bp_hotel_bp_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+13.000012 3.6e-005 13
+-12.999988 -3.6e-005 13
+12.999988 9.000036 13
+-13.000012 8.999964 13
+numsurf 1
+SURF 0x10
+mat 7
+refs 4
+0 0.0 0.0
+2 0.0 1.0
+3 1.0 1.0
+1 1.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.007"
+data 21
+ShapeIndexedFaceS.007
+texture "bp_hotel_bp_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-12.99999 2.7e-005 -13.000009
+-12.999992 -2.7e-005 12.99999
+-13.000008 9.000027 -12.99999
+-13.00001 8.999973 13.000009
+numsurf 1
+SURF 0x10
+mat 8
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.008"
+data 21
+ShapeIndexedFaceS.008
+texture "bp_hotel_bp_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+13.00001 2.7e-005 -13.000009
+13.000008 -2.7e-005 12.99999
+12.999992 9.000027 -12.99999
+12.99999 8.999973 13.000009
+numsurf 1
+SURF 0x10
+mat 9
+refs 4
+0 0.0 0.0
+2 0.0 1.0
+3 1.0 1.0
+1 1.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.009"
+data 21
+ShapeIndexedFaceS.009
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-2.604671 14.000008 -14.772077
+-7.499945 13.999992 -12.990345
+-2.604796 59.000008 -14.772055
+-7.500069 58.999992 -12.990323
+numsurf 1
+SURF 0x10
+mat 10
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.010"
+data 21
+ShapeIndexedFaceS.010
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-7.499951 14.000007 -12.990401
+-11.490615 13.999993 -9.641839
+-7.500066 59.000008 -12.990361
+-11.49073 58.999992 -9.641799
+numsurf 1
+SURF 0x10
+mat 11
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.011"
+data 21
+ShapeIndexedFaceS.011
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-11.490588 14.000006 -9.641833
+-14.095306 13.999994 -5.130325
+-11.490694 59.000008 -9.641775
+-14.095412 58.999992 -5.130267
+numsurf 1
+SURF 0x10
+mat 12
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.012"
+data 21
+ShapeIndexedFaceS.012
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-14.09535 14.000006 -5.130338
+-14.999954 13.999994 -4e-005
+-14.095446 59.000004 -5.13026
+-15.00005 58.999996 3.8e-005
+numsurf 1
+SURF 0x10
+mat 13
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.013"
+data 21
+ShapeIndexedFaceS.013
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+7.500059 14.000008 -12.990323
+2.604786 13.999992 -14.772055
+7.499935 59.000008 -12.990345
+2.604661 58.999992 -14.772077
+numsurf 1
+SURF 0x10
+mat 14
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.014"
+data 21
+ShapeIndexedFaceS.014
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+11.49072 14.000007 -9.641799
+7.500055 13.999993 -12.990361
+11.490604 59.000008 -9.641839
+7.49994 58.999992 -12.990401
+numsurf 1
+SURF 0x10
+mat 15
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.015"
+data 21
+ShapeIndexedFaceS.015
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+14.095412 14.000006 -5.130267
+11.490694 13.999994 -9.641775
+14.095306 59.000008 -5.130325
+11.490588 58.999992 -9.641833
+numsurf 1
+SURF 0x10
+mat 16
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.016"
+data 21
+ShapeIndexedFaceS.016
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+15.00005 14.000006 3.8e-005
+14.095446 13.999994 -5.13026
+14.999954 59.000004 -4e-005
+14.09535 58.999996 -5.130338
+numsurf 1
+SURF 0x10
+mat 17
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.017"
+data 21
+ShapeIndexedFaceS.017
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-2.60472 14 14.772162
+2.60472 14 14.772162
+-2.60472 59 14.772038
+2.60472 59 14.772038
+numsurf 1
+SURF 0x10
+mat 18
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.018"
+data 21
+ShapeIndexedFaceS.018
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+2.604734 14.000001 14.772128
+7.500008 13.999999 12.990396
+2.604712 59 14.772003
+7.499986 59 12.990272
+numsurf 1
+SURF 0x10
+mat 19
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.019"
+data 21
+ShapeIndexedFaceS.019
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+7.500018 14.000003 12.990438
+11.490683 13.999997 9.641876
+7.499977 59.000004 12.990324
+11.490643 58.999996 9.641762
+numsurf 1
+SURF 0x10
+mat 20
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.020"
+data 21
+ShapeIndexedFaceS.020
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+11.49067 14.000004 9.641857
+14.095388 13.999996 5.130349
+11.490612 59.000004 9.641751
+14.09533 58.999996 5.130243
+numsurf 1
+SURF 0x10
+mat 21
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.021"
+data 21
+ShapeIndexedFaceS.021
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+14.095437 14.000005 5.130347
+15.00004 13.999995 4.8e-005
+14.09536 59.000004 5.130251
+14.999963 58.999996 -4.7e-005
+numsurf 1
+SURF 0x10
+mat 22
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.022"
+data 21
+ShapeIndexedFaceS.022
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-7.500018 13.999999 12.990396
+-2.604744 14.000001 14.772128
+-7.499996 59 12.990272
+-2.604722 59 14.772003
+numsurf 1
+SURF 0x10
+mat 23
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.023"
+data 21
+ShapeIndexedFaceS.023
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-11.490693 13.999997 9.641876
+-7.500028 14.000003 12.990438
+-11.490653 58.999996 9.641762
+-7.499988 59.000004 12.990324
+numsurf 1
+SURF 0x10
+mat 24
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.024"
+data 21
+ShapeIndexedFaceS.024
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-14.095388 13.999996 5.130359
+-11.49067 14.000004 9.641868
+-14.09533 58.999996 5.130253
+-11.490612 59.000004 9.641762
+numsurf 1
+SURF 0x10
+mat 25
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.025"
+data 21
+ShapeIndexedFaceS.025
+texture "bp_hotel_bp_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-15.00004 13.999995 4.8e-005
+-14.095437 14.000005 5.130347
+-14.999963 58.999996 -4.7e-005
+-14.09536 59.000004 5.130251
+numsurf 1
+SURF 0x10
+mat 26
+refs 4
+2 0.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+3 1.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceSet"
+data 19
+ShapeIndexedFaceSet
+crease 30.000000
+numvert 36
+10 9 0
+9.39693 9.000012 -3.4202
+7.66044 9.000024 -6.42788
+5 9.000032 -8.66025
+1.73648 9.000037 -9.84808
+-1.73648 9.000037 -9.84808
+-5 9.000032 -8.66025
+-7.66045 9.000024 -6.42788
+-9.39693 9.000012 -3.4202
+-10 9 0
+-9.39693 8.999988 3.4202
+-7.66044 8.999976 6.42788
+-5 8.999968 8.66026
+-1.73648 8.999963 9.84808
+1.73648 8.999963 9.84808
+5 8.999968 8.66025
+7.66045 8.999976 6.42787
+9.39693 8.999988 3.4202
+10 14 1.9e-005
+9.39693 14.000012 -3.420182
+7.66044 14.000024 -6.427861
+5 14.000032 -8.660231
+1.73648 14.000037 -9.848061
+-1.73648 14.000037 -9.848061
+-5 14.000032 -8.660231
+-7.66045 14.000024 -6.427861
+-9.39693 14.000012 -3.420182
+-10 14 1.9e-005
+-9.39693 13.999988 3.420219
+-7.66044 13.999976 6.427898
+-5 13.999968 8.660279
+-1.73648 13.999963 9.848099
+1.73648 13.999963 9.848099
+5 13.999968 8.660269
+7.66045 13.999976 6.427888
+9.39693 13.999988 3.420219
+numsurf 18
+SURF 0x30
+mat 27
+refs 4
+0 0 0
+1 0 0
+19 0 0
+18 0 0
+SURF 0x30
+mat 27
+refs 4
+20 0 0
+19 0 0
+1 0 0
+2 0 0
+SURF 0x30
+mat 27
+refs 4
+21 0 0
+20 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 27
+refs 4
+22 0 0
+21 0 0
+3 0 0
+4 0 0
+SURF 0x30
+mat 27
+refs 4
+23 0 0
+22 0 0
+4 0 0
+5 0 0
+SURF 0x30
+mat 27
+refs 4
+24 0 0
+23 0 0
+5 0 0
+6 0 0
+SURF 0x30
+mat 27
+refs 4
+25 0 0
+24 0 0
+6 0 0
+7 0 0
+SURF 0x30
+mat 27
+refs 4
+26 0 0
+25 0 0
+7 0 0
+8 0 0
+SURF 0x30
+mat 27
+refs 4
+27 0 0
+26 0 0
+8 0 0
+9 0 0
+SURF 0x30
+mat 27
+refs 4
+28 0 0
+27 0 0
+9 0 0
+10 0 0
+SURF 0x30
+mat 27
+refs 4
+29 0 0
+28 0 0
+10 0 0
+11 0 0
+SURF 0x30
+mat 27
+refs 4
+30 0 0
+29 0 0
+11 0 0
+12 0 0
+SURF 0x30
+mat 27
+refs 4
+31 0 0
+30 0 0
+12 0 0
+13 0 0
+SURF 0x30
+mat 27
+refs 4
+32 0 0
+31 0 0
+13 0 0
+14 0 0
+SURF 0x30
+mat 27
+refs 4
+33 0 0
+32 0 0
+14 0 0
+15 0 0
+SURF 0x30
+mat 27
+refs 4
+34 0 0
+33 0 0
+15 0 0
+16 0 0
+SURF 0x30
+mat 27
+refs 4
+35 0 0
+34 0 0
+16 0 0
+17 0 0
+SURF 0x30
+mat 27
+refs 4
+17 0 0
+0 0 0
+18 0 0
+35 0 0
+kids 0

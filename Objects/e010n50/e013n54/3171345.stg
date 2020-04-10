@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Communications/radio-tall.xml 13.3419444 54.3302778 -403.35 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 13.4771218 54.3063202 -1.06 116.2
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 13.4928929 54.3279809 -0.62 82.57
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 13.4783107 54.3139498 -0.89 104.42
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 13.4590053 54.2560156 -0.81 34.42

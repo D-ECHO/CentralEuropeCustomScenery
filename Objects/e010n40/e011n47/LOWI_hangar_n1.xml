@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+       
+<path>LOWI_hangar_n1.ac</path>
+
+<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> 1.600 </x-m>
+      <y-m> 41.800 </y-m>
+      <z-m> 13.320 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+</model>
+
+<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> 68.400 </x-m>
+      <y-m> 41.800 </y-m>
+      <z-m> 13.320 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+</model>
+
+<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> 1.600 </x-m>
+      <y-m> 8.200 </y-m>
+      <z-m> 10.220 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+</model>
+
+<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> 68.400 </x-m>
+      <y-m> 8.200 </y-m>
+      <z-m> 10.220 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+</model>
+
+<!-- Hangar night window illumination -->
+<animation>
+	<type>material</type> 
+	<object-name>hangar_01_glass_1</object-name>
+	<object-name>hangar_01_glass_2</object-name>
+	<condition>		
+		<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.7</red>	
+		<green>0.6</green>	
+		<blue>0.4</blue>
+	</emission>
+</animation>
+
+<!-- Office night window illumination -->
+<animation>
+	<type>material</type> 
+	<object-name>lowi_h1_ol_01</object-name>
+	<condition>		
+		<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.7</red>	
+		<green>0.6</green>	
+		<blue>0.4</blue>
+	</emission>
+</animation>
+
+<!-- Obstruction lamp glass illumination -->
+<animation>
+	<type>material</type> 
+	<object-name>osbt_lamp_light01</object-name>
+	<condition>
+		<or>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+			<less-than>
+				<property>environment/visibility-m</property>
+				<value>4500.00</value>
+			</less-than>
+		</or>
+	</condition>
+	<emission>	
+		<red>0.8</red>	
+		<green>0.8</green>	
+		<blue>0.8</blue>
+	</emission>
+</animation>
+
+<!-- dont show the light model during day-->
+<animation>
+	<type>select</type> 
+	<object-name>lowi_h1_ol_01</object-name>
+	<condition>		
+	<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+	</greater-than>
+	</condition>
+</animation>
+
+
+<!-- LOD -->
+<animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>15000</max-m>
+</animation>
+
+       
+</PropertyList>

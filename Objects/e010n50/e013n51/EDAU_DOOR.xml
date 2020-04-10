@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>EDAU_DOOR.ac</path>
+
+<!-- nasal for the entry door manual animation -->
+	 <nasal>
+	  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "EDAU")) scenery["EDAU"] = {};
+   if (!contains(scenery.EDAU, "door")) scenery.EDAU["door"] = {};
+   if (contains(scenery, "sharedDoor")) {
+     scenery.EDAU.door[0] =
+       { door :
+       [scenery.sharedDoor.new("/scenery/EDAU/door[0]/door[0]", 30),
+	 ]
+       };
+   } else {
+     scenery.EDAU.door[0] =
+       { door :
+       [aircraft.door.new("/scenery/EDAU/door[0]/door[0]", 30),
+         ]
+       };
+   };
+   if (!contains(scenery.EDAU, "door")) scenery.EDAU["door"] = [nil];
+		scenery.EDAU.door[0] =
+			{ door :
+			[aircraft.door.new("/scenery/EDAU/door[0]/door[0]", 30)
+			
+			]
+		};
+		
+		#this is the switch target sim time sun rad
+		var limwswitch = 1.57;
+		
+		var loop_id = 0;
+
+		var loop = func(id) {
+				id == loop_id or return;
+				var limwsun = getprop("/sim/time/sun-angle-rad");
+				var doorstate = getprop("/scenery/EDAU/door[0]/door[0]/position-norm");
+					#print ("limwsun  ", limwsun);
+				
+				if ((limwsun > limwswitch) and (doorstate == 0)){
+					scenery.EDAU.door[0].door[0].toggle();
+					};
+				
+				if ((limwsun &lt; limwswitch) and (doorstate == 1)){
+					scenery.EDAU.door[0].door[0].toggle();
+					};
+		
+			settimer(func { loop(id) }, 4);
+			}
+			loop(loop_id += 1);
+  </load>
+  <unload>
+   if (contains(scenery, "sharedDoor")) {
+     scenery.EDAU.door[0].door[0].destroy();
+   }
+   loop_id += 1
+  </unload>
+ </nasal>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-property>sim/rendering/static-lod/rough</max-property>
+ </animation>
+
+<animation>
+  	<type>alpha-test</type>
+  	<alpha-factor>0.01</alpha-factor>
+</animation>
+
+<!-- collections  -->
+<animation>
+  <name>edau-door1</name>
+  <object-name>Door1a</object-name>
+  <object-name>Door1b</object-name>
+</animation>
+ 
+<animation>
+  <name>edau-door2</name>
+  <object-name>Door2a</object-name>
+  <object-name>Door2b</object-name>
+</animation>
+
+<animation>
+  <name>edau-door-trans</name>
+  <object-name>Door1b</object-name>
+  <object-name>Door2b</object-name>
+  <object-name>EDAU_DOOR2</object-name>
+</animation>
+
+<!-- effects  -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>edau-door-trans</object-name>
+</effect>
+
+<!--  animation  -->
+<animation>
+ <type>pick</type>
+ 	<object-name>edau-door1</object-name>
+ 	<object-name>edau-door2</object-name>
+ 	<visible>true</visible>
+ <action>
+  	<name>click</name>
+  	<button>0</button>
+  	<repeatable>false</repeatable>
+  <binding>
+   	<command>nasal</command>
+   	<script>scenery.EDAU.door[0].door[0].toggle();</script>
+  </binding>
+ </action>
+</animation>
+<animation>
+		<type>translate</type>
+		<object-name>edau-door1</object-name>
+			<property>/scenery/EDAU/door[0]/door[0]/position-norm</property>
+			<factor>1</factor>
+			<interpolation>
+				<entry><ind> 0.0 </ind><dep> -10.00 </dep></entry>
+				<entry><ind> 0.2 </ind><dep> -10.00 </dep></entry>
+				<entry><ind> 1.0 </ind><dep>   0.00 </dep></entry>
+			</interpolation>
+			<axis>
+				<x>0</x>
+				<y>-1</y>
+				<z>0</z>
+			</axis>
+</animation>
+<animation>
+		<type>translate</type>
+		<object-name>edau-door2</object-name>
+			<property>/scenery/EDAU/door[0]/door[0]/position-norm</property>
+			<factor>1</factor>
+			<interpolation>
+				<entry><ind> 0.0 </ind><dep> -10.00 </dep></entry>
+				<entry><ind> 0.2 </ind><dep> -10.00 </dep></entry>
+				<entry><ind> 1.0 </ind><dep>   0.00 </dep></entry>
+			</interpolation>
+			<axis>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</axis>
+</animation>
+	
+<!--  enable-hot  -->
+<animation>
+ 	<object-name>edau-door1</object-name>
+ 	<object-name>edau-door2</object-name>
+<enable-hot type="bool">false</enable-hot>
+</animation>
+
+</PropertyList>

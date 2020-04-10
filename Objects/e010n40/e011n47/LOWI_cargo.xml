@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+<path>LOWI_cargo.ac</path>
+
+<!-- Luftfracht Logo night illumination -->
+<animation>
+	<type>material</type> 
+	<object-name>sign</object-name>
+	<condition>		
+		<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.7</red>	
+		<green>0.7</green>	
+		<blue>0.7</blue>
+	</emission>
+</animation>
+
+<!-- Office night window illumination -->
+<animation>
+	<type>material</type> 
+	<object-name>window_lights</object-name>
+	<condition>		
+		<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.7</red>	
+		<green>0.6</green>	
+		<blue>0.4</blue>
+	</emission>
+</animation>
+
+<!-- dont show the light model during day -->
+<animation>
+	<type>select</type>
+	<object-name>window_lights</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+</animation>
+
+<!-- LOD -->
+<animation>
+	<type>range</type>
+	<min-m>0</min-m>
+	<max-m>15000</max-m>
+</animation>
+
+</PropertyList>

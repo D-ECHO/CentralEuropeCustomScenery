@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 12.0736111 48.1452778 477.79 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_04.ac 12.0886111 48.1708333 216.42 180
+OBJECT_SHARED Models/Communications/cell-monopole1-75m.xml 12.1455 48.24815 533.49 0
+OBJECT_SHARED Models/Misc/generic_church_03.ac 12.1352778 48.2205556 511.74 180

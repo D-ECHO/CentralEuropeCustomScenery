@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>EDDC_IAGBone.ac</path>
+<animation>
+    <type>textranslate</type> 
+    <object-name>eddc_iagb</object-name>
+    <object-name>iagbdoor1</object-name>
+    <object-name>iagbdoor2</object-name>
+    <object-name>iagbdoor3</object-name>
+    <object-name>iagbdoor4</object-name>
+    <property>/sim/time/sun-angle-rad</property>
+    <step>1.57</step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x>  0 </x> 
+      <y> -1 </y> 
+    </axis> 
+</animation>
+<animation>
+ <type>material</type> 
+    <object-name>eddc_iagb</object-name>
+    <object-name>iagbdoor1</object-name>
+    <object-name>iagbdoor2</object-name>
+    <object-name>iagbdoor3</object-name>
+    <object-name>iagbdoor4</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.6</red>	
+  <green>0.6</green>	
+  <blue>0.6</blue>
+ </emission>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>iagbdoor4</object-name>
+	<condition>
+	<not>
+		<or>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>6</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>14</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>18</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>20</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>iagbdoor3</object-name>
+	<condition>
+	<not>
+		<or>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>7</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>12</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>18</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>20</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>iagbdoor2</object-name>
+	<condition>
+	<not>
+		<or>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>10</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>12</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>18</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>20</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>iagbdoor1</object-name>
+	<condition>
+	<not>
+		<or>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>11</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>12</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>19</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>20</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</or>
+	</not>
+	</condition>
+</animation>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  37.46 </x-m>
+		<y-m> -25.57 </y-m>
+		<z-m>  26.77592 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  37.46 </x-m>
+		<y-m>   0.00 </y-m>
+		<z-m>  29.15305 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  37.46 </x-m>
+		<y-m>  25.57 </y-m>
+		<z-m>  26.77592 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  -37.46 </x-m>
+		<y-m>  -25.57 </y-m>
+		<z-m>  26.77592 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  -37.46 </x-m>
+		<y-m>    0.00 </y-m>
+		<z-m>  29.15305 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  -37.46 </x-m>
+		<y-m>   25.57 </y-m>
+		<z-m>  26.77592 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>iagbdoor1</object-name>
+ <object-name>iagbdoor2</object-name>
+ <object-name>iagbdoor3</object-name>
+ <object-name>iagbdoor4</object-name>
+</effect>
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+</PropertyList>

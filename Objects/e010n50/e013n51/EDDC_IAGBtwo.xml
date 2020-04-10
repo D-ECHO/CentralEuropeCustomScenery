@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>EDDC_IAGBtwo.ac</path>
+<animation>
+    <type>textranslate</type> 
+    <object-name>eddc_iagbtwo</object-name>
+    <property>/sim/time/sun-angle-rad</property>
+    <step>1.57</step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x>  0 </x> 
+      <y> -1 </y> 
+    </axis> 
+</animation>
+<animation>
+ <type>material</type> 
+    <object-name>eddc_iagbtwo</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.6</red>	
+  <green>0.6</green>	
+  <blue>0.6</blue>
+ </emission>
+</animation>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -22.62 </x-m>
+		<y-m>  20.09 </y-m>
+		<z-m>  23.43301 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -22.62 </x-m>
+		<y-m>   0 </y-m>
+		<z-m>  24.37301 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -22.62 </x-m>
+		<y-m> -20.09 </y-m>
+		<z-m>  23.43301 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  22.62 </x-m>
+		<y-m>  20.09 </y-m>
+		<z-m>  23.43301 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  22.62 </x-m>
+		<y-m>   0.00 </y-m>
+		<z-m>  24.37301 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  22.62 </x-m>
+		<y-m> -20.09 </y-m>
+		<z-m>  23.43301 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+</PropertyList>

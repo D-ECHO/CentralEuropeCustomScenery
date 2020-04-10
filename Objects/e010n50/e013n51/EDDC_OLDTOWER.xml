@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+  <path>EDDC_OLDTOWER.ac</path>
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+  </animation>
+<effect>
+<inherits-from>Effects/model-transparent</inherits-from>
+<condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ 	<object-name>eddc_oldtower2</object-name>
+</effect>
+ <model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m> 0.0</x-m>
+<y-m>-0.186095cm</y-m>
+<z-m> 19.8</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>0.0</x-m>
+<y-m>0.186095cm</y-m>
+<z-m>19.8</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+</PropertyList>
+

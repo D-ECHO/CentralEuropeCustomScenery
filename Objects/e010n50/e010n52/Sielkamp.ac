@@ -1,0 +1,512 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+MATERIAL "ac3dmat13" rgb 0.533333 0.533333 0.533333  amb 0.533333 0.533333 0.533333  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+OBJECT world
+kids 26
+OBJECT poly
+name "rect"
+loc -7 33 -2.5
+crease 45.000000
+numvert 4
+0 -33 -1.5
+0 -33 1.5
+0 33 1.5
+0 33 -1.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -11 33 -7.5
+crease 45.000000
+numvert 4
+0 33 -3.5
+0 33 3.5
+0 -33 3.5
+0 -33 -3.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0 1
+1 1 1
+2 1 0
+3 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -4 33 -19
+crease 45.000000
+numvert 4
+1 33 -1
+1 33 1
+1 -33 1
+1 -33 -1
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 10 33 -18.5
+crease 45.000000
+numvert 4
+0 -33 -0.5
+0 -33 0.5
+0 33 0.5
+0 33 -0.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0 0
+1 1 0
+2 1 1
+3 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 3 33 -18
+crease 45.000000
+numvert 4
+-6 33 0
+7 33 0
+7 -33 0
+-6 -33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 15.5 33 -19
+crease 45.000000
+numvert 4
+-5.5 -33 0
+5.5 -33 0
+5.5 33 0
+-5.5 33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0 0
+1 1 0
+2 1 1
+3 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc -9.5 33 -20
+crease 45.000000
+numvert 4
+-5.5 33 0
+6.5 33 0
+6.5 -33 0
+-5.5 -33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc -15 33 -15.5
+crease 45.000000
+numvert 4
+0 -33 -4.5
+0 -33 4.5
+0 33 4.5
+0 33 -4.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -13 33 -11
+crease 45.000000
+numvert 4
+-2 -33 0
+2 -33 0
+2 33 0
+-2 33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -9 33 -5
+crease 45.000000
+numvert 4
+-2 33 1
+2 33 1
+2 -33 1
+-2 -33 1
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0 1
+1 1 1
+2 1 0
+3 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -3.5 33 -1
+crease 45.000000
+numvert 4
+-3.5 -33 0
+3.5 -33 0
+3.5 33 0
+-3.5 33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 0 33 -0.5
+crease 45.000000
+numvert 4
+0 -33 -0.5
+0 -33 0.5
+0 33 0.5
+0 33 -0.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 7 33 -0.5
+crease 45.000000
+numvert 4
+0 33 -0.5
+0 33 0.5
+0 -33 0.5
+0 -33 -0.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 14 33 -2
+crease 45.000000
+numvert 4
+0 -33 -1
+0 -33 1
+0 33 1
+0 33 -1
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 21 33 -11
+crease 45.000000
+numvert 4
+0 33 -8
+0 33 8
+0 -33 8
+0 -33 -8
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 17.5 33 -3
+crease 45.000000
+numvert 4
+-3.5 -33 0
+3.5 -33 0
+3.5 33 0
+-3.5 33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 10.5 33 -1
+crease 45.000000
+numvert 4
+-3.5 33 0
+3.5 33 0
+3.5 -33 0
+-3.5 -33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0 1
+1 1 1
+2 1 0
+3 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 3.5 33 0
+crease 45.000000
+numvert 4
+-3.5 -33 0
+3.5 -33 0
+3.5 33 0
+-3.5 33 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -9.5 66 -15.5
+crease 45.000000
+numvert 4
+-5.5 0 -4.5
+6.5 0 -4.5
+6.5 0 4.5
+-5.5 0 4.5
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 3.5 66 -0.5
+crease 45.000000
+numvert 4
+-3.5 0 -0.5
+3.5 0 -0.5
+3.5 0 0.5
+-3.5 0 0.5
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 3.5 66 -2.5
+crease 45.000000
+numvert 4
+-10.5 0 -1.5
+10.5 0 -1.5
+10.5 0 1.5
+-10.5 0 1.5
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 17.5 66 -11
+crease 45.000000
+numvert 4
+-3.5 0 -8
+3.5 0 -8
+3.5 0 8
+-3.5 0 8
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 12 66 -11.5
+crease 45.000000
+numvert 4
+-2 0 -7.5
+2 0 -7.5
+2 0 7.5
+-2 0 7.5
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 3 66 -11
+crease 45.000000
+numvert 4
+-6 0 -7
+7 0 -7
+7 0 7
+-6 0 7
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+0 0 1
+1 1 1
+2 1 0
+3 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc -7.5 66 -7.5
+crease 45.000000
+numvert 4
+-3.5 0 -3.5
+4.5 0 -3.5
+4.5 0 3.5
+-3.5 0 3.5
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "box"
+loc 1 68.75 -14
+crease 45.000000
+numvert 8
+-4 -2.75 -2
+4 -2.75 -2
+4 -2.75 2
+-4 -2.75 2
+-4 0.25 2
+4 0.25 2
+4 0.25 -2
+-4 0.25 -2
+numsurf 6
+SURF 0x30
+mat 1
+refs 4
+6 0 1
+1 1 1
+2 1 0
+5 0 0
+SURF 0x30
+mat 1
+refs 4
+4 0 1
+3 1 1
+0 1 0
+7 0 0
+SURF 0x30
+mat 1
+refs 4
+7 0 1
+0 1 1
+1 1 0
+6 0 0
+SURF 0x30
+mat 1
+refs 4
+5 0 1
+2 1 1
+3 1 0
+4 0 0
+SURF 0x30
+mat 1
+refs 4
+6 0 1
+5 1 1
+4 1 0
+7 0 0
+SURF 0x30
+mat 1
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0

@@ -1,0 +1,427 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+MATERIAL "ac3dmat2" rgb 0.627451 0.25098 0.25098  amb 0.627451 0.25098 0.25098  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+MATERIAL "ac3dmat12" rgb 0.266667 0.266667 0.266667  amb 0.266667 0.266667 0.266667  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+OBJECT world
+kids 1
+OBJECT group
+name "group"
+loc 3.94955 1.13095 24.4138
+kids 2
+OBJECT poly
+name "rect"
+loc 7.05045 -1.13095 24.5861
+crease 45.000000
+numvert 4
+-3.81072 0 -49.3786
+-3.81072 0 -58.3786
+-3.81072 3 -58.3786
+-3.81072 3 -49.3786
+numsurf 1
+SURF 0x30
+mat 1
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT group
+name "group"
+loc -7.05045 1.13095 -24.5861
+kids 21
+OBJECT poly
+name "rect"
+loc -6.89913 -0.261905 -0.32772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+0 -2 0.5
+0 -2 -0.5
+0 2 -0.5
+0 2 0.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.644665 0.790928
+2 0.644665 0.859068
+1 0.201755 0.859068
+0 0.201755 0.790928
+kids 0
+OBJECT poly
+name "rect"
+loc 0.100868 1.2381 0.172279
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-7 -0.5 4.76837e-007
+7 -0.5 -2.38419e-007
+7 0.5 -2.38419e-007
+-7 0.5 4.76837e-007
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.602254 0.862807
+2 0.197404 0.862807
+1 0.197404 0.799986
+0 0.602254 0.799986
+kids 0
+OBJECT poly
+name "rect"
+loc 0.600869 -0.761905 14.1723
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-5.5 -1.5 0
+5.5 -1.5 0
+5.5 1.5 0
+-5.5 1.5 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.42492 0.24074
+2 0.0128296 0.24074
+1 0.0128296 0.0114883
+0 0.42492 0.0114883
+kids 0
+OBJECT poly
+name "rect"
+loc 7.10087 1.2381 -3.32772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+4.76837e-007 -0.5 3.5
+0 -0.5 -3.5
+0 0.5 -3.5
+4.76837e-007 0.5 3.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.281871 0.869882
+2 0.686252 0.869882
+1 0.686252 0.794297
+0 0.281871 0.794297
+kids 0
+OBJECT poly
+name "rect"
+loc -4.89913 -0.761905 7.17228
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+0 -1.5 7
+0 -1.5 -7
+0 1.5 -7
+0 1.5 7
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.668416 0.740237
+2 0.0115062 0.740237
+1 0.0115062 0.510438
+0 0.668416 0.510438
+kids 0
+OBJECT poly
+name "rect"
+loc 0.116367 1.7381 -3.31032
+crease 45.000000
+numvert 4
+-8.01546 0 4.4826
+-8.01546 0 -4.5174
+7.98454 0 -4.5174
+7.98454 0 4.4826
+numsurf 1
+SURF 0x30
+mat 2
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 3.46804 0.738095 -4.48042
+crease 45.000000
+numvert 4
+-9.36717 0 5.65274
+-9.36717 0 -6.34726
+8.63283 0 -6.34726
+8.63283 0 5.65274
+numsurf 1
+SURF 0x30
+mat 2
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc -0.916031 0.738095 3.67228
+crease 45.000000
+numvert 4
+-4.98309 0 3.5
+-4.98309 0 -3.5
+5.01691 0 -3.5
+5.01691 0 3.5
+numsurf 1
+SURF 0x30
+mat 2
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 0.616868 0.738095 10.6897
+crease 45.000000
+numvert 4
+-6.51598 0 4.4826
+-6.51598 0 -4.5174
+6.48402 0 -4.5174
+6.48402 0 4.4826
+numsurf 1
+SURF 0x30
+mat 2
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0
+OBJECT poly
+name "rect"
+loc 6.10087 -0.761905 10.6723
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+0 1.5 3.5
+-2.38419e-007 1.5 -3.5
+-2.38419e-007 -1.5 -3.5
+0 -1.5 3.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.0308266 0.931636
+1 0.152828 0.931636
+2 0.152828 0.812763
+3 0.0308266 0.812763
+kids 0
+OBJECT poly
+name "rect"
+loc 3.10087 -0.761905 3.67228
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+1.78814e-007 -1.5 3.5
+-1.19209e-007 -1.5 -3.5
+-1.19209e-007 1.5 -3.5
+1.78814e-007 1.5 3.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.0352811 0.928379
+2 0.162394 0.928379
+1 0.162394 0.783108
+0 0.0352811 0.783108
+kids 0
+OBJECT poly
+name "rect"
+loc 11.1009 -0.761905 -4.82772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+0 1.5 5
+-9.53674e-007 1.5 -5
+-9.53674e-007 -1.5 -5
+0 -1.5 5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.202877 0.870056
+1 0.640096 0.870056
+2 0.640096 0.778969
+3 0.202877 0.778969
+kids 0
+OBJECT poly
+name "rect"
+loc -6.89913 1.2381 -3.32772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+0 0.5 3.5
+0 0.5 -3.5
+0 -0.5 -3.5
+0 -0.5 3.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.203408 0.865358
+1 0.627734 0.865358
+2 0.627734 0.797218
+3 0.203408 0.797218
+kids 0
+OBJECT poly
+name "rect"
+loc -4.89913 -0.761905 -8.32772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+0 1.5 1.5
+0 1.5 -1.5
+0 -1.5 -1.5
+0 -1.5 1.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.511458 0.967891
+1 0.698023 0.967891
+2 0.698023 0.757719
+3 0.511458 0.757719
+kids 0
+OBJECT poly
+name "rect"
+loc 4.60087 -0.761905 7.17228
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-1.5 1.5 0
+1.5 1.5 0
+1.5 -1.5 0
+-1.5 -1.5 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.158148 0.944071
+1 0.0277234 0.944071
+2 0.0277234 0.803072
+3 0.158148 0.803072
+kids 0
+OBJECT poly
+name "rect"
+loc 3.10087 -0.761905 0.172279
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-8 -1.5 2.38419e-007
+8 -1.5 -4.76837e-007
+8 1.5 -4.76837e-007
+-8 1.5 2.38419e-007
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.639824 0.87362
+2 0.198268 0.87362
+1 0.198268 0.783375
+0 0.639824 0.783375
+kids 0
+OBJECT poly
+name "rect"
+loc 3.10087 -0.761905 -9.82772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-8 1.5 0
+8 1.5 0
+8 -1.5 0
+-8 -1.5 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.733904 0.9682
+1 0.0169062 0.9682
+2 0.0169062 0.758032
+3 0.733904 0.758032
+kids 0
+OBJECT poly
+name "rect"
+loc 0.100868 1.2381 -6.82772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-7 0.5 0
+7 0.5 0
+7 -0.5 0
+-7 -0.5 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.653947 0.856638
+1 0.197352 0.856638
+2 0.197352 0.793659
+3 0.653947 0.793659
+kids 0
+OBJECT poly
+name "rect"
+loc -5.89913 -0.761905 -6.82772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-1 -1.5 0
+1 -1.5 0
+1 1.5 0
+-1 1.5 0
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.141303 0.934744
+2 0.0390073 0.934744
+1 0.0390073 0.786984
+0 0.141303 0.786984
+kids 0
+OBJECT poly
+name "rect"
+loc -5.89913 -0.761905 0.17228
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+-1 1.5 2.38419e-007
+1 1.5 0
+1 -1.5 0
+-1 -1.5 2.38419e-007
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.142053 0.936026
+1 0.0411399 0.936026
+2 0.0411399 0.799305
+3 0.142053 0.799305
+kids 0
+OBJECT poly
+name "rect"
+loc -6.89913 -0.261905 -6.32772
+texture "BS-GAT.rgb"
+crease 45.000000
+numvert 4
+0 2 0.5
+0 2 -0.5
+0 -2 -0.5
+0 -2 0.5
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+0 0.187992 0.852969
+1 0.187992 0.784829
+2 0.652583 0.784829
+3 0.652583 0.852969
+kids 0

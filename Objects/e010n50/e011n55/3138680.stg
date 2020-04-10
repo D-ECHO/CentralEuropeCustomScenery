@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Power/windturbine.xml 11.0836414 55.9189285 -0.01 180
+OBJECT_SHARED Models/Misc/generic_lighthouse.ac 11.0815 55.919167 0 180
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 11.0121404 55.9568196 -3.15 304.15
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Yellow.ac 11 55.9125 -3.19 16.4
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 11.0168423 55.8753311 -0.64 325.59
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 11.0556524 55.929663 -1.72 169.94

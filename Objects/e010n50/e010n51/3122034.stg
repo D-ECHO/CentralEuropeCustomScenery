@@ -1,0 +1,15 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 10.6141667 51.7597222 788.43 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 10.5322222 51.8013889 493.61 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 10.5352778 51.8091667 347.13 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 10.6980556 51.8747222 -193.51 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 10.6994444 51.8738889 -150.24 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 10.7075 51.8747222 -182.75 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 10.745 51.8205556 -159.27 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 10.5353033 51.7936614 798.92 195.05
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 10.5385631 51.7942036 817.73 194.06
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 10.5412447 51.7945884 830.46 176.3
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 10.5424924 51.7943004 833.2 159.53
+OBJECT_STATIC Brocken-Sendemast.xml 10.614 51.8 1134.01 0
+OBJECT_STATIC Brockenhaus1.ac 10.6183 51.7986 1125.54 0
+OBJECT_STATIC Brockenhaus2.ac 10.61497 51.7996 1140.51 0
+OBJECT_STATIC Brockenhaus3.ac 10.6156 51.8005 1132.82 0

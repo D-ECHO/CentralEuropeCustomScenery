@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+  <path>LKPR_RADAR.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/rough</max-property>
+  </animation>
+ <animation>
+  <type>rotate</type>
+  <object-name>LKPR_RADAR2</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>-90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ <effect>
+<inherits-from>Effects/model-transparent</inherits-from>
+<condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ 	<object-name>LKPR_RADAR2</object-name>
+</effect>
+ <model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m> 0.12971</x-m>
+<y-m> 0.16809</y-m>
+<z-m> 11.93</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>-5.22243</x-m>
+<y-m> 1.68091</y-m>
+<z-m>11.93</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>-5.22243</x-m>
+<y-m>-1.68436</y-m>
+<z-m>11.93</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>-0.2222494</x-m>
+<y-m>-1.68436</y-m>
+<z-m>11.93</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>-3.00359</x-m>
+<y-m>	6.1002</y-m>
+<z-m>20.885</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+</PropertyList>
+

@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>doelzig.ac</path>
+  
+  <nasal>
+  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "LRZDOE")) scenery["LRZDOE"] = {};
+   if (!contains(scenery.LRZDOE, "hangar")) scenery.LRZDOE["hangar"] = [nil];
+   scenery.LRZDOE.hangar[0] =
+     { door :
+       [aircraft.door.new("/scenery/LRZDOE/hangar[0]/door[0]", 10),
+        aircraft.door.new("/scenery/LRZDOE/hangar[0]/door[1]", 10)
+       ]
+     };
+  </load>
+ </nasal>
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>hdorr14</object-name>
+  <object-name>hdorr13</object-name>
+  <property>/scenery/LRZDOE/hangar[0]/door[0]/position-norm</property>
+  <factor>85</factor>
+  <center>
+   <x-m>  -8.465 </x-m>
+   <y-m>   0.263 </y-m>
+   <z-m>    0.007 </z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+  <animation>
+  <type>rotate</type>
+    <object-name>hdorr13</object-name>
+  <property>/scenery/LRZDOE/hangar[0]/door[0]/position-norm</property>
+  <factor>-170</factor>
+  <center>
+   <x-m>  -5.906 </x-m>
+   <y-m>   0.263 </y-m>
+   <z-m>    0.007 </z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>hdorr11</object-name>
+  <object-name>hdorr12</object-name>
+  <property>/scenery/LRZDOE/hangar[0]/door[0]/position-norm</property>
+  <factor>-85</factor>
+  <center>
+   <x-m>  1.766 </x-m>
+   <y-m>   0.263 </y-m>
+   <z-m>    -0.177 </z-m>
+  </center>
+    <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+  <animation>
+  <type>rotate</type>
+    <object-name>hdorr12</object-name>
+  <property>/scenery/LRZDOE/hangar[0]/door[0]/position-norm</property>
+  <factor>170</factor>
+ <center>
+   <x-m>  -0.793 </x-m>
+   <y-m>   0.263 </y-m>
+   <z-m>    -0.177 </z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ 
+<animation>
+  <type>pick</type>
+  <object-name>hdorr14</object-name>
+ <object-name>hdorr13</object-name>
+  <visible>true</visible>
+  <action>
+   <name>click</name>
+   <button>0</button>
+   <repeatable>false</repeatable>
+   <binding>
+    <command>nasal</command>
+    <script>scenery.LRZDOE.hangar[0].door[0].toggle();</script>
+   </binding>
+  </action>
+ </animation>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>3000</max-m>
+  </animation>
+
+  <animation> 
+    <type>textranslate</type> 
+    <object-name>jour</object-name>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+      <z>  0 </z> 
+    </axis> 
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>jour</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   1.0 </red>
+      <green> 1.0 </green>
+      <blue>  1.0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+ <object-name>jour</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+  
+  <animation> 
+    <type>textranslate</type> 
+    <object-name>hangar</object-name>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> -1 </x> 
+      <y>  0 </y> 
+      <z>  0 </z> 
+    </axis> 
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>hangar</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   1.0 </red>
+      <green> 1.0 </green>
+      <blue>  1.0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+ <object-name>hangar</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+
+
+</PropertyList>

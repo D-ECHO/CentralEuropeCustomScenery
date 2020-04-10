@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 11.5197883 54.2520617 -0.34 216.55
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 11.7329615 54.277345 -0.36 271.1
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 11.7329615 54.272845 -0.45 150.11
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 11.7367672 54.2750476 -0.37 296.98
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 11.7291651 54.2750476 -0.44 354.39

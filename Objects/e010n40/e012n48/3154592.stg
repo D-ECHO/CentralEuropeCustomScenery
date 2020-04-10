@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 12.2155556 48.5588889 435.69 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_09.ac 12.1716667 48.5241667 73.5 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 12.1219444 48.5319444 -41.69 180
+OBJECT_SHARED Models/Misc/generic_church_02.ac 12.1572222 48.5361111 394.32 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 12.242713 48.5206552 497.94 52.91

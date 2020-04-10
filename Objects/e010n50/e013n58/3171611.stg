@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Airport/ils.xml 13.9775 58.461389 92.5 162.45
+OBJECT_SHARED Models/Communications/radio-medium.xml 13.8133333 58.4097222 200.37 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 13.8186111 58.4344444 204.46 180
+OBJECT_SHARED Models/Communications/radio-tall.xml 13.8136111 58.4097222 15.99 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 13.969528 58.456806 95.01 180
+OBJECT_SHARED Models/Airport/marker.ac 13.981556 58.472972 89.78 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 13.855833333 58.379722222 -262.96 180
+OBJECT_SHARED Models/Airport/localizer.xml 13.967222 58.446333 100.86 285.71
+OBJECT_SHARED Models/Airport/tower.xml 13.96487 58.45224 98.68 0

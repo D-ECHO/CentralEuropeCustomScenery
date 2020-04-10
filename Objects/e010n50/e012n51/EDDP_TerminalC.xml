@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+    <path>EDDP_TerminalC.ac</path>
+
+<animation>
+    <type>material</type>
+    <object-name>checkinfenster_oben</object-name>	
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.6</red>	
+	<green>0.7</green>	
+	<blue>0.75</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>mallfenster1</object-name>
+	<object-name>mallfenster2</object-name>
+	<object-name>mallfenster3</object-name>
+	<object-name>mallseiten</object-name>
+	<object-name>checkinfenster_unten</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.6</red>	
+	<green>0.7</green>	
+	<blue>0.8</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>aufzugdaecher_U</object-name>
+	<object-name>parkdeckebene_O</object-name>
+	<object-name>parkdeckebene_U</object-name>
+	<object-name>verbindung</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.9</red>	
+	<green>0.9</green>	
+	<blue>0.95</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+	<object-name>mallboden</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0</red>	
+	<green>0.7</green>	
+	<blue>0.5</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+	<object-name>hinten2</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0</red>	
+	<green>0.4</green>	
+	<blue>0.3</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+	<object-name>aufzugdaecher_O</object-name>
+	<object-name>parkhausdach</object-name>
+	<object-name>parkhausstuetzen</object-name>
+	<object-name>malldach1</object-name>
+	<object-name>malldach2</object-name>
+	<object-name>hinten1</object-name>
+	<object-name>checkinsolid</object-name>
+	<object-name>beine</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.07</red>	
+	<green>0.07</green>	
+	<blue>0.06</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+	<object-name>mallfenster4</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.3</red>	
+	<green>0.3</green>	
+	<blue>1</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+	<object-name>mallfenster5</object-name>
+	<object-name>mallfenster6</object-name>
+	<object-name>mallfenster7</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.18</red>	
+	<green>0.15</green>	
+	<blue>0.1</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+	<object-name>aufzuege</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.23</red>	
+	<green>0.21</green>	
+	<blue>0.1</blue>
+    </emission>
+</animation>
+
+<animation>
+    <type>material</type>
+	<object-name>auffahrt_d1</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.3</red>	
+	<green>0.3</green>	
+	<blue>0.3</blue>
+    </emission>
+</animation>
+<animation>
+    <type>material</type>
+	<object-name>auffahrt_d2</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.1</red>	
+	<green>0.1</green>	
+	<blue>0.1</blue>
+    </emission>
+</animation>
+<animation>
+    <type>material</type>
+	<object-name>auffahrt_h1</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.6</blue>
+    </emission>
+</animation>
+<animation>
+    <type>material</type>
+	<object-name>auffahrt_h2</object-name>
+	<condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>0.2</red>	
+	<green>0.2</green>	
+	<blue>0.2</blue>
+    </emission>
+</animation>
+
+
+</PropertyList>

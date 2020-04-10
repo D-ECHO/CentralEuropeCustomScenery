@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+
+ <path>York_Wheel.ac</path>
+
+
+
+ 
+<animation>
+  <type>rotate</type>
+  
+  
+  <object-name>Wheel1</object-name>
+  <object-name>Wheel2</object-name>
+  <object-name>Car1</object-name>
+  <object-name>Car2</object-name>
+  <object-name>Car3</object-name>
+  <object-name>Car4</object-name>
+  <object-name>Car5</object-name>
+  <object-name>Car6</object-name>
+  <object-name>Car7</object-name>
+  <object-name>Car8</object-name>
+  <object-name>Car9</object-name>
+  <object-name>Car10</object-name>
+  <object-name>Car11</object-name>
+  <object-name>Car12</object-name>
+  <object-name>Car13</object-name>
+  <object-name>Car14</object-name>
+  <object-name>Car15</object-name>
+  <object-name>Car16</object-name>
+  <object-name>Car17</object-name>
+  <object-name>Car18</object-name>
+  <object-name>Car19</object-name>
+  <object-name>Car20</object-name>
+  <object-name>Car21</object-name>
+  <object-name>Car22</object-name>
+  <object-name>Car23</object-name>
+  <object-name>Car24</object-name>
+  <object-name>Car25</object-name>
+  <object-name>Car26</object-name>
+  <object-name>Car27</object-name>
+  <object-name>Car28</object-name>
+  <object-name>Car29</object-name>
+  <object-name>Car30</object-name>
+  <object-name>Car31</object-name>
+  <object-name>Car32</object-name>
+  <object-name>Car33</object-name>
+  <object-name>Car34</object-name>
+  <object-name>Car35</object-name>
+  <object-name>Car36</object-name>
+  <object-name>Car37</object-name>
+  <object-name>Car38</object-name>
+  <object-name>Car39</object-name>
+  <object-name>Car40</object-name>
+  <object-name>Car41</object-name>
+  <object-name>Car42</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>0.0</x-m>
+
+   <y-m>0.0</y-m>
+
+   <z-m>29</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car1</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>7.12</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>52.66</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car2</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>10.64</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>51.07</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car3</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>13.88</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>49.48</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car4</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>16.69</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>46.73</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car5</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>19.27</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>44.45</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car6</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>21.09</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>41.18</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car7</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>22.95</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>37.95</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car8</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>23.85</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>34.12</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car9</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>24.57</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>30.92</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car10</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>24.33</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>27.34</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car11</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>23.95</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>23.50</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car12</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>22.79</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>20.14</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car13</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>21.29</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>16.61</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car14</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>18.89</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>13.51</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car15</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>16.65</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>10.73</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car16</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>13.63</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>8.79</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car17</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>10.61</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>6.69</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car18</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>7.17</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>5.71</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car19</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>3.68</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>4.49</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car20</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>0</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>4.51</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car21</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-3.89</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>4.59</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car22</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-7.48</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>5.66</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car23</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-10.82</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>6.64</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car24</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-13.78</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>8.66</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car25</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-16.84</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>10.73</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car26</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-19.46</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>13.95</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car27</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-21.57</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>16.60</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car28</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-23.15</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>20.64</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car29</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-24.28</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>23.41</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car30</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-24.60</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>27.38</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car31</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-24.82</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>30.87</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car32</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-23.83</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>35.05</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+<animation>
+
+  <type>rotate</type>
+
+  <object-name>Car33</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-23.09</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>38.01</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car34</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-21.13</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>41.54</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car35</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-19.38</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>44.45</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car36</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-16.42</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>47.17</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car37</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-14.07</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>49.42</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car38</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-10.60</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>51.19</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car39</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-7.35</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>52.67</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car40</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-4.12</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>53.24</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car41</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>-0.07</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>53.77</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>rotate</type>
+
+  <object-name>Car42</object-name>
+  <property>/sim/time/elapsed-sec</property>
+
+  <factor>-2.0</factor>
+
+  <center>
+
+   <x-m>3.64</x-m>
+
+   <y-m>0</y-m>
+
+   <z-m>53.16</z-m>
+
+  </center>
+
+  <axis>
+
+   <x>0</x>
+
+   <y>-1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ 
+ <animation>
+ <type>timed</type>
+ <object-name>Wheel2</object-name>
+ <object-name>Wheel1</object-name>
+ <use-personality type="bool">true</use-personality>
+ <branch-duration-sec>
+  <random>
+   <min>1.5</min>
+   <max>1.5</max>
+  </random>
+ </branch-duration-sec>
+ <branch-duration-sec>
+  <random>
+   <min>1.5</min>
+   <max>1.5</max>
+  </random>
+ </branch-duration-sec>
+</animation>
+
+ 
+</PropertyList>

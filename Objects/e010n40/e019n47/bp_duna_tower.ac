@@ -1,0 +1,355 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0.1 0.1 0.1  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "Material.002" rgb 0.854902 0.854902 0.854902 amb 0.854902 0.854902 0.854902 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.003" rgb 0.854902 0.854902 0.854902 amb 0.854902 0.854902 0.854902 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.004" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.005" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.006" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.007" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.008" rgb 0.588235 0.588235 0.588235 amb 0.588235 0.588235 0.588235 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.009" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.010" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.011" rgb 0.588235 0.588235 0.588235 amb 0.588235 0.588235 0.588235 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.001" rgb 0.356863 0.431373 0.27451 amb 0.356863 0.431373 0.27451 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+OBJECT world
+kids 11
+OBJECT poly
+name "ShapeIndexedFaceS"
+data 17
+ShapeIndexedFaceS
+crease 30.000000
+numvert 8
+2.5 -3.2e-005 8.499884
+19.5 -3.2e-005 8.499884
+2.5 3.2e-005 -8.500116
+19.5 3.2e-005 -8.500116
+2.5 61.999969 8.500116
+19.5 61.999969 8.500116
+2.5 62.000031 -8.499884
+19.5 62.000031 -8.499884
+numsurf 5
+SURF 0x30
+mat 1
+refs 4
+4 0 0
+5 0 0
+7 0 0
+6 0 0
+SURF 0x30
+mat 1
+refs 4
+0 0 0
+1 0 0
+5 0 0
+4 0 0
+SURF 0x30
+mat 1
+refs 4
+1 0 0
+3 0 0
+7 0 0
+5 0 0
+SURF 0x30
+mat 1
+refs 4
+3 0 0
+2 0 0
+6 0 0
+7 0 0
+SURF 0x30
+mat 1
+refs 4
+2 0 0
+0 0 0
+4 0 0
+6 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.001"
+data 21
+ShapeIndexedFaceS.001
+crease 30.000000
+numvert 8
+-31.5 -3.2e-005 8.499884
+-14.5 -3.2e-005 8.499884
+-31.5 3.2e-005 -8.500116
+-14.5 3.2e-005 -8.500116
+-31.5 61.999969 8.500116
+-14.5 61.999969 8.500116
+-31.5 62.000031 -8.499884
+-14.5 62.000031 -8.499884
+numsurf 5
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+5 0 0
+7 0 0
+6 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+5 0 0
+4 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+3 0 0
+7 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+3 0 0
+2 0 0
+6 0 0
+7 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+0 0 0
+4 0 0
+6 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.002"
+data 21
+ShapeIndexedFaceS.002
+texture "bp_duna_tower_04.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+-59.5 -3.2e-005 8.499884
+-59.5 3.2e-005 -8.500116
+-59.5 28.999968 8.499992
+-59.5 29.000032 -8.500008
+numsurf 1
+SURF 0x10
+mat 3
+refs 4
+1 0.0 0.0
+0 1.0 0.0
+2 1.0 1.0
+3 0.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.003"
+data 21
+ShapeIndexedFaceS.003
+texture "bp_duna_tower_03.rgb"
+texrep 1 1
+crease 30.000000
+numvert 8
+-59.5 -3.2e-005 8.499884
+-31.5 -3.2e-005 8.499884
+-59.5 3.2e-005 -8.500116
+-31.5 3.2e-005 -8.500116
+-59.5 28.999968 8.499992
+-31.5 28.999968 8.499992
+-59.5 29.000032 -8.500008
+-31.5 29.000032 -8.500008
+numsurf 2
+SURF 0x10
+mat 4
+refs 4
+0 0.0 0.0
+1 1.0 0.0
+5 1.0 1.0
+4 0.0 1.0
+SURF 0x10
+mat 4
+refs 4
+3 0.0 0.0
+2 1.0 0.0
+6 1.0 1.0
+7 0.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.004"
+data 21
+ShapeIndexedFaceS.004
+texture "bp_duna_tower_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 8
+8.5 -9.5e-005 25.499884
+25.5 -9.5e-005 25.499884
+8.5 9.5e-005 -25.500116
+25.5 9.5e-005 -25.500116
+8.5 57.999905 25.500101
+25.5 57.999905 25.500101
+8.5 58.000095 -25.499899
+25.5 58.000095 -25.499899
+numsurf 2
+SURF 0x10
+mat 5
+refs 4
+0 0.0 0.0
+1 1.0 0.0
+5 1.0 1.0
+4 0.0 1.0
+SURF 0x10
+mat 5
+refs 4
+3 0.0 0.0
+2 1.0 0.0
+6 1.0 1.0
+7 0.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.005"
+data 21
+ShapeIndexedFaceS.005
+texture "bp_duna_tower_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 8
+8.5 -9.5e-005 25.499884
+25.5 -9.5e-005 25.499884
+8.5 9.5e-005 -25.500116
+25.5 9.5e-005 -25.500116
+8.5 57.999905 25.500101
+25.5 57.999905 25.500101
+8.5 58.000095 -25.499899
+25.5 58.000095 -25.499899
+numsurf 2
+SURF 0x10
+mat 6
+refs 4
+1 0.0 0.0
+3 1.0 0.0
+7 1.0 1.0
+5 0.0 1.0
+SURF 0x10
+mat 6
+refs 4
+2 0.0 0.0
+0 1.0 0.0
+4 1.0 1.0
+6 0.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.006"
+data 21
+ShapeIndexedFaceS.006
+crease 30.000000
+numvert 4
+8.5 57.999905 25.500101
+25.5 57.999905 25.500101
+8.5 58.000095 -25.499899
+25.5 58.000095 -25.499899
+numsurf 1
+SURF 0x30
+mat 7
+refs 4
+0 0 0
+1 0 0
+3 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.007"
+data 21
+ShapeIndexedFaceS.007
+texture "bp_duna_tower_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 8
+-25.5 -9.5e-005 25.499884
+-8.5 -9.5e-005 25.499884
+-25.5 9.5e-005 -25.500116
+-8.5 9.5e-005 -25.500116
+-25.5 57.999905 25.500101
+-8.5 57.999905 25.500101
+-25.5 58.000095 -25.499899
+-8.5 58.000095 -25.499899
+numsurf 2
+SURF 0x10
+mat 8
+refs 4
+0 0.0 0.0
+1 1.0 0.0
+5 1.0 1.0
+4 0.0 1.0
+SURF 0x10
+mat 8
+refs 4
+3 0.0 0.0
+2 1.0 0.0
+6 1.0 1.0
+7 0.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.008"
+data 21
+ShapeIndexedFaceS.008
+texture "bp_duna_tower_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 8
+-25.5 -9.5e-005 25.499884
+-8.5 -9.5e-005 25.499884
+-25.5 9.5e-005 -25.500116
+-8.5 9.5e-005 -25.500116
+-25.5 57.999905 25.500101
+-8.5 57.999905 25.500101
+-25.5 58.000095 -25.499899
+-8.5 58.000095 -25.499899
+numsurf 2
+SURF 0x10
+mat 9
+refs 4
+1 0.0 0.0
+3 1.0 0.0
+7 1.0 1.0
+5 0.0 1.0
+SURF 0x10
+mat 9
+refs 4
+2 0.0 0.0
+0 1.0 0.0
+4 1.0 1.0
+6 0.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.009"
+data 21
+ShapeIndexedFaceS.009
+crease 30.000000
+numvert 4
+-25.5 57.999905 25.500101
+-8.5 57.999905 25.500101
+-25.5 58.000095 -25.499899
+-8.5 58.000095 -25.499899
+numsurf 1
+SURF 0x30
+mat 10
+refs 4
+0 0 0
+1 0 0
+3 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceSet"
+data 19
+ShapeIndexedFaceSet
+crease 30.000000
+numvert 4
+-59.5 28.999968 8.499992
+-31.5 28.999968 8.499992
+-59.5 29.000032 -8.500008
+-31.5 29.000032 -8.500008
+numsurf 1
+SURF 0x30
+mat 11
+refs 4
+0 0 0
+1 0 0
+3 0 0
+2 0 0
+kids 0

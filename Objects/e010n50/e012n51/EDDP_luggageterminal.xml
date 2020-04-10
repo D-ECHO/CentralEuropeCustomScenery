@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>EDDP_luggageterminal.ac</path>
+
+<!-- #LOD# -->
+<animation>
+	<!-- datailed -->
+	<type>range</type>
+	<object-name>zaun</object-name>
+	<object-name>gelaender</object-name>
+	<object-name>koffer</object-name>
+	<object-name>foerderbaender</object-name>
+	<object-name>lampenschirm</object-name>
+	<object-name>rohre</object-name>
+	<object-name>rohre_hell</object-name>
+	<object-name>rohre_dunkel</object-name>
+	<object-name>dach_innen_unten</object-name>
+	<object-name>vordach_revision</object-name>
+	<object-name>vordach_unten</object-name>
+	<object-name>wand_hinten_innen</object-name>
+	<object-name>kamin</object-name>
+	<min-m>0</min-m>
+	<max-property>/sim/rendering/static-lod/detailed</max-property>
+</animation>
+<animation>
+	<!-- rough -->
+	<type>range</type>
+	<object-name>seiten_innen</object-name>
+	<object-name>bodenplatte_innen</object-name>
+	<object-name>traeger</object-name>
+	<object-name>front</object-name>
+	<object-name>tor1</object-name>
+	<object-name>tor2</object-name>
+	<object-name>tor3</object-name>
+	<object-name>tor4</object-name>
+	<object-name>tor5</object-name>
+	<object-name>tor6</object-name>
+	<object-name>dachschienen</object-name>
+	<object-name>EingangF</object-name>
+	<object-name>EingangH</object-name>
+	<min-m>0</min-m>
+	<max-property>/sim/rendering/static-lod/rough</max-property>
+</animation>
+<animation>
+	<!-- bare -->
+	<type>range</type>
+	<object-name>lampen</object-name>
+	<object-name>lichtkegel</object-name>
+	<object-name>dach</object-name>
+	<object-name>seiten_aussen</object-name>
+	<object-name>seiten_innenV</object-name>
+	<object-name>fundament</object-name>
+	<object-name>vordach_oben</object-name>
+	<object-name>bodenlicht</object-name>
+	<object-name>wand_hinten_aussen</object-name>
+	<min-m>0</min-m>
+	<max-property>/sim/rendering/static-lod/bare</max-property>
+</animation>
+
+<!-- #EMIS# -->
+<animation>
+	<type>material</type>
+	<object-name>rohre_dunkel</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.05</red>	
+		<green>0.05</green>	
+		<blue>0.05</blue>
+    </emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>rohre</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.06</red>	
+		<green>0.06</green>	
+		<blue>0.06</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>seiten_aussen</object-name>
+	<object-name>wand_hinten_aussen</object-name>
+	<object-name>vordach_oben</object-name>
+	<object-name>dach</object-name>
+	<object-name>vordach_revision</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.07</red>	
+		<green>0.07</green>	
+		<blue>0.07</blue>
+	</emission>
+</animation> 
+
+<animation>
+	<type>material</type>
+	<object-name>tor1</object-name>
+	<object-name>tor2</object-name>
+	<object-name>tor3</object-name>
+	<object-name>tor4</object-name>
+	<object-name>tor5</object-name>
+	<object-name>tor6</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.08</red>	
+		<green>0.08</green>	
+		<blue>0.08</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>front</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.12</red>	
+		<green>0.12</green>	
+		<blue>0.18</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>rohre_hell</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.2</red>	
+		<green>0.2</green>	
+		<blue>0.2</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>fundament</object-name>
+	<object-name>seiten_innenV</object-name>
+	<object-name>vordach_unten</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.25</red>	
+		<green>0.25</green>	
+		<blue>0.25</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>wand_hinten_innen</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.3</red>	
+		<green>0.3</green>	
+		<blue>0.3</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>foerderbaender</object-name>
+	<object-name>seiten_innen</object-name>
+	<object-name>dach_innen_unten</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.4</red>	
+		<green>0.4</green>	
+		<blue>0.4</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>bodenlicht</object-name>
+	<object-name>eingangF</object-name>
+	<object-name>koffer</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.5</red>	
+		<green>0.5</green>	
+		<blue>0.6</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>lichtkegel</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.7</red>	
+		<green>0.7</green>	
+		<blue>0.9</blue>
+	</emission>
+</animation>
+
+<animation>
+	<type>material</type>
+	<object-name>lampen</object-name>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+	<emission>	
+		<red>0.9</red>	
+		<green>0.9</green>	
+		<blue>1.0</blue>
+	</emission>
+</animation>
+
+<!-- #SELECT# -->
+<animation>
+	<type>select</type>
+	<object-name>lichtkegel</object-name>
+	<object-name>bodenlicht</object-name>
+	<enable-hot type="bool">false</enable-hot>
+	<condition>
+		<greater-than>
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+		</greater-than>
+	</condition>
+</animation>
+
+<!-- #TOR-ANIMATiON# -->  
+<animation>
+	<type>select</type>
+	<object-name>tor1</object-name>
+	<condition>
+	<not>
+		<or>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>5</value> <!-- tor ist offen -->
+		</equals>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>8</value> <!-- tor ist offen -->
+		</equals>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>13</value> <!-- tor ist offen -->
+		</equals>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>17</value> <!-- tor ist offen -->
+			</equals>
+		</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>tor2</object-name>
+	<condition>
+	<not>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>4</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>22</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>tor3</object-name>
+	<condition>
+	<not>
+		<or>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>5</value> <!-- tor ist offen -->
+		</equals>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>7</value> <!-- tor ist offen -->
+		</equals>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>16</value> <!-- tor ist offen -->
+		</equals>
+		<equals>
+			<property>/sim/time/utc/hour</property>
+			<value>19</value> <!-- tor ist offen -->
+		</equals>
+		</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>tor4</object-name>
+	<condition>
+	<not>
+		<or>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>6</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>14</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>18</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>20</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>tor5</object-name>
+	<condition>
+	<not>
+		<or>
+		<and>
+	<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>4</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>11</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>15</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>21</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+	<type>select</type>
+	<object-name>tor6</object-name>
+	<condition>
+	<not>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>5</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>22</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</not>
+	</condition>
+</animation>
+</PropertyList>

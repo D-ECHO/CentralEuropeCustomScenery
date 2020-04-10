@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Communications/radio-tall.xml 11.3758333 49.9880556 147.64 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac 11.3688889 49.9263889 95.02 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.3909691 49.9361596 446.34 352.36
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.3992776 49.9354415 486.45 357.43
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 11.405363 49.9356127 496.23 2.51

@@ -1,0 +1,13 @@
+OBJECT_SHARED Models/Power/windturbine.xml 14.0622222 51.0794444 292.11 180
+OBJECT_SHARED Models/Power/windturbine.xml 14.1305556 51.1213889 306.35 180
+OBJECT_SHARED Models/Power/windturbine.xml 14.1316667 51.1205556 312.03 180
+OBJECT_SHARED Models/Power/windturbine.xml 14.1325 51.1197222 313.66 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 14 51.0958333 -174.55 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 14.2261111 51.015 -50.49 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 14.2272222 51.1177778 -130.67 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 14.2294444 51.0313889 -78.78 180
+OBJECT_SHARED Models/Misc/generic_church_03.ac 14.2136111 51.0263889 332.91 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 14.2176818 51.1244753 292.42 109.07
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 14.219141 51.1223811 295.41 113.62
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 14.2215228 51.1214248 298.56 264.89
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 14.2218124 51.1234585 295.97 287.05

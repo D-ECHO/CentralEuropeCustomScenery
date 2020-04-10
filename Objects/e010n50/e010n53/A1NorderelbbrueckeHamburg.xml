@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+  <path>A1NorderelbbrueckeHamburg.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>10000</max-m>
+  </animation>
+
+  <animation>
+    <object-name>Wires.Small.West</object-name>
+    <type>range</type>
+    <min-m>300</min-m>
+    <max-m>2000</max-m>
+  </animation>
+
+  <animation>
+    <object-name>Wires.Small.East</object-name>
+    <type>range</type>
+    <min-m>300</min-m>
+    <max-m>2000</max-m>
+  </animation>
+
+  <animation>
+    <object-name>Wires.West</object-name>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>300</max-m>
+  </animation>
+
+  <animation>
+    <object-name>Wires.East</object-name>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>300</max-m>
+  </animation>
+
+
+</PropertyList>

@@ -1,0 +1,7 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 12.5908333 54.4227778 -137.27 180
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 12.6071127 54.3835207 -0.38 330.93
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 12.6119954 54.4040134 0.24 17.47
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 12.5939861 54.4066747 -1.03 26.73
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-South.ac 12.53143 54.47322 -0.05 88.8
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-East.ac 12.5724947 54.4979018 -3.99 319.23
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-West.ac 12.5070933 54.4980382 -0.35 156.68

@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Power/windturbine.xml 10.9261111 50.3680556 519.03 180
+OBJECT_SHARED Models/Power/windturbine.xml 10.9280556 50.3652778 514.91 180
+OBJECT_SHARED Models/Power/windturbine.xml 10.9308333 50.3627778 502.74 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 10.9155556 50.3555556 437.98 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 10.9847222 50.2530556 296.77 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 10.9877778 50.3222222 366.71 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 10.9513889 50.2827778 -115.74 180
+OBJECT_SHARED Models/Misc/generic_church_02.ac 10.9658333 50.2572222 307.23 180

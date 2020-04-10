@@ -1,0 +1,9152 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0.1 0.1 0.1  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "material-01" rgb 0.886275 0.886275 0.886275 amb 0.886275 0.886275 0.886275 emis 0.1 0.1 0.1 spec 1 1 1 shi 32 trans 0
+MATERIAL "material-14" rgb 0.631373 0.619608 0.517647 amb 0.631373 0.619608 0.517647 emis 0.1 0.1 0.1 spec 1 1 1 shi 32 trans 0
+MATERIAL "material-03" rgb 0.290196 0.290196 0.290196 amb 0.290196 0.290196 0.290196 emis 0.1 0.1 0.1 spec 1 1 1 shi 32 trans 0
+MATERIAL "material-white" rgb 0.807843 0.807843 0.807843 amb 0.807843 0.807843 0.807843 emis 0.1 0.1 0.1 spec 1 1 1 shi 32 trans 0
+OBJECT world
+kids 85
+OBJECT poly
+name "10:1:2_material-01"
+data 16
+10:1:2_material-01
+crease 30.000000
+numvert 8
+143 3 13.5
+143 12 13.5
+147 3 13.5
+147 12 13.5
+147 3 9.5
+147 12 9.5
+143 3 9.5
+143 12 9.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "11:1:2_material-01"
+data 16
+11:1:2_material-01
+crease 30.000000
+numvert 8
+143 15 13.5
+143 53 13.5
+147 15 13.5
+147 53 13.5
+147 15 9.5
+147 53 9.5
+143 15 9.5
+143 53 9.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "12:1:2_material-01"
+data 16
+12:1:2_material-01
+crease 30.000000
+numvert 8
+143 15 -9.5
+143 53 -9.5
+147 15 -9.5
+147 53 -9.5
+147 15 -13.5
+147 53 -13.5
+143 15 -13.5
+143 53 -13.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "13:1:3_material-01"
+data 16
+13:1:3_material-01
+crease 30.000000
+numvert 8
+-143 49 9.5
+-143 49 -9.5
+-143 53 -9.5
+-143 53 9.5
+-147 49 9.5
+-147 49 -9.5
+-147 53 -9.5
+-147 53 9.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+1 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+5 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+5 0 0
+6 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+5 0 0
+2 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+7 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+0 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+7 0 0
+0 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "14:1:3_material-01"
+data 16
+14:1:3_material-01
+crease 30.000000
+numvert 8
+147 49 9.5
+147 49 -9.5
+147 53 -9.5
+147 53 9.5
+143 49 9.5
+143 49 -9.5
+143 53 -9.5
+143 53 9.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+1 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+5 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+5 0 0
+6 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+5 0 0
+2 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+7 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+0 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+7 0 0
+0 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "15:1:8_material-14"
+data 16
+15:1:8_material-14
+crease 30.000000
+numvert 12
+-145 0 23.5
+-145 3 23.5
+-141 0 19.5
+-141 3 19.5
+-141 0 -19.5
+-141 3 -19.5
+-145 0 -23.5
+-145 3 -23.5
+-149 0 -19.5
+-149 3 -19.5
+-149 0 19.5
+-149 3 19.5
+numsurf 20
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+8 0 0
+9 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+9 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+8 0 0
+10 0 0
+11 0 0
+SURF 0x20
+mat 2
+refs 3
+8 0 0
+11 0 0
+9 0 0
+SURF 0x20
+mat 2
+refs 3
+10 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+10 0 0
+1 0 0
+11 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+10 0 0
+8 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+8 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+7 0 0
+9 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+9 0 0
+11 0 0
+kids 0
+OBJECT poly
+name "16:1:8_material-03"
+data 16
+16:1:8_material-03
+crease 30.000000
+numvert 8
+-204 12 -9.5
+-204 15 -9.5
+-204 12 9.5
+-204 15 9.5
+204 12 9.5
+204 15 9.5
+204 12 -9.5
+204 15 -9.5
+numsurf 12
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 3
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 3
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 3
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 3
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "17:1:8_material-14"
+data 16
+17:1:8_material-14
+crease 30.000000
+numvert 12
+145 0 23.5
+145 3 23.5
+149 0 19.5
+149 3 19.5
+149 0 -19.5
+149 3 -19.5
+145 0 -23.5
+145 3 -23.5
+141 0 -19.5
+141 3 -19.5
+141 0 19.5
+141 3 19.5
+numsurf 20
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+8 0 0
+9 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+9 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+8 0 0
+10 0 0
+11 0 0
+SURF 0x20
+mat 2
+refs 3
+8 0 0
+11 0 0
+9 0 0
+SURF 0x20
+mat 2
+refs 3
+10 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+10 0 0
+1 0 0
+11 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+10 0 0
+8 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+8 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+7 0 0
+9 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+9 0 0
+11 0 0
+kids 0
+OBJECT poly
+name "18:1:8_material-14"
+data 16
+18:1:8_material-14
+crease 30.000000
+numvert 8
+-204 12 -13.5
+-204 15 -13.5
+-204 12 -9.5
+-204 15 -9.5
+204 12 -9.5
+204 15 -9.5
+204 12 -13.5
+204 15 -13.5
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "19:1:8_material-14"
+data 16
+19:1:8_material-14
+crease 30.000000
+numvert 8
+-204 12 9.5
+-204 15 9.5
+-204 12 13.5
+-204 15 13.5
+204 12 13.5
+204 15 13.5
+204 12 9.5
+204 15 9.5
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "1:1:6_material-01"
+data 15
+1:1:6_material-01
+crease 30.000000
+numvert 68
+143 49.999996 -11
+143 49.999996 -12
+143 48.999996 -11
+143 48.999996 -12
+126.28521 41.673573 -11
+126.28521 41.673573 -12
+108.792595 35.128002 -11
+108.792595 35.128002 -12
+90.962852 29.565945 -11
+90.962852 29.565945 -12
+73.268341 25.097721 -11
+73.268341 25.097721 -12
+55.357052 21.598217 -11
+55.357052 21.598217 -12
+36.857235 19.030575 -11
+36.857235 19.030575 -12
+18.243202 17.496342 -11
+18.243202 17.496342 -12
+0 17 -11
+0 17 -12
+-18.243202 17.496342 -11
+-18.243202 17.496342 -12
+-36.857235 19.030575 -11
+-36.857235 19.030575 -12
+-55.357052 21.598217 -11
+-55.357052 21.598217 -12
+-73.268341 25.097721 -11
+-73.268341 25.097721 -12
+-90.962852 29.565945 -11
+-90.962852 29.565945 -12
+-108.792595 35.128002 -11
+-108.792595 35.128002 -12
+-126.28521 41.673573 -11
+-126.28521 41.673573 -12
+-143 48.999996 -11
+-143 48.999996 -12
+-143 49.999996 -11
+-143 49.999996 -12
+-125.944817 42.511425 -11
+-125.944817 42.511425 -12
+-108.499352 35.983486 -11
+-108.499352 35.983486 -12
+-90.717674 30.436428 -11
+-90.717674 30.436428 -12
+-73.070854 25.980244 -11
+-73.070854 25.980244 -12
+-55.207844 22.490177 -11
+-55.207844 22.490177 -12
+-36.757889 19.929455 -11
+-36.757889 19.929455 -12
+-18.194029 18.399364 -11
+-18.194029 18.399364 -12
+0 17.904354 -11
+0 17.904354 -12
+18.194031 18.399364 -11
+18.194031 18.399364 -12
+36.757889 19.929455 -11
+36.757889 19.929455 -12
+55.207844 22.490177 -11
+55.207844 22.490177 -12
+73.070854 25.980244 -11
+73.070854 25.980244 -12
+90.717674 30.436428 -11
+90.717674 30.436428 -12
+108.499352 35.983486 -11
+108.499352 35.983486 -12
+125.944817 42.511425 -11
+125.944817 42.511425 -12
+numsurf 132
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+8 0 0
+9 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+9 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+8 0 0
+10 0 0
+11 0 0
+SURF 0x20
+mat 1
+refs 3
+8 0 0
+11 0 0
+9 0 0
+SURF 0x20
+mat 1
+refs 3
+10 0 0
+12 0 0
+13 0 0
+SURF 0x20
+mat 1
+refs 3
+10 0 0
+13 0 0
+11 0 0
+SURF 0x20
+mat 1
+refs 3
+12 0 0
+14 0 0
+15 0 0
+SURF 0x20
+mat 1
+refs 3
+12 0 0
+15 0 0
+13 0 0
+SURF 0x20
+mat 1
+refs 3
+14 0 0
+16 0 0
+17 0 0
+SURF 0x20
+mat 1
+refs 3
+14 0 0
+17 0 0
+15 0 0
+SURF 0x20
+mat 1
+refs 3
+16 0 0
+18 0 0
+19 0 0
+SURF 0x20
+mat 1
+refs 3
+16 0 0
+19 0 0
+17 0 0
+SURF 0x20
+mat 1
+refs 3
+18 0 0
+20 0 0
+21 0 0
+SURF 0x20
+mat 1
+refs 3
+18 0 0
+21 0 0
+19 0 0
+SURF 0x20
+mat 1
+refs 3
+20 0 0
+22 0 0
+23 0 0
+SURF 0x20
+mat 1
+refs 3
+20 0 0
+23 0 0
+21 0 0
+SURF 0x20
+mat 1
+refs 3
+22 0 0
+24 0 0
+25 0 0
+SURF 0x20
+mat 1
+refs 3
+22 0 0
+25 0 0
+23 0 0
+SURF 0x20
+mat 1
+refs 3
+24 0 0
+26 0 0
+27 0 0
+SURF 0x20
+mat 1
+refs 3
+24 0 0
+27 0 0
+25 0 0
+SURF 0x20
+mat 1
+refs 3
+26 0 0
+28 0 0
+29 0 0
+SURF 0x20
+mat 1
+refs 3
+26 0 0
+29 0 0
+27 0 0
+SURF 0x20
+mat 1
+refs 3
+28 0 0
+30 0 0
+31 0 0
+SURF 0x20
+mat 1
+refs 3
+28 0 0
+31 0 0
+29 0 0
+SURF 0x20
+mat 1
+refs 3
+30 0 0
+32 0 0
+33 0 0
+SURF 0x20
+mat 1
+refs 3
+30 0 0
+33 0 0
+31 0 0
+SURF 0x20
+mat 1
+refs 3
+32 0 0
+34 0 0
+35 0 0
+SURF 0x20
+mat 1
+refs 3
+32 0 0
+35 0 0
+33 0 0
+SURF 0x20
+mat 1
+refs 3
+34 0 0
+36 0 0
+37 0 0
+SURF 0x20
+mat 1
+refs 3
+34 0 0
+37 0 0
+35 0 0
+SURF 0x20
+mat 1
+refs 3
+36 0 0
+38 0 0
+39 0 0
+SURF 0x20
+mat 1
+refs 3
+36 0 0
+39 0 0
+37 0 0
+SURF 0x20
+mat 1
+refs 3
+38 0 0
+40 0 0
+41 0 0
+SURF 0x20
+mat 1
+refs 3
+38 0 0
+41 0 0
+39 0 0
+SURF 0x20
+mat 1
+refs 3
+40 0 0
+42 0 0
+43 0 0
+SURF 0x20
+mat 1
+refs 3
+40 0 0
+43 0 0
+41 0 0
+SURF 0x20
+mat 1
+refs 3
+42 0 0
+44 0 0
+45 0 0
+SURF 0x20
+mat 1
+refs 3
+42 0 0
+45 0 0
+43 0 0
+SURF 0x20
+mat 1
+refs 3
+44 0 0
+46 0 0
+47 0 0
+SURF 0x20
+mat 1
+refs 3
+44 0 0
+47 0 0
+45 0 0
+SURF 0x20
+mat 1
+refs 3
+46 0 0
+48 0 0
+49 0 0
+SURF 0x20
+mat 1
+refs 3
+46 0 0
+49 0 0
+47 0 0
+SURF 0x20
+mat 1
+refs 3
+48 0 0
+50 0 0
+51 0 0
+SURF 0x20
+mat 1
+refs 3
+48 0 0
+51 0 0
+49 0 0
+SURF 0x20
+mat 1
+refs 3
+50 0 0
+52 0 0
+53 0 0
+SURF 0x20
+mat 1
+refs 3
+50 0 0
+53 0 0
+51 0 0
+SURF 0x20
+mat 1
+refs 3
+52 0 0
+54 0 0
+55 0 0
+SURF 0x20
+mat 1
+refs 3
+52 0 0
+55 0 0
+53 0 0
+SURF 0x20
+mat 1
+refs 3
+54 0 0
+56 0 0
+57 0 0
+SURF 0x20
+mat 1
+refs 3
+54 0 0
+57 0 0
+55 0 0
+SURF 0x20
+mat 1
+refs 3
+56 0 0
+58 0 0
+59 0 0
+SURF 0x20
+mat 1
+refs 3
+56 0 0
+59 0 0
+57 0 0
+SURF 0x20
+mat 1
+refs 3
+58 0 0
+60 0 0
+61 0 0
+SURF 0x20
+mat 1
+refs 3
+58 0 0
+61 0 0
+59 0 0
+SURF 0x20
+mat 1
+refs 3
+60 0 0
+62 0 0
+63 0 0
+SURF 0x20
+mat 1
+refs 3
+60 0 0
+63 0 0
+61 0 0
+SURF 0x20
+mat 1
+refs 3
+62 0 0
+64 0 0
+65 0 0
+SURF 0x20
+mat 1
+refs 3
+62 0 0
+65 0 0
+63 0 0
+SURF 0x20
+mat 1
+refs 3
+64 0 0
+66 0 0
+67 0 0
+SURF 0x20
+mat 1
+refs 3
+64 0 0
+67 0 0
+65 0 0
+SURF 0x20
+mat 1
+refs 3
+66 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+66 0 0
+1 0 0
+67 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+0 0 0
+66 0 0
+SURF 0x20
+mat 1
+refs 3
+38 0 0
+36 0 0
+34 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+2 0 0
+66 0 0
+SURF 0x20
+mat 1
+refs 3
+38 0 0
+34 0 0
+32 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+66 0 0
+64 0 0
+SURF 0x20
+mat 1
+refs 3
+40 0 0
+38 0 0
+32 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+4 0 0
+64 0 0
+SURF 0x20
+mat 1
+refs 3
+40 0 0
+32 0 0
+30 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+64 0 0
+62 0 0
+SURF 0x20
+mat 1
+refs 3
+42 0 0
+40 0 0
+30 0 0
+SURF 0x20
+mat 1
+refs 3
+8 0 0
+6 0 0
+62 0 0
+SURF 0x20
+mat 1
+refs 3
+42 0 0
+30 0 0
+28 0 0
+SURF 0x20
+mat 1
+refs 3
+8 0 0
+62 0 0
+60 0 0
+SURF 0x20
+mat 1
+refs 3
+44 0 0
+42 0 0
+28 0 0
+SURF 0x20
+mat 1
+refs 3
+10 0 0
+8 0 0
+60 0 0
+SURF 0x20
+mat 1
+refs 3
+44 0 0
+28 0 0
+26 0 0
+SURF 0x20
+mat 1
+refs 3
+10 0 0
+60 0 0
+58 0 0
+SURF 0x20
+mat 1
+refs 3
+46 0 0
+44 0 0
+26 0 0
+SURF 0x20
+mat 1
+refs 3
+12 0 0
+10 0 0
+58 0 0
+SURF 0x20
+mat 1
+refs 3
+46 0 0
+26 0 0
+24 0 0
+SURF 0x20
+mat 1
+refs 3
+12 0 0
+58 0 0
+56 0 0
+SURF 0x20
+mat 1
+refs 3
+48 0 0
+46 0 0
+24 0 0
+SURF 0x20
+mat 1
+refs 3
+14 0 0
+12 0 0
+56 0 0
+SURF 0x20
+mat 1
+refs 3
+48 0 0
+24 0 0
+22 0 0
+SURF 0x20
+mat 1
+refs 3
+14 0 0
+56 0 0
+54 0 0
+SURF 0x20
+mat 1
+refs 3
+50 0 0
+48 0 0
+22 0 0
+SURF 0x20
+mat 1
+refs 3
+16 0 0
+14 0 0
+54 0 0
+SURF 0x20
+mat 1
+refs 3
+16 0 0
+54 0 0
+52 0 0
+SURF 0x20
+mat 1
+refs 3
+50 0 0
+22 0 0
+20 0 0
+SURF 0x20
+mat 1
+refs 3
+52 0 0
+50 0 0
+20 0 0
+SURF 0x20
+mat 1
+refs 3
+16 0 0
+52 0 0
+20 0 0
+SURF 0x20
+mat 1
+refs 3
+18 0 0
+16 0 0
+20 0 0
+SURF 0x20
+mat 1
+refs 3
+35 0 0
+37 0 0
+39 0 0
+SURF 0x20
+mat 1
+refs 3
+67 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+33 0 0
+35 0 0
+39 0 0
+SURF 0x20
+mat 1
+refs 3
+67 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+33 0 0
+39 0 0
+41 0 0
+SURF 0x20
+mat 1
+refs 3
+65 0 0
+67 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+31 0 0
+33 0 0
+41 0 0
+SURF 0x20
+mat 1
+refs 3
+65 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+31 0 0
+41 0 0
+43 0 0
+SURF 0x20
+mat 1
+refs 3
+63 0 0
+65 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+29 0 0
+31 0 0
+43 0 0
+SURF 0x20
+mat 1
+refs 3
+63 0 0
+7 0 0
+9 0 0
+SURF 0x20
+mat 1
+refs 3
+29 0 0
+43 0 0
+45 0 0
+SURF 0x20
+mat 1
+refs 3
+61 0 0
+63 0 0
+9 0 0
+SURF 0x20
+mat 1
+refs 3
+27 0 0
+29 0 0
+45 0 0
+SURF 0x20
+mat 1
+refs 3
+61 0 0
+9 0 0
+11 0 0
+SURF 0x20
+mat 1
+refs 3
+27 0 0
+45 0 0
+47 0 0
+SURF 0x20
+mat 1
+refs 3
+59 0 0
+61 0 0
+11 0 0
+SURF 0x20
+mat 1
+refs 3
+25 0 0
+27 0 0
+47 0 0
+SURF 0x20
+mat 1
+refs 3
+59 0 0
+11 0 0
+13 0 0
+SURF 0x20
+mat 1
+refs 3
+25 0 0
+47 0 0
+49 0 0
+SURF 0x20
+mat 1
+refs 3
+57 0 0
+59 0 0
+13 0 0
+SURF 0x20
+mat 1
+refs 3
+23 0 0
+25 0 0
+49 0 0
+SURF 0x20
+mat 1
+refs 3
+57 0 0
+13 0 0
+15 0 0
+SURF 0x20
+mat 1
+refs 3
+23 0 0
+49 0 0
+51 0 0
+SURF 0x20
+mat 1
+refs 3
+55 0 0
+57 0 0
+15 0 0
+SURF 0x20
+mat 1
+refs 3
+21 0 0
+23 0 0
+51 0 0
+SURF 0x20
+mat 1
+refs 3
+21 0 0
+51 0 0
+53 0 0
+SURF 0x20
+mat 1
+refs 3
+55 0 0
+15 0 0
+17 0 0
+SURF 0x20
+mat 1
+refs 3
+53 0 0
+55 0 0
+17 0 0
+SURF 0x20
+mat 1
+refs 3
+21 0 0
+53 0 0
+17 0 0
+SURF 0x20
+mat 1
+refs 3
+19 0 0
+21 0 0
+17 0 0
+kids 0
+OBJECT poly
+name "1:2:6_material-01"
+data 15
+1:2:6_material-01
+crease 30.000000
+numvert 8
+147 50 -11
+147 50 -12
+204 15 -11
+204 15 -12
+202.371429 15 -11
+202.371429 15 -12
+147 49 -11
+147 49 -12
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "1:3:6_material-01"
+data 15
+1:3:6_material-01
+crease 30.000000
+numvert 8
+-146.999985 50 -11
+-146.999985 50 -12
+-146.999985 49 -11
+-146.999985 49 -12
+-202.371445 14.999998 -11
+-202.371445 14.999998 -12
+-203.999985 14.999998 -11
+-203.999985 14.999998 -12
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "20:1:8_material-14"
+data 16
+20:1:8_material-14
+crease 30.000000
+numvert 8
+-189 0 -13.5
+-189 12 -13.5
+-204 0 -13.5
+-204 12 -13.5
+-204 0 13.5
+-204 12 13.5
+-189 0 13.5
+-189 12 13.5
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "21:1:8_material-14"
+data 16
+21:1:8_material-14
+crease 30.000000
+numvert 8
+189 0 -13.5
+189 12 -13.5
+189 0 13.5
+189 12 13.5
+204 0 13.5
+204 12 13.5
+204 0 -13.5
+204 12 -13.5
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "22:1:A_material-14"
+data 16
+22:1:A_material-14
+crease 30.000000
+numvert 8
+-204 15 -9.500001
+-204 15 -13.500001
+-304 0 -13.500001
+-304 0 -9.500001
+-204 0 -9.500001
+-204 0 -13.500001
+-304 0 -13.500001
+-304 0 -9.500001
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+0 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+1 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+2 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "23:1:A_material-14"
+data 16
+23:1:A_material-14
+crease 30.000000
+numvert 8
+-204 15 13.499999
+-204 15 9.499999
+-304 0 9.499999
+-304 0 13.499999
+-204 0 13.499999
+-204 0 9.499999
+-304 0 9.499999
+-304 0 13.499999
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+0 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+1 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+2 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "24:1:A_material-03"
+data 16
+24:1:A_material-03
+crease 30.000000
+numvert 8
+-204 15 9.5
+-204 15 -9.5
+-304 0 -9.5
+-304 0 9.5
+-204 0 9.5
+-204 0 -9.5
+-304 0 -9.5
+-304 0 9.5
+numsurf 12
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 3
+refs 3
+3 0 0
+0 0 0
+2 0 0
+SURF 0x20
+mat 3
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 3
+refs 3
+1 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+1 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+5 0 0
+6 0 0
+SURF 0x20
+mat 3
+refs 3
+3 0 0
+2 0 0
+6 0 0
+SURF 0x20
+mat 3
+refs 3
+3 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+3 0 0
+7 0 0
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 3
+refs 3
+7 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+7 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "25:1:A_material-14"
+data 16
+25:1:A_material-14
+crease 30.000000
+numvert 8
+204 15 -9.5
+304 0 -9.5
+304 0 -13.5
+204 15 -13.5
+204 0 -9.5
+304 0 -9.5
+304 0 -13.5
+204 0 -13.5
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+1 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+1 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+2 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "26:1:A_material-14"
+data 16
+26:1:A_material-14
+crease 30.000000
+numvert 8
+204 15 13.5
+304 0 13.5
+304 0 9.5
+204 15 9.5
+204 0 13.5
+304 0 13.5
+304 0 9.5
+204 0 9.5
+numsurf 12
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+0 0 0
+2 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+1 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+1 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+2 0 0
+5 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+2 0 0
+6 0 0
+SURF 0x20
+mat 2
+refs 3
+3 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+3 0 0
+7 0 0
+SURF 0x20
+mat 2
+refs 3
+0 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 2
+refs 3
+7 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "27:1:A_material-03"
+data 16
+27:1:A_material-03
+crease 30.000000
+numvert 8
+204 15 9.5
+304 0 9.5
+304 0 -9.5
+204 15 -9.5
+204 0 9.5
+304 0 9.5
+304 0 -9.5
+204 0 -9.5
+numsurf 12
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 3
+refs 3
+3 0 0
+0 0 0
+2 0 0
+SURF 0x20
+mat 3
+refs 3
+1 0 0
+0 0 0
+4 0 0
+SURF 0x20
+mat 3
+refs 3
+1 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+1 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+2 0 0
+5 0 0
+6 0 0
+SURF 0x20
+mat 3
+refs 3
+3 0 0
+2 0 0
+6 0 0
+SURF 0x20
+mat 3
+refs 3
+3 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+3 0 0
+7 0 0
+SURF 0x20
+mat 3
+refs 3
+0 0 0
+7 0 0
+4 0 0
+SURF 0x20
+mat 3
+refs 3
+7 0 0
+6 0 0
+5 0 0
+SURF 0x20
+mat 3
+refs 3
+7 0 0
+5 0 0
+4 0 0
+kids 0
+OBJECT poly
+name "2:1:6_material-01"
+data 15
+2:1:6_material-01
+crease 30.000000
+numvert 68
+143 49.999996 11
+143 49.999996 12
+143 48.999996 11
+143 48.999996 12
+126.28521 41.673573 11
+126.28521 41.673573 12
+108.792595 35.128002 11
+108.792595 35.128002 12
+90.962852 29.565945 11
+90.962852 29.565945 12
+73.268341 25.097721 11
+73.268341 25.097721 12
+55.357052 21.598217 11
+55.357052 21.598217 12
+36.857235 19.030575 11
+36.857235 19.030575 12
+18.243202 17.496342 11
+18.243202 17.496342 12
+0 17 11
+0 17 12
+-18.243202 17.496342 11
+-18.243202 17.496342 12
+-36.857235 19.030575 11
+-36.857235 19.030575 12
+-55.357052 21.598217 11
+-55.357052 21.598217 12
+-73.268341 25.097721 11
+-73.268341 25.097721 12
+-90.962852 29.565945 11
+-90.962852 29.565945 12
+-108.792595 35.128002 11
+-108.792595 35.128002 12
+-126.28521 41.673573 11
+-126.28521 41.673573 12
+-143 48.999996 11
+-143 48.999996 12
+-143 49.999996 11
+-143 49.999996 12
+-125.944817 42.511425 11
+-125.944817 42.511425 12
+-108.499352 35.983486 11
+-108.499352 35.983486 12
+-90.717674 30.436428 11
+-90.717674 30.436428 12
+-73.070854 25.980244 11
+-73.070854 25.980244 12
+-55.207844 22.490177 11
+-55.207844 22.490177 12
+-36.757889 19.929455 11
+-36.757889 19.929455 12
+-18.194029 18.399364 11
+-18.194029 18.399364 12
+0 17.904354 11
+0 17.904354 12
+18.194031 18.399364 11
+18.194031 18.399364 12
+36.757889 19.929455 11
+36.757889 19.929455 12
+55.207844 22.490177 11
+55.207844 22.490177 12
+73.070854 25.980244 11
+73.070854 25.980244 12
+90.717674 30.436428 11
+90.717674 30.436428 12
+108.499352 35.983486 11
+108.499352 35.983486 12
+125.944817 42.511425 11
+125.944817 42.511425 12
+numsurf 132
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+7 0 0
+9 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+9 0 0
+8 0 0
+SURF 0x20
+mat 1
+refs 3
+8 0 0
+9 0 0
+11 0 0
+SURF 0x20
+mat 1
+refs 3
+8 0 0
+11 0 0
+10 0 0
+SURF 0x20
+mat 1
+refs 3
+10 0 0
+11 0 0
+13 0 0
+SURF 0x20
+mat 1
+refs 3
+10 0 0
+13 0 0
+12 0 0
+SURF 0x20
+mat 1
+refs 3
+12 0 0
+13 0 0
+15 0 0
+SURF 0x20
+mat 1
+refs 3
+12 0 0
+15 0 0
+14 0 0
+SURF 0x20
+mat 1
+refs 3
+14 0 0
+15 0 0
+17 0 0
+SURF 0x20
+mat 1
+refs 3
+14 0 0
+17 0 0
+16 0 0
+SURF 0x20
+mat 1
+refs 3
+16 0 0
+17 0 0
+19 0 0
+SURF 0x20
+mat 1
+refs 3
+16 0 0
+19 0 0
+18 0 0
+SURF 0x20
+mat 1
+refs 3
+18 0 0
+19 0 0
+21 0 0
+SURF 0x20
+mat 1
+refs 3
+18 0 0
+21 0 0
+20 0 0
+SURF 0x20
+mat 1
+refs 3
+20 0 0
+21 0 0
+23 0 0
+SURF 0x20
+mat 1
+refs 3
+20 0 0
+23 0 0
+22 0 0
+SURF 0x20
+mat 1
+refs 3
+22 0 0
+23 0 0
+25 0 0
+SURF 0x20
+mat 1
+refs 3
+22 0 0
+25 0 0
+24 0 0
+SURF 0x20
+mat 1
+refs 3
+24 0 0
+25 0 0
+27 0 0
+SURF 0x20
+mat 1
+refs 3
+24 0 0
+27 0 0
+26 0 0
+SURF 0x20
+mat 1
+refs 3
+26 0 0
+27 0 0
+29 0 0
+SURF 0x20
+mat 1
+refs 3
+26 0 0
+29 0 0
+28 0 0
+SURF 0x20
+mat 1
+refs 3
+28 0 0
+29 0 0
+31 0 0
+SURF 0x20
+mat 1
+refs 3
+28 0 0
+31 0 0
+30 0 0
+SURF 0x20
+mat 1
+refs 3
+30 0 0
+31 0 0
+33 0 0
+SURF 0x20
+mat 1
+refs 3
+30 0 0
+33 0 0
+32 0 0
+SURF 0x20
+mat 1
+refs 3
+32 0 0
+33 0 0
+35 0 0
+SURF 0x20
+mat 1
+refs 3
+32 0 0
+35 0 0
+34 0 0
+SURF 0x20
+mat 1
+refs 3
+34 0 0
+35 0 0
+37 0 0
+SURF 0x20
+mat 1
+refs 3
+34 0 0
+37 0 0
+36 0 0
+SURF 0x20
+mat 1
+refs 3
+36 0 0
+37 0 0
+39 0 0
+SURF 0x20
+mat 1
+refs 3
+36 0 0
+39 0 0
+38 0 0
+SURF 0x20
+mat 1
+refs 3
+38 0 0
+39 0 0
+41 0 0
+SURF 0x20
+mat 1
+refs 3
+38 0 0
+41 0 0
+40 0 0
+SURF 0x20
+mat 1
+refs 3
+40 0 0
+41 0 0
+43 0 0
+SURF 0x20
+mat 1
+refs 3
+40 0 0
+43 0 0
+42 0 0
+SURF 0x20
+mat 1
+refs 3
+42 0 0
+43 0 0
+45 0 0
+SURF 0x20
+mat 1
+refs 3
+42 0 0
+45 0 0
+44 0 0
+SURF 0x20
+mat 1
+refs 3
+44 0 0
+45 0 0
+47 0 0
+SURF 0x20
+mat 1
+refs 3
+44 0 0
+47 0 0
+46 0 0
+SURF 0x20
+mat 1
+refs 3
+46 0 0
+47 0 0
+49 0 0
+SURF 0x20
+mat 1
+refs 3
+46 0 0
+49 0 0
+48 0 0
+SURF 0x20
+mat 1
+refs 3
+48 0 0
+49 0 0
+51 0 0
+SURF 0x20
+mat 1
+refs 3
+48 0 0
+51 0 0
+50 0 0
+SURF 0x20
+mat 1
+refs 3
+50 0 0
+51 0 0
+53 0 0
+SURF 0x20
+mat 1
+refs 3
+50 0 0
+53 0 0
+52 0 0
+SURF 0x20
+mat 1
+refs 3
+52 0 0
+53 0 0
+55 0 0
+SURF 0x20
+mat 1
+refs 3
+52 0 0
+55 0 0
+54 0 0
+SURF 0x20
+mat 1
+refs 3
+54 0 0
+55 0 0
+57 0 0
+SURF 0x20
+mat 1
+refs 3
+54 0 0
+57 0 0
+56 0 0
+SURF 0x20
+mat 1
+refs 3
+56 0 0
+57 0 0
+59 0 0
+SURF 0x20
+mat 1
+refs 3
+56 0 0
+59 0 0
+58 0 0
+SURF 0x20
+mat 1
+refs 3
+58 0 0
+59 0 0
+61 0 0
+SURF 0x20
+mat 1
+refs 3
+58 0 0
+61 0 0
+60 0 0
+SURF 0x20
+mat 1
+refs 3
+60 0 0
+61 0 0
+63 0 0
+SURF 0x20
+mat 1
+refs 3
+60 0 0
+63 0 0
+62 0 0
+SURF 0x20
+mat 1
+refs 3
+62 0 0
+63 0 0
+65 0 0
+SURF 0x20
+mat 1
+refs 3
+62 0 0
+65 0 0
+64 0 0
+SURF 0x20
+mat 1
+refs 3
+64 0 0
+65 0 0
+67 0 0
+SURF 0x20
+mat 1
+refs 3
+64 0 0
+67 0 0
+66 0 0
+SURF 0x20
+mat 1
+refs 3
+66 0 0
+67 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+0 0 0
+66 0 0
+SURF 0x20
+mat 1
+refs 3
+34 0 0
+36 0 0
+38 0 0
+SURF 0x20
+mat 1
+refs 3
+66 0 0
+0 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+32 0 0
+34 0 0
+38 0 0
+SURF 0x20
+mat 1
+refs 3
+66 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+32 0 0
+38 0 0
+40 0 0
+SURF 0x20
+mat 1
+refs 3
+64 0 0
+66 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+30 0 0
+32 0 0
+40 0 0
+SURF 0x20
+mat 1
+refs 3
+64 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+30 0 0
+40 0 0
+42 0 0
+SURF 0x20
+mat 1
+refs 3
+62 0 0
+64 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+28 0 0
+30 0 0
+42 0 0
+SURF 0x20
+mat 1
+refs 3
+62 0 0
+6 0 0
+8 0 0
+SURF 0x20
+mat 1
+refs 3
+28 0 0
+42 0 0
+44 0 0
+SURF 0x20
+mat 1
+refs 3
+60 0 0
+62 0 0
+8 0 0
+SURF 0x20
+mat 1
+refs 3
+26 0 0
+28 0 0
+44 0 0
+SURF 0x20
+mat 1
+refs 3
+60 0 0
+8 0 0
+10 0 0
+SURF 0x20
+mat 1
+refs 3
+26 0 0
+44 0 0
+46 0 0
+SURF 0x20
+mat 1
+refs 3
+58 0 0
+60 0 0
+10 0 0
+SURF 0x20
+mat 1
+refs 3
+24 0 0
+26 0 0
+46 0 0
+SURF 0x20
+mat 1
+refs 3
+58 0 0
+10 0 0
+12 0 0
+SURF 0x20
+mat 1
+refs 3
+24 0 0
+46 0 0
+48 0 0
+SURF 0x20
+mat 1
+refs 3
+56 0 0
+58 0 0
+12 0 0
+SURF 0x20
+mat 1
+refs 3
+22 0 0
+24 0 0
+48 0 0
+SURF 0x20
+mat 1
+refs 3
+56 0 0
+12 0 0
+14 0 0
+SURF 0x20
+mat 1
+refs 3
+22 0 0
+48 0 0
+50 0 0
+SURF 0x20
+mat 1
+refs 3
+54 0 0
+56 0 0
+14 0 0
+SURF 0x20
+mat 1
+refs 3
+20 0 0
+22 0 0
+50 0 0
+SURF 0x20
+mat 1
+refs 3
+20 0 0
+50 0 0
+52 0 0
+SURF 0x20
+mat 1
+refs 3
+54 0 0
+14 0 0
+16 0 0
+SURF 0x20
+mat 1
+refs 3
+52 0 0
+54 0 0
+16 0 0
+SURF 0x20
+mat 1
+refs 3
+20 0 0
+52 0 0
+16 0 0
+SURF 0x20
+mat 1
+refs 3
+18 0 0
+20 0 0
+16 0 0
+SURF 0x20
+mat 1
+refs 3
+3 0 0
+1 0 0
+67 0 0
+SURF 0x20
+mat 1
+refs 3
+39 0 0
+37 0 0
+35 0 0
+SURF 0x20
+mat 1
+refs 3
+5 0 0
+3 0 0
+67 0 0
+SURF 0x20
+mat 1
+refs 3
+39 0 0
+35 0 0
+33 0 0
+SURF 0x20
+mat 1
+refs 3
+5 0 0
+67 0 0
+65 0 0
+SURF 0x20
+mat 1
+refs 3
+41 0 0
+39 0 0
+33 0 0
+SURF 0x20
+mat 1
+refs 3
+7 0 0
+5 0 0
+65 0 0
+SURF 0x20
+mat 1
+refs 3
+41 0 0
+33 0 0
+31 0 0
+SURF 0x20
+mat 1
+refs 3
+7 0 0
+65 0 0
+63 0 0
+SURF 0x20
+mat 1
+refs 3
+43 0 0
+41 0 0
+31 0 0
+SURF 0x20
+mat 1
+refs 3
+9 0 0
+7 0 0
+63 0 0
+SURF 0x20
+mat 1
+refs 3
+43 0 0
+31 0 0
+29 0 0
+SURF 0x20
+mat 1
+refs 3
+9 0 0
+63 0 0
+61 0 0
+SURF 0x20
+mat 1
+refs 3
+45 0 0
+43 0 0
+29 0 0
+SURF 0x20
+mat 1
+refs 3
+11 0 0
+9 0 0
+61 0 0
+SURF 0x20
+mat 1
+refs 3
+45 0 0
+29 0 0
+27 0 0
+SURF 0x20
+mat 1
+refs 3
+11 0 0
+61 0 0
+59 0 0
+SURF 0x20
+mat 1
+refs 3
+47 0 0
+45 0 0
+27 0 0
+SURF 0x20
+mat 1
+refs 3
+13 0 0
+11 0 0
+59 0 0
+SURF 0x20
+mat 1
+refs 3
+47 0 0
+27 0 0
+25 0 0
+SURF 0x20
+mat 1
+refs 3
+13 0 0
+59 0 0
+57 0 0
+SURF 0x20
+mat 1
+refs 3
+49 0 0
+47 0 0
+25 0 0
+SURF 0x20
+mat 1
+refs 3
+15 0 0
+13 0 0
+57 0 0
+SURF 0x20
+mat 1
+refs 3
+49 0 0
+25 0 0
+23 0 0
+SURF 0x20
+mat 1
+refs 3
+15 0 0
+57 0 0
+55 0 0
+SURF 0x20
+mat 1
+refs 3
+51 0 0
+49 0 0
+23 0 0
+SURF 0x20
+mat 1
+refs 3
+17 0 0
+15 0 0
+55 0 0
+SURF 0x20
+mat 1
+refs 3
+17 0 0
+55 0 0
+53 0 0
+SURF 0x20
+mat 1
+refs 3
+51 0 0
+23 0 0
+21 0 0
+SURF 0x20
+mat 1
+refs 3
+53 0 0
+51 0 0
+21 0 0
+SURF 0x20
+mat 1
+refs 3
+17 0 0
+53 0 0
+21 0 0
+SURF 0x20
+mat 1
+refs 3
+19 0 0
+17 0 0
+21 0 0
+kids 0
+OBJECT poly
+name "2:2:6_material-01"
+data 15
+2:2:6_material-01
+crease 30.000000
+numvert 8
+147 50 11
+147 50 12
+204 15 11
+204 15 12
+202.371429 15 11
+202.371429 15 12
+147 49 11
+147 49 12
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "2:3:6_material-01"
+data 15
+2:3:6_material-01
+crease 30.000000
+numvert 8
+-146.999985 50 11
+-146.999985 50 12
+-146.999985 49 11
+-146.999985 49 12
+-202.371445 14.999998 11
+-202.371445 14.999998 12
+-203.999985 14.999998 11
+-203.999985 14.999998 12
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "3:10:6_material-white"
+data 20
+3:10:6_material-white
+crease 30.000000
+numvert 8
+44.75 14.999998 -11.249999
+44.75 14.999998 -11.749999
+44.75 20.126036 -11.249999
+44.75 20.126036 -11.749999
+45.25 20.195429 -11.249999
+45.25 20.195429 -11.749999
+45.25 14.999998 -11.249999
+45.25 14.999998 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:11:6_material-white"
+data 20
+3:11:6_material-white
+crease 30.000000
+numvert 8
+35.25 14.999998 -11.249999
+35.25 14.999998 -11.749999
+34.75 14.999998 -11.249999
+34.75 14.999998 -11.749999
+34.75 18.85689 -11.249999
+34.75 18.85689 -11.749999
+35.25 18.8981 -11.249999
+35.25 18.8981 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:12:6_material-white"
+data 20
+3:12:6_material-white
+crease 30.000000
+numvert 8
+24.75 15 -11.249999
+24.75 15 -11.749999
+24.75 18.032654 -11.249999
+24.75 18.032654 -11.749999
+25.25 18.073864 -11.249999
+25.25 18.073864 -11.749999
+25.25 15 -11.249999
+25.25 15 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:13:6_material-white"
+data 20
+3:13:6_material-white
+crease 30.000000
+numvert 8
+14.749999 15 -11.249999
+14.749999 15 -11.749999
+14.749999 17.401302 -11.249999
+14.749999 17.401302 -11.749999
+15.249999 17.414906 -11.249999
+15.249999 17.414906 -11.749999
+15.249999 15 -11.249999
+15.249999 15 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:14:6_material-white"
+data 20
+3:14:6_material-white
+crease 30.000000
+numvert 8
+4.75 14.999998 -11.249999
+4.75 14.999998 -11.749999
+4.75 17.129232 -11.249999
+4.75 17.129232 -11.749999
+5.25 17.142836 -11.249999
+5.25 17.142836 -11.749999
+5.25 14.999998 -11.249999
+5.25 14.999998 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:15:6_material-white"
+data 20
+3:15:6_material-white
+crease 30.000000
+numvert 8
+-135.25 14.999998 -11.25
+-135.25 14.999998 -11.75
+-135.25 45.60302 -11.25
+-135.25 45.60302 -11.75
+-134.75 45.383865 -11.25
+-134.75 45.383865 -11.75
+-134.75 14.999998 -11.25
+-134.75 14.999998 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:16:6_material-white"
+data 20
+3:16:6_material-white
+crease 30.000000
+numvert 8
+-124.75 14.999998 -11.25
+-124.75 14.999998 -11.75
+-125.25 14.999998 -11.25
+-125.25 14.999998 -11.75
+-125.25 41.286209 -11.25
+-125.25 41.286209 -11.75
+-124.75 41.099113 -11.25
+-124.75 41.099113 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:17:6_material-white"
+data 20
+3:17:6_material-white
+crease 30.000000
+numvert 8
+-114.75 15 -11.25
+-114.75 15 -11.75
+-115.25 15 -11.25
+-115.25 15 -11.75
+-115.25 37.5443 -11.25
+-115.25 37.5443 -11.75
+-114.75 37.357204 -11.25
+-114.75 37.357204 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:18:6_material-white"
+data 20
+3:18:6_material-white
+crease 30.000000
+numvert 8
+-104.75 14.999998 -11.25
+-104.75 14.999998 -11.75
+-105.25 14.999998 -11.25
+-105.25 14.999998 -11.75
+-105.25 34.022873 -11.25
+-105.25 34.022873 -11.75
+-104.75 33.86689 -11.25
+-104.75 33.86689 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:19:6_material-white"
+data 20
+3:19:6_material-white
+crease 30.000000
+numvert 8
+-94.75 15 -11.25
+-94.75 15 -11.75
+-95.25 15 -11.25
+-95.25 15 -11.75
+-95.25 30.903336 -11.25
+-95.25 30.903336 -11.75
+-94.75 30.74736 -11.25
+-94.75 30.74736 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:1:6_material-white"
+data 19
+3:1:6_material-white
+crease 30.000000
+numvert 8
+135.25 15 -11.249999
+135.25 15 -11.749999
+134.75 15 -11.249999
+134.75 15 -11.749999
+134.75 45.383862 -11.249999
+134.75 45.383862 -11.749999
+135.25 45.603024 -11.249999
+135.25 45.603024 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:20:6_material-white"
+data 20
+3:20:6_material-white
+crease 30.000000
+numvert 8
+-84.75 15 -11.25
+-84.75 15 -11.75
+-85.25 15 -11.25
+-85.25 15 -11.75
+-85.25 28.123333 -11.25
+-85.25 28.123333 -11.75
+-84.75 27.997074 -11.25
+-84.75 27.997074 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:21:6_material-white"
+data 20
+3:21:6_material-white
+crease 30.000000
+numvert 8
+-75.25 15 -11.25
+-75.25 15 -11.75
+-75.25 25.598129 -11.25
+-75.25 25.598129 -11.75
+-74.75 25.471867 -11.25
+-74.75 25.471867 -11.75
+-74.75 15 -11.25
+-74.75 15 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:22:6_material-white"
+data 20
+3:22:6_material-white
+crease 30.000000
+numvert 8
+-65.25 14.999998 -11.25
+-65.25 14.999998 -11.75
+-65.25 23.531099 -11.25
+-65.25 23.531099 -11.75
+-64.75 23.433405 -11.25
+-64.75 23.433405 -11.75
+-64.75 14.999998 -11.25
+-64.75 14.999998 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:23:6_material-white"
+data 20
+3:23:6_material-white
+crease 30.000000
+numvert 8
+-55.25 14.999998 -11.25
+-55.25 14.999998 -11.75
+-55.25 21.583357 -11.25
+-55.25 21.583357 -11.75
+-54.75 21.513964 -11.25
+-54.75 21.513964 -11.75
+-54.75 14.999998 -11.25
+-54.75 14.999998 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:24:6_material-white"
+data 20
+3:24:6_material-white
+crease 30.000000
+numvert 8
+-44.75 15 -11.25
+-44.75 15 -11.75
+-45.25 15 -11.25
+-45.25 15 -11.75
+-45.25 20.195431 -11.25
+-45.25 20.195431 -11.75
+-44.75 20.126034 -11.25
+-44.75 20.126034 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:25:6_material-white"
+data 20
+3:25:6_material-white
+crease 30.000000
+numvert 8
+-35.25 14.999998 -11.25
+-35.25 14.999998 -11.75
+-35.25 18.8981 -11.25
+-35.25 18.8981 -11.75
+-34.75 18.856886 -11.25
+-34.75 18.856886 -11.75
+-34.75 14.999998 -11.25
+-34.75 14.999998 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:26:6_material-white"
+data 20
+3:26:6_material-white
+crease 30.000000
+numvert 8
+-24.75 14.999998 -11.25
+-24.75 14.999998 -11.75
+-25.25 14.999998 -11.25
+-25.25 14.999998 -11.75
+-25.25 18.073866 -11.25
+-25.25 18.073866 -11.75
+-24.75 18.032652 -11.25
+-24.75 18.032652 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:27:6_material-white"
+data 20
+3:27:6_material-white
+crease 30.000000
+numvert 8
+-14.75 14.999998 -11.25
+-14.75 14.999998 -11.75
+-15.25 14.999998 -11.25
+-15.25 14.999998 -11.75
+-15.25 17.414907 -11.25
+-15.25 17.414907 -11.75
+-14.75 17.401304 -11.25
+-14.75 17.401304 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:28:6_material-white"
+data 20
+3:28:6_material-white
+crease 30.000000
+numvert 8
+-4.75 15 -11.25
+-4.75 15 -11.75
+-5.25 15 -11.25
+-5.25 15 -11.75
+-5.25 17.142838 -11.25
+-5.25 17.142838 -11.75
+-4.75 17.129234 -11.25
+-4.75 17.129234 -11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:2:6_material-white"
+data 19
+3:2:6_material-white
+crease 30.000000
+numvert 8
+124.750008 14.999998 -11.249999
+124.750008 14.999998 -11.749999
+124.750008 41.099113 -11.249999
+124.750008 41.099113 -11.749999
+125.250008 41.286209 -11.249999
+125.250008 41.286209 -11.749999
+125.250008 14.999998 -11.249999
+125.250008 14.999998 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:3:6_material-white"
+data 19
+3:3:6_material-white
+crease 30.000000
+numvert 8
+114.750008 15 -11.249999
+114.750008 15 -11.749999
+114.750008 37.357208 -11.249999
+114.750008 37.357208 -11.749999
+115.250008 37.544296 -11.249999
+115.250008 37.544296 -11.749999
+115.250008 15 -11.249999
+115.250008 15 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:4:6_material-white"
+data 19
+3:4:6_material-white
+crease 30.000000
+numvert 8
+104.750008 15 -11.249999
+104.750008 15 -11.749999
+104.750008 33.866894 -11.249999
+104.750008 33.866894 -11.749999
+105.250008 34.022873 -11.249999
+105.250008 34.022873 -11.749999
+105.250008 15 -11.249999
+105.250008 15 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:5:6_material-white"
+data 19
+3:5:6_material-white
+crease 30.000000
+numvert 8
+94.750008 15 -11.249999
+94.750008 15 -11.749999
+94.750008 30.74736 -11.249999
+94.750008 30.74736 -11.749999
+95.250008 30.903339 -11.249999
+95.250008 30.903339 -11.749999
+95.250008 15 -11.249999
+95.250008 15 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:6:6_material-white"
+data 19
+3:6:6_material-white
+crease 30.000000
+numvert 8
+84.750008 15 -11.249999
+84.750008 15 -11.749999
+84.750008 27.997074 -11.249999
+84.750008 27.997074 -11.749999
+85.250008 28.123333 -11.249999
+85.250008 28.123333 -11.749999
+85.250008 15 -11.249999
+85.250008 15 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:7:6_material-white"
+data 19
+3:7:6_material-white
+crease 30.000000
+numvert 8
+75.250008 15 -11.249999
+75.250008 15 -11.749999
+74.750008 15 -11.249999
+74.750008 15 -11.749999
+74.750008 25.471867 -11.249999
+74.750008 25.471867 -11.749999
+75.250008 25.598129 -11.249999
+75.250008 25.598129 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:8:6_material-white"
+data 19
+3:8:6_material-white
+crease 30.000000
+numvert 8
+65.250008 15 -11.249999
+65.250008 15 -11.749999
+64.750008 15 -11.249999
+64.750008 15 -11.749999
+64.750008 23.433407 -11.249999
+64.750008 23.433407 -11.749999
+65.250008 23.531097 -11.249999
+65.250008 23.531097 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "3:9:6_material-white"
+data 19
+3:9:6_material-white
+crease 30.000000
+numvert 8
+55.25 15 -11.249999
+55.25 15 -11.749999
+54.75 15 -11.249999
+54.75 15 -11.749999
+54.75 21.513962 -11.249999
+54.75 21.513962 -11.749999
+55.25 21.583359 -11.249999
+55.25 21.583359 -11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "4:10:6_material-white"
+data 20
+4:10:6_material-white
+crease 30.000000
+numvert 8
+44.75 14.999998 11.249999
+44.75 14.999998 11.749999
+44.75 20.126036 11.249999
+44.75 20.126036 11.749999
+45.25 20.195429 11.249999
+45.25 20.195429 11.749999
+45.25 14.999998 11.249999
+45.25 14.999998 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:11:6_material-white"
+data 20
+4:11:6_material-white
+crease 30.000000
+numvert 8
+35.25 14.999998 11.249999
+35.25 14.999998 11.749999
+34.75 14.999998 11.249999
+34.75 14.999998 11.749999
+34.75 18.85689 11.249999
+34.75 18.85689 11.749999
+35.25 18.8981 11.249999
+35.25 18.8981 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:12:6_material-white"
+data 20
+4:12:6_material-white
+crease 30.000000
+numvert 8
+24.75 15 11.249999
+24.75 15 11.749999
+24.75 18.032654 11.249999
+24.75 18.032654 11.749999
+25.25 18.073864 11.249999
+25.25 18.073864 11.749999
+25.25 15 11.249999
+25.25 15 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:13:6_material-white"
+data 20
+4:13:6_material-white
+crease 30.000000
+numvert 8
+14.749999 15 11.249999
+14.749999 15 11.749999
+14.749999 17.401302 11.249999
+14.749999 17.401302 11.749999
+15.249999 17.414906 11.249999
+15.249999 17.414906 11.749999
+15.249999 15 11.249999
+15.249999 15 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:14:6_material-white"
+data 20
+4:14:6_material-white
+crease 30.000000
+numvert 8
+4.75 14.999998 11.249999
+4.75 14.999998 11.749999
+4.75 17.129232 11.249999
+4.75 17.129232 11.749999
+5.25 17.142836 11.249999
+5.25 17.142836 11.749999
+5.25 14.999998 11.249999
+5.25 14.999998 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:15:6_material-white"
+data 20
+4:15:6_material-white
+crease 30.000000
+numvert 8
+-135.25 14.999998 11.25
+-135.25 14.999998 11.75
+-135.25 45.60302 11.25
+-135.25 45.60302 11.75
+-134.75 45.383865 11.25
+-134.75 45.383865 11.75
+-134.75 14.999998 11.25
+-134.75 14.999998 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:16:6_material-white"
+data 20
+4:16:6_material-white
+crease 30.000000
+numvert 8
+-124.75 14.999998 11.25
+-124.75 14.999998 11.75
+-125.25 14.999998 11.25
+-125.25 14.999998 11.75
+-125.25 41.286209 11.25
+-125.25 41.286209 11.75
+-124.75 41.099113 11.25
+-124.75 41.099113 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:17:6_material-white"
+data 20
+4:17:6_material-white
+crease 30.000000
+numvert 8
+-114.75 15 11.25
+-114.75 15 11.75
+-115.25 15 11.25
+-115.25 15 11.75
+-115.25 37.5443 11.25
+-115.25 37.5443 11.75
+-114.75 37.357204 11.25
+-114.75 37.357204 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:18:6_material-white"
+data 20
+4:18:6_material-white
+crease 30.000000
+numvert 8
+-104.75 14.999998 11.25
+-104.75 14.999998 11.75
+-105.25 14.999998 11.25
+-105.25 14.999998 11.75
+-105.25 34.022873 11.25
+-105.25 34.022873 11.75
+-104.75 33.86689 11.25
+-104.75 33.86689 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:19:6_material-white"
+data 20
+4:19:6_material-white
+crease 30.000000
+numvert 8
+-94.75 15 11.25
+-94.75 15 11.75
+-95.25 15 11.25
+-95.25 15 11.75
+-95.25 30.903336 11.25
+-95.25 30.903336 11.75
+-94.75 30.74736 11.25
+-94.75 30.74736 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:1:6_material-white"
+data 19
+4:1:6_material-white
+crease 30.000000
+numvert 8
+135.25 15 11.249999
+135.25 15 11.749999
+134.75 15 11.249999
+134.75 15 11.749999
+134.75 45.383862 11.249999
+134.75 45.383862 11.749999
+135.25 45.603024 11.249999
+135.25 45.603024 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:20:6_material-white"
+data 20
+4:20:6_material-white
+crease 30.000000
+numvert 8
+-84.75 15 11.25
+-84.75 15 11.75
+-85.25 15 11.25
+-85.25 15 11.75
+-85.25 28.123333 11.25
+-85.25 28.123333 11.75
+-84.75 27.997074 11.25
+-84.75 27.997074 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:21:6_material-white"
+data 20
+4:21:6_material-white
+crease 30.000000
+numvert 8
+-75.25 15 11.25
+-75.25 15 11.75
+-75.25 25.598129 11.25
+-75.25 25.598129 11.75
+-74.75 25.471867 11.25
+-74.75 25.471867 11.75
+-74.75 15 11.25
+-74.75 15 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:22:6_material-white"
+data 20
+4:22:6_material-white
+crease 30.000000
+numvert 8
+-65.25 14.999998 11.25
+-65.25 14.999998 11.75
+-65.25 23.531099 11.25
+-65.25 23.531099 11.75
+-64.75 23.433405 11.25
+-64.75 23.433405 11.75
+-64.75 14.999998 11.25
+-64.75 14.999998 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:23:6_material-white"
+data 20
+4:23:6_material-white
+crease 30.000000
+numvert 8
+-55.25 14.999998 11.25
+-55.25 14.999998 11.75
+-55.25 21.583357 11.25
+-55.25 21.583357 11.75
+-54.75 21.513964 11.25
+-54.75 21.513964 11.75
+-54.75 14.999998 11.25
+-54.75 14.999998 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:24:6_material-white"
+data 20
+4:24:6_material-white
+crease 30.000000
+numvert 8
+-44.75 15 11.25
+-44.75 15 11.75
+-45.25 15 11.25
+-45.25 15 11.75
+-45.25 20.195431 11.25
+-45.25 20.195431 11.75
+-44.75 20.126034 11.25
+-44.75 20.126034 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:25:6_material-white"
+data 20
+4:25:6_material-white
+crease 30.000000
+numvert 8
+-35.25 14.999998 11.25
+-35.25 14.999998 11.75
+-35.25 18.8981 11.25
+-35.25 18.8981 11.75
+-34.75 18.856886 11.25
+-34.75 18.856886 11.75
+-34.75 14.999998 11.25
+-34.75 14.999998 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:26:6_material-white"
+data 20
+4:26:6_material-white
+crease 30.000000
+numvert 8
+-24.75 14.999998 11.25
+-24.75 14.999998 11.75
+-25.25 14.999998 11.25
+-25.25 14.999998 11.75
+-25.25 18.073866 11.25
+-25.25 18.073866 11.75
+-24.75 18.032652 11.25
+-24.75 18.032652 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:27:6_material-white"
+data 20
+4:27:6_material-white
+crease 30.000000
+numvert 8
+-14.75 14.999998 11.25
+-14.75 14.999998 11.75
+-15.25 14.999998 11.25
+-15.25 14.999998 11.75
+-15.25 17.414907 11.25
+-15.25 17.414907 11.75
+-14.75 17.401304 11.25
+-14.75 17.401304 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:28:6_material-white"
+data 20
+4:28:6_material-white
+crease 30.000000
+numvert 8
+-4.75 15 11.25
+-4.75 15 11.75
+-5.25 15 11.25
+-5.25 15 11.75
+-5.25 17.142838 11.25
+-5.25 17.142838 11.75
+-4.75 17.129234 11.25
+-4.75 17.129234 11.75
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:2:6_material-white"
+data 19
+4:2:6_material-white
+crease 30.000000
+numvert 8
+124.750008 14.999998 11.249999
+124.750008 14.999998 11.749999
+124.750008 41.099113 11.249999
+124.750008 41.099113 11.749999
+125.250008 41.286209 11.249999
+125.250008 41.286209 11.749999
+125.250008 14.999998 11.249999
+125.250008 14.999998 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:3:6_material-white"
+data 19
+4:3:6_material-white
+crease 30.000000
+numvert 8
+114.750008 15 11.249999
+114.750008 15 11.749999
+114.750008 37.357208 11.249999
+114.750008 37.357208 11.749999
+115.250008 37.544296 11.249999
+115.250008 37.544296 11.749999
+115.250008 15 11.249999
+115.250008 15 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:4:6_material-white"
+data 19
+4:4:6_material-white
+crease 30.000000
+numvert 8
+104.750008 15 11.249999
+104.750008 15 11.749999
+104.750008 33.866894 11.249999
+104.750008 33.866894 11.749999
+105.250008 34.022873 11.249999
+105.250008 34.022873 11.749999
+105.250008 15 11.249999
+105.250008 15 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:5:6_material-white"
+data 19
+4:5:6_material-white
+crease 30.000000
+numvert 8
+94.750008 15 11.249999
+94.750008 15 11.749999
+94.750008 30.74736 11.249999
+94.750008 30.74736 11.749999
+95.250008 30.903339 11.249999
+95.250008 30.903339 11.749999
+95.250008 15 11.249999
+95.250008 15 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:6:6_material-white"
+data 19
+4:6:6_material-white
+crease 30.000000
+numvert 8
+84.750008 15 11.249999
+84.750008 15 11.749999
+84.750008 27.997074 11.249999
+84.750008 27.997074 11.749999
+85.250008 28.123333 11.249999
+85.250008 28.123333 11.749999
+85.250008 15 11.249999
+85.250008 15 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:7:6_material-white"
+data 19
+4:7:6_material-white
+crease 30.000000
+numvert 8
+75.250008 15 11.249999
+75.250008 15 11.749999
+74.750008 15 11.249999
+74.750008 15 11.749999
+74.750008 25.471867 11.249999
+74.750008 25.471867 11.749999
+75.250008 25.598129 11.249999
+75.250008 25.598129 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:8:6_material-white"
+data 19
+4:8:6_material-white
+crease 30.000000
+numvert 8
+65.250008 15 11.249999
+65.250008 15 11.749999
+64.750008 15 11.249999
+64.750008 15 11.749999
+64.750008 23.433407 11.249999
+64.750008 23.433407 11.749999
+65.250008 23.531097 11.249999
+65.250008 23.531097 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "4:9:6_material-white"
+data 19
+4:9:6_material-white
+crease 30.000000
+numvert 8
+55.25 15 11.249999
+55.25 15 11.749999
+54.75 15 11.249999
+54.75 15 11.749999
+54.75 21.513962 11.249999
+54.75 21.513962 11.749999
+55.25 21.583359 11.249999
+55.25 21.583359 11.749999
+numsurf 12
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+1 0 0
+3 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+3 0 0
+2 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+2 0 0
+5 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+5 0 0
+7 0 0
+SURF 0x20
+mat 4
+refs 3
+4 0 0
+7 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+6 0 0
+7 0 0
+1 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+0 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+2 0 0
+4 0 0
+SURF 0x20
+mat 4
+refs 3
+0 0 0
+4 0 0
+6 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 4
+refs 3
+1 0 0
+5 0 0
+3 0 0
+kids 0
+OBJECT poly
+name "5:1:2_material-01"
+data 15
+5:1:2_material-01
+crease 30.000000
+numvert 8
+-147 3 -9.5
+-147 12 -9.5
+-143 3 -9.5
+-143 12 -9.5
+-143 3 -13.5
+-143 12 -13.5
+-147 3 -13.5
+-147 12 -13.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "6:1:2_material-01"
+data 15
+6:1:2_material-01
+crease 30.000000
+numvert 8
+-147 3 13.5
+-147 12 13.5
+-143 3 13.5
+-143 12 13.5
+-143 3 9.5
+-143 12 9.5
+-147 3 9.5
+-147 12 9.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "7:1:2_material-01"
+data 15
+7:1:2_material-01
+crease 30.000000
+numvert 8
+-147 15 13.5
+-147 53 13.5
+-143 15 13.5
+-143 53 13.5
+-143 15 9.5
+-143 53 9.5
+-147 15 9.5
+-147 53 9.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "8:1:2_material-01"
+data 15
+8:1:2_material-01
+crease 30.000000
+numvert 8
+-147 15 -9.5
+-147 53 -9.5
+-143 15 -9.5
+-143 53 -9.5
+-143 15 -13.5
+-143 53 -13.5
+-147 15 -13.5
+-147 53 -13.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "9:1:2_material-01"
+data 15
+9:1:2_material-01
+crease 30.000000
+numvert 8
+143 3 -9.5
+143 12 -9.5
+147 3 -9.5
+147 12 -9.5
+147 3 -13.5
+147 12 -13.5
+143 3 -13.5
+143 12 -13.5
+numsurf 12
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+2 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+3 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+4 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+2 0 0
+5 0 0
+3 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+6 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+4 0 0
+7 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+0 0 0
+1 0 0
+SURF 0x20
+mat 1
+refs 3
+6 0 0
+1 0 0
+7 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+6 0 0
+4 0 0
+SURF 0x20
+mat 1
+refs 3
+0 0 0
+4 0 0
+2 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+3 0 0
+5 0 0
+SURF 0x20
+mat 1
+refs 3
+1 0 0
+5 0 0
+7 0 0
+kids 0

@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Maritime/Civilian/ContainerShip.xml 13.7192586 45.6425559 -2.62 100
+OBJECT_SHARED Models/Maritime/Civilian/CruiseShip.ac 13.7199806 45.6276638 -3.05 292
+OBJECT_SHARED Models/Maritime/Military/CG47.xml 13.6653158 45.6315857 -6.41 264
+OBJECT_SHARED Models/Maritime/Civilian/Tanker_sailing.xml 13.6629032 45.6494795 -6.39 280
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 13.5954577 45.7488972 -1.88 157.57

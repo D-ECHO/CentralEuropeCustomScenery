@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_NA_HOTELTRAN.ac</path>
+<animation>
+<type>material</type>
+    <object-name>LKPR_NA_HOTELTRAN</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.3</red>	
+	<green>0.3</green>	
+	<blue>0.3</blue>
+</emission>
+</animation>
+<!-- obstruction light -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>0.5</x-m>
+		<y-m>-17.125</y-m>
+		<z-m>22.62</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>0.5</x-m>
+		<y-m>18.2</y-m>
+		<z-m>22.62</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/rough</max-property>
+</animation>
+</PropertyList>

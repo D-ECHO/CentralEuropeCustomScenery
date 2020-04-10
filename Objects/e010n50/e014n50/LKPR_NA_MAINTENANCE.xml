@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<!-- 05.09.2013 - by Andre Burkert	--> 
+	<path>LKPR_NA_MAINTENANCE.ac</path>
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+<!-- Obstruction lamp effect -->
+	<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m> -31.37373 </x-m>
+			<y-m> -14.92412 </y-m>
+			<z-m>   4.67 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+		<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m> -16.30227 </x-m>
+			<y-m> -14.92412 </y-m>
+			<z-m>   4.67 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m> -31.47373 </x-m>
+			<y-m>  10.35588 </y-m>
+			<z-m>   4.67 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+		<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m> -16.30227 </x-m>
+			<y-m>  10.35588 </y-m>
+			<z-m>   4.67 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m>  5.86919 </x-m>
+			<y-m> 26.68688 </y-m>
+			<z-m>  5.04377 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+		<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m> 5.86919 </x-m>
+			<y-m> 3.24688 </y-m>
+			<z-m> 5.04377 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>	
+</PropertyList>

@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Power/windturbine.xml 11.7669444 54.0708333 42.31 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.7683333 54.1077778 14.49 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.8786111 54.0580556 -27.13 180
+OBJECT_SHARED Models/Misc/generic_church_03.ac 11.7952778 54.0719444 73.13 180
+OBJECT_SHARED Models/Misc/generic_church_03.ac 11.9097222 54.1077778 14.15 180

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<!-- 02.04.2013 - by Andre Burkert	--> 
+
+	<path>EDAK_TOWER_OLD.ac</path>
+
+<!--   REMBRANDT model-transparent  -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>EDAK_TOWER_OLD2</object-name>
+</effect>
+
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+
+</PropertyList>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+  <path>EDDC_RADAR.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+  </animation>
+ <animation>
+  <type>rotate</type>
+  <object-name>eddc_radar_aerial</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>-90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ <effect>
+<inherits-from>Effects/model-transparent</inherits-from>
+<condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ 	<object-name>eddc_radar_aerial</object-name>
+ 	<object-name>eddc_radar2</object-name>
+ 	<object-name>eddc_radar3</object-name>
+</effect>
+ <model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>6.8352</x-m>
+<y-m>-2.72989</y-m>
+<z-m>25.5</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>2.72989</x-m>
+<y-m>6.835</y-m>
+<z-m>25.5</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>-6.835</x-m>
+<y-m>2.72989</y-m>
+<z-m>25.5</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+<offsets>
+<x-m>-2.82989</x-m>
+<y-m>-6.835</y-m>
+<z-m>25.5</z-m>
+<pitch-deg>0.00</pitch-deg>
+<heading-deg>0.00</heading-deg>
+</offsets>
+</model>
+</PropertyList>
+

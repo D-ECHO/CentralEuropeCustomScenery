@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- (C) 2010, 2015  Anders Gidenstam. Distribution: GPL v2 or later. -->
+<PropertyList>
+
+ <path>ESGB_terminal.ac</path>
+
+ <animation>
+  <type>select</type>
+  <object-name>new_tower</object-name>
+  <object-name>new_tower_windows</object-name>
+  <object-name>new_tower_roof</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/utc/year</property>
+    <value>1943</value> <!-- Real: August 1944 -->
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>old_tower</object-name>
+  <object-name>old_tower_windows</object-name>
+  <condition>
+   <less-than>
+    <property>/sim/time/utc/year</property>
+    <value>1944</value> <!-- Real: August 1944 -->
+   </less-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <condition>
+   <greater-than>
+    <property>/sim/time/utc/year</property>
+    <value>1935</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>30000</max-m>
+ </animation>
+
+</PropertyList>

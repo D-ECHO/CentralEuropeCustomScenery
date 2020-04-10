@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>Hangar_8.ac</path>
+
+
+ <nasal>
+<load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "LOWS")) scenery["LOWS"] = {};
+   if (!contains(scenery.LOWS, "LOWS")) scenery.LOWS["LOWS"] = {};
+   if (contains(scenery, "sharedDoor")) {
+     scenery.LOWS.LOWS[0] =
+       { door :
+       [scenery.sharedDoor.new("/scenery/LOWS/LOWS[0]/door[0]", 20), scenery.sharedDoor.new("/scenery/LOWS/LOWS[0]/door[1]", 5), scenery.sharedDoor.new("/scenery/LOWS/LOWS[0]/door[2]", 5), scenery.sharedDoor.new("/scenery/LOWS/LOWS[0]/door[3]", 5), scenery.sharedDoor.new("/scenery/LOWS/LOWS[0]/door[4]", 5)
+	 ]
+       };
+   } else {
+     scenery.LOWS.LOWS[0] =
+       { door :
+       [aircraft.door.new("/scenery/LOWS/LOWS[0]/door[0]", 20),
+ aircraft.door.new("/scenery/LOWS/LOWS[0]/door[1]", 5), aircraft.door.new("/scenery/LOWS/LOWS[0]/door[2]", 5), aircraft.door.new("/scenery/LOWS/LOWS[0]/door[3]", 5), aircraft.door.new("/scenery/LOWS/LOWS[0]/door[4]", 5)         ]
+       };
+   }
+  </load>
+  <unload>
+   if (contains(scenery, "sharedDoor")) {
+     scenery.LOWS.LOWS[0].door[0].destroy();
+ scenery.LOWS.LOWS[0].door[1].destroy(); scenery.LOWS.LOWS[0].door[2].destroy(); scenery.LOWS.LOWS[0].door[3].destroy(); scenery.LOWS.LOWS[0].door[4].destroy();  }
+  </unload>
+
+ </nasal>
+
+ <animation>
+
+  <type>alpha-test</type>
+
+  <alpha-factor>0.01</alpha-factor>
+
+ </animation>
+ <animation>
+
+  <type>pick</type>
+
+  <object-name>Door1</object-name>
+
+  <object-name>Door2</object-name>
+
+  <object-name>Door3</object-name>
+
+  <object-name>Door4</object-name>
+  <object-name>Door5</object-name>
+
+  <object-name>Door6</object-name>
+
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>Door15</object-name>
+
+  <object-name>Door16</object-name>
+
+  <object-name>Door17</object-name>
+
+  <object-name>Door18</object-name>
+
+  <object-name>Door19</object-name>
+
+  <object-name>Door20</object-name>
+  <object-name>GlassDoor1</object-name>
+
+  <object-name>GlassDoor2</object-name>
+
+  <object-name>GlassDoor3</object-name>
+
+  <object-name>GlassDoor4</object-name>
+  <object-name>GlassDoor5</object-name>
+
+  <object-name>GlassDoor6</object-name>
+
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <object-name>GlassDoor15</object-name>
+
+  <object-name>GlassDoor16</object-name>
+
+  <object-name>GlassDoor17</object-name>
+
+  <object-name>GlassDoor18</object-name>
+
+  <object-name>GlassDoor19</object-name>
+
+  <object-name>GlassDoor20</object-name>
+  <visible>true</visible>
+
+  <action>
+
+   <name>click</name>
+
+   <button>0</button>
+
+   <repeatable>false</repeatable>
+
+   <binding>
+
+    <command>nasal</command>
+
+    <script>scenery.LOWS.LOWS[0].door[0].toggle();</script>
+
+   </binding>
+
+  </action>
+
+ </animation>
+
+
+
+
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door1</object-name>
+
+  <object-name>Door2</object-name>
+
+  <object-name>Door3</object-name>
+
+  <object-name>Door4</object-name>
+  <object-name>Door5</object-name>
+
+  <object-name>Door6</object-name>
+
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor1</object-name>
+
+  <object-name>GlassDoor2</object-name>
+
+  <object-name>GlassDoor3</object-name>
+
+  <object-name>GlassDoor4</object-name>
+  <object-name>GlassDoor5</object-name>
+
+  <object-name>GlassDoor6</object-name>
+
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>90</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>20</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door2</object-name>
+
+  <object-name>Door3</object-name>
+
+  <object-name>Door4</object-name>
+  <object-name>Door5</object-name>
+
+  <object-name>Door6</object-name>
+
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor2</object-name>
+
+  <object-name>GlassDoor3</object-name>
+
+  <object-name>GlassDoor4</object-name>
+  <object-name>GlassDoor5</object-name>
+
+  <object-name>GlassDoor6</object-name>
+
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>18</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door3</object-name>
+
+  <object-name>Door4</object-name>
+  <object-name>Door5</object-name>
+
+  <object-name>Door6</object-name>
+
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor3</object-name>
+
+  <object-name>GlassDoor4</object-name>
+  <object-name>GlassDoor5</object-name>
+
+  <object-name>GlassDoor6</object-name>
+
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>16</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door4</object-name>
+  <object-name>Door5</object-name>
+
+  <object-name>Door6</object-name>
+
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor4</object-name>
+  <object-name>GlassDoor5</object-name>
+
+  <object-name>GlassDoor6</object-name>
+
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>14</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door5</object-name>
+
+  <object-name>Door6</object-name>
+
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor5</object-name>
+
+  <object-name>GlassDoor6</object-name>
+
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>12</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door6</object-name>
+
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor6</object-name>
+
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>10</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door7</object-name>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor7</object-name>
+
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>8</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door8</object-name>
+
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor8</object-name>
+
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>6</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door9</object-name>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor9</object-name>
+
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>4</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door10</object-name>
+  <object-name>GlassDoor10</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>2</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>Door15</object-name>
+
+  <object-name>Door16</object-name>
+
+  <object-name>Door17</object-name>
+
+  <object-name>Door18</object-name>
+
+  <object-name>Door19</object-name>
+
+  <object-name>Door20</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <object-name>GlassDoor15</object-name>
+
+  <object-name>GlassDoor16</object-name>
+
+  <object-name>GlassDoor17</object-name>
+
+  <object-name>GlassDoor18</object-name>
+
+  <object-name>GlassDoor19</object-name>
+
+  <object-name>GlassDoor20</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-90</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>-20</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door11</object-name>
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>Door15</object-name>
+
+  <object-name>Door16</object-name>
+
+  <object-name>Door17</object-name>
+
+  <object-name>Door18</object-name>
+
+  <object-name>Door19</object-name>
+  <object-name>GlassDoor11</object-name>
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <object-name>GlassDoor15</object-name>
+
+  <object-name>GlassDoor16</object-name>
+
+  <object-name>GlassDoor17</object-name>
+
+  <object-name>GlassDoor18</object-name>
+
+  <object-name>GlassDoor19</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-18</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>Door15</object-name>
+
+  <object-name>Door16</object-name>
+
+  <object-name>Door17</object-name>
+
+  <object-name>Door18</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <object-name>GlassDoor15</object-name>
+
+  <object-name>GlassDoor16</object-name>
+
+  <object-name>GlassDoor17</object-name>
+
+  <object-name>GlassDoor18</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>-16</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>Door15</object-name>
+
+  <object-name>Door16</object-name>
+
+  <object-name>Door17</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <object-name>GlassDoor15</object-name>
+
+  <object-name>GlassDoor16</object-name>
+
+  <object-name>GlassDoor17</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-14</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>Door15</object-name>
+
+  <object-name>Door16</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <object-name>GlassDoor15</object-name>
+
+  <object-name>GlassDoor16</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>-12</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>Door15</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <object-name>GlassDoor15</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-10</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+
+  <object-name>Door14</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+
+  <object-name>GlassDoor14</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>-8</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+
+  <object-name>Door13</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+
+  <object-name>GlassDoor13</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-6</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>Door11</object-name>
+
+  <object-name>Door12</object-name>
+  <object-name>GlassDoor11</object-name>
+
+  <object-name>GlassDoor12</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>-4</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>Door11</object-name>
+  <object-name>GlassDoor11</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-2</y-m>
+   <z-m>3.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>pick</type>
+
+  <object-name>SlidingWindow1</object-name>
+
+  <object-name>SlidingWindow2</object-name>
+  <object-name>GlassSlidingWindow1</object-name>
+
+  <object-name>GlassSlidingWindow2</object-name>
+  <visible>true</visible>
+
+  <action>
+
+   <name>click</name>
+
+   <button>0</button>
+
+   <repeatable>false</repeatable>
+
+   <binding>
+
+    <command>nasal</command>
+
+    <script>scenery.LOWS.LOWS[0].door[1].toggle();</script>
+
+   </binding>
+
+  </action>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>SlidingWindow1</object-name>
+  <object-name>GlassSlidingWindow1</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[1]/position-norm</property>
+
+  <factor>90</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>2</y-m>
+   <z-m>8.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>SlidingWindow2</object-name>
+  <object-name>GlassSlidingWindow2</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[1]/position-norm</property>
+
+  <factor>-90</factor>
+  <center>
+   <x-m>0.02</x-m>
+   <y-m>-2</y-m>
+   <z-m>8.5</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>pick</type>
+
+  <object-name>RotateWindow1</object-name>
+
+  <object-name>RotateWindow2</object-name>
+  <object-name>RotateWindow3</object-name>
+
+  <object-name>RotateWindow4</object-name>
+  <object-name>GlassRotateWindow1</object-name>
+
+  <object-name>GlassRotateWindow2</object-name>
+  <object-name>GlassRotateWindow3</object-name>
+
+  <object-name>GlassRotateWindow4</object-name>
+  <visible>true</visible>
+
+  <action>
+
+   <name>click</name>
+
+   <button>0</button>
+
+   <repeatable>false</repeatable>
+
+   <binding>
+
+    <command>nasal</command>
+
+    <script>scenery.LOWS.LOWS[0].door[2].toggle();</script>
+
+   </binding>
+
+  </action>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>RotateWindow1</object-name>
+
+  <object-name>RotateWindow2</object-name>
+  <object-name>RotateWindow3</object-name>
+
+  <object-name>RotateWindow4</object-name>
+  <object-name>GlassRotateWindow1</object-name>
+
+  <object-name>GlassRotateWindow2</object-name>
+  <object-name>GlassRotateWindow3</object-name>
+
+  <object-name>GlassRotateWindow4</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[2]/position-norm</property>
+
+  <factor>10</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>10</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>pick</type>
+
+  <object-name>SmallDoor1</object-name>
+  <object-name>GlassSmallDoor1</object-name>
+  <visible>true</visible>
+
+  <action>
+
+   <name>click</name>
+
+   <button>0</button>
+
+   <repeatable>false</repeatable>
+
+   <binding>
+
+    <command>nasal</command>
+
+    <script>scenery.LOWS.LOWS[0].door[3].toggle();</script>
+
+   </binding>
+
+  </action>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>SmallDoor1</object-name>
+  <object-name>GlassSmallDoor1</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[3]/position-norm</property>
+
+  <factor>-110</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>25.225</y-m>
+   <z-m>1</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+
+  <type>pick</type>
+
+  <object-name>SmallDoor2</object-name>
+  <object-name>GlassSmallDoor2</object-name>
+  <visible>true</visible>
+
+  <action>
+
+   <name>click</name>
+
+   <button>0</button>
+
+   <repeatable>false</repeatable>
+
+   <binding>
+
+    <command>nasal</command>
+
+    <script>scenery.LOWS.LOWS[0].door[4].toggle();</script>
+
+   </binding>
+
+  </action>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>SmallDoor2</object-name>
+  <object-name>GlassSmallDoor2</object-name>
+  <property>/scenery/LOWS/LOWS[0]/door[4]/position-norm</property>
+
+  <factor>110</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>-25.225</y-m>
+   <z-m>1</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>0</y>
+
+   <z>1</z>
+
+  </axis>
+
+ </animation>
+</PropertyList>

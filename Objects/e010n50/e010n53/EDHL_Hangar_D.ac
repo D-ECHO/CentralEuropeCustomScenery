@@ -1,0 +1,319 @@
+AC3Db
+MATERIAL "ac3dmat13" rgb 0.533333 0.533333 0.533333  amb 0.533333 0.533333 0.533333  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.8 0.8 0.8  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ac3dmat12" rgb 0.266667 0.266667 0.266667  amb 0.266667 0.266667 0.266667  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+OBJECT world
+kids 2
+OBJECT poly
+name "Hangar"
+loc 0 3 0
+crease 45.000000
+numvert 29
+20 1 -2.5
+20 -3 -2.5
+16 -3 -2.5
+16 1 -2.5
+16 1 -12
+16 -3 0
+16 1 0
+24 1 -12
+24 1 0
+24 -3 0
+24 -3 -12
+0 -3 0
+0 3 0
+16 3 0
+16 3 -12
+0 3 -12
+0 -3 -24
+24 -3 -24
+0 -3 -12
+24 1 -24
+0 1 -24
+20 1 0
+20 1 -12
+20 -3 -12
+20 -3 0
+0 1 0
+0 1 -12
+0 1 -10
+0 -3 -10
+numsurf 42
+SURF 0x0
+mat 1
+refs 3
+12 0 0
+25 0.5 0
+6 0.5 1
+SURF 0x0
+mat 1
+refs 3
+6 0.5 1
+13 0 1
+12 0 0
+SURF 0x0
+mat 2
+refs 3
+25 0.5 0
+11 1 0
+5 1 1
+SURF 0x0
+mat 2
+refs 3
+5 1 1
+6 0.5 1
+25 0.5 0
+SURF 0x0
+mat 3
+refs 3
+7 0 1
+22 0 0.75
+21 1 0.75
+SURF 0x0
+mat 3
+refs 3
+21 1 0.75
+8 1 1
+7 0 1
+SURF 0x0
+mat 2
+refs 3
+21 0 0.75
+24 1 0.75
+9 1 1
+SURF 0x0
+mat 2
+refs 3
+9 1 1
+8 0 1
+21 0 0.75
+SURF 0x0
+mat 2
+refs 3
+6 0 0
+4 0 0
+14 0 1
+SURF 0x0
+mat 2
+refs 3
+14 0 1
+13 1 1
+6 0 0
+SURF 0x0
+mat 2
+refs 3
+9 1 0
+10 1 1
+7 0 1
+SURF 0x0
+mat 2
+refs 3
+7 0 1
+8 0 0
+9 1 0
+SURF 0x0
+mat 3
+refs 3
+14 0 1
+15 0 0
+12 1 0
+SURF 0x0
+mat 3
+refs 3
+12 1 0
+13 1 1
+14 0 1
+SURF 0x0
+mat 0
+refs 3
+10 1 0
+17 1 1
+19 0 1
+SURF 0x0
+mat 0
+refs 3
+19 0 1
+7 0 0
+10 1 0
+SURF 0x0
+mat 0
+refs 3
+16 1 0
+18 1 1
+26 0 1
+SURF 0x0
+mat 0
+refs 3
+26 0 1
+20 0 0
+16 1 0
+SURF 0x0
+mat 0
+refs 3
+16 1 1
+20 0 1
+19 0 0
+SURF 0x0
+mat 0
+refs 3
+19 0 0
+17 1 0
+16 1 1
+SURF 0x0
+mat 3
+refs 3
+19 0 1
+20 0 0
+26 1 0
+SURF 0x0
+mat 3
+refs 3
+26 1 0
+7 1 1
+19 0 1
+SURF 0x0
+mat 2
+refs 3
+26 0 1
+15 0 0
+14 0 1
+SURF 0x0
+mat 2
+refs 3
+14 0 1
+4 0 0
+26 0 1
+SURF 0x0
+mat 2
+refs 3
+5 1 0.25
+2 0.5 0.125
+3 0.5 0.25
+SURF 0x0
+mat 2
+refs 3
+3 0.5 0.25
+6 1 0.25
+5 1 0.25
+SURF 0x0
+mat 2
+refs 3
+23 0 0
+1 0 0
+0 0 0
+SURF 0x0
+mat 2
+refs 3
+0 0 0
+22 0 0
+23 0 0
+SURF 0x0
+mat 2
+refs 3
+1 0 0
+24 0 0
+21 0 0
+SURF 0x0
+mat 2
+refs 3
+21 0 0
+0 0 0
+1 0 0
+SURF 0x0
+mat 2
+refs 3
+3 0.5 0.25
+2 0.5 0.125
+1 0 0
+SURF 0x0
+mat 2
+refs 3
+1 0 0
+0 0 0
+3 0.5 0.25
+SURF 0x0
+mat 3
+refs 3
+22 0 0.75
+4 0 0.25
+3 0.5 0.25
+SURF 0x0
+mat 3
+refs 3
+3 0.5 0.25
+0 0 0
+22 0 0.75
+SURF 0x0
+mat 2
+refs 3
+27 0.5 0.5
+25 0.5 1
+12 0 1
+SURF 0x0
+mat 2
+refs 3
+12 0 1
+26 0.5 0
+27 0.5 0.5
+SURF 0x0
+mat 2
+refs 3
+12 0 1
+15 0 0
+26 0.5 0
+SURF 0x0
+mat 0
+refs 3
+18 1 0
+28 1 0.5
+27 0.5 0.5
+SURF 0x0
+mat 0
+refs 3
+27 0.5 0.5
+26 0.5 0
+18 1 0
+SURF 0x0
+mat 2
+refs 3
+28 1 0.5
+11 1 1
+25 0.5 1
+SURF 0x0
+mat 2
+refs 3
+25 0.5 1
+27 0.5 0.5
+28 1 0.5
+SURF 0x0
+mat 3
+refs 3
+3 0.5 0.25
+4 0 0.25
+6 1 0
+kids 0
+OBJECT poly
+name "Label"
+loc 0.599993 -1.90004 0
+texture "EDHL_Hangar_D.rgb"
+crease 45.000000
+numvert 4
+6.80001 6.30004 0.0100002
+8.00001 6.30004 0.0100002
+8.00001 7.50004 0.0100002
+6.80001 7.50004 0.0100002
+numsurf 2
+SURF 0x0
+mat 2
+refs 3
+2 0.999999 1
+3 0 1
+0 0 0
+SURF 0x0
+mat 2
+refs 3
+0 0 0
+1 0.999999 0
+2 0.999999 1
+kids 0

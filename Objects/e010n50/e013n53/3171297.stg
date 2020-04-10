@@ -1,0 +1,16 @@
+OBJECT_SHARED Models/Airport/ndb.ac 13.338333 53.602833 65.83 180
+OBJECT_SHARED Models/Power/windturbine.xml 13.42 53.5513889 70.66 180
+OBJECT_SHARED Models/Power/windturbine.xml 13.4213889 53.5497222 72.65 180
+OBJECT_SHARED Models/Power/windturbine.xml 13.4227778 53.5483333 72.28 180
+OBJECT_SHARED Models/Power/windturbine.xml 13.4241667 53.5469444 71.91 180
+OBJECT_SHARED Models/Power/windturbine.xml 13.4252778 53.5438889 71.44 180
+OBJECT_SHARED Models/Airport/ils.xml 13.319667 53.601833 65.58 91.83
+OBJECT_SHARED Models/Airport/tacan.xml 13.308671 53.604666 68.1 0
+OBJECT_SHARED Models/Communications/radio-medium.xml 13.4202778 53.5888889 -102.32 180
+OBJECT_SHARED Models/Airport/marker.ac 13.338333 53.602833 65.83 180
+OBJECT_SHARED Models/Airport/marker.ac 13.4335 53.604833 25.38 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_07.ac 13.2994444 53.575 -417.22 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 13.2669444 53.5391667 -296.17 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 13.295 53.5702778 -304.32 180
+OBJECT_SHARED Models/Airport/localizer.xml 13.285167 53.601833 54.33 91.83
+OBJECT_SHARED Models/Misc/generic_church_03.ac 13.2602778 53.5555556 18.23 180

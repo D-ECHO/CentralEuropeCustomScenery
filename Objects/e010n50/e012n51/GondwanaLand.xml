@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+	<path>GondwanaLand.ac</path>
+
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-property>/sim/rendering/static-lod/bare</max-property>
+	</animation>
+
+<animation>
+    <type>material</type>
+    <object-name>gebaeude</object-name>
+    <condition>
+        <greater-than>
+          <property>/sim/time/sun-angle-rad</property>
+          <value>1.57</value>
+        </greater-than>
+    </condition>
+    <emission>	
+	<red>.06</red>	
+	<green>.06</green>	
+	<blue>.06</blue>
+    </emission>
+</animation>
+
+</PropertyList>

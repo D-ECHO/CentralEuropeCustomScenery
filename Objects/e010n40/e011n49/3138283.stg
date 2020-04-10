@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Airport/ndb.ac 11.941708 49.694575 413.8 180
+OBJECT_SHARED Models/Airport/tacan.xml 11.9383 49.691278 414.64 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.9113889 49.7130556 289.45 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac 11.7961111 49.6425 8 180

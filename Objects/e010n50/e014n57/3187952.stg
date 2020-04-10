@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Airport/ndb.ac 14.112283 57.827065 155.28 180
+OBJECT_SHARED Models/Airport/ils.xml 14.070778 57.764611 224.5 161.44
+OBJECT_SHARED Models/Communications/radio-medium.xml 14.2480556 57.7694444 208.11 180
+OBJECT_SHARED Models/Communications/vordme_1.xml 14.065444 57.760444 226.4 180
+OBJECT_SHARED Models/Airport/marker.ac 14.080056 57.776139 225.38 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 14.1611111 57.7752778 -294.35 180
+OBJECT_SHARED Models/Airport/helipad40m.ac 14.07369 57.75151 227.75 0
+OBJECT_SHARED Models/Airport/helipad40m.ac 14.19452 57.76477 109.39 0

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_EA_CARGOTERM_SKYPORT.ac</path>
+	
+<!--   REMBRANDT model-transparent -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>LKPR_EA_CARGOTERM_SKYPORT3</object-name>
+</effect>
+<animation>
+<type>material</type>
+    <object-name>LKPR_EA_CARGOTERM_SKYPORT3</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>1</red>	
+	<green>1</green>	
+	<blue>1</blue>
+</emission>
+</animation>
+<animation>
+<type>material</type>
+    <object-name>LKPR_EA_CARGOTERM_SKYPORT1</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.2</red>	
+	<green>0.2</green>	
+	<blue>0.2</blue>
+</emission>
+</animation>
+<!-- obstruction light -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-45.62852 </x-m>
+		<y-m> 18.78298</y-m>
+		<z-m> 16.90 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-45.62852</x-m>
+		<y-m>-80.46701 </y-m>
+		<z-m> 21.167</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 39.35148</x-m>
+		<y-m> 52.09285 </y-m>
+		<z-m> 16.90</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 39.43648</x-m>
+		<y-m>  1.68995 </y-m>
+		<z-m> 16.90 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 37.35148</x-m>
+		<y-m>-63.47859 </y-m>
+		<z-m> 21.167 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 37.35148</x-m>
+		<y-m>-80.66499 </y-m>
+		<z-m> 21.167 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+</PropertyList>

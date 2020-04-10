@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<!-- LOIU Innsbruck Hospital Helipad                          -->
+	<!-- 2011.04.02 - V1.10 by Oliver Thurau                      --> 
+	<!-- for Terrasync and Custom Scenery Innsbruck               -->
+	<!-- thanks to Martin, hhs, scighera, d-79 and Tuxklok        -->
+	
+    <path>LOIU_innsbruck_hospital_heliport.ac</path>
+	
+<!-- Lift Building Obstruction Lights -->
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> -6.900 </x-m>
+      <y-m>  7.800 </y-m>
+      <z-m>  9.900 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> -6.900 </x-m>
+      <y-m> -7.800 </y-m>
+      <z-m>  9.900 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> -0.100 </x-m>
+      <y-m>  7.800 </y-m>
+      <z-m>  9.900 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> -0.100 </x-m>
+      <y-m> -7.800 </y-m>
+      <z-m>  9.900 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+<!-- Main Building Obstruction Lights -->
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m>-15.850 </x-m>
+      <y-m>-56.850 </y-m>
+      <z-m>  0.750 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m>-15.850 </x-m>
+      <y-m> 56.850 </y-m>
+      <z-m>  0.750 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> -0.150 </x-m>
+      <y-m>-56.850 </y-m>
+      <z-m>  0.750 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+    <offsets>
+      <x-m> -0.150 </x-m>
+      <y-m> 56.850 </y-m>
+      <z-m>  0.750 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+<!-- Helipad Green Pos Lights -->
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -10.257 </x-m>
+      <y-m>  8.138 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -14.107 </x-m>
+      <y-m>  8.232 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -20.184 </x-m>
+      <y-m>  13.589 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -28.272 </x-m>
+      <y-m>  14.116 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -35.158 </x-m>
+      <y-m>  9.369 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -37.549 </x-m>
+      <y-m>  1.862 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -34.712 </x-m>
+      <y-m> -5.948 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -27.853 </x-m>
+      <y-m> -10.221 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -20.177 </x-m>
+      <y-m> -9.586 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -14.139 </x-m>
+      <y-m> -4.287 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Effects/helipad_light_green_2st.xml</path>
+    <offsets>
+      <x-m> -10.254 </x-m>
+      <y-m> -4.150 </y-m>
+      <z-m>  5.185 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg>0.0 </heading-deg>
+    </offsets>
+	</model>
+	
+	<!-- Texture illuminate for helipad lights and obstruction lights glass-->
+	<animation>
+		<name>helilights_ilu</name>
+		<object-name>floodlight_lamp</object-name>
+		<object-name>osbt_lamp_glass</object-name>
+	</animation>
+	
+	<animation>
+	<type>material</type> 
+	<object-name>helilights_ilu</object-name>
+		<condition>		
+			<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+			</greater-than>
+		</condition>
+		<emission>	
+			<red>1.0</red>	
+			<green>1.0</green>	
+			<blue>1.0</blue>
+			<!-- <factor-prop>/scenery/LOWI/LOJO_oamtc_helicopter_base[0]/light[0]</factor-prop> -->
+		</emission>	
+	</animation>
+	
+	<!-- Texture illuminate for helipad surface -->
+	<animation>
+		<name>helipad_ilu</name>
+		<object-name>mainpad_01</object-name>
+		<object-name>mainpad_02</object-name>
+		<object-name>mainpad_03</object-name>
+	</animation>
+	
+	<animation>
+	<type>material</type> 
+	<object-name>helipad_ilu</object-name>
+		<condition>		
+			<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+			</greater-than>
+		</condition>
+		<emission>	
+			<red>0.3</red>	
+			<green>0.3</green>	
+			<blue>0.3</blue>
+			<!-- <factor-prop>/scenery/LOWI/LOJO_oamtc_helicopter_base[0]/light[0]</factor-prop> -->
+		</emission>
+	</animation>
+	
+	<!-- Texture illuminate for window lights -->
+	<animation>
+		<name>window_light</name>
+		<object-name>main_win_01</object-name>
+		<object-name>main_win_02</object-name>
+		<object-name>main_win_03</object-name>
+		<object-name>main_win_04</object-name>
+	</animation>
+	
+	<animation>
+	<type>select</type> 
+	<object-name>window_light</object-name>
+		<condition>		
+			<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+	
+	<animation>
+	<type>material</type> 
+	<object-name>main_win_01</object-name>
+		<condition>		
+			<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+			</greater-than>
+		</condition>
+		<emission>	
+			<red>0.6</red>	
+			<green>0.6</green>	
+			<blue>0.4</blue>
+			<!-- <factor-prop>/scenery/LOWI/LOJO_oamtc_helicopter_base[0]/light[0]</factor-prop> -->
+		</emission>
+	</animation>
+	
+	<animation>
+	<type>material</type> 
+	<object-name>main_win_02</object-name>
+	<object-name>main_win_03</object-name>
+	<object-name>main_win_04</object-name>
+		<condition>		
+			<greater-than>		
+			<property>/sim/time/sun-angle-rad</property>
+			<value>1.57</value>
+			</greater-than>
+		</condition>
+		<emission>	
+			<red>0.9</red>	
+			<green>0.8</green>	
+			<blue>0.5</blue>
+			<!-- <factor-prop>/scenery/LOWI/LOJO_oamtc_helicopter_base[0]/light[0]</factor-prop> -->
+		</emission>
+	</animation>
+	
+	<!-- Windsock Models -->
+	<!-- note the model heading offset for wind direction -->
+	<model>
+    <path>Models/Airport/LOIU_windsock_lit.xml</path>
+    <offsets>
+      <x-m> -6.000 </x-m>
+      <y-m>-56.400 </y-m>
+      <z-m> -1.300 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg> 264.0</heading-deg>
+    </offsets>
+	</model>
+	
+	<model>
+    <path>Models/Airport/LOIU_windsock_lit.xml</path>
+    <offsets>
+      <x-m> -6.000 </x-m>
+      <y-m> 56.501 </y-m>
+      <z-m> -1.300 </z-m>
+      <pitch-deg> 0.00</pitch-deg>
+	  <heading-deg> 264.0</heading-deg>
+    </offsets>
+	</model>
+	
+ 
+<!-- LOD -->
+	<animation>
+	  <type>range</type>
+	  <min-m>0</min-m>
+	  <max-m>14000</max-m>
+    </animation>
+
+</PropertyList>
+

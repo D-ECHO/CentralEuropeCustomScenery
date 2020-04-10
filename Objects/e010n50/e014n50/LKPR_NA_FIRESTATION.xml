@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<!-- 05.09.2013 - by Andre Burkert	--> 
+	<path>LKPR_NA_FIRESTATION.ac</path>
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+<!-- Obstruction lamp effect -->
+	<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m> 9.095 </x-m>
+			<y-m> 3.41581 </y-m>
+			<z-m> 5.71 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+		<model>
+		<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+		<offsets>
+			<x-m> -8.26735 </x-m>
+			<y-m> -9.69044 </y-m>
+			<z-m>  6.64685 </z-m>
+			<pitch-deg> 0.00 </pitch-deg>
+			<heading-deg> 0.00 </heading-deg>
+		</offsets>
+	</model>
+</PropertyList>

@@ -1,0 +1,2192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>EDMK_Christoph_17_Hangar.ac</path>
+
+
+ <nasal>
+<load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "EDMK")) scenery["EDMK"] = {};
+   if (!contains(scenery.EDMK, "EDMK")) scenery.EDMK["EDMK"] = {};
+   if (contains(scenery, "sharedDoor")) {
+     scenery.EDMK.EDMK[0] =
+       { door :
+       [scenery.sharedDoor.new("/scenery/EDMK/EDMK[0]/door[0]", 20), scenery.sharedDoor.new("/scenery/EDMK/EDMK[0]/door[1]", 5)
+	 ]
+       };
+   } else {
+     scenery.EDMK.EDMK[0] =
+       { door :
+       [aircraft.door.new("/scenery/EDMK/EDMK[0]/door[0]", 20),
+ aircraft.door.new("/scenery/EDMK/EDMK[0]/door[1]", 5)         ]
+       };
+   }
+  </load>
+
+
+ </nasal>
+
+ <animation>
+
+  <type>alpha-test</type>
+
+  <alpha-factor>0.01</alpha-factor>
+
+ </animation>
+ <animation>
+
+  <type>pick</type>
+
+  <object-name>1</object-name>
+  <object-name>2</object-name>
+  <object-name>3</object-name>
+  <object-name>4</object-name>
+  <object-name>5</object-name>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <visible>true</visible>
+
+  <action>
+
+   <name>click</name>
+
+   <button>0</button>
+
+   <repeatable>false</repeatable>
+
+   <binding>
+
+    <command>nasal</command>
+
+    <script>scenery.EDMK.EDMK[0].door[0].toggle();</script>
+
+   </binding>
+
+  </action>
+
+ </animation>
+
+
+
+
+ <animation>
+  
+<type>rotate</type>
+
+  <object-name>1</object-name>
+  <object-name>2</object-name>
+  <object-name>3</object-name>
+  <object-name>4</object-name>
+  <object-name>5</object-name>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-90</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>4.50</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>2</object-name>
+  <object-name>3</object-name>
+  <object-name>4</object-name>
+  <object-name>5</object-name>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>4.40</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>3</object-name>
+  <object-name>4</object-name>
+  <object-name>5</object-name>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>4.30</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>4</object-name>
+  <object-name>5</object-name>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>4.20</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>5</object-name>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>4.10</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>4.00</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.90</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.80</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.70</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.60</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.50</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.40</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.30</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.20</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.10</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>3.00</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.90</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.80</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.70</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.60</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.50</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.40</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.30</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.20</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.10</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>2.00</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.90</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.80</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.70</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.60</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.50</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.40</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.30</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.20</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.10</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>1.00</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.90</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.80</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.70</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.60</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.50</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.40</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.30</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.20</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+ <animation>
+  
+<type>rotate</type>
+  <object-name>45</object-name>
+  <property>/scenery/EDMK/EDMK[0]/door[0]/position-norm</property>
+
+  <factor>-180</factor>
+  <center>
+   <x-m>0.00</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.10</z-m>
+  </center>
+  <axis>
+
+   <x>0</x>
+   
+<y>1</y>
+
+   <z>0</z>
+
+  </axis>
+
+ </animation>
+
+ <animation>
+  <object-name>RollDoorSystem</object-name>
+  <object-name>HangarFront</object-name>
+  <object-name>Hangar</object-name>
+  <object-name>Structure</object-name>
+  <object-name>Structure.001</object-name>
+  <object-name>1</object-name>
+  <object-name>2</object-name>
+  <object-name>3</object-name>
+  <object-name>4</object-name>
+  <object-name>5</object-name>
+  <object-name>6</object-name>
+  <object-name>7</object-name>
+  <object-name>8</object-name>
+  <object-name>9</object-name>
+  <object-name>10</object-name>
+  <object-name>11</object-name>
+  <object-name>12</object-name>
+  <object-name>13</object-name>
+  <object-name>14</object-name>
+  <object-name>15</object-name>
+  <object-name>16</object-name>
+  <object-name>17</object-name>
+  <object-name>18</object-name>
+  <object-name>19</object-name>
+  <object-name>20</object-name>
+  <object-name>21</object-name>
+  <object-name>22</object-name>
+  <object-name>23</object-name>
+  <object-name>24</object-name>
+  <object-name>25</object-name>
+  <object-name>26</object-name>
+  <object-name>27</object-name>
+  <object-name>28</object-name>
+  <object-name>29</object-name>
+  <object-name>30</object-name>
+  <object-name>31</object-name>
+  <object-name>32</object-name>
+  <object-name>33</object-name>
+  <object-name>34</object-name>
+  <object-name>35</object-name>
+  <object-name>36</object-name>
+  <object-name>37</object-name>
+  <object-name>38</object-name>
+  <object-name>39</object-name>
+  <object-name>40</object-name>
+  <object-name>41</object-name>
+  <object-name>42</object-name>
+  <object-name>43</object-name>
+  <object-name>44</object-name>
+  <object-name>45</object-name>
+  <enable-hot type="bool">false</enable-hot>
+ </animation>
+</PropertyList>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_SA_HANGAR_N.ac</path>
+
+	 <nasal>
+	  <load>
+   if (!contains(globals, "scenery")) globals["scenery"] = {};
+   if (!contains(scenery, "LKPR")) scenery["LKPR"] = {};
+   if (!contains(scenery.LKPR, "LKPR_HANGAR_N")) scenery.LKPR["LKPR_HANGAR_N"] = {};
+   if (contains(scenery, "sharedDoor")) {
+     scenery.LKPR.LKPR_HANGAR_N[0] =
+       { door :
+       [scenery.sharedDoor.new("/scenery/LKPR/LKPR_HANGAR_N[0]/door[0]", 10),
+        scenery.sharedDoor.new("/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]", 50)
+	 ]
+       };
+   } else {
+     scenery.LKPR.LKPR_HANGAR_N[0] =
+       { door :
+       [aircraft.door.new("/scenery/LKPR/LKPR_HANGAR_N[0]/door[0]", 10),
+	aircraft.door.new("/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]", 50)
+         ]
+       };
+   }
+  </load>
+  <unload>
+   if (contains(scenery, "sharedDoor")) {
+     scenery.LKPR.LKPR_HANGAR_N[0].door[0].destroy();
+     scenery.LKPR.LKPR_HANGAR_N[0].door[1].destroy();
+   }
+  </unload>
+ </nasal>
+<animation>
+  	<type>alpha-test</type>
+  	<alpha-factor>0.01</alpha-factor>
+</animation>
+
+<!--  textranslate and night emission  -->
+<animation>
+    <type>textranslate</type> 
+    <object-name>LKPR_SA_HANGAR_N1</object-name>
+    <object-name>LKPR_SA_HANGAR_N2</object-name>
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <axis> 
+      <x> 0 </x> 
+      <y> 1 </y> 
+    </axis> 
+</animation>
+<animation>
+<type>material</type>
+    <object-name>LKPR_SA_HANGAR_N1</object-name>
+    <object-name>LKPR_SA_HANGAR_N2</object-name>
+    <object-name>LKPR_SA_HANGAR_NA1</object-name>
+    <object-name>LKPR_SA_HANGAR_NA2</object-name>
+    <object-name>LKPR_SA_HANGAR_NA3</object-name>
+    <object-name>LKPR_SA_HANGAR_NA4</object-name>
+    <object-name>LKPR_SA_HANGAR_NB1</object-name>
+    <object-name>LKPR_SA_HANGAR_NB2</object-name>
+    <object-name>LKPR_SA_HANGAR_NB3</object-name>
+    <object-name>LKPR_SA_HANGAR_NB4</object-name>
+    <object-name>LKPR_SA_HANGAR_NB5</object-name>
+    <object-name>LKPR_SA_HANGAR_NB6</object-name>
+    <object-name>LKPR_SA_HANGAR_Nroof</object-name>
+    <object-name>LKPR_SA_HANGAR_Ninner</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.6</red>	
+	<green>0.6</green>	
+	<blue>0.6</blue>
+</emission>
+</animation>
+<!--   REMBRANDT model-transparent for the banister -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>LKPR_SA_HANGAR_N3</object-name>
+</effect>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+
+<animation>
+ <type>pick</type>
+ 	<object-name>LKPR_SA_HANGAR_NA1</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NA2</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NA3</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NA4</object-name>
+ 	<visible>true</visible>
+ <action>
+  	<name>click</name>
+  	<button>0</button>
+  	<repeatable>false</repeatable>
+  <binding>
+   	<command>nasal</command>
+   	<script>scenery.LKPR.LKPR_HANGAR_N[0].door[0].toggle();</script>
+  </binding>
+ </action>
+</animation>
+
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NA1</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>2.00</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NA2</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>6.00</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NA3</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>10.00</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NA4</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[0]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>14.00</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>-1</y>
+<z>0</z>
+</axis>
+</animation>
+
+
+<animation>
+ <type>pick</type>
+ 	<object-name>LKPR_SA_HANGAR_NB1</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NB2</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NB3</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NB4</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NB5</object-name>
+ 	<object-name>LKPR_SA_HANGAR_NB6</object-name>
+ 	<visible>true</visible>
+ <action>
+  	<name>click</name>
+  	<button>0</button>
+  	<repeatable>false</repeatable>
+  <binding>
+   	<command>nasal</command>
+   	<script>scenery.LKPR.LKPR_HANGAR_N[0].door[1].toggle();</script>
+  </binding>
+ </action>
+</animation>
+
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NB1</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>84.15</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NB2</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>67.71</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NB3</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>51.27</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NB4</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>34.84</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NB5</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>18.40</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+<animation>
+<type>translate</type>
+<object-name>LKPR_SA_HANGAR_NB6</object-name>
+<property>/scenery/LKPR/LKPR_HANGAR_N[0]/door[1]/position-norm</property>
+<factor>1</factor>
+<interpolation>
+<entry><ind>0.0</ind><dep>0.00</dep></entry>
+<entry><ind>1.0</ind><dep>1.00</dep></entry>
+</interpolation>
+<axis>
+<x>-0.01</x>
+<y>1</y>
+<z>0</z>
+</axis>
+</animation>
+
+<!-- obstruction light -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 18.04515 </x-m>
+		<y-m>-54.11029 </y-m>
+		<z-m> 12.18 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-16.13484 </x-m>
+		<y-m>-54.11029 </y-m>
+		<z-m> 12.18 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-16.13484 </x-m>
+		<y-m> 68.79353 </y-m>
+		<z-m> 12.18 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 18.04515 </x-m>
+		<y-m> 68.79353 </y-m>
+		<z-m> 12.18 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-15.57496 </x-m>
+		<y-m>-23.38433 </y-m>
+		<z-m> 21.37 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-15.57496 </x-m>
+		<y-m>  7.34162 </y-m>
+		<z-m> 21.37 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-15.57496 </x-m>
+		<y-m> 38.06757 </y-m>
+		<z-m> 21.37 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+
+</PropertyList>

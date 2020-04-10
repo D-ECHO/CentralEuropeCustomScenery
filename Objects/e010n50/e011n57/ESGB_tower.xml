@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- (C) 2010, 2015  Anders Gidenstam. Distribution: GPL v2 or later. -->
+<PropertyList>
+
+ <path>ESGB_tower.ac</path>
+
+ <animation>
+  <type>select</type>
+  <condition>
+   <greater-than>
+    <property>/sim/time/utc/year</property>
+    <value>1968</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>30000</max-m>
+ </animation>
+
+</PropertyList>

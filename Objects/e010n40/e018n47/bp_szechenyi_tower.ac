@@ -1,0 +1,360 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0.1 0.1 0.1  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "Material.002" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.003" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.004" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.005" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.006" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.007" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.008" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+MATERIAL "Material.001" rgb 1 1 1 amb 1 1 1 emis 0.1 0.1 0.1 spec 0 0 0 shi 32 trans 0
+OBJECT world
+kids 8
+OBJECT poly
+name "ShapeIndexedFaceS"
+data 17
+ShapeIndexedFaceS
+texture "bp_szechenyi_tower_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 6
+-0.011527 141.99733 -0.714197
+-0.617967 141.997421 0.335664
+0.594433 141.997696 0.335941
+-0.022931 191.997314 -0.725603
+-0.62937 191.997421 0.324259
+0.58303 191.997696 0.324536
+numsurf 8
+SURF 0x10
+mat 1
+refs 3
+0 0.0 1.0
+1 0.333299994469 1.0
+4 0.333299994469 4.0
+SURF 0x10
+mat 1
+refs 3
+0 0.0 1.0
+4 0.333299994469 4.0
+3 0.0 4.0
+SURF 0x10
+mat 1
+refs 3
+1 0.333299994469 1.0
+2 0.666700005531 1.0
+5 0.666700005531 4.0
+SURF 0x10
+mat 1
+refs 3
+1 0.333299994469 1.0
+5 0.666700005531 4.0
+4 0.333299994469 4.0
+SURF 0x10
+mat 1
+refs 3
+2 0.666700005531 1.0
+0 1.0 1.0
+3 1.0 4.0
+SURF 0x10
+mat 1
+refs 3
+2 0.666700005531 1.0
+3 1.0 4.0
+5 0.666700005531 4.0
+SURF 0x10
+mat 1
+refs 3
+0 1.0 2.5
+2 0.0 1.0
+1 0.0 4.0
+SURF 0x10
+mat 1
+refs 3
+3 1.0 2.5
+4 0.0 4.0
+5 0.0 1.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.001"
+data 21
+ShapeIndexedFaceS.001
+texture "bp_szechenyi_tower_02.rgb"
+texrep 1 1
+crease 30.000000
+numvert 8
+2.501654 80.998627 2.500285
+2.502795 80.99749 -2.499715
+-2.498346 80.99749 2.499145
+-2.497205 80.996353 -2.500855
+2.497092 100.998627 2.495723
+2.498233 100.99749 -2.504277
+-2.502907 100.99749 2.494582
+-2.501766 100.996346 -2.505417
+numsurf 12
+SURF 0x10
+mat 2
+refs 3
+0 1.0 0.0
+2 1.0 1.0
+3 0.0 1.0
+SURF 0x10
+mat 2
+refs 3
+1 0.0 0.0
+0 1.0 0.0
+3 0.0 1.0
+SURF 0x10
+mat 2
+refs 3
+4 0.0 0.0
+5 1.0 0.0
+7 1.0 1.0
+SURF 0x10
+mat 2
+refs 3
+7 1.0 1.0
+6 0.0 1.0
+4 0.0 0.0
+SURF 0x10
+mat 2
+refs 3
+0 0.0 0.0
+1 1.0 0.0
+5 1.0 1.0
+SURF 0x10
+mat 2
+refs 3
+4 0.0 1.0
+0 0.0 0.0
+5 1.0 1.0
+SURF 0x10
+mat 2
+refs 3
+1 0.0 0.0
+3 1.0 0.0
+7 1.0 1.0
+SURF 0x10
+mat 2
+refs 3
+7 1.0 1.0
+5 0.0 1.0
+1 0.0 0.0
+SURF 0x10
+mat 2
+refs 3
+3 0.0 0.0
+2 1.0 0.0
+6 1.0 1.0
+SURF 0x10
+mat 2
+refs 3
+6 1.0 1.0
+7 0.0 1.0
+3 0.0 0.0
+SURF 0x10
+mat 2
+refs 3
+2 0.0 0.0
+0 1.0 0.0
+4 1.0 1.0
+SURF 0x10
+mat 2
+refs 3
+4 1.0 1.0
+6 0.0 1.0
+2 0.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.002"
+data 21
+ShapeIndexedFaceS.002
+texture "bp_szechenyi_tower_03.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+15.025351 -0.001431 -4.973664
+35.025349 0.005554 -4.971528
+15.005096 57.998558 -4.99392
+35.005093 58.005543 -4.991783
+numsurf 2
+SURF 0x10
+mat 3
+refs 3
+2 0.0 1.0
+0 0.0 0.0
+3 1.0 1.0
+SURF 0x10
+mat 3
+refs 3
+3 1.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.003"
+data 21
+ShapeIndexedFaceS.003
+texture "bp_szechenyi_tower_03.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+35.030273 0.0048 -12.978159
+15.030279 -0.004325 -12.98728
+35.003811 58.004791 -12.978167
+15.003818 57.995667 -12.987288
+numsurf 2
+SURF 0x10
+mat 4
+refs 3
+2 0.0 1.0
+0 0.0 0.0
+3 1.0 1.0
+SURF 0x10
+mat 4
+refs 3
+3 1.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.004"
+data 21
+ShapeIndexedFaceS.004
+texture "bp_szechenyi_tower_04.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+35.015923 0.004338 -4.97383
+35.017746 0.002513 -12.973829
+35.014519 58.004337 -4.987057
+35.016342 58.002514 -12.987057
+numsurf 2
+SURF 0x10
+mat 5
+refs 3
+2 0.0 1.0
+0 0.0 0.0
+3 1.0 1.0
+SURF 0x10
+mat 5
+refs 3
+3 1.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.005"
+data 21
+ShapeIndexedFaceS.005
+texture "bp_szechenyi_tower_04.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+15.022504 -0.003202 -12.970031
+15.022984 0.000929 -4.970032
+15.009287 57.996799 -12.999977
+15.009767 58.000927 -4.999978
+numsurf 2
+SURF 0x10
+mat 6
+refs 3
+2 0.0 1.0
+0 0.0 0.0
+3 1.0 1.0
+SURF 0x10
+mat 6
+refs 3
+3 1.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceS.006"
+data 21
+ShapeIndexedFaceS.006
+texture "bp_szechenyi_tower_05.rgb"
+texrep 1 1
+crease 30.000000
+numvert 4
+35.00861 58.004337 -4.987058
+35.010433 58.002514 -12.987057
+15.00861 57.999775 -4.991619
+15.010434 57.997952 -12.991618
+numsurf 2
+SURF 0x10
+mat 7
+refs 3
+2 0.0 1.0
+0 0.0 0.0
+3 1.0 1.0
+SURF 0x10
+mat 7
+refs 3
+3 1.0 1.0
+0 0.0 0.0
+1 1.0 0.0
+kids 0
+OBJECT poly
+name "ShapeIndexedFaceSet"
+data 19
+ShapeIndexedFaceSet
+texture "bp_szechenyi_tower_01.rgb"
+texrep 1 1
+crease 30.000000
+numvert 6
+0.021187 -0.002993 -2.131812
+-1.841548 -0.002683 1.092764
+1.882451 -0.001833 1.093613
+-0.011199 141.996994 -2.164202
+-1.873935 141.997314 1.060373
+1.850065 141.998154 1.061222
+numsurf 8
+SURF 0x10
+mat 8
+refs 3
+0 0.0 1.625
+1 0.333299994469 1.625
+4 0.333299994469 5.875
+SURF 0x10
+mat 8
+refs 3
+0 0.0 1.625
+4 0.333299994469 5.875
+3 0.0 5.875
+SURF 0x10
+mat 8
+refs 3
+1 0.333299994469 1.625
+2 0.666700005531 1.625
+5 0.666700005531 5.875
+SURF 0x10
+mat 8
+refs 3
+1 0.333299994469 1.625
+5 0.666700005531 5.875
+4 0.333299994469 5.875
+SURF 0x10
+mat 8
+refs 3
+2 0.666700005531 1.625
+0 1.0 1.625
+3 1.0 5.875
+SURF 0x10
+mat 8
+refs 3
+2 0.666700005531 1.625
+3 1.0 5.875
+5 0.666700005531 5.875
+SURF 0x10
+mat 8
+refs 3
+0 1.0 3.75
+2 0.0 1.625
+1 0.0 5.875
+SURF 0x10
+mat 8
+refs 3
+3 1.0 3.75
+4 0.0 5.875
+5 0.0 1.625
+kids 0

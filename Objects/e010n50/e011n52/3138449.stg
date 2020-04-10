@@ -1,0 +1,14 @@
+OBJECT_SHARED Models/Power/windturbine.xml 11.3563889 52.3597222 52.85 180
+OBJECT_SHARED Models/Power/windturbine.xml 11.4372222 52.2994444 56.33 180
+OBJECT_SHARED Models/Power/windturbine.xml 11.4611111 52.2916667 74.85 180
+OBJECT_SHARED Models/Power/windturbine.xml 11.4694444 52.2938889 75.59 180
+OBJECT_SHARED Models/Power/windturbine.xml 11.4941667 52.2541667 54.09 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 11.4677778 52.3558333 -51.42 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 11.2583333 52.3480556 -328.8 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 11.43 52.2761111 -314.93 180
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 11.384572 52.291817 58.32 99.23
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 11.3766218 52.297749 60.9 301.68
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 11.377758 52.296921 62.44 66.4
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 11.378718 52.296154 60.83 220.16
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 11.383211 52.292377 53.95 161.49
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 11.383419 52.292194 55.81 90.89

@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Power/windturbine.xml 10.7797222 48.1547222 567.9 180
+OBJECT_SHARED Models/Power/windturbine.xml 10.7825 48.1466667 571.09 180
+OBJECT_SHARED Models/Power/windturbine.xml 10.9658333 48.1425 582.28 180
+OBJECT_SHARED Models/Airport/tacan.xml 10.859 48.1905 545.15 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 10.9763889 48.1502778 438.02 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 10.9952778 48.1552778 483.43 180
+OBJECT_SHARED Models/Misc/generic_church_03.ac 10.7586111 48.1811111 555.96 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 10.9085412 48.2371626 525.37 10.64
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 10.9189658 48.2384666 532.73 10.48
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 10.9234499 48.2390103 528.53 10.32

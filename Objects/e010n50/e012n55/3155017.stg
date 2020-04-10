@@ -1,0 +1,5 @@
+OBJECT_SHARED Models/Power/windturbine.xml 12.2686519 55.2457746 7.48 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 12.2526565 55.1253508 -0.23 57.74
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 12.2533362 55.1250243 -0.26 333.41
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 12.2690312 55.130669 -1.72 337.85
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Safe-Water.ac 12.393588 55.2348876 -1.94 316.35

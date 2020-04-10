@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>EDAU_ULFlugzentrum.ac</path>
+
+<animation>
+	<type>select</type>
+	<object-name>EDAU_ULFDoor</object-name>
+	<condition>
+	<not>
+		<or>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>9</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>12</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+		<and>
+		<greater-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>13</value> <!-- tor geht auf -->
+		</greater-than-equals>
+		<less-than-equals>
+			<property>/sim/time/utc/hour</property>
+			<value>17</value> <!-- tor geht zu -->
+		</less-than-equals>
+		</and>
+	</or>
+	</not>
+	</condition>
+</animation>
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+</PropertyList>

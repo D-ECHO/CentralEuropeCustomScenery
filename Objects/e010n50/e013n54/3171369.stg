@@ -1,0 +1,8 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 13.3744444 54.6283333 -128.69 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 13.375 54.6291667 -129.19 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 13.2779473 54.6388306 0.33 99.92
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 13.2781546 54.6340273 0.18 94.22
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 13.281839 54.6449934 0.63 60.86
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 13.2775299 54.6388664 0.33 188.77
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 13.2781239 54.6287305 0.22 299.89
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 13.2814695 54.6450819 0.64 198.98

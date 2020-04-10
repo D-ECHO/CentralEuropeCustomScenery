@@ -1,0 +1,186 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.2 0.2 0.2  shi 16  trans 0
+OBJECT world
+kids 10
+OBJECT poly
+name "rect"
+loc 1.98481 0 7.323
+crease 45.000000
+numvert 4
+18.5918 0 29.9599
+18.5918 8 29.9599
+-32.7331 8 -13.1069
+-32.7331 0 -13.1069
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.352429 0
+2 0.352429 0.0672721
+1 0.78402 0.0672721
+0 0.78402 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.98481 0 7.323
+crease 45.000000
+numvert 4
+32.7332 0 13.1069
+32.7332 8 13.1069
+18.5918 8 29.9599
+18.5918 0 29.9599
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 0 0.565715
+1 1 0.565715
+0 1 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.98481 0 7.323
+crease 45.000000
+numvert 4
+-18.5918 0 -29.9599
+-18.5918 8 -29.9599
+32.7332 8 13.1069
+32.7332 0 13.1069
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.902936 0
+2 0.902936 0.0672721
+1 0.471343 0.0672721
+0 0.471343 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.98481 0 7.323
+crease 45.000000
+numvert 4
+-32.7331 0 -13.1069
+-32.7331 8 -13.1069
+-18.5918 8 -29.9599
+-18.5918 0 -29.9599
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 1 0.565719
+1 0 0.565719
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 5.84081 0 2.727
+crease 45.000000
+numvert 4
+18.5653 0 37.7701
+18.5653 4 37.7701
+-40.4201 4 -11.7246
+-40.4201 0 -11.7246
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0.320214 0
+2 0.320214 0.033636
+1 0.816223 0.033636
+0 0.816223 0
+kids 0
+OBJECT poly
+name "rect"
+loc 5.84081 0 2.727
+crease 45.000000
+numvert 4
+40.4201 0 11.7246
+40.4201 4 11.7246
+18.5653 4 37.7701
+18.5653 0 37.7701
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 0
+2 0 0.183026
+1 1 0.183026
+0 1 0
+kids 0
+OBJECT poly
+name "rect"
+loc 5.84081 0 2.727
+crease 45.000000
+numvert 4
+-18.5653 0 -37.7701
+-18.5653 4 -37.7701
+40.4201 4 11.7246
+40.4201 0 11.7246
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 1 0.033636
+1 0.503991 0.033636
+0 0.503991 0
+kids 0
+OBJECT poly
+name "rect"
+loc 5.84081 0 2.727
+crease 45.000000
+numvert 4
+-40.4201 0 -11.7246
+-40.4201 4 -11.7246
+-18.5653 4 -37.7701
+-18.5653 0 -37.7701
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 1 0
+2 1 0.153577
+1 0 0.153577
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 1.98481 0 7.323
+texture "Flachdach_BS.rgb"
+crease 45.000000
+numvert 4
+-32.7331 8 -13.1069
+18.5918 8 29.9599
+32.7332 8 13.1069
+-18.5918 8 -29.9599
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0
+OBJECT poly
+name "rect"
+loc 5.84081 0 2.727
+texture "Flachdach_BS.rgb"
+crease 45.000000
+numvert 4
+-40.4201 4 -11.7246
+18.5653 4 37.7701
+40.4201 4 11.7246
+-18.5653 4 -37.7701
+numsurf 1
+SURF 0x30
+mat 0
+refs 4
+3 0 1
+2 1 1
+1 1 0
+0 0 0
+kids 0

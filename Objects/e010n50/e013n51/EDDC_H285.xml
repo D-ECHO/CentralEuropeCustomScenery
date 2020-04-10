@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>EDDC_H285.ac</path>
+
+<animation>
+ <type>material</type> 
+    <object-name>roofwindow</object-name>
+    <object-name>innerwall</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.3</red>	
+  <green>0.3</green>	
+  <blue>0.3</blue>
+ </emission>
+</animation>
+
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>  7.99754 </x-m>
+		<y-m> 61.95987 </y-m>
+		<z-m> 19.1 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -26.2489 </x-m>
+		<y-m>  23.65731 </y-m>
+		<z-m>  21.2 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> -60.49533 </x-m>
+		<y-m> -14.64524 </y-m>
+		<z-m>  19.1 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 58.49608 </x-m>
+		<y-m> 16.80896 </y-m>
+		<z-m> 15.6 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 24.24964 </x-m>
+		<y-m>-21.4936 </y-m>
+		<z-m> 17.7 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model><path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m>-9.99679 </x-m>
+		<y-m>-59.79615 </y-m>
+		<z-m> 15.6 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+
+</PropertyList>

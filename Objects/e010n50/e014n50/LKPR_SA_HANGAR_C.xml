@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+	<path>LKPR_SA_HANGAR_C.ac</path>
+	
+<!--   REMBRANDT model-transparent -->
+<effect>
+ <inherits-from>Effects/model-transparent</inherits-from>
+ <condition><property>sim/rendering/rembrandt/enabled</property></condition>
+ <object-name>LKPR_SA_HANGAR_C3</object-name>
+</effect>
+<animation>
+  <object-name>LKPR_SA_HANGAR_C3</object-name>
+  <type>select</type>
+  <condition>
+   <greater-than>
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+   </greater-than>
+  </condition>
+</animation>
+<animation>
+<type>material</type>
+    <object-name>LKPR_SA_HANGAR_C3</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>1</red>	
+	<green>1</green>	
+	<blue>1</blue>
+</emission>
+</animation>
+<animation>
+<type>material</type>
+    <object-name>LKPR_SA_HANGAR_C1</object-name>
+    <object-name>LKPR_SA_HANGAR_C2</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.57</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>0.3</red>	
+	<green>0.3</green>	
+	<blue>0.3</blue>
+</emission>
+</animation>
+<!-- obstruction light -->
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 18.04515 </x-m>
+		<y-m>-68.55646 </y-m>
+		<z-m> 14.77 </z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 18.04515</x-m>
+		<y-m> 68.79353 </y-m>
+		<z-m> 14.77</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 9.78819</x-m>
+		<y-m>-7.39244 </y-m>
+		<z-m>19.9000</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<model>
+	<path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+	<offsets>
+		<x-m> 9.87351</x-m>
+		<y-m> 8.54394 </y-m>
+		<z-m>19.90000</z-m>
+		<pitch-deg> 0.00 </pitch-deg>
+		<heading-deg> 0.00 </heading-deg>
+	</offsets>
+</model>
+<!-- Range  -->
+<animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-property>sim/rendering/static-lod/bare</max-property>
+</animation>
+</PropertyList>

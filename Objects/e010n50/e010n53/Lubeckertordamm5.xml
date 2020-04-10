@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+  <path>Lubeckertordamm5.ac</path>
+
+  <animation>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>10000</max-m>
+  </animation>
+
+  <animation>
+    <object-name>Label</object-name>
+    <type>range</type>
+    <min-m>0</min-m>
+    <max-m>1000</max-m>
+  </animation>
+
+
+</PropertyList>

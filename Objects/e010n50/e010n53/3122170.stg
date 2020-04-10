@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Power/windturbine.xml 10.6430556 53.9994444 28.41 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_02.ac 10.695 53.8930556 -423.41 180
+OBJECT_SHARED Models/Commercial/generic_skyscraper_06.ac 10.6419444 53.9069444 -320.75 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 10.7305556 53.9122222 -426.55 180
+OBJECT_SHARED Models/Industrial/Gasometer.ac 10.7141667 53.8958333 7.5 180
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 10.7304 53.9089 0.67 233.76
+OBJECT_SHARED Models/Maritime/Misc/GreenBuoy.xml 10.7363 53.9091 0.13 342.96
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 10.7177 53.9062 -0.01 166.61
+OBJECT_SHARED Models/Maritime/Misc/RedBuoy.xml 10.7331 53.9084 0.14 63.03
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 10.667786 53.940742 64.9 180

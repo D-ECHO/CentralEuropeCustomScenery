@@ -1,0 +1,10 @@
+OBJECT_SHARED Models/Communications/cell-monopole2-75m.xml 13.249453 46.071433 109.06 0
+OBJECT_SHARED Models/Airport/hangar3.ac 13.1884902 46.0356187 89.82 40
+OBJECT_SHARED Models/Aircraft/Cessna150.xml 13.1877345 46.035365 89.49 216
+OBJECT_SHARED Models/Aircraft/D112.xml 13.1879536 46.0352003 89.48 120
+OBJECT_SHARED Models/Communications/tower-microwave-small-1.ac 13.229175 46.075761 117.89 192
+OBJECT_SHARED Models/Communications/vodafone_funkturm.xml 13.249995 46.049479 103.86 156
+OBJECT_SHARED Models/Industrial/water_tower_2.ac 13.219144 46.076632 114.86 0
+OBJECT_SHARED Models/Industrial/water_tower_2.ac 13.249469 46.076494 115.83 0
+OBJECT_SHARED Models/Sport/GenericStadium.xml 13.2001711 46.0811176 114.19 99
+OBJECT_SHARED Models/StreetFurniture/saumurNord.ac 13.2489909 46.0716242 114 90

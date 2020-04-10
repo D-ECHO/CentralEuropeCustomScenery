@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<!-- (C) 2009  Anders Gidenstam. Distribution: GPL v2 or later. -->
+<PropertyList>
+
+ <path>Angeredsbron.ac</path>
+ <offsets>
+  <x-m>247.0</x-m>
+ </offsets>
+
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>  40.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  45.93 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>   0.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  45.30 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m> -40.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  44.67 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m> -80.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  44.04 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-120.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  43.41 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-160.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  42.78 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-200.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  42.15 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-240.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  41.52 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-280.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  40.89 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-320.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  40.26 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-360.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  39.63 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-400.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  39.00 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-440.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  38.37 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-480.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  37.74 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-520.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  37.11 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-560.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  36.48 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-600.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  35.85 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-640.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  35.22 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-680.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  34.59 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-720.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  33.96 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-760.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  33.33 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-800.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  32.70 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+ <model>
+  <path>Models/StreetFurniture/Streetlamp2.xml</path>
+  <offsets>
+   <x-m>-840.00 </x-m>
+   <y-m>   8.60 </y-m>
+   <z-m>  32.07 </z-m>
+   <heading-deg>270.0</heading-deg>
+  </offsets>
+ </model>
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>30000</max-m>
+ </animation>
+
+</PropertyList>

@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Power/windturbine.xml 13.5375 54.5269444 14.94 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 13.6222222 54.5175 -11.06 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 13.6580556 54.5719444 4.79 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 13.5988889 54.525 -345.55 180
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 13.6430693 54.5115611 1.67 303.84
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 13.6431078 54.5109634 1.12 12.46
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 13.64677 54.5124422 1.61 151.08
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 13.6473045 54.5132085 2.74 141.98
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 13.6494575 54.5137113 3.07 96.38
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 13.6329729 54.5015513 -0.47 178.36
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 13.6346249 54.5052217 -0.01 249.8
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 13.6060523 54.5848489 -0.01 340.31
