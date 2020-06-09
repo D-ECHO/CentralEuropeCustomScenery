@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Glider_Winch_Launch_South" lat="N49 20.959729" lon="E9 7.294008" heading="343.69"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="Glider_Winch_Launch_North" lat="N49 21.526688" lon="E9 7.034139" heading="162.44"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>
