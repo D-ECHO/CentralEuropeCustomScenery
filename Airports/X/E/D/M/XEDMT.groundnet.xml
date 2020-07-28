@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="ga" name="Grass_parking_spot" lat="N53 55.169542" lon="E14 1.627106" heading="-239.86"  radius="10" airlineCodes="" />
+ </parkingList>
+</groundnet>

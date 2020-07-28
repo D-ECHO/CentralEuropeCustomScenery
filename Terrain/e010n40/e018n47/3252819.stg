@@ -3,3 +3,7 @@ OBJECT LHTL.btg
 OBJECT_SHARED Models/Airport/windsock_lit.xml 18.979207 47.344409 0.0 0.00
 OBJECT_SHARED Models/Airport/windsock_lit.xml 18.991355 47.337498 0.0 0.00
 OBJECT_SHARED Models/Airport/windsock_lit.xml 18.972859 47.353913 0.0 0.00
+OBJECT LHTL.btg
+OBJECT_SHARED Models/Airport/windsock_lit.xml 18.979207 47.344409 98.0 0.00
+OBJECT_SHARED Models/Airport/windsock_lit.xml 18.991355 47.337498 97.0 0.00
+OBJECT_SHARED Models/Airport/windsock_lit.xml 18.972859 47.353913 98.0 0.00
