@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<!-- EDDS General Aviation Terminal 2 -->
+	<!-- Note: rotated by -0.7 deg in X at far-left lower corner of building -->
+	<!-- (c) 2020-08-09 by Stefan Frank   --> 
+
+	<path>EDDS_GA_Terminal2.ac</path>
+
+<!--  night redlight  -->
+<animation>
+<type>material</type>
+	<object-name>redlight</object-name>
+<condition>		
+<greater-than>		
+	<property>/sim/time/sun-angle-rad</property>
+	<value>1.49</value>
+</greater-than>
+</condition>
+<emission>	
+	<red>1.0</red>	
+	<green>0.0</green>	
+	<blue>0.0</blue>
+</emission>
+</animation>
+
+</PropertyList>
