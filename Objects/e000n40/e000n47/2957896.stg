@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Power/coolingtower.xml 0.164373 47.227071 45.65 0
+OBJECT_SHARED Models/Power/coolingtower.xml 0.165412 47.223072 45.88 0
+OBJECT_SHARED Models/Power/coolingtower.xml 0.165616 47.225138 42.38 0
+OBJECT_SHARED Models/Power/coolingtower.xml 0.167364 47.226904 49.15 0
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.0208333 47.1766667 80.94 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.2130556 47.1477778 8.51 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 0.1680556 47.2341667 33.5 180
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.16512 47.22963 47.7 355
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.1663 47.22955 46.32 355
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.16932 47.22372 51.51 255
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.16963 47.2245 47.59 255
+OBJECT_STATIC Fontevraud.ac 0.05239 47.18142 65.33 70

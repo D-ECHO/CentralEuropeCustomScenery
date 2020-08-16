@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 0.7666667 49.4169444 -6.74 180
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 0.8213889 49.46 -369.8 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 0.8711111 49.3813889 139.62 180
+OBJECT_SHARED Models/Maritime/Civilian/Shipyard-Crane.xml 0.803537 49.47762 2.33 164

@@ -32,210 +32,185 @@ OBJECT_SHARED Models/Power/generic_pylon_100m.ac 6.7858333 49.7808333 284.33 180
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac 6.7872222 49.8075 175.5 180
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac 6.8086111 49.7630556 382.59 180
 OBJECT_SHARED Models/Transport/bus_bi.xml 6.7801277 49.857079 204.41 332
-#OBJECT_SHARED Models/Aircraft/Cessna150.xml 6.7835768 49.8645459 203.47 224.9
-#OBJECT_SHARED Models/Boundaries/Fence_16.xml 6.7806267 49.8629285 205.86 316
-#OBJECT_SHARED Models/Boundaries/Fence_16.xml 6.7824482 49.8641039 204.17 0
-#OBJECT_SHARED Models/Boundaries/Fence_16.xml 6.7831625 49.8647178 203.38 316
-#OBJECT_SHARED Models/Boundaries/Fence_80.xml 6.7811398 49.864112 204.38 304
-#OBJECT_SHARED Models/Boundaries/Fence_80.xml 6.7887859 49.8678202 198.97 312
-#OBJECT_SHARED Models/Boundaries/Fence_80.xml 6.7931217 49.8688756 194.97 36
-#OBJECT_SHARED Models/Aircraft/SAAB340_services.xml 6.782748 49.8640469 204.17 44
-#OBJECT_SHARED Models/Transport/yard-tractor.xml 6.7827471 49.8637889 204.43 240
-#OBJECT_SHARED Models/Airport/tower_small_airfield.xml 6.7808551 49.863027 205.71 304
-#OBJECT_SHARED Models/Transport/van_red.ac 6.7822781 49.8648275 208.66 312
-#OBJECT_SHARED Models/Transport/van_silver.ac 6.777622 49.8578959 211.23 252
-#OBJECT_SHARED Models/Transport/van_silver.ac 6.7792378 49.8574112 205.86 64
-#OBJECT_SHARED Models/Transport/van_silver.ac 6.7809492 49.8630738 205.63 132
-#OBJECT_SHARED Models/Transport/van_blue_dirty.ac 6.7826769 49.8637569 204.48 240
-#OBJECT_SHARED Models/Airport/Apronlamp16m180deg.xml 6.7809094 49.8631475 205.56 192
-#OBJECT_SHARED Models/Airport/Apronlamp16m180deg.xml 6.782387 49.8641292 204.15 276
-#OBJECT_SHARED Models/Airport/Apronlamp16m180deg.xml 6.7830519 49.8646102 203.51 276
-#OBJECT_SHARED Models/Airport/petrol_store.ac 6.7802535 49.8625969 206.29 316
-#OBJECT_SHARED Models/Transport/Norberttruck.xml 6.7946905 49.8695706 193.82 0
-#OBJECT_SHARED Models/Airport/Vehicle/ELW_Sprinter_215.ac 6.780912 49.8630952 205.62 136
-#OBJECT_SHARED Models/Airport/Vehicle/RW_GWG_MAN.ac 6.7808662 49.8631168 205.61 140
-#OBJECT_SHARED Models/Aircraft/Cessna172_blue.xml 6.7811685 49.8629009 205.79 288
-#OBJECT_SHARED Models/Aircraft/Cessna172_blue.xml 6.7834241 49.864445 203.6 224
-#OBJECT_SHARED Models/Aircraft/ask21-red.xml 6.7825418 49.8640316 204.23 288
-#OBJECT_SHARED Models/Aircraft/ask21-red.xml 6.7825601 49.864168 204.07 284
-#OBJECT_SHARED Models/Trees/large_tree_erected.xml 6.7802145 49.8627562 206.12 0
-#OBJECT_SHARED Models/Trees/large_tree_erected.xml 6.7804411 49.8629034 205.92 0
-#OBJECT_SHARED Models/Trees/large_tree_erected.xml 6.7822561 49.8640433 204.26 0
-#OBJECT_SHARED Models/Trees/large_tree_erected.xml 6.7832499 49.8649279 203.15 0
-#OBJECT_SHARED Models/Trees/large_tree_erected.xml 6.7832922 49.8649083 203.16 0
-#OBJECT_SHARED Models/Trees/line_trees.xml 6.7806318 49.8642176 210.97 308
-#OBJECT_SHARED Models/Trees/line_trees.xml 6.7831022 49.8654644 205.45 304.7
-#OBJECT_SHARED Models/Trees/line_trees.xml 6.7855139 49.8666803 202.35 308
-#OBJECT_SHARED Models/Airport/KOFF_E4BTank.xml 6.7819327 49.8641141 204.26 0
-#OBJECT_SHARED Models/Airport/KOFF_E4BTank.xml 6.7830292 49.8648027 203.31 356
-#OBJECT_SHARED Models/Airport/hangar_25x25m_tan.ac 6.7835861 49.8647935 203.22 315.8
-#OBJECT_SHARED Models/Airport/Hangar_Cargo.ac 6.7816475 49.8637849 204.68 314.4
-#OBJECT_SHARED Models/Airport/Club_House.ac 6.7820056 49.8638667 204.51 44
-#OBJECT_SHARED Models/Aircraft/ASK-13_Trailer.ac 6.7825614 49.863826 204.44 48
-#OBJECT_SHARED Models/Airport/fueltanktrailer.ac 6.7833545 49.8643784 203.69 0
-#OBJECT_SHARED Models/Airport/Hangar_30_18.ac 6.7809334 49.8631392 205.57 44.7
-#OBJECT_SHARED Models/Transport/DPostTruck.xml 6.7973846 49.8696286 194.07 84
-#OBJECT_SHARED Models/Airport/hangar-epst.xml 6.7825672 49.8644409 203.78 137.6
-#OBJECT_SHARED Models/Airport/antena_EPLR.ac 6.7820663 49.8642962 204.03 0
-
-
-####
-##new fences:
-#### 
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78169125 49.86407871 205.1177 51.6 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78159609 49.86400124 205.1880 51.4 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78157872 49.86398720 205.2025 51.4 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78167228 49.86391914 205.2131 137.2 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78178470 49.86385196 205.2174 136.9 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78180504 49.86383968 205.2186 136.9 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78182538 49.86382739 205.2197 136.9 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78184571 49.86381511 205.2204 136.9 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78186605 49.86380282 205.2205 136.9 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78188638 49.86379053 205.2212 136.9 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78166540 49.86361636 205.4125 48.4 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78134227 49.86338101 205.6557 48.4 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.78120335 49.86328032 205.7678 48.3 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78114776 49.86324006 205.8130 48.3 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78112921 49.86322665 205.8277 48.3 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78111064 49.86321325 205.8429 48.2 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78109206 49.86319986 205.8587 48.2 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78095927 49.86323478 205.8820 332.4 0.0 -0.1
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.78077403 49.86329722 205.9037 332.4 0.0 -0.1
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78069993 49.86332219 205.9108 332.4 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78067523 49.86333051 205.9131 332.4 0.0 -0.1
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78065052 49.86333882 205.9148 332.4 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78062956 49.86333592 205.9229 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78061233 49.86332179 205.9380 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78059511 49.86330766 205.9521 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78057789 49.86329354 205.9667 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78056067 49.86327941 205.9827 51.8 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78054345 49.86326528 205.9982 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78052623 49.86325116 206.0133 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78050901 49.86323703 206.0289 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78049179 49.86322290 206.0439 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78031623 49.86308129 206.1986 48.6 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78013188 49.86294655 206.3530 48.6 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.77999659 49.86284389 206.4681 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.77991014 49.86277343 206.5460 51.5 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77985833 49.86273113 206.5923 52.6 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77984138 49.86271686 206.6078 52.6 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77982444 49.86270260 206.6238 52.6 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77980749 49.86268834 206.6389 52.6 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77979055 49.86267407 206.6559 52.6 0.0 -0.6
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77977384 49.86265969 206.6734 53.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77967409 49.86261647 206.7369 37.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77965205 49.86260547 206.7522 37.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77963017 49.86259434 206.7670 38.7 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77960887 49.86258276 206.7826 41.6 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77960437 49.86256867 206.7953 115.1 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77961621 49.86255240 206.8025 115.1 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77962805 49.86253614 206.8093 115.1 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77964028 49.86252063 206.8164 116.2 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77964806 49.86250365 206.8261 96.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77940928 49.86234381 207.0548 55.0 0.0 --0.6
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.77932073 49.86211796 207.2004 76.6 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.77920804 49.86181196 207.4055 76.5 0.0 -0.3
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.77914321 49.86163722 207.5050 76.6 0.0 -0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77910760 49.86154111 207.5597 76.3 0.0 -0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77910107 49.86152365 207.5698 76.6 0.0 -0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77909459 49.86150617 207.5793 76.6 0.0 -0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77910134 49.86149116 207.5833 135.7 0.0 --0.1
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77912130 49.86147863 207.5805 135.7 0.0 --0.1
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77914129 49.86146611 207.5778 135.9 0.0 --0.1
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77916129 49.86145360 207.5750 135.8 0.0 --0.1
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.77935358 49.86117961 207.6143 85.1 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.77929365 49.86073212 207.8264 85.1 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.77923372 49.86028463 208.0257 85.1 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77920254 49.86005193 208.1203 85.0 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77920011 49.86003403 208.1228 85.0 0.0 -0.1
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77919768 49.86001613 208.1252 85.0 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.77947461 49.85987197 207.8757 143.0 0.0 --0.6
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78003089 49.85960152 207.3725 143.0 0.0 --0.6
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78058715 49.85933107 206.8159 143.0 0.0 --0.7
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78114342 49.85906061 206.1924 143.0 0.0 --0.7
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78169967 49.85879015 205.5321 143.0 0.0 --0.8
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.77923775 49.86143401 207.5521 162.4 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77931749 49.86141779 207.5283 162.7 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77934406 49.86141237 207.5208 162.2 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.77937059 49.86140687 207.5114 162.2 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78220992 49.85882113 205.1222 228.0 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78267611 49.85915493 205.0668 228.0 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78314231 49.85948872 205.0423 228.0 0.0 --0.1
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78360851 49.85982251 204.9875 228.0 0.0 --0.0
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78407472 49.86015630 204.8915 228.0 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78454094 49.86049008 204.7466 228.0 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78500716 49.86082387 204.5489 228.0 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78547341 49.86115764 204.3340 228.0 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78593970 49.86149139 204.1000 228.0 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78640602 49.86182512 203.8390 228.0 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78687235 49.86215885 203.6038 228.0 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78711478 49.86233243 203.4733 228.3 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78713331 49.86234585 203.4631 228.3 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78715184 49.86235927 203.4533 228.3 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78717037 49.86237269 203.4435 228.3 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78743639 49.86222788 203.3346 137.6 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78779600 49.86201581 203.1871 137.6 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.78795012 49.86192499 203.1194 137.7 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78801199 49.86188873 203.0907 137.8 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78812378 49.86194428 203.0291 223.3 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78832675 49.86206740 202.9163 223.2 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78843289 49.86213742 202.8565 250.6 0.0 --0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78845040 49.86214247 202.8475 157.6 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78854045 49.86209690 202.8057 140.1 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78877859 49.86226130 202.6662 229.3 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.78905375 49.86246414 202.5029 226.5 0.0 --0.3
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78885359 49.86265441 202.5598 315.4 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78850717 49.86287501 202.6786 315.5 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78830830 49.86300088 202.7421 315.5 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78819897 49.86307015 202.7751 315.4 0.0 -0.2
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78817917 49.86308279 202.7797 315.2 0.0 -0.1
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78840305 49.86325564 202.6116 227.9 0.0 --0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78887059 49.86358868 202.2637 227.9 0.0 --0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78933815 49.86392170 201.8761 227.9 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78980572 49.86425472 201.4513 227.9 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79027331 49.86458773 201.0635 227.9 0.0 --0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79074091 49.86492074 200.6991 227.9 0.0 --0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79120852 49.86525374 200.2691 227.9 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79167614 49.86558674 199.8053 227.8 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79214377 49.86591973 199.3439 227.8 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79261141 49.86625272 198.8775 227.8 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79307906 49.86658571 198.3734 227.8 0.0 --0.6
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79354671 49.86691869 197.7911 227.8 0.0 --0.7
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79401438 49.86725167 197.2781 227.8 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.79434562 49.86748065 196.9891 224.7 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.79449379 49.86757571 196.8588 225.2 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79432299 49.86778178 196.5869 309.1 0.0 --0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79388319 49.86813018 196.0717 309.1 0.0 --0.7
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79344326 49.86847852 195.5065 309.2 0.0 --0.6
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.79313332 49.86872130 195.1223 310.2 0.0 --0.6
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79269846 49.86875824 195.1748 8.1 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79200853 49.86869505 195.5485 8.1 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79131855 49.86863204 196.0047 8.1 0.0 -0.6
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.79062731 49.86857550 196.5046 6.4 0.0 -0.6
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78998487 49.86843217 197.1424 31.8 0.0 -0.9
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78939247 49.86819563 197.8809 31.8 0.0 -0.8
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78884165 49.86792407 198.6121 43.1 0.0 -0.9
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78833243 49.86761745 199.3170 43.1 0.0 -0.8
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78782322 49.86731083 199.9666 43.1 0.0 -0.7
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78731402 49.86700420 200.7406 43.1 0.0 -1.0
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78677489 49.86672127 201.3542 35.3 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78620586 49.86646202 201.7193 35.3 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78563682 49.86620276 202.1654 35.3 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78506715 49.86594409 202.6276 35.1 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78449700 49.86568587 203.0645 35.1 0.0 -0.5
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78392691 49.86542759 203.4724 35.1 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78335726 49.86516891 203.8611 35.2 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.78279103 49.86490716 204.2320 36.1 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78239934 49.86471984 204.4820 37.9 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78218328 49.86460641 204.6244 40.5 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78197495 49.86448711 204.7662 42.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.78178081 49.86435878 204.9055 48.5 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78167992 49.86428439 204.9834 51.8 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78166274 49.86427025 204.9984 52.1 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78164562 49.86425607 205.0125 52.1 0.0 -0.4
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78164571 49.86424194 205.0208 128.4 0.0 -0.1
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78166374 49.86422825 205.0230 132.3 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78174060 49.86417861 205.0305 141.0 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78176214 49.86416721 205.0314 140.2 0.0 -0.0
-OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.78177628 49.86415275 205.0347 104.3 0.0 -0.2
-
+OBJECT_SHARED Models/Aircraft/Cessna150.xml 6.7835768 49.8645459 203.47 224.9
+OBJECT_SHARED Models/Airport/tower_small_airfield.xml 6.78049 49.863066 205.71 304
+OBJECT_SHARED Models/Transport/van_red.ac 6.7822781 49.8648275 208.66 312
+OBJECT_SHARED Models/Transport/van_silver.ac 6.777622 49.8578959 211.23 252
+OBJECT_SHARED Models/Transport/van_silver.ac 6.7792378 49.8574112 205.86 64
+OBJECT_SHARED Models/Trees/beech33.xml 6.780496 49.863212 205.53 0
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7790946 49.8615062 207.06 76.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7791011 49.8615237 207.05 76.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7791013 49.8614912 207.08 135.7
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7791076 49.8615411 207.04 76.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7791213 49.8614786 207.09 135.7
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7791413 49.8614661 207.1 135.9
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7791613 49.8614536 207.11 135.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7791977 49.8600161 208.04 85
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7792001 49.860034 208.03 85
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7792025 49.8600519 208.03 85
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7793175 49.8614178 207.15 162.7
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7793441 49.8614124 207.15 162.2
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7793706 49.8614069 207.16 162.2
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7794093 49.8623438 206.5 55
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796044 49.8625687 206.35 115.1
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796089 49.8625828 206.33 41.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796162 49.8625524 206.37 115.1
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796281 49.8625361 206.38 115.1
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796302 49.8625943 206.32 38.7
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796403 49.8625206 206.4 116.2
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796481 49.8625037 206.41 96.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796521 49.8626055 206.31 37.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7796741 49.8626165 206.3 37.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7797738 49.8626597 206.26 53.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7797906 49.8626741 206.24 52.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7798075 49.8626883 206.22 52.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7798244 49.8627026 206.21 52.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7798414 49.8627169 206.19 52.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7798583 49.8627311 206.17 52.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7804918 49.8632229 205.52 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.780509 49.863237 205.5 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7805262 49.8632512 205.48 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7805435 49.8632653 205.46 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7805607 49.8632794 205.44 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7805779 49.8632935 205.42 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7805951 49.8633077 205.4 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7806123 49.8633218 205.39 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7806296 49.8633359 205.37 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7806505 49.8633388 205.36 332.4
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7806752 49.8633305 205.37 332.4
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7806999 49.8633222 205.38 332.4
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7810921 49.8631999 205.45 48.2
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7811106 49.8632133 205.43 48.2
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7811292 49.8632267 205.41 48.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7811478 49.8632401 205.39 48.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7815787 49.8639872 204.46 51.4
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7815961 49.8640012 204.44 51.4
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7816456 49.8642561 204.14 52.1
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7816457 49.8642419 204.16 128.4
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7816627 49.8642703 204.12 52.1
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7816637 49.8642283 204.17 132.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7816799 49.8642844 204.1 51.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7817406 49.8641786 204.22 141
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7817621 49.8641672 204.22 140.2
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7817763 49.8641528 204.24 104.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7817847 49.863852 204.59 136.9
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.781805 49.8638397 204.6 136.9
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7818254 49.8638274 204.61 136.9
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7818457 49.8638151 204.61 136.9
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7818661 49.8638028 204.62 136.9
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7818864 49.8637905 204.63 136.9
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7871148 49.8623324 203.34 228.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7871333 49.8623459 203.32 228.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7871518 49.8623593 203.31 228.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7871704 49.8623727 203.3 228.3
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.788012 49.8618887 201.52 137.8
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7881792 49.8630828 202.63 315.2
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.788199 49.8630702 202.63 315.4
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7884329 49.8621374 201.61 250.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7884504 49.8621425 201.62 157.6
+OBJECT_SHARED Models/Boundaries/Fence-2m-green.xml 6.7885405 49.8620969 201.68 140.1
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.7792378 49.861434 207.13 162.4
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.7799101 49.8627734 206.12 51.5
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.7799966 49.8628439 206.03 51.8
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.780774 49.8632972 205.4 332.4
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.7812034 49.8632803 205.33 48.3
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.7879501 49.861925 201.49 137.7
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.7890538 49.8624641 201.53 226.5
+OBJECT_SHARED Models/Boundaries/Fence-10m-green.xml 6.7944938 49.8675757 196.33 225.2
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7791432 49.8616372 206.98 76.6
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.779208 49.861812 206.86 76.5
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7801319 49.8629466 205.89 48.6
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7803162 49.8630813 205.71 48.6
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7809593 49.8632348 205.45 332.4
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7813423 49.863381 205.2 48.4
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7816723 49.8639191 204.52 137.2
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7816913 49.8640787 204.34 51.6
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7817808 49.8643588 204 48.5
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.781975 49.8644871 203.83 42.8
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7821833 49.8646064 203.67 40.5
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7823993 49.8647198 203.51 37.9
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.787796 49.8620158 201.41 137.6
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7881238 49.8619443 201.53 223.3
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7883083 49.8630009 201.28 315.5
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7883268 49.8620674 201.58 223.2
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7885072 49.862875 201.33 315.5
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7931333 49.8687213 195.28 310.2
+OBJECT_SHARED Models/Boundaries/Fence-20m-green.xml 6.7943456 49.8674807 196.57 224.7
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7792337 49.8602846 207.94 85.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7792937 49.8607321 207.63 85.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7793207 49.862118 206.65 76.6
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7793536 49.8611796 207.32 85.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7794746 49.859872 207.83 143
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7800309 49.8596015 207.45 143
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7805872 49.8593311 206.84 143
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7811434 49.8590606 206.18 143
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7816654 49.8636164 204.88 48.4
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7816997 49.8587902 205.36 143
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7822099 49.8588211 204.15 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7826761 49.8591549 204.45 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.782791 49.8649072 203.25 36.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7831423 49.8594887 204.6 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7833573 49.8651689 202.9 35.2
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7836085 49.8598225 204.66 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7839269 49.8654276 202.55 35.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7840747 49.8601563 204.77 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.784497 49.8656859 202.22 35.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7845409 49.8604901 204.89 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7850072 49.8608239 204.81 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7850672 49.8659441 201.9 35.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7854734 49.8611576 204.52 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7856368 49.8662028 201.56 35.3
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7859397 49.8614914 204.19 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7862059 49.866462 201.23 35.3
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.786406 49.8618251 203.84 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7867749 49.8667213 200.9 35.3
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7868724 49.8621589 203.51 228
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.787314 49.8670042 201.2 43.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7874364 49.8622279 201.23 137.6
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7878232 49.8673108 199.97 43.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7883324 49.8676175 199.41 43.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7884031 49.8632556 202.5 227.9
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7887786 49.8622613 201.74 229.3
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7888417 49.8679241 198.79 43.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7888536 49.8626544 201.43 315.4
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7888706 49.8635887 202.23 227.9
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7893382 49.8639217 201.95 227.9
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7893925 49.8681956 198.09 31.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7898057 49.8642547 201.69 227.9
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7899849 49.8684322 197.41 31.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7902733 49.8645877 201.4 227.9
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7906273 49.8685755 196.8 6.4
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7907409 49.8649207 201.09 227.9
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7912085 49.8652537 200.72 227.9
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7913186 49.868632 196.32 8.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7916761 49.8655867 200.32 227.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7920085 49.8686951 195.82 8.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7921438 49.8659197 199.83 227.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7926114 49.8662527 199.28 227.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7926985 49.8687582 195.35 8.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7930791 49.8665857 198.62 227.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7934433 49.8684785 195.55 309.2
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7935467 49.8669187 197.92 227.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7938832 49.8681302 195.92 309.1
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.7940144 49.8672517 197.14 227.8
+OBJECT_SHARED Models/Boundaries/Fence-50m-green.xml 6.794323 49.8677818 196.14 309.1
+OBJECT_SHARED Models/Transport/Norberttruck.xml 6.795666 49.870521 190.34 0
+OBJECT_SHARED Models/Airport/Vehicle/RW_GWG_MAN.ac 6.780651 49.863208 205.52 140
+OBJECT_SHARED Models/Aircraft/Cessna172_blue.xml 6.7811685 49.8629009 205.79 288
+OBJECT_SHARED Models/Aircraft/Cessna172_blue.xml 6.7834241 49.864445 203.6 224
+OBJECT_SHARED Models/Aircraft/ask21-red.xml 6.7825418 49.8640316 204.23 288
+OBJECT_SHARED Models/Aircraft/ask21-red.xml 6.7825601 49.864168 204.07 284
+OBJECT_SHARED Models/Trees/line_trees.xml 6.7806318 49.8642176 210.97 308
+OBJECT_SHARED Models/Trees/line_trees.xml 6.7831022 49.8654644 205.45 304.7
+OBJECT_SHARED Models/Trees/line_trees.xml 6.7855139 49.8666803 202.35 308
+OBJECT_SHARED Models/Airport/KOFF_E4BTank.xml 6.781861 49.863988 204.42 0
+OBJECT_SHARED Models/Airport/KOFF_E4BTank.xml 6.782918 49.864723 203.42 356
+OBJECT_SHARED Models/Airport/hangar_25x25m_tan.ac 6.783462 49.864871 203.17 315.8
+OBJECT_SHARED Models/Airport/Hangar_Cargo.ac 6.7816475 49.8637849 204.68 314.4
+OBJECT_SHARED Models/Airport/Club_House.ac 6.7820056 49.8638667 204.51 44
+OBJECT_SHARED Models/Aircraft/ASK-13_Trailer.ac 6.782888 49.863945 204.24 48
+OBJECT_SHARED Models/Airport/fueltanktrailer.ac 6.7833545 49.8643784 203.69 0
+OBJECT_SHARED Models/Airport/Hangar_30_18.ac 6.780968 49.863461 205.17 44.7
+OBJECT_SHARED Models/Transport/DPostTruck.xml 6.7997 49.869553 194.6 84
+OBJECT_SHARED Models/Airport/hangar-epst.xml 6.7825672 49.8644409 203.78 137.6
+OBJECT_SHARED Models/Airport/antena_EPLR.ac 6.7820663 49.8642962 204.03 0

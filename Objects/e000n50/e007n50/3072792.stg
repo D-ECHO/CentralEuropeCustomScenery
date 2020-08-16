@@ -1,5 +1,5 @@
 OBJECT_SHARED Models/Power/windturbine.xml 7.1652778 50.4077778 476.14 180
 OBJECT_SHARED Models/Power/windturbine.xml 7.1786111 50.4136111 507.23 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 7.1552778 50.3955556 364.01 180
-OBJECT_SHARED Models/Commercial/generic_skyscraper_09.ac 7.2044444 50.3969444 155.92 180
 OBJECT_SHARED Models/Communications/Fernsehturm-Stade.xml 7.06842322 50.4313242 664.92 0
+OBJECT_SHARED Models/Communications/vodafone_funkturm.xml 7.2044444 50.3969444 544.92 180

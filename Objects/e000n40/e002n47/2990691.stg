@@ -1,0 +1,12 @@
+OBJECT_SHARED Models/Power/coolingtower.xml 2.87198 47.511742 130.79 0
+OBJECT_SHARED Models/Power/coolingtower.xml 2.874467 47.512933 127.55 0
+OBJECT_SHARED Models/Airport/ndb.ac 2.782778 47.610833 157.67 0
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.8086111 47.6177778 128.27 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.8161111 47.535 122.91 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.8758333 47.5102778 113.96 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.8761111 47.5719444 128.7 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 2.8775 47.5197222 94.13 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.8161111 47.535 166.83 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 2.8438889 47.5647222 160.66 180
+OBJECT_SHARED Models/Power/reacteurPal.ac 2.87455 47.50956 147.33 218
+OBJECT_SHARED Models/Power/reacteurPal.ac 2.87629 47.51047 153.08 218

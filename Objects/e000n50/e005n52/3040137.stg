@@ -1,4 +1,3 @@
-OBJECT_SHARED Models/Airport/ils.xml 5.286942 52.1263 20.14 88.43
 OBJECT_SHARED Models/Airport/tacan.xml 5.275556 52.128333 14.5 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 5.275562 52.128326 14.5 180
 OBJECT_SHARED Models/Airport/localizer.xml 5.252778 52.1275 9.26 91.57
@@ -68,6 +67,7 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.3911598 52.2473759 -0.85 247.9
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.3932026 52.2489051 -1.5 229.86
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.3935459 52.2491468 -1.72 231.06
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.3943956 52.2498404 -2.34 231.61
+OBJECT_SHARED Models/Communications/tower-microwave-small-1.ac 5.398788 52.134461 7.95 0
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.398889 52.249642 -2.63 239.27
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.401556 52.249203 -2.65 313.18
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.404206 52.248781 -2.67 101.85
@@ -76,3 +76,4 @@ OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.409681 52.24975 
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.410019 52.248858 -2.7 237.93
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.412831 52.249336 -2.71 327.47
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 5.415656 52.249819 -2.7 293.69
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 5.294369 52.128015 26.52 88.43

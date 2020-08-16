@@ -3,8 +3,6 @@ OBJECT_SHARED Models/Power/windturbine.xml 5.7582654 53.1880726 -2.38 0
 OBJECT_SHARED Models/Power/windturbine.xml 5.7633027 53.157716 -2.04 0
 OBJECT_SHARED Models/Power/windturbine.xml 5.76885 53.19219 0.09 180
 OBJECT_SHARED Models/Power/windturbine.xml 5.772 53.24922 -1.75 180
-OBJECT_SHARED Models/Airport/ils.xml 5.762778 53.230833 -1.51 127.31
-OBJECT_SHARED Models/Airport/ils.xml 5.765278 53.2275 -1.49 89.31
 OBJECT_SHARED Models/Airport/tacan.xml 5.751944 53.223611 -1.41 180
 OBJECT_SHARED Models/Airport/localizer.xml 5.771389 53.233056 -1.45 145.15
 OBJECT_SHARED Models/Airport/localizer.xml 5.772222 53.228611 -1.24 180.18
@@ -22,3 +20,5 @@ OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.9232576 53.1313996 
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.924878 53.1304342 -2.24 31.31
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.930355 53.1285181 -2.24 136.54
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Red.ac 5.9338353 53.1275289 -1.9 295.49
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 5.762778 53.230833 -1.51 127.31
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 5.765278 53.2275 -1.49 89.31

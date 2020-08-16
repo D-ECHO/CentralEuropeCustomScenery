@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PropertyList>
+
+    <path>CityHochhausLeipzig.ac</path>
+    <effect>
+        <object-name>CityHochhausLeipzig</object-name>
+        <inherits-from>/Effects/model-combined-deferred</inherits-from>
+        <parameters>
+            <lightmap-enabled type="int">1</lightmap-enabled>
+            <texture n="3">
+                <image>CityHochhausLeipzig_Lights.png</image>
+            </texture>
+            <lightmap-factor type="float" n="0">
+                <use>/sim/time/sun-angle-rad</use>
+            </lightmap-factor>
+        </parameters>
+    </effect>
+
+</PropertyList>

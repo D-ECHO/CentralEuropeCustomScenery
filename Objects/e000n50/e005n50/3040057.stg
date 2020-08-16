@@ -1,3 +1,5 @@
+OBJECT_SHARED Models/Industrial/Industrial130x95.ac 5.34955 50.98124 82.08 83
+OBJECT_SHARED Models/Industrial/Industrial35x55.ac 5.34955 50.98124 53.08 315
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.287265 50.9440525 37.7 306.76
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.290887 50.9409969 41 306.81
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.2943546 50.9380817 38.34 306.77
@@ -42,11 +44,23 @@ OBJECT_SHARED Models/Airport/hanger-42fx42f-tan-01.ac 5.38041 50.969677 41.11 27
 OBJECT_SHARED Models/Airport/hanger-42fx42f-tan-01.ac 5.380604 50.969677 41.01 270
 OBJECT_SHARED Models/Airport/hanger-42fx42f-tan-01.ac 5.380798 50.969677 40.9 270
 OBJECT_SHARED Models/Airport/windsock_lit.xml 5.3783 50.9696 42.18 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.36603 50.97038 82.2 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.36604 50.97032 82.15 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.36604 50.97042 82.24 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.36605 50.97048 82.3 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.38526 50.97035 44.39 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.38527 50.9707 44.36 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.38528 50.9706 44.39 0
+OBJECT_SHARED Models/Trees/beech33.xml 5.3853 50.9705 44.4 0
+OBJECT_SHARED Models/Trees/populus-tree.xml 5.38528 50.9704 44.39 0
+OBJECT_SHARED Models/Trees/populus-tree.xml 5.38528 50.97063 44.38 0
+OBJECT_SHARED Models/Trees/populus-tree.xml 5.38528 50.9708 44.34 0
 OBJECT_SHARED Models/Airport/TOOLHOUSE.ac 5.38095 50.96962 40.92 42
 OBJECT_SHARED Models/Misc/gothical_church.xml 5.25077 50.916617 29.73 0
 OBJECT_SHARED Models/Misc/gothical_church.xml 5.306748 50.898354 40.78 0
 OBJECT_SHARED Models/Misc/gothical_church.xml 5.339452 50.928439 -72.16 0
 OBJECT_SHARED Models/Misc/gothical_church.xml 5.340246 50.928594 -72.91 0
+OBJECT_SHARED Models/Trees/tilleul.ac 5.38528 50.97075 44.36 0
 OBJECT_SHARED Models/Airport/Avgas_Pump.ac 5.37709 50.969275 43.09 270
 OBJECT_SHARED Models/Airport/Avgas_Pump.ac 5.377113 50.969275 43.09 270
 OBJECT_SHARED Models/Airport/Hangar_20mx14m.ac 5.37575 50.96921 43.19 180
@@ -69,6 +83,7 @@ OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 5.4869444 50.9330556 47.69 0
 OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 5.4888889 50.9438889 56.05 0
 OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 5.4969444 50.9280556 51.17 0
 OBJECT_SHARED Models/Power/windturbine_e82_98m.xml 5.4986111 50.9391667 58.46 0
+OBJECT_SHARED Models/Sport/tennis_red.ac 5.38831 50.98545 62.62 0
 OBJECT_SHARED Models/Airport/LFCA-Tower-LR.ac 5.37891 50.96964 41.88 180
 OBJECT_SHARED Models/Airport/office32x25n.ac 5.37195 50.96895 42.26 90
 OBJECT_SHARED Models/Airport/office32x25n.ac 5.37195 50.96895 42.26 90

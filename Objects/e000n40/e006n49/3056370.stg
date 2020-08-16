@@ -40,7 +40,6 @@ OBJECT_SHARED Models/Power/windturbine.xml 6.6302778 49.8291667 353.26 180
 OBJECT_SHARED Models/Power/windturbine.xml 6.6358333 49.8155556 372.68 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 6.5283333 49.7930556 166.11 180
 OBJECT_SHARED Models/Commercial/generic_skyscraper_07.ac 6.5594444 49.8277778 -2.19 180
-OBJECT_SHARED Models/Commercial/generic_skyscraper_08.ac 6.6644444 49.7544444 -107.85 180
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac 6.7369444 49.8327778 126.38 180
-## Porta Nigra
-OBJECT_STATIC portanigra.ac 6.6439 49.75960 138.2740 60.0 0.0 -0.0
+OBJECT_SHARED Models/Communications/fernmeldeturm_gruenwettersbach.xml 6.664876 49.754384 250.34 180
+OBJECT_STATIC portanigra.ac 6.6439 49.7596 140.05 60

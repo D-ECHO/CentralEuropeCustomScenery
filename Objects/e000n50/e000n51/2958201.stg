@@ -29,6 +29,18 @@ OBJECT_SHARED Models/Airport/egkk_blastscreen.xml 0.2625473 51.89275119 105.37 3
 OBJECT_SHARED Models/Airport/egkk_blastscreen.xml 0.26292059 51.89299503 105.73 316
 OBJECT_SHARED Models/Airport/egkk_blastscreen.xml 0.26322038 51.89541443 107.97 318.3
 OBJECT_SHARED Models/Airport/egkk_blastscreen.xml 0.26372517 51.89577284 108.41 320
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2526665 51.890077 -24.27 44
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2533156 51.8896659 -24.48 45.7
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2540119 51.8892808 -24.71 48.4
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2547093 51.8888994 -24.95 48
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.255732 51.8918469 -22.39 44
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2563514 51.8914756 -22.54 48
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2570504 51.891083 -22.72 48
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2577581 51.89069 -22.93 48
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2587814 51.89359 -20.06 47.9
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.2594982 51.8932076 -20.16 50.8
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.260191 51.8928407 -20.27 228
+OBJECT_SHARED Models/Commercial/generic_building_135x65x35m_green.xml 0.260899 51.8924401 -20.44 48
 OBJECT_SHARED Models/Airport/EHLE_hangar_1.ac 0.25035094 51.88680045 98.62 318.1
 OBJECT_SHARED Models/Airport/EHLE_hangar_1.ac 0.25145808 51.88617441 98.11 317.8
 OBJECT_SHARED Models/Airport/Apronlamp22m180deg.xml 0.250322 51.887537 99.05 0
@@ -84,6 +96,8 @@ OBJECT_SHARED Models/Airport/Apronlamp22m180deg.xml 0.261668 51.892506 104.86 0
 OBJECT_SHARED Models/Airport/Apronlamp22m180deg.xml 0.263798 51.893659 106.63 0
 OBJECT_SHARED Models/Airport/Apronlamp22m180deg.xml 0.269017 51.892788 107.8 0
 OBJECT_SHARED Models/Airport/Vehicle/Cobus_3000.xml 0.25851 51.890066 101.64 200
+OBJECT_STATIC klsv-building-1.xml 0.2580972 51.8939975 105.05 48
 OBJECT_STATIC EGSL_Terminal.ac 0.45182175 51.8958296 86.84 92
 OBJECT_STATIC EGSL_Hangars.ac 0.45270834 51.8960741 87.3 92
 OBJECT_STATIC EGSL_Wharehouse.ac 0.45214269 51.8960633 87.23 92
+OBJECT_STATIC stansted.ac 0.2591233 51.8910626 102.23 137.4

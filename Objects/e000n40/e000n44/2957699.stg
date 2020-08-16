@@ -1,3 +1,5 @@
 OBJECT_SHARED Models/Power/coolingtower.xml 0.841867 44.10844 53.25 0
 OBJECT_SHARED Models/Power/coolingtower.xml 0.845621 44.103541 54.72 0
 OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.8230556 44.0752778 96.11 180
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.84451 44.10736 69.17 333
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.84636 44.10667 72.21 333

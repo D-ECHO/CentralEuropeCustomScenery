@@ -1,6 +1,4 @@
 OBJECT_SHARED Models/Airport/ndb.ac 5.395 51.467778 21.05 180
-OBJECT_SHARED Models/Airport/ils.xml 5.368433 51.442828 18.49 324.32
-OBJECT_SHARED Models/Airport/ils.xml 5.383767 51.456194 16.56 144.33
 OBJECT_SHARED Models/Airport/tacan.xml 5.375 51.448056 16.24 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 5.368433 51.442828 18.49 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 5.375001 51.448051 16.24 180
@@ -26,4 +24,6 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.4893902 51.4996327 14.27 0.95
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.49626 51.4997033 15.34 349.72
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 5.4986606 51.4710005 16.41 147.84
 OBJECT_SHARED Models/Airport/EHAM_lichtmastdubbelgroot.ac 5.38846 51.45599 17.19 0
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 5.368433 51.442828 18.49 324.32
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 5.383767 51.456194 16.56 144.33
 OBJECT_STATIC EHEH_airportbuilding.ac 5.39044 51.45662 17.25 90

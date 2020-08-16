@@ -20,8 +20,8 @@ OBJECT_SHARED Models/Power/windturbine.xml 6.6969444 49.6752778 427.91 180
 OBJECT_SHARED Models/Power/windturbine.xml 6.7044444 49.6697222 437.91 180
 OBJECT_SHARED Models/Power/windturbine.xml 6.7055556 49.6688889 445.19 180
 OBJECT_SHARED Models/Power/windturbine.xml 6.7063889 49.6680556 449.63 180
-OBJECT_SHARED Models/Power/windturbine.xml 6.7075 49.7172222 414.82 180
-OBJECT_SHARED Models/Power/windturbine.xml 6.7088889 49.7202778 416.9 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.707156 49.71566 409.68 180
+OBJECT_SHARED Models/Power/windturbine.xml 6.71009 49.717501 417.83 180
 OBJECT_SHARED Models/Power/windturbine.xml 6.7155556 49.7419444 368.04 180
 OBJECT_SHARED Models/Power/windturbine.xml 6.7244444 49.7338889 399.39 180
 OBJECT_SHARED Models/Communications/radio-tall.xml 6.6133333 49.6286111 112.19 180
@@ -48,3 +48,6 @@ OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 6.6224207 49.72757
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 6.6227158 49.7272825 133.59 276.71
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 6.6229518 49.7270467 134.61 191.41
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Cylindrical-Yellow.ac 6.62322 49.7267901 135.68 207.23
+OBJECT_SHARED Models/Power/windturbine_e82_85m.xml 6.702819 49.712076 401.08 0
+OBJECT_SHARED Models/Power/windturbine_e82_85m.xml 6.703742 49.714421 406.44 0
+OBJECT_SHARED Models/Power/windturbine_e82_85m.xml 6.706252 49.718583 412.66 0

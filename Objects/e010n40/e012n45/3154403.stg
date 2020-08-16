@@ -1,3 +1,10 @@
+OBJECT_SHARED Models/Maritime/Civilian/SailBoatUnderSail.xml 12.9326304 45.5935018 -2.2 192
+OBJECT_SHARED Models/Maritime/Civilian/SailBoatUnderSail.xml 12.9677356 45.6025528 -2.02 136
+OBJECT_SHARED Models/Maritime/Civilian/SailBoatUnderSail.xml 12.988485 45.6124462 -1.41 260
+OBJECT_SHARED Models/Maritime/Civilian/Trawler.xml 12.9437955 45.5832379 -3.03 284
 OBJECT_SHARED Models/Airport/windsock_lit.xml 12.810393 45.612654 -1.54 0
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 12.9774598 45.6149822 -1.05 0
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 12.9793114 45.6154105 -1.05 4
+OBJECT_SHARED Models/Maritime/Misc/yachting-pier-70m.ac 12.9783179 45.6245606 -0.02 102.4
 OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 12.892995 45.60012 -2.4 0
 OBJECT_STATIC South_Lundy_Helipad.ac 12.813659 45.611537 -2.64 157

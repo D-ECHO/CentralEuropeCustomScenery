@@ -1,8 +1,5 @@
 OBJECT_SHARED Models/Commercial/generic_skyscraper_05.ac 7.4652778 50.4425 -358.11 180
-OBJECT_SHARED Models/Commercial/generic_skyscraper_07.ac 7.4608333 50.4461111 -342.31 180
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 7.345 50.3911111 -291.65 180
-OBJECT_SHARED Models/Power/generic_pylon_200m.ac 7.4580556 50.4213889 -35.27 180
-OBJECT_SHARED Models/Power/generic_power_plant.xml 7.4836111 50.4086111 66.59 177.48
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.402235 50.3887363 97.54 261.46
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.4025698 50.388958 97.25 226.08
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.4031474 50.3875863 95.43 293.93
@@ -21,3 +18,7 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.4200047 50.3850521 119.95 346.
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.4207871 50.3849428 122.27 346.52
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.4212195 50.384871 123.54 327.04
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 7.4213315 50.3847818 123.76 308.68
+OBJECT_SHARED Models/Industrial/Boesdorf_Chimney.xml 7.4836111 50.4086111 23.59 0
+OBJECT_SHARED Models/Industrial/TPS_Drujba2_chimney.ac 7.4608333 50.4461111 37.69 180
+OBJECT_SHARED Models/Power/reacteurPal.ac 7.48613 50.40882 71.3 177.5
+OBJECT_STATIC Raiffeisenbridge.ac 7.4580556 50.4213889 59.73 216

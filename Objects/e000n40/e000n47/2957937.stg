@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-tall.xml 0.32344 47.76469 -114.89 0
+OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 0.3 47.8236111 -334.81 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.2986111 47.8438889 139.55 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.3583333 47.8633333 126.29 180

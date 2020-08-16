@@ -1,0 +1,17 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.6294444 49.8555556 48.52 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.6327778 49.7811111 52.13 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.6613889 49.7880556 52.2 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.7005556 49.8633333 19.59 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.7377778 49.8647222 31.57 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.7380556 49.8647222 26.67 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 0.7125 49.8238889 79.7 180
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 0.70878 49.873476 6.36 0
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 0.635 49.87167 -1.8 242.14
+OBJECT_SHARED Models/Airport/Hangar_20mx14m.ac 0.65928 49.83867 79.29 115
+OBJECT_SHARED Models/Airport/LFCA-Tower-LR.ac 0.65957 49.83831 79.09 24
+OBJECT_SHARED Models/Airport/EDWB_HangarBRight.xml 0.65878 49.83826 79.07 25
+OBJECT_SHARED Models/Airport/hangcyl30x18.ac 0.65934 49.83898 79.44 25
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.63227 49.85782 41.73 173
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.6344 49.857657 42.62 173
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.63653 49.857493 39.21 173
+OBJECT_SHARED Models/Power/reacteurPal.ac 0.63866 49.85733 35.41 173

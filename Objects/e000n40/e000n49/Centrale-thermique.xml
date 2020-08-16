@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>Centrale-thermique.ac</path>
+
+<!--SMOKE 1-->       
+
+<particlesystem>
+  <name>smoke</name>
+  
+  <texture>Centrale-thermique1.png</texture>
+  <emissive>false</emissive>
+  <lighting>false</lighting>
+       
+  <offsets>
+    <x-m>252</x-m>	
+    <y-m>107</y-m>	
+    <z-m>250</z-m>
+  </offsets>
+           
+  <attach>world</attach>
+           
+  <placer>
+    <type>point</type>
+  </placer>
+           
+  <shooter>
+    <speed-mps>
+    	<value>5</value>
+	<spread>3</spread>
+    </speed-mps>
+  </shooter>
+       
+  <counter>
+    <particles-per-sec>
+      <value>2</value>
+      <spread>3</spread>
+    </particles-per-sec>
+  </counter>
+           
+  <align>billboard</align>
+           
+  <particle>
+
+  <start>
+    <color>
+      <red><value>0.5</value></red>
+      <green><value>0.5</value></green>
+      <blue><value>0.5</value></blue>
+      <alpha><value>0.2</value></alpha>
+    </color>
+    <size>
+      <value>15</value>
+    </size>
+  </start>
+
+  <end>
+    <color>
+      <red><value>0.5</value></red>
+      <green><value>0.5</value></green>
+      <blue><value>0.5</value></blue>
+      <alpha><value>0.0</value></alpha>
+    </color>
+    <size>
+      <value>50</value>
+      <spread>40</spread>
+    </size>
+  </end>
+    
+  <life-sec>
+    <value>20</value>
+  </life-sec>
+
+  <mass-kg>310</mass-kg>
+  <radius-m>10</radius-m>
+  </particle>
+           
+  <program>
+    <fluid>air</fluid>
+    <gravity>true</gravity>
+    <wind>true</wind>
+  </program>
+           
+</particlesystem>
+
+<!--SMOKE 2-->       
+
+<particlesystem>
+  <name>smoke</name>
+  
+  <texture>Centrale-thermique1.png</texture>
+  <emissive>false</emissive>
+  <lighting>false</lighting>
+       
+  <offsets>
+    <x-m>70</x-m>	
+    <y-m>107</y-m>	
+    <z-m>250</z-m>
+  </offsets>
+           
+  <attach>world</attach>
+           
+  <placer>
+    <type>point</type>
+  </placer>
+           
+  <shooter>
+    <speed-mps>
+    	<value>5</value>
+	<spread>3</spread>
+    </speed-mps>
+  </shooter>
+       
+  <counter>
+    <particles-per-sec>
+      <value>2</value>
+      <spread>3</spread>
+    </particles-per-sec>
+  </counter>
+           
+  <align>billboard</align>
+           
+  <particle>
+
+  <start>
+    <color>
+      <red><value>0.5</value></red>
+      <green><value>0.5</value></green>
+      <blue><value>0.5</value></blue>
+      <alpha><value>0.2</value></alpha>
+    </color>
+    <size>
+      <value>15</value>
+    </size>
+  </start>
+
+  <end>
+    <color>
+      <red><value>0.5</value></red>
+      <green><value>0.5</value></green>
+      <blue><value>0.5</value></blue>
+      <alpha><value>0.0</value></alpha>
+    </color>
+    <size>
+      <value>50</value>
+      <spread>40</spread>
+    </size>
+  </end>
+    
+  <life-sec>
+    <value>20</value>
+  </life-sec>
+
+  <mass-kg>310</mass-kg>
+  <radius-m>10</radius-m>
+  </particle>
+           
+  <program>
+    <fluid>air</fluid>
+    <gravity>true</gravity>
+    <wind>true</wind>
+  </program>
+           
+</particlesystem>
+ 
+<!--LIGHT-->
+
+<animation>
+  <type>alpha-test</type>
+  <alpha-factor>0.01</alpha-factor>
+ </animation>
+
+ <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>red-light-plate</object-name>    
+    <object-name>white-light-plate</object-name>    
+  </effect>
+
+<!--Day = white-->
+ <animation>
+  <type>select</type>
+ <object-name>white-light-plate</object-name>
+ <object-name>Pos1</object-name>
+  <condition>
+   <less-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </less-than>
+  </condition>
+ </animation>
+ 
+ <animation>
+ <type>timed</type>
+ <object-name>white-light-plate</object-name>
+<object-name>Pos1</object-name>
+ <use-personality type="bool">true</use-personality>
+<branch-duration-sec>
+  <random>
+   <min>1.5</min>
+   <max>1.5</max>
+  </random>
+ </branch-duration-sec>
+ <branch-duration-sec>
+  <random>
+   <min>0.025</min>
+   <max>0.025</max>
+  </random>
+ </branch-duration-sec>
+ </animation>
+
+<!--Night = red-->
+<animation>
+  <type>select</type>
+ <object-name>red-light-plate</object-name>
+<object-name>Pos2</object-name>
+  <condition>
+   <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+ <type>timed</type>
+ <object-name>red-light-plate</object-name>
+<object-name>Pos2</object-name>
+ <use-personality type="bool">true</use-personality>
+<branch-duration-sec>
+  <random>
+   <min>1.5</min>
+   <max>1.5</max>
+  </random>
+ </branch-duration-sec>
+ <branch-duration-sec>
+  <random>
+   <min>0.025</min>
+   <max>0.025</max>
+  </random>
+ </branch-duration-sec>
+  </animation>
+
+ <animation>
+    <type>material</type>
+    <object-name>red-light-plate</object-name>    
+    <object-name>white-light-plate</object-name>    
+    <emission>
+      <red>   0.027 </red>
+      <green> 0.027 </green>
+      <blue>  0.027 </blue>
+      <factor>150</factor>
+    </emission>
+  </animation> 
+
+ <animation>
+  <object-name>red-light-plate</object-name>    
+  <object-name>white-light-plate</object-name>  
+  <enable-hot type="bool">false</enable-hot>
+ </animation>
+
+</PropertyList>

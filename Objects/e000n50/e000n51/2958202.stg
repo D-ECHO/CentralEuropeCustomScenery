@@ -7,3 +7,4 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6500387 51.8843855 54.6 71.34
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6521845 51.8874052 61.07 65.65
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6545877 51.8905837 63.45 66.08
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6565833 51.8935102 68.93 67.18
+OBJECT_STATIC HedinghamCastle.ac 0.601579 51.9925 85.29 285

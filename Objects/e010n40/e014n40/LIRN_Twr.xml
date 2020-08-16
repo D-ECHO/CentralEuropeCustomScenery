@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>LIRN_Twr.ac</path>
+
+<animation> 
+    <type>textranslate</type> 
+    <object-name>Bldgwindows</object-name>  
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> 0 </x> 
+      <y> -1 </y> 
+      <z>  0 </z> 
+    </axis> 
+  </animation>
+ 
+  <animation>
+    <type>material</type>
+    <object-name>Bldgwindows</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   1 </red>
+      <green> 1 </green>
+      <blue>  1 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+     <object-name>Bldgwindows</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+
+<animation> 
+    <type>textranslate</type> 
+    <object-name>ENAV</object-name>  
+    <property>/sim/time/sun-angle-rad</property>
+    <step> 1.57 </step>
+    <factor>0.318471338</factor>
+    <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+    </center>
+    <axis> 
+      <x> -1 </x> 
+      <y> 0 </y> 
+      <z>  0 </z> 
+    </axis> 
+  </animation>
+ 
+  <animation>
+    <type>material</type>
+    <object-name>ENAV</object-name>
+    <condition>
+      <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+    </condition>
+    <emission>
+      <red>   1 </red>
+      <green> 1 </green>
+      <blue>  1 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>material</type>
+     <object-name>ENAV</object-name>
+    <condition>
+      <less-than-equals>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </less-than-equals>
+    </condition>
+    <emission>
+      <red>   0.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+  
+<!-- Obstruction Lights START copiare da LIME_CC-->
+ <animation>
+ <type>noshadow</type>
+  <object-name>red1</object-name>
+  <object-name>red2</object-name>
+  <object-name>red3</object-name>
+</animation>
+
+<animation>
+  <type>alpha-test</type>
+   <alpha-factor>0.01</alpha-factor>
+</animation>
+
+
+<animation>
+ <type>select</type>
+  <object-name>red1</object-name>
+  <object-name>red2</object-name>
+  <object-name>red3</object-name>
+  
+<condition>
+<greater-than>
+<property>sim/time/sun-angle-rad</property>
+<value>1.57</value>
+</greater-than>
+ </condition>
+</animation>
+
+    
+<animation>
+	  
+<type>range</type>
+	  
+<min-m>0</min-m>
+	  
+<max-m>10000</max-m>
+    
+</animation>
+
+<!-- OFFSET -->
+<animation>
+		<type>translate</type>
+		 <object-name>red1</object-name>
+		<offset-m>47.8266462</offset-m>
+		<axis>
+			<x>0.0</x>
+			<y>-7.078</y>
+			<z>47.3</z>
+		</axis>
+</animation>
+
+<animation>
+		<type>translate</type>
+		 <object-name>red2</object-name>
+		<offset-m>47.9164346</offset-m>
+		<axis>
+			<x>-7.078</x>
+			<y>2.932</y>
+			<z>47.3</z>
+		</axis>
+</animation>
+<animation>
+		<type>translate</type>
+		 <object-name>red3</object-name>
+		<offset-m>47.9164346</offset-m>
+		<axis>
+			<x>7.078</x>
+			<y>2.932</y>
+			<z>47.3</z>
+		</axis>
+</animation>
+
+
+<!-- FINE OFFSET -->
+    
+<animation>
+        
+<type>billboard</type>       
+  	<object-name>red1</object-name>
+    <object-name>red2</object-name>
+    <object-name>red3</object-name>
+  
+<spherical type="bool">true</spherical>
+    
+</animation>
+
+  
+<animation>
+    <type>dist-scale</type>
+ 	<object-name>red1</object-name>
+    <object-name>red2</object-name>
+    <object-name>red3</object-name>
+ 
+<interpolation>
+      
+<entry><ind>0</ind><dep>0.025</dep></entry>
+
+<entry><ind>300</ind><dep>0.1</dep></entry>
+      
+<entry><ind>1500</ind><dep>0.3</dep></entry>
+      
+<entry><ind>4000</ind><dep>1</dep></entry>
+      
+<entry><ind>10000</ind><dep>1.5</dep></entry>
+    
+</interpolation>
+  
+</animation>  
+
+<!-- ObstructionLights END -->
+<!-- Internals Twr Eqpt -->
+ <animation>
+        <type>material</type>
+        <object-name>Eqpt</object-name>
+        <object-name>ENAVTwr</object-name>
+  <condition>
+    <greater-than>
+        <property>/sim/time/sun-angle-rad</property>
+        <value>1.57</value>
+      </greater-than>
+  
+  </condition>    
+		
+        <emission>
+
+            <red>0.9</red>
+            <green>0.9</green>
+            <blue>0.9</blue>
+			
+        </emission>
+    </animation>
+
+ 
+
+</PropertyList>

@@ -4,3 +4,4 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac 3.7237088 43.4959563 80.29 224.5
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 3.7270978 43.4976414 87.74 215.05
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 3.7315551 43.4999618 89.21 215.36
 OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 3.7003831 43.4240889 -2 266.55
+OBJECT_STATIC PhStLouis.ac 3.70172 43.3967 0 0

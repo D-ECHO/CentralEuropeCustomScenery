@@ -1,0 +1,16 @@
+OBJECT_SHARED Models/Airport/ils.xml 0.162081 49.363917 139.26 63.01
+OBJECT_SHARED Models/Communications/vordme_1.xml 0.162081 49.363917 139.26 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 0.09 49.2572222 134.51 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 0.2469444 49.3708333 114.25 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 0.2477778 49.3722222 119.37 180
+OBJECT_SHARED Models/Airport/localizer.xml 0.135047 49.371756 143.89 63.01
+OBJECT_SHARED Models/Commercial/OfficeBuilding74x18m.ac 0.154 49.36215 145.73 63
+OBJECT_SHARED Models/Aircraft/Citation-II-Type1.xml 0.154173 49.362686 145.29 117
+OBJECT_SHARED Models/Airport/BT.ac 0.15279 49.36256 145.82 243
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 0.0747616 49.3672669 0.85 79.86
+OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 0.073871 49.36727 -2.1 0
+OBJECT_SHARED Models/Airport/hangar_25x25m_tan.ac 0.15504 49.36171 145.67 119
+OBJECT_SHARED Models/Airport/hangar_25x25m_tan.ac 0.15523 49.36149 145.75 119
+OBJECT_SHARED Models/Airport/Club_House.ac 0.15364 49.36232 145.74 63
+OBJECT_SHARED Models/Airport/tourMelun.ac 0.15619 49.36033 146.23 30
+OBJECT_SHARED Models/Aircraft/c172blue1.ac 0.153337 49.363343 145.08 117

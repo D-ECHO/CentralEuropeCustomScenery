@@ -1,7 +1,4 @@
 OBJECT_SHARED Models/Power/windturbine.xml 4.9418692 52.2882385 -5.56 0
-OBJECT_SHARED Models/Airport/ils.xml 4.775856 52.293725 -3.28 356.61
-OBJECT_SHARED Models/Airport/ils.xml 4.792008 52.319289 -3.14 91.62
-OBJECT_SHARED Models/Airport/ils.xml 4.799189 52.312981 -3.23 137.61
 OBJECT_SHARED Models/Communications/vordme_1.xml 4.775025 52.293733 -3.29 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 4.784944 52.306553 -3.81 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 4.791992 52.319739 -6.31 180
@@ -606,6 +603,9 @@ OBJECT_SHARED Models/Airport/EHAM_olietank_b.ac 4.7738852 52.29924 -3.72 0
 OBJECT_SHARED Models/Airport/EHAM_olietank_b.ac 4.7744252 52.29834 -3.67 0
 OBJECT_SHARED Models/Airport/EHAM_olietank_b.ac 4.7744552 52.29871 -3.69 0
 OBJECT_SHARED Models/Airport/EHAM_olietank_b.ac 4.7744952 52.29906 -3.7 0
+OBJECT_SHARED Models/Airport/EUROPOLES_GLS.xml 4.775856 52.293725 -3.28 356.61
+OBJECT_SHARED Models/Airport/EUROPOLES_GLS.xml 4.792008 52.319289 -3.14 91.62
+OBJECT_SHARED Models/Airport/EUROPOLES_GLS.xml 4.799189 52.312981 -3.23 137.61
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 4.952267 52.3747 0.19 72.9
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 4.952467 52.374333 0.19 284.69
 OBJECT_SHARED Models/Maritime/Misc/Buoy-Conical-Green.ac 4.95265 52.37395 0.19 13.94

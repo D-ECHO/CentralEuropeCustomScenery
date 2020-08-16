@@ -1,5 +1,5 @@
-OBJECT_SHARED Models/Airport/ils.xml 12.295325 44.229281 2.7 243.72
 OBJECT_SHARED Models/Airport/tacan.xml 12.357153 44.206464 -2.6 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 12.295325 44.229281 2.7 180
 OBJECT_SHARED Models/Airport/localizer.xml 12.326586 44.217444 -0.93 244
 OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 12.401456 44.206052 -1.5 0
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 12.295325 44.229281 2.7 243.72

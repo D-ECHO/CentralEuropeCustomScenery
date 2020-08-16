@@ -2,3 +2,5 @@ OBJECT_SHARED Models/Airport/ils.xml 6.381264 43.383725 79.5 270.52
 OBJECT_SHARED Models/Communications/vordme_1.xml 6.255917 43.382778 301.02 180
 OBJECT_SHARED Models/Communications/vordme_1.xml 6.381264 43.383728 79.5 180
 OBJECT_SHARED Models/Airport/localizer.xml 6.390239 43.384739 76.08 270.52
+OBJECT_SHARED Models/Airport/tower.xml 6.385782 43.382439 79.13 0
+OBJECT_STATIC AbThoronet.ac 6.2641 43.46033 185.69 88

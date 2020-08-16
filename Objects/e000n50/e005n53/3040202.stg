@@ -54,7 +54,7 @@ OBJECT_SHARED Models/Power/windturbine.xml 5.7254955 53.1632113 -2.14 0
 OBJECT_SHARED Models/Power/windturbine.xml 5.7308641 53.1675685 -3.19 0
 OBJECT_SHARED Models/Power/windturbine.xml 5.7349245 53.1872617 -0.33 0
 OBJECT_SHARED Models/Power/windturbine.xml 5.7362558 53.1872412 -1.38 0
-OBJECT_SHARED Models/Airport/ils.xml 5.741111 53.221667 -1.35 304.29
-OBJECT_SHARED Models/Airport/ils.xml 5.745278 53.227778 -0.99 269.3
 OBJECT_SHARED Models/Airport/localizer.xml 5.734722 53.217778 -1.55 325.35
 OBJECT_SHARED Models/Airport/localizer.xml 5.738056 53.228611 -0.14 0.32
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 5.741111 53.221667 -1.35 304.29
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 5.745278 53.227778 -0.99 269.3

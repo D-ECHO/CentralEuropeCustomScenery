@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-tall.xml 1.62678 46.57899 -142.82 0
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.5075 46.5316667 196.7 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.5097222 46.5694444 153.32 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.5180556 46.6041667 153 180

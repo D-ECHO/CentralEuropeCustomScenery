@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.3038889 47.6083333 76.64 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.3380556 47.6058333 61.97 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.3466667 47.6233333 90.09 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.3761111 47.5366667 99.5 180
+OBJECT_SHARED Models/Industrial/water-tower.ac 1.3761111 47.5636111 99.12 180
+OBJECT_STATIC Cheverny.ac 1.45802 47.50022 98.19 80

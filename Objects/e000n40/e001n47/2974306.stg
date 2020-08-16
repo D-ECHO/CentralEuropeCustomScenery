@@ -1,0 +1,4 @@
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.7372222 47.6077778 7.31 180
+OBJECT_SHARED Models/Communications/radio-medium.xml 1.7380556 47.6094444 6.41 180
+OBJECT_SHARED Models/Power/generic_pylon_100m.ac 1.6636111 47.5372222 41.49 180
+OBJECT_STATIC ChatCham.ac 1.5168 47.61639 80.57 310

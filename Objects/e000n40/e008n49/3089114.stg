@@ -1,5 +1,4 @@
 OBJECT_SHARED Models/Airport/ndb.ac 8.596764 49.386017 103.77 180
-OBJECT_SHARED Models/Communications/radio-medium.xml 8.525 49.4636111 -18.8 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 8.5313889 49.4513889 -43.53 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 8.7305556 49.4027778 480.39 180
 OBJECT_SHARED Models/Communications/radio-medium.xml 8.7336111 49.4030556 446.37 180
@@ -7,7 +6,6 @@ OBJECT_SHARED Models/Communications/vordme_1.xml 8.515981 49.470639 94.65 180
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 8.5266667 49.4258333 -292.06 180
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 8.6702778 49.4211111 -266.16 180
 OBJECT_SHARED Models/Airport/localizer.xml 8.504894 49.473211 93.59 94.03
-OBJECT_SHARED Models/Misc/generic_balloon.xml 8.5261111 49.4680556 -329.04 180
 OBJECT_SHARED Models/Power/generic_power_plant.xml 8.5005556 49.4441667 103.93 238.19
 OBJECT_SHARED Models/Communications/Telekom_Turm_Kiel_Muenster_Cuxhaven_Bremen.xml 8.730623 49.402791 578.15 0
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.544697 49.3902686 97.02 269.68

@@ -1,0 +1,6 @@
+OBJECT_SHARED Models/Misc/big-church.ac 13.346109 46.160193 329.68 48
+OBJECT_SHARED Models/Misc/big-church.ac 13.348871 46.158751 268.21 152
+OBJECT_SHARED Models/Communications/Antenna1.ac 13.405187 46.159338 793.16 296
+OBJECT_SHARED Models/Communications/Antenna2.xml 13.401732 46.158945 769.22 16
+OBJECT_SHARED Models/Communications/Measurement-Mast-80m.xml 13.400295 46.159502 778.27 332
+OBJECT_SHARED Models/Communications/Antenna4.ac 13.2921 46.152895 150.35 184.4

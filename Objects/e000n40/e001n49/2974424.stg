@@ -18,3 +18,4 @@ OBJECT_SHARED Models/Industrial/water-tower.ac 1.0555556 49.4058333 45.73 180
 OBJECT_SHARED Models/Industrial/water-tower.ac 1.1347222 49.4622222 148.94 180
 OBJECT_SHARED Models/Industrial/water-tower.ac 1.2325 49.3761111 161.87 180
 OBJECT_SHARED Models/Airport/localizer.xml 1.166142 49.377758 151.48 138.53
+OBJECT_STATIC CatheRouen.ac 1.09491 49.43995 28.64 64

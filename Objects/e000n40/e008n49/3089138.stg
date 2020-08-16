@@ -3,7 +3,6 @@ OBJECT_SHARED Models/Power/windturbine.xml 8.70039 49.76154 383.26 0
 OBJECT_SHARED Models/Power/windturbine.xml 8.70565 49.76833 367.96 0
 OBJECT_SHARED Models/Power/windturbine.xml 8.70657 49.76718 372.83 0
 OBJECT_SHARED Models/Communications/radio-medium.xml 8.6086111 49.8575 -14.19 180
-OBJECT_SHARED Models/Communications/vordme_1.xml 8.541486 49.781692 91.74 180
 OBJECT_SHARED Models/Commercial/generic_skyscraper_06.ac 8.6236111 49.8672222 -306.19 180
 OBJECT_SHARED Models/Communications/cell-monopole1-75m.xml 8.7366225 49.8380008 234.04 0
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.5002478 49.7871742 88.86 47.75
@@ -140,4 +139,5 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.6297747 49.8449286 134.09 205.
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.6329154 49.8471455 136.46 209.91
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.6344285 49.847357 138.18 189.81
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac 8.6354064 49.8474388 139.28 187.39
+OBJECT_SHARED Models/Communications/VOR-DME_3.ac 8.541486 49.781692 91.74 180
 OBJECT_STATIC darmstadt_ludwigskirche.ac 8.6522372 49.868125 155.39 0

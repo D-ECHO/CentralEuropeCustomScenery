@@ -30,3 +30,4 @@ OBJECT_SHARED Models/Maritime/Civilian/red-sailing-boat-20m.ac 7.7529398 48.4740
 OBJECT_SHARED Models/Maritime/Civilian/Ponton-I.ac 7.7510587 48.4745826 138.8 49.6
 OBJECT_SHARED Models/Maritime/Civilian/Ponton-I.ac 7.7519402 48.4759213 138.8 50
 OBJECT_SHARED Models/Industrial/gravelpit.ac 7.7605064 48.4304616 151.12 0
+OBJECT_STATIC PontPflimlin.ac 7.76648 48.49171 142.2 81.5

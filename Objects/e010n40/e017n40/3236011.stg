@@ -1,3 +1,3 @@
-OBJECT_SHARED Models/Airport/ils.xml 17.944778 40.658333 6.68 42.33
-OBJECT_SHARED Models/Airport/localizer.xml 17.926389 40.675139 6.83 47.15
+OBJECT_SHARED Models/Airport/localizer.xml 17.92332 40.677668 4.7 47.15
 OBJECT_SHARED Models/Maritime/Civilian/Lighthouse.xml 17.967477 40.655386 -2.4 0
+OBJECT_SHARED Models/Airport/LOWI_ILS_glideslope2.xml 17.944778 40.658333 6.68 42.33

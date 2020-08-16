@@ -175,3 +175,4 @@ OBJECT_SHARED Models/Commercial/tower-square-white-dark.ac 7.09502 50.73697 -382
 OBJECT_SHARED Models/Communications/Posttower.xml 7.13 50.7155 59.18 90
 OBJECT_SHARED Models/Misc/Drachenfels_TheRock.ac 7.210144 50.665668 300.2 0
 OBJECT_SHARED Models/Misc/Drachenfels_VisitorCenter.ac 7.2105 50.665 282 90
+OBJECT_STATIC Petersberg.ac 7.20788 50.686 326.19 90

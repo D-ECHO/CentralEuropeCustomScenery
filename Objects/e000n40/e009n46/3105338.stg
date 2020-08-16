@@ -1,1 +1,6 @@
+OBJECT_SHARED Models/Effects/RedLight10000.xml 9.59449 46.94572 1437.68 0
+OBJECT_SHARED Models/Effects/RedLight10000.xml 9.59451 46.94572 1437.38 0
 OBJECT_SHARED Models/Power/windturbine_flash.xml 9.5386635 46.8940943 545.32 180
+OBJECT_SHARED Models/Effects/red_strobe.xml 9.5945 46.94572 1477.53 0
+OBJECT_SHARED Models/Communications/Sender_Geb_Valzeina.ac 9.59457 46.94547 1355.8 50
+OBJECT_SHARED Models/Communications/Sender_Valzeina.ac 9.5945 46.94572 1357.53 0

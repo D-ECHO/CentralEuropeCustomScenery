@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Commercial/generic_skyscraper_04.ac 0.5697222 47.5558333 -330.2 180
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6433148 47.5062453 111.63 127.85
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6440701 47.5065874 110.89 309.2
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6445422 47.5051785 111.27 127.42
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.645246 47.5056133 110.62 307.87
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6487307 47.5014212 118.91 126.82
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 0.6494173 47.5018097 117.96 306.54
+OBJECT_SHARED Models/Communications/mil-antena-61m.xml 0.7036111 47.6066667 131.36 180
+OBJECT_SHARED Models/Communications/tower-microwave-1.xml 0.7027778 47.6083333 117.4 180

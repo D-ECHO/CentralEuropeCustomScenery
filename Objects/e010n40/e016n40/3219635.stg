@@ -1,2 +1,13 @@
 OBJECT_SHARED Models/Airport/ndb.ac 16.901311 40.800194 360.81 180
 OBJECT_SHARED Models/Airport/tacan.xml 16.901256 40.801256 360.2 180
+OBJECT_SHARED Models/Military/RAFTower.xml 16.9344273 40.7669954 343.42 130.1
+OBJECT_SHARED Models/Military/us-hush-house-hangar-sand.xml 16.9419181 40.7619768 350.22 308.4
+OBJECT_SHARED Models/Airport/embankment20.ac 16.9385636 40.7638296 347.08 39.2
+OBJECT_SHARED Models/Airport/embankment20.ac 16.9389855 40.7640925 347 39
+OBJECT_SHARED Models/Airport/embankment50.ac 16.9388542 40.7638851 347.14 308.9
+OBJECT_SHARED Models/Military/Radar_Avia.xml 16.9365981 40.7716768 340.94 39.5
+OBJECT_SHARED Models/Military/Hangar_EPNM.ac 16.9461375 40.7622398 352.72 89
+OBJECT_SHARED Models/Military/concrete_army_shelter.ac 16.9262795 40.7799874 338.78 128
+OBJECT_SHARED Models/Military/concrete_army_shelter.ac 16.9269369 40.7793605 338.37 128
+OBJECT_SHARED Models/Military/concrete_army_shelter.ac 16.9431388 40.764658 348.37 215.6
+OBJECT_SHARED Models/Military/concrete_army_shelter.ac 16.9466687 40.7620718 353.28 112

@@ -69,7 +69,6 @@ OBJECT_SHARED Models/Power/windturbine.xml 5.73598 52.45653 -3.71 180
 OBJECT_SHARED Models/Power/windturbine.xml 5.73967 52.45815 -4.35 180
 OBJECT_SHARED Models/Power/windturbine.xml 5.74334 52.45974 -3.34 180
 OBJECT_SHARED Models/Power/windturbine.xml 5.74705 52.46134 -3.79 180
-OBJECT_SHARED Models/Airport/ils.xml 5.524004 52.45771 -4.69 132.5
 OBJECT_SHARED Models/Communications/vordme_1.xml 5.507725 52.450036 -6.11 180
 OBJECT_SHARED Models/Airport/localizer.xml 5.505652 52.448163 -6 132.5
 OBJECT_SHARED Models/Airport/SignalsSquare.ac 5.52339 52.45628 -4.51 222
@@ -158,6 +157,7 @@ OBJECT_SHARED Models/Airport/EHLE_marker.ac 5.53194398 52.45745383 -3.9 38
 OBJECT_SHARED Models/Airport/EHLE_hangar_1.ac 5.51976 52.45229 -5.25 312
 OBJECT_SHARED Models/Airport/EHLE_hangar_1.ac 5.52198 52.45353 -4.67 312
 OBJECT_SHARED Models/Airport/EHLE_hangar_1.ac 5.52268 52.45392 -4.51 312
+OBJECT_SHARED Models/Airport/EUROPOLES_GLS.xml 5.524004 52.45771 -4.69 132.5
 OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 5.7479 52.413119 -3 211.88
 OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 5.661222 52.395358 -3.06 223
 OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 5.702094 52.407783 -2.39 332.38

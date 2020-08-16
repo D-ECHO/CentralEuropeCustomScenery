@@ -1,4 +1,14 @@
-OBJECT_SHARED Models/Aircraft/320austrian.xml 15.171282 50.72453 521.65 218
-OBJECT_SHARED Models/Transport/bus_bi.xml 15.17169 50.721494 947.45 262
+OBJECT_SHARED Models/Residential/grdimmeuble.xml 15.169303 50.734191 511.76 350
+OBJECT_SHARED Models/Residential/grdimmeuble.xml 15.169356 50.734007 512.1 350
+OBJECT_SHARED Models/Residential/grdimmeuble.xml 15.169359 50.734449 510.77 36
+OBJECT_SHARED Models/Residential/grdimmeuble.xml 15.169399 50.733827 512.45 350
+OBJECT_SHARED Models/Residential/grdimmeuble.xml 15.169458 50.733637 511.87 350
+OBJECT_SHARED Models/Residential/grdimmeuble.xml 15.169544 50.734595 510.23 36
+OBJECT_SHARED Models/Airport/helipad_circle.xml 15.161895 50.727518 515.61 0
+OBJECT_SHARED Models/Airport/hanger-50fx50f-blue-01.xml 15.074567 50.654379 431.02 104
+OBJECT_SHARED Models/Airport/hanger-50fx50f-blue-01.xml 15.074656 50.654571 431.08 104
+OBJECT_SHARED Models/Airport/hanger-50fx50f-blue-01.xml 15.074707 50.654734 431.11 104
 OBJECT_SHARED Models/Transport/ICE-firstcar.xml 15.160736 50.720944 551 260
+OBJECT_SHARED Models/Airport/TOOLHOUSE.ac 15.07457 50.653967 431.2 15
+OBJECT_SHARED Models/StreetFurniture/bus_stop.ac 15.173844 50.720935 517.47 0
 OBJECT_SHARED Models/Sport/FootballCourt.xml 15.150898 50.724754 514.31 280

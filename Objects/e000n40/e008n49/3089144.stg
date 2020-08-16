@@ -10,7 +10,6 @@ OBJECT_SHARED Models/Power/windturbine.xml 8.2330556 49.8808333 226.62 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.2405556 49.9397222 202.38 180
 OBJECT_SHARED Models/Power/windturbine.xml 8.2427778 49.9366667 193.85 180
 OBJECT_SHARED Models/Commercial/generic_skyscraper_01.xml 8.2497222 49.9980556 -310.22 180
-OBJECT_SHARED Models/Commercial/generic_skyscraper_03.ac 8.1713889 49.9422222 -133.55 180
 OBJECT_SHARED Models/Commercial/generic_skyscraper_06.ac 8.2055556 49.9630556 -228.83 180
 OBJECT_SHARED Models/Industrial/generic_chimney_01.xml 8.0433333 49.9730556 -342.42 180
 OBJECT_SHARED Models/Misc/generic_church_02.ac 8.0163889 49.9561111 112.93 180

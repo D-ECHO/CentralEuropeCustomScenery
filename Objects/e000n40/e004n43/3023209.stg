@@ -1,3 +1,4 @@
 OBJECT_SHARED Models/Airport/ils.xml 4.415807 43.748479 92.54 355.91
 OBJECT_SHARED Models/Airport/tacan.xml 4.419556 43.745833 91.37 180
 OBJECT_SHARED Models/Airport/localizer.xml 4.417311 43.744 92.23 182.09
+OBJECT_SHARED Models/Airport/windsock_lit.xml 4.414932 43.747916 93.09 0

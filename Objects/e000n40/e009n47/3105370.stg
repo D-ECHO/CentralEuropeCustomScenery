@@ -4,6 +4,7 @@ OBJECT_SHARED Models/Airport/localizer.xml 9.570822 47.483731 398.85 260.87
 OBJECT_SHARED Models/Trees/coniferous-tree.xml 9.560285 47.487316 398.65 0
 OBJECT_SHARED Models/Trees/coniferous-tree2.xml 9.560316 47.487316 398.65 0
 OBJECT_SHARED Models/Airport/eddf_blast_deflector_low.xml 9.5710639 47.4840836 398.85 352.1
+OBJECT_SHARED Models/Airport/helipad_circle.xml 9.698685 47.382232 412.09 0
 OBJECT_SHARED Models/Aircraft/Zlin50xl_low_poly.xml 9.5617842 47.487309 398.62 260
 OBJECT_SHARED Models/Aircraft/EC-135_ADAC.xml 9.562004 47.4871558 398.67 264
 OBJECT_SHARED Models/Aircraft/jetranger.xml 9.5622116 47.487181 398.65 344
