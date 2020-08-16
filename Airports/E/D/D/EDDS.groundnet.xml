@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<groundnet>
+  <version>1</version>
+  <parkingList>
+        <Parking index="0" type="gate" name="Gate_9A" lat="N48 41.316224" lon="E9 11.521140" heading="344"  radius="40" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT" />
+        <Parking index="1" type="gate" name="Gate_10" lat="N48 41.324021" lon="E9 11.572493" heading="344"  radius="20" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT" />
+        <Parking index="2" type="gate" name="Gate_11" lat="N48 41.330531" lon="E9 11.616042" heading="344"  radius="32" airlineCodes="" />
+        <Parking index="3" type="gate" name="Gate_13" lat="N48 41.348641" lon="E9 11.707650" heading="344"  radius="32" airlineCodes="AUA,DLH,SWR" />
+        <Parking index="4" type="gate" name="Gate_14" lat="N48 41.357600" lon="E9 11.746790" heading="344"  radius="20" airlineCodes="AUA,DLH,SWR" />
+        <Parking index="5" type="gate" name="Gate_15" lat="N48 41.363139" lon="E9 11.788489" heading="-15.24"  radius="32" airlineCodes="" />
+        <Parking index="6" type="gate" name="Gate_17" lat="N48 41.380888" lon="E9 11.865689" heading="344"  radius="20" airlineCodes="KLM" />
+        <Parking index="7" type="gate" name="Gate_18" lat="N48 41.388316" lon="E9 11.903391" heading="344"  radius="20" airlineCodes="DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG" />
+        <Parking index="8" type="gate" name="Gate_19" lat="N48 41.394853" lon="E9 11.938757" heading="344"  radius="20" airlineCodes="DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG" />
+        <Parking index="9" type="gate" name="Pos_24A" lat="N48 41.437304" lon="E9 11.983356" heading="344"  radius="32" airlineCodes="DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG" />
+        <Parking index="10" type="gate" name="Pos_26" lat="N48 41.454175" lon="E9 12.062702" heading="344"  radius="20" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="11" type="gate" name="Pos_27" lat="N48 41.460231" lon="E9 12.099456" heading="344"  radius="20" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="12" type="gate" name="Pos_28" lat="N48 41.466974" lon="E9 12.136952" heading="344"  radius="32" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="13" type="gate" name="Pos_29" lat="N48 41.477594" lon="E9 12.192753" heading="344"  radius="32" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="14" type="gate" name="Pos_31" lat="N48 41.500261" lon="E9 12.294952" heading="344"  radius="20" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="15" type="gate" name="Pos_32" lat="N48 41.507135" lon="E9 12.332733" heading="344"  radius="32" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="16" type="gate" name="Pos_33" lat="N48 41.514848" lon="E9 12.370439" heading="344"  radius="20" airlineCodes="" />
+        <Parking index="17" type="gate" name="Pos_36" lat="N48 41.534358" lon="E9 12.475241" heading="344"  radius="20" airlineCodes="" />
+        <Parking index="18" type="gate" name="Pos_40" lat="N48 41.238211" lon="E9 11.599430" heading="-197.16"  radius="32" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT" />
+        <Parking index="19" type="gate" name="Pos_43" lat="N48 41.261003" lon="E9 11.717447" heading="-197.16"  radius="32" airlineCodes="" />
+        <Parking index="20" type="gate" name="Pos_44" lat="N48 41.270405" lon="E9 11.766836" heading="-197.16"  radius="32" airlineCodes="AUA,DLH,SWR" />
+        <Parking index="21" type="gate" name="Pos_45" lat="N48 41.277358" lon="E9 11.807297" heading="-194.42"  radius="32" airlineCodes="AUA,DLH,SWR" />
+        <Parking index="22" type="gate" name="Pos_50" lat="N48 41.342425" lon="E9 12.017529" heading="163"  radius="20" airlineCodes="DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG" />
+        <Parking index="23" type="gate" name="Pos_51" lat="N48 41.351900" lon="E9 12.054087" heading="164.18"  radius="32" airlineCodes="DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG" />
+        <Parking index="24" type="gate" name="Pos_54" lat="N48 41.376236" lon="E9 12.175617" heading="164.18"  radius="32" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="25" type="gate" name="Pos_55" lat="N48 41.384875" lon="E9 12.215197" heading="164.18"  radius="20" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="26" type="gate" name="Pos_56" lat="N48 41.392142" lon="E9 12.253165" heading="163.84"  radius="32" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="27" type="gate" name="Pos_60" lat="N48 41.450683" lon="E9 12.341519" heading="-196.34"  radius="20" airlineCodes="FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="28" type="gate" name="Pos_64" lat="N48 41.478494" lon="E9 12.494824" heading="-196.44"  radius="20" airlineCodes="" />
+        <Parking index="29" type="gate" name="Pos_72" lat="N48 41.430501" lon="E9 12.429472" heading="-16.66"  radius="20" airlineCodes="" />
+        <Parking index="30" type="gate" name="Pos_73" lat="N48 41.439051" lon="E9 12.467395" heading="-15.5"  radius="32" airlineCodes="" />
+        <Parking index="31" type="ga" name="Polizeifliegerstaffel_Stand_1" lat="N48 40.918029" lon="E9 11.636947" heading="13.87"  radius="10" airlineCodes="" />
+        <Parking index="32" type="ga" name="Polizeifliegerstaffel_Stand_4" lat="N48 40.909642" lon="E9 11.688379" heading="13.87"  radius="10" airlineCodes="" />
+        <Parking index="33" type="ga" name="Polizeifliegerstaffel_Stand_5" lat="N48 40.908964" lon="E9 11.705663" heading="13.87"  radius="10" airlineCodes="" />
+        <Parking index="34" type="gate" name="Cargo_Pos_205" lat="N48 41.016301" lon="E9 12.393738" heading="163.56"  radius="40" airlineCodes="" />
+        <Parking index="35" type="gate" name="Cargo_Pos_200" lat="N48 40.985871" lon="E9 12.145560" heading="163.56"  radius="20" airlineCodes="" />
+        <Parking index="36" type="gate" name="Cargo_Pos_201" lat="N48 40.991827" lon="E9 12.177196" heading="163.56"  radius="20" airlineCodes="" />
+        <Parking index="37" type="gate" name="Cargo_Pos_204" lat="N48 41.021099" lon="E9 12.325056" heading="163.56"  radius="20" airlineCodes="" />
+        <Parking index="38" type="gate" name="USAF_901" lat="N48 40.926723" lon="E9 11.810505" heading="8.59"  radius="20" airlineCodes="" />
+        <Parking index="39" type="gate" name="USAF_902A" lat="N48 40.933241" lon="E9 11.863441" heading="10.17"  radius="32" airlineCodes="" />
+        <Parking index="40" type="gate" name="GA_ramp_2" lat="N48 41.479261" lon="E9 12.803870" heading="343.78"  radius="10" airlineCodes="" />
+        <Parking index="41" type="gate" name="GA_ramp_2" lat="N48 41.477053" lon="E9 12.792989" heading="343.78"  radius="10" airlineCodes="" />
+        <Parking index="42" type="gate" name="GA_ramp_2" lat="N48 41.485318" lon="E9 12.835915" heading="343.78"  radius="10" airlineCodes="" />
+        <Parking index="43" type="gate" name="GA_ramp_2" lat="N48 41.512226" lon="E9 12.789374" heading="-219.64"  radius="10" airlineCodes="" />
+        <Parking index="44" type="gate" name="GA_ramp_2" lat="N48 41.488007" lon="E9 12.849272" heading="343.78"  radius="10" airlineCodes="" />
+        <Parking index="45" type="gate" name="GA_ramp_3" lat="N48 41.505124" lon="E9 12.706684" heading="-166.09"  radius="10" airlineCodes="" />
+        <Parking index="46" type="gate" name="GA_ramp_3" lat="N48 41.507921" lon="E9 12.723195" heading="-166.09"  radius="10" airlineCodes="" />
+        <Parking index="47" type="gate" name="GA_ramp_3" lat="N48 41.511104" lon="E9 12.740436" heading="-166.09"  radius="10" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="48" type="gate" name="GA_ramp_3" lat="N48 41.481493" lon="E9 12.752855" heading="-166.09"  radius="18" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="49" type="gate" name="GA_ramp_3" lat="N48 41.477028" lon="E9 12.730917" heading="-166.09"  radius="18" airlineCodes="" />
+        <Parking index="50" type="gate" name="GA_ramp_3" lat="N48 41.464518" lon="E9 12.664166" heading="-166.09"  radius="18" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="51" type="gate" name="GA_ramp_3" lat="N48 41.461282" lon="E9 12.642305" heading="-164.71"  radius="18" airlineCodes="" />
+        <Parking index="52" type="gate" name="GA_ramp_3" lat="N48 41.487999" lon="E9 12.607531" heading="-164.71"  radius="18" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="53" type="gate" name="GA_ramp_3" lat="N48 41.498898" lon="E9 12.683363" heading="-164.71"  radius="18" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+ </parkingList>
+</groundnet>
