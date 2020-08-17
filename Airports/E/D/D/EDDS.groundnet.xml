@@ -49,13 +49,13 @@
         <Parking index="44" type="gate" name="GA_ramp_2" lat="N48 41.488007" lon="E9 12.849272" heading="343.78"  radius="10" pushBackRoute="169" airlineCodes="" />
         <Parking index="45" type="gate" name="GA_ramp_3" lat="N48 41.505124" lon="E9 12.706684" heading="-166.09"  radius="10" pushBackRoute="73" airlineCodes="" />
         <Parking index="46" type="gate" name="GA_ramp_3" lat="N48 41.507921" lon="E9 12.723195" heading="-166.09"  radius="10" pushBackRoute="74" airlineCodes="" />
-        <Parking index="47" type="gate" name="GA_ramp_3" lat="N48 41.511104" lon="E9 12.740436" heading="-166.09"  radius="10" pushBackRoute="63" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
-        <Parking index="48" type="gate" name="GA_ramp_3" lat="N48 41.481493" lon="E9 12.752855" heading="-166.09"  radius="18" pushBackRoute="64" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="47" type="gate" name="GA_ramp_3" lat="N48 41.511104" lon="E9 12.740436" heading="-166.09"  radius="10" pushBackRoute="63" airlineCodes="" />
+        <Parking index="48" type="gate" name="GA_ramp_3" lat="N48 41.481493" lon="E9 12.752855" heading="-166.09"  radius="18" pushBackRoute="64" airlineCodes="" />
         <Parking index="49" type="gate" name="GA_ramp_3" lat="N48 41.477028" lon="E9 12.730917" heading="-166.09"  radius="18" pushBackRoute="66" airlineCodes="" />
-        <Parking index="50" type="gate" name="GA_ramp_3" lat="N48 41.464518" lon="E9 12.664166" heading="-166.09"  radius="18" pushBackRoute="68" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="50" type="gate" name="GA_ramp_3" lat="N48 41.464518" lon="E9 12.664166" heading="-166.09"  radius="18" pushBackRoute="68" airlineCodes="" />
         <Parking index="51" type="gate" name="GA_ramp_3" lat="N48 41.461282" lon="E9 12.642305" heading="-164.71"  radius="18" pushBackRoute="69" airlineCodes="" />
-        <Parking index="52" type="gate" name="GA_ramp_3" lat="N48 41.487999" lon="E9 12.607531" heading="-164.71"  radius="18" pushBackRoute="79" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
-        <Parking index="53" type="gate" name="GA_ramp_3" lat="N48 41.498898" lon="E9 12.683363" heading="-164.71"  radius="18" pushBackRoute="77" airlineCodes="AFL,MSC,PNX,CSA,EWG,TAP,THY,TJT,DAL,AEE,BTI,AFR,BMS,BCI,BAW,SHT,CFG,DAL,EZY,ELB,ENT,FIN,BEE,STK,IBE,ISR,KLM,LDM,LOT,LGL,NOS,PGT,SAS,SDR,TOM,VLG,FEG,FHY,NSS,LBT,OHY,OTF,RYR,SXS,TWI" />
+        <Parking index="52" type="gate" name="GA_ramp_3" lat="N48 41.487999" lon="E9 12.607531" heading="-164.71"  radius="18" pushBackRoute="79" airlineCodes="" />
+        <Parking index="53" type="gate" name="GA_ramp_3" lat="N48 41.498898" lon="E9 12.683363" heading="-164.71"  radius="18" pushBackRoute="77" airlineCodes="" />
  </parkingList>
  <TaxiNodes>
         <node index="54" lat="N48 41.413712" lon="E9 12.318228" isOnRunway="0" holdPointType="none"  />
